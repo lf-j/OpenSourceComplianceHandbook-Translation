@@ -1,0 +1,50 @@
+Identification	特定	識別としている例もある
+snippet	コード断片
+legal counsel	法務担当
+issue	課題
+Engineering	技術担当	大文字でEngineeringと書いている時
+maintainer	メインテナー	OSS Pjの（サブ）システムにおいて、コード リポジトリの管理を行っているメンバー
+analysis	分析
+component dependencies	コンポーネントの依存状態
+Compliance Officer	コンプライアンス オフィサー
+phase	段階
+phase	フェーズ
+dependency	依存関係
+source code	ソース コード
+compliance ticket	コンプライアンス チケット
+incoming license	許諾されるライセンス	外から受け取るライセンス
+outgoing license	許諾するライセンス	自分が他者に許諾するライセンス
+incoming license	使用許諾されるライセンス
+outgoing license	使用許諾するライセンス
+incoming license	入るライセンス
+outgoing license	出るライセンス
+open source	オープン ソース
+due diligence	精査	投資用不動産の取引，企業買収などで行われる資産の適正評価。
+software component	ソフトウェア コンポーネント
+end user	エンド ユーザー
+incremental compliance	インクリメンタル コンプライアンス
+software registry	ソフトウェア管理表
+third party	サード パーティ
+third-party	サード パーティ
+usage form	利用フォーム
+open source component	オープン ソース コンポーネント
+kernel space	カーネル空間
+user space	ユーザー空間
+distribution	頒布
+meeting license obligation	ライセンス義務の順守
+software stack	ソフトウェア スタック
+validation	正当性確認
+distribution hygiene	頒布衛生
+open source package	オープン ソース パッケージ
+disclaimer	免責事項
+vanilla	平凡な
+open source software	オープン ソース ソフトウェア
+written offer	文書による通知
+linguistic review	リンギスティック レビュー	コードレビュー
+source code package	ソース コード パッケージ
+compliance inquiry	コンプライアンスに関する照会
+architecture review	アーキテクチャー レビュー	ガイドラインに従い、アーキテクチャーの語尾を伸ばす
+compatibility	互換性
+compatibility	両立性
+incompatible	両立しない、両立性のない
+written offer	書面による申し出

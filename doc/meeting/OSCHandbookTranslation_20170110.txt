@@ -1,0 +1,84 @@
+OSC Handbook翻訳
+
+日時：2017年1月10日15:00-16:00（方針相談）
+　　　　　　　　　 16:00-18:00（技術確認＆相談）
+場所：Linux Foundation Japan
+参加者：福安、佐藤(LFJ)、江川(NEC)、福地(Sony)
+
+内容：
+○自己紹介
+
+
+○翻訳活動の方針について
+・翻訳元：
+　Open Source Compliance in the Enterprise
+　Ibrahim Haddad, PhD
+
+・作業目標：
+　必須の翻訳完了目標はないが、作業日程を立てるために
+　現段階では2017年3月31日を完了マイルストンとする。
+
+・作業者および分担：
+　江川　1章～4章
+　福地　5章～9章
+　佐藤　アドバイザー
+
+　★小笠原さんにも声をかけてみる
+
+・進め方
+　今回の翻訳Pjで共同作業の基盤を作り、オープンPjに
+　展開できるようにする。
+　LFJとして他にも翻訳したい案件がある。
+　　コンプライアンス関係等
+
+・作業環境：
+　構成管理：Gitを使用する。
+　　　　　　将来的に公開Pjとすることを目標とする。
+
+　翻訳支援ツール：OmegaTを使用する。
+　　　　　　過去の翻訳ライブラリ流用ができる。
+　　　　　　将来のPjで流用が可能になる。
+
+　Mailing List：公開のものをLFJで作成する
+　　　　　　上田さん、柴田さんもMLに登録させてもらう。
+
+
+○技術的な確認＆相談
+参考ページ：
+　こちらのページが参考になりました。
+　https://git-scm.com/book/ja/v1/使い始める-Gitのインストール
+　http://commte.net/blog/archives/5251
+　http://www.casleyconsulting.co.jp/blog-engineer/git/3808/
+
+ソフトウェア：
+　これまでに使用したものは以下のとおりです。BitbucketとSourceTreeは相性がよいようです。
+　?Git 本体: Git for Windows https://git-for-windows.github.io/
+　?Git クライアント GUI: SourceTree https://www.sourcetreeapp.com/
+　?ホスティング サービス: Bitbucket  https://bitbucket.org/hfukuchi/sample_translation   
+　?翻訳メモリツール OmegaT:  http://www.omegat.org/ja/downloads.html 
+
+簡単な手順：
+　まずは福地が用意したBitbucketのリポジトリを使用しました。
+　試行錯誤しながらでしたので、一度クリアしてやり直そうと思っていますが、以下のようにしたつもりです。
+
+　※ OmegaT はインストール済み
+　1. 福地からの Invite に応じて Bitbucket にアクセスし、ユーザー名、メールアドレス、パスワードなどを登録
+　2. Git 本体をインストールし、ユーザー名とメールアドレスを登録 (下記を参照)
+　　https://git-scm.com/book/ja/v1/使い始める-最初のGitの構成#個人の識別情報
+　3. SourceTree をインストール
+　4. BitBucket のサイトで [SourceTreeにクローン] を選択
+　5. SourceTree 画面が開くので、ここでクローンをローカルに作成
+　6. ローカルのリポジトリに参考訳文など追加してみる
+　7. OmegaT でローカルのリポジトリを使い作業してみる
+　8. SourceTree でローカルからリモートへコミット・プッシュ
+　9  OmegaT で[チームプロジェクトをダウンロード]を選択し、新しい空フォルダーに作業内容をダウンロードして確認
+
+その他：
+　この後、何度もプッシュしたりしていろいろ触ってしまいました。すみません。
+　まだよくわからないところがたくさんあります。
+　OmegaT で一度[チームプロジェクトをダウンロード]して作業すると、2回目からは通常と同じようにそのプロジェクトを開けばあとはOmegaTが勝手にリポジトリ操作をする、とか。
+　http://omegat.sourceforge.net/manual-latest/ja/appendix.TeamProjects.html#d0e11203
+　「２回目以降に使用する場合は、他の OmegaT プロジェクトとまったく同じように、チームプロジェクトを開くだけです。OmegaT はそれがチームプロジェクトであることを識別して、デフォルトでは３分ごとにすべて自動で同期します。」
+
+
+以上。
