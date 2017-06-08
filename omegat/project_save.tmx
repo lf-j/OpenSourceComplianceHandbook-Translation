@@ -202,8 +202,8 @@
       <tuv lang="EN-US">
         <seg>ATTRIBUTION CONSIDERATIONS</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170306T081555Z" creationid="hfukuchi" creationdate="20170306T081555Z">
-        <seg>属性についての考察</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060147Z" creationid="hfukuchi" creationdate="20170306T081555Z">
+        <seg>帰属についての考察</seg>
       </tuv>
     </tu>
     <tu>
@@ -260,8 +260,8 @@
       <tuv lang="EN-US">
         <seg>Acknowledge the use of open source by providing full copyright and attribution notices.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170206T032322Z" creationid="hfukuchi" creationdate="20170206T032322Z">
-        <seg>著作権や属性を全て通知することで、オープン ソースを利用していることを知らせます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060023Z" creationid="hfukuchi" creationdate="20170206T032322Z">
+        <seg>著作権や帰属を全て通知することで、オープン ソースを利用していることを知らせます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -269,8 +269,8 @@
         <seg>Acknowledge the use of open source by providing required copyright and attribution notices
 .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170512T092814Z" creationid="hfukuchi" creationdate="20170512T092814Z">
-        <seg>必要な著作権や属性を通知することで、オープン ソースを利用していることを知らせます。.</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T055909Z" creationid="hfukuchi" creationdate="20170512T092814Z">
+        <seg>必要な著作権や帰属を通知することで、オープン ソースを利用していることを知らせます。.</seg>
       </tuv>
     </tu>
     <tu>
@@ -558,8 +558,8 @@
       <tuv lang="EN-US">
         <seg>Appropriate notices have been provided in documentation, including attributions and copyright notices .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170427T054512Z" creationid="hfukuchi" creationdate="20170427T054512Z">
-        <seg>適切な通知は、属性表記や著作権表記を含む文書で提示されている。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T055849Z" creationid="hfukuchi" creationdate="20170427T054512Z">
+        <seg>適切な通知は、帰属表記や著作権表記を含む文書で提示されている。</seg>
       </tuv>
     </tu>
     <tu>
@@ -726,8 +726,8 @@
       <tuv lang="EN-US">
         <seg>Attribution Types</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170306T081956Z" creationid="hfukuchi" creationdate="20170306T081956Z">
-        <seg>属性タイプ</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060219Z" creationid="hfukuchi" creationdate="20170306T081956Z">
+        <seg>帰属タイプ</seg>
       </tuv>
     </tu>
     <tu>
@@ -1065,8 +1065,8 @@
       <tuv lang="EN-US">
         <seg>Collect attribution and license notices incrementally, as open source is approved for inclusion.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170206T033759Z" creationid="hfukuchi" creationdate="20170206T033759Z">
-        <seg>オープン ソースの利用が承認されるその都度、属性とライセンス文を追加的に集めます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060041Z" creationid="hfukuchi" creationdate="20170206T033759Z">
+        <seg>オープン ソースの利用が承認されるその都度、帰属とライセンス文を追加的に集めます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1115,8 +1115,8 @@
       <tuv lang="EN-US">
         <seg>Companies that include open source in a product need to provide required attribution to the end user.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170329T045642Z" creationid="hfukuchi" creationdate="20170306T081810Z">
-        <seg>製品にオープン ソースを組み込んでいる企業は、エンド ユーザーに属性情報を提供する必要があります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060157Z" creationid="hfukuchi" creationdate="20170306T081810Z">
+        <seg>製品にオープン ソースを組み込んでいる企業は、エンド ユーザーに帰属情報を提供する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1131,8 +1131,8 @@
       <tuv lang="EN-US">
         <seg>Companies using open source in their offerings must acknowledge the use of open source by providing full copyright attribution, and, in most cases, reproducing the entire text of the licenses of the open source software included in the product or service.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170217T083513Z" creationid="hfukuchi" creationdate="20170217T083513Z">
-        <seg>提供物にオープン ソースを利用している企業は、著作権の属性を全て表示し、ほとんどの場合、製品やサービスに含まれているオープン ソース ソフトウェアのライセンス全文を記載することで、オープン ソース利用を知らせなければなりません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060123Z" creationid="hfukuchi" creationdate="20170217T083513Z">
+        <seg>提供物にオープン ソースを利用している企業は、著作権の帰属を全て表示し、ほとんどの場合、製品やサービスに含まれているオープン ソース ソフトウェアのライセンス全文を記載することで、オープン ソース利用を知らせなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1876,8 +1876,8 @@
       <tuv lang="EN-US">
         <seg>Ensure that existing license, copyright, and attribution notices are not disturbed.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170328T074035Z" creationid="hfukuchi" creationdate="20170130T070323Z">
-        <seg>既存のライセンス表記、著作権表記、属性表記に手が入っていないことを確実にします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060014Z" creationid="hfukuchi" creationdate="20170130T070323Z">
+        <seg>既存のライセンス表記、著作権表記、帰属表記に手が入っていないことを確実にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2438,8 +2438,8 @@
       <tuv lang="EN-US">
         <seg>Following this method, the required notices file will always be up to date and will include lists of all open source, license information, copyright, and attributions notices.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170206T034037Z" creationid="hfukuchi" creationdate="20170206T034037Z">
-        <seg>この方法に従いますと、要求される通知ファイルは、常に最新に更新され、全てのオープン ソースのリスト、ライセンス情報、著作権、属性通知を含むことになります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060050Z" creationid="hfukuchi" creationdate="20170206T034037Z">
+        <seg>この方法に従いますと、要求される通知ファイルは、常に最新に更新され、全てのオープン ソースのリスト、ライセンス情報、著作権、帰属通知を含むことになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2471,8 +2471,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>For each product or service containing or using open source, the attributions must be included in published user documentation (such as the product manual) distributed in printed or electronic form, such as a CD or a download from a website.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170411T041604Z" creationid="hfukuchi" creationdate="20170306T090423Z">
-        <seg>オープン ソースを含むあるいは利用している製品やサービスに関していうと、属性は、（製品マニュアル等の）印刷されたユーザー文書や、CDまたはウェブサイトからのダウンロードなど、印刷または電子形式で頒布されなくてはなりません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060320Z" creationid="hfukuchi" creationdate="20170306T090423Z">
+        <seg>オープン ソースを含むあるいは利用している製品やサービスに関していうと、帰属は、（製品マニュアル等の）印刷されたユーザー文書や、CDまたはウェブサイトからのダウンロードなど、印刷または電子形式で頒布されなくてはなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2519,8 +2519,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>For product updates such as over-the-air (OTA) updates for cell phones, the attributions must also be revised when the product update includes new or updated open source components.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170329T050614Z" creationid="hfukuchi" creationdate="20170306T090948Z">
-        <seg>携帯電話での通信での（OTA）製品アップデートに関していうと、製品アップデートが新しいあるいは更新されたオープン ソース コンポーネントを含むのであれば、属性は、更新されなければなりません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060343Z" creationid="hfukuchi" creationdate="20170306T090948Z">
+        <seg>携帯電話での通信での（OTA）製品アップデートに関していうと、製品アップデートが新しいあるいは更新されたオープン ソース コンポーネントを含むのであれば、帰属は、更新されなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3018,8 +3018,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>If products or services possess a graphical user interface or a command line administrative interface, you can also provide the option to display the attributions via that UI.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170329T050459Z" creationid="hfukuchi" creationdate="20170306T090646Z">
-        <seg>もし、製品やサービスがグラフィカル ユーザー インターフェイスやコマンド ライン インターフェイスを持っているならば、属性をそのUI経由で表示することも選択肢の一つです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060334Z" creationid="hfukuchi" creationdate="20170306T090646Z">
+        <seg>もし、製品やサービスがグラフィカル ユーザー インターフェイスやコマンド ライン インターフェイスを持っているならば、帰属をそのUI経由で表示することも選択肢の一つです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3250,8 +3250,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>In most cases, open source projects maintain a file called AUTHORS that includes the list of contributors; you can use this information as part of the attribution notice.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170329T045930Z" creationid="hfukuchi" creationdate="20170306T082944Z">
-        <seg>ほとんどの場合、オープン ソース プロジェクトは、貢献者のリストを含むAUTHORSと呼ばれるファイルを含んでいますので、属性表記の一部としてこの情報を使うことができます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060259Z" creationid="hfukuchi" creationdate="20170306T082944Z">
+        <seg>ほとんどの場合、オープン ソース プロジェクトは、貢献者のリストを含むAUTHORSと呼ばれるファイルを含んでいますので、帰属表記の一部としてこの情報を使うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3266,8 +3266,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>In preparation for legal review, the individual who runs the source code scan should attach to the compliance ticket all the license information found in the package, such as any COPYING, README, or LICENSE files, in addition to any files stating copyright and attribution notices.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170323T091758Z" creationid="hfukuchi" creationdate="20170113T054547Z">
-        <seg>法務レビューへの準備中に、ソース コード スキャンを実施する担当者は、著作権や属性を表記しているファイルに加えて、COPYING, README, LICENSEファイルなど、パッケージで見つかった全てのライセンス情報をコンプライアンス チケットに付けておくべきです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T055932Z" creationid="hfukuchi" creationdate="20170113T054547Z">
+        <seg>法務レビューへの準備中に、ソース コード スキャンを実施する担当者は、著作権や帰属を表記しているファイルに加えて、COPYING, README, LICENSEファイルなど、パッケージで見つかった全てのライセンス情報をコンプライアンス チケットに付けておくべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4337,8 +4337,8 @@ In this example, the compliance team identifies all open source included in the 
       <tuv lang="EN-US">
         <seg>Manager approval is required for components distributed under these licenses, since in addition to notices fulfillment (publishing license text, attribution notice, copyright notice, etc.), you have the obligation to release any source code modifications.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170321T050951Z" creationid="hfukuchi" creationdate="20170321T050951Z">
-        <seg>通知に関する義務（ライセンス文、属性通知、著作権通知などの表記）に加えて、ソース コード変更を開示する義務があるので、これらのライセンスで許諾されたコンポーネントでは、マネージャによる承認が要求されます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060432Z" creationid="hfukuchi" creationdate="20170321T050951Z">
+        <seg>通知に関する義務（ライセンス文、帰属通知、著作権通知などの表記）に加えて、ソース コード変更を開示する義務があるので、これらのライセンスで許諾されたコンポーネントでは、マネージャによる承認が要求されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4654,8 +4654,8 @@ In this example, the compliance team identifies all open source included in the 
       <tuv lang="EN-US">
         <seg>Offer proper copyright and attribution notices.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170130T045323Z" creationid="hfukuchi" creationdate="20170130T045323Z">
-        <seg>適切な著作権と属性に関する通知を提供します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060002Z" creationid="hfukuchi" creationdate="20170130T045323Z">
+        <seg>適切な著作権と帰属に関する通知を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4815,8 +4815,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>One of the key obligations when using open source is to ensure clear and accurate documentation of copyright, attribution, and license information, and the availability of a written offer (for GPL/LGPL licensed source code).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170420T040126Z" creationid="hfukuchi" creationdate="20170217T082638Z">
-        <seg>オープン ソースを使う時に重要な義務の一つは、著作権、属性、ライセンス情報、そして書面による申出（GPL/LGPLで許諾されたソース コード）などの明確で正確な文書作成を確実にすることです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060113Z" creationid="hfukuchi" creationdate="20170217T082638Z">
+        <seg>オープン ソースを使う時に重要な義務の一つは、著作権、帰属、ライセンス情報、そして書面による申出（GPL/LGPLで許諾されたソース コード）などの明確で正確な文書作成を確実にすることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4848,8 +4848,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Open source attribution requirements differ from license to license, but can generally be grouped into four categories:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170306T082200Z" creationid="hfukuchi" creationdate="20170306T082200Z">
-        <seg>オープン ソースの属性要求は、ライセンスによって異なりますが、一般的に4つのカテゴリに分けられます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060227Z" creationid="hfukuchi" creationdate="20170306T082200Z">
+        <seg>オープン ソースの帰属要求は、ライセンスによって異なりますが、一般的に4つのカテゴリに分けられます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4922,8 +4922,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Open source upgraded to a new version, which may require updating the attribution/copyright notices, and, in some rare cases, updating the license</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170329T050958Z" creationid="hfukuchi" creationdate="20170310T085709Z">
-        <seg>新しいバージョンにアップグレードされたオープン ソース。属性／著作権表記の更新を必要とするかもしれません。まれにライセンスの更新を必要とすることもあります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060353Z" creationid="hfukuchi" creationdate="20170310T085709Z">
+        <seg>新しいバージョンにアップグレードされたオープン ソース。帰属／著作権表記の更新を必要とするかもしれません。まれにライセンスの更新を必要とすることもあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4986,8 +4986,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Other than the license information, which for OSS components are usually available in a COPYING or a LICENSE file, you need to capture copyright and attribution notices as well.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170324T070153Z" creationid="hfukuchi" creationdate="20170117T025409Z">
-        <seg>通常COPYING, LICENSEファイルに含まれているOSSコンポーネントに関するライセンス情報以外にも、著作権や属性情報を入手することが必要です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T055952Z" creationid="hfukuchi" creationdate="20170117T025409Z">
+        <seg>通常COPYING, LICENSEファイルに含まれているOSSコンポーネントに関するライセンス情報以外にも、著作権や帰属情報を入手することが必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5213,16 +5213,16 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Presentation of Attributions</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170306T085133Z" creationid="hfukuchi" creationdate="20170306T085133Z">
-        <seg>属性の提示</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060310Z" creationid="hfukuchi" creationdate="20170306T085133Z">
+        <seg>帰属の提示</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Preserving Original License, Copyright, and Attribution</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170314T084518Z" creationid="hfukuchi" creationdate="20170314T084518Z">
-        <seg>オリジナルのライセンス、著作権、属性情報を維持する</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060413Z" creationid="hfukuchi" creationdate="20170314T084518Z">
+        <seg>オリジナルのライセンス、著作権、帰属情報を維持する</seg>
       </tuv>
     </tu>
     <tu>
@@ -6014,8 +6014,8 @@ party shrink-wrap</seg>
       <tuv lang="EN-US">
         <seg>Some open source licenses explicitly require author attribution.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170306T082711Z" creationid="hfukuchi" creationdate="20170306T082711Z">
-        <seg>いくつかのオープン ソース ライセンスは、明示的に著者の属性を要求します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060250Z" creationid="hfukuchi" creationdate="20170306T082711Z">
+        <seg>いくつかのオープン ソース ライセンスは、明示的に著者の帰属を要求します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7104,8 +7104,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>The license, copyright, and attribution notices for a specific component are prepared and passed along to the appropriate departments to be included in the product documentation.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170512T093658Z" creationid="hfukuchi" creationdate="20170512T093658Z">
-        <seg>対象のコンポーネントのライセンス、著作権、および属性通知が準備され、製品の資料に含めるべく担当部署に手渡される。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T055921Z" creationid="hfukuchi" creationdate="20170512T093658Z">
+        <seg>対象のコンポーネントのライセンス、著作権、および帰属通知が準備され、製品の資料に含めるべく担当部署に手渡される。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7668,8 +7668,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>Therefore, companies must fulfill documentation obligations by including copyright, attribution, and license notices text in the documentation of every product they ship and service they provide.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170217T084037Z" creationid="hfukuchi" creationdate="20170217T083759Z">
-        <seg>従って、企業は、出荷する全ての製品や提供する全てのサービスの文書に、著作権、属性、そしてライセンス通知を記載することで、文書化の義務を満たさなければなりません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060132Z" creationid="hfukuchi" creationdate="20170217T083759Z">
+        <seg>従って、企業は、出荷する全ての製品や提供する全てのサービスの文書に、著作権、帰属、そしてライセンス通知を記載することで、文書化の義務を満たさなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7973,8 +7973,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>This section provides guidelines of how to fulfill open source attribution obligations.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170306T081949Z" creationid="hfukuchi" creationdate="20170306T081949Z">
-        <seg>この節では、オープン ソースの属性に関する義務をどのように達成するかについてのガイドラインを示します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060208Z" creationid="hfukuchi" creationdate="20170306T081949Z">
+        <seg>この節では、オープン ソースの帰属に関する義務をどのように達成するかについてのガイドラインを示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8128,8 +8128,8 @@ distribution checklist.</seg>
         <seg>Update to an out-of-date attribution or copyright notice
 .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170329T035720Z" creationid="hfukuchi" creationdate="20170210T092822Z">
-        <seg>無効となった属性や著作権の通知に対する更新</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060103Z" creationid="hfukuchi" creationdate="20170210T092822Z">
+        <seg>無効となった帰属や著作権の通知に対する更新</seg>
       </tuv>
     </tu>
     <tu>
@@ -8412,8 +8412,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>Whenever you are redistributing open source code, with or without modifications, you must preserve the original licensing information, copyright lines, and other attributions.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170314T084653Z" creationid="hfukuchi" creationdate="20170314T084653Z">
-        <seg>オープン ソース コードを再頒布する時にはいつでも、変更が伴っても伴わなくても、オリジナルのライセンス情報、著作権行、やその他の属性情報を維持しなければいけません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060423Z" creationid="hfukuchi" creationdate="20170314T084653Z">
+        <seg>オープン ソース コードを再頒布する時にはいつでも、変更が伴っても伴わなくても、オリジナルのライセンス情報、著作権行、やその他の帰属情報を維持しなければいけません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8501,8 +8501,8 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
       <tuv lang="EN-US">
         <seg>You’re probably already familiar with some of the guidelines that apply to open source licenses, such as not using the name of the open source project for endorsement, marking the source code modifications you have introduced, and preserving the original licensing, copyright, and attribution information.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170314T083654Z" creationid="hfukuchi" creationdate="20170314T082756Z">
-        <seg>オープン ソース プロジェクト名を推奨に利用しない、自分たちが行ったソース コード変更に印をつける、オリジナルのライセンス、著作権、属性情報を保持する、などオープン ソース ライセンスを応用するガイドラインのいくつかについては既に良く知っているかもしれません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170608T060402Z" creationid="hfukuchi" creationdate="20170314T082756Z">
+        <seg>オープン ソース プロジェクト名を推奨に利用しない、自分たちが行ったソース コード変更に印をつける、オリジナルのライセンス、著作権、帰属情報を保持する、などオープン ソース ライセンスを応用するガイドラインのいくつかについては既に良く知っているかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
