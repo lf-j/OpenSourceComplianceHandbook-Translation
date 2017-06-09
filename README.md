@@ -1,8 +1,8 @@
-Open Source Compliance in Enterprise Handbook-Translation-JP
+"Open Source Compliance in the Enterprise (2016)" Handbook-Translation-JP
 
 Japanese Translation using OmegaT
 
-本プロジェクトでは、The Linux Foundation(LF)から出版されているハンドブック"Open Source Compliance in Enterprise"(2016)(written by Ibrahim Haddad)を、日本で活動するLF参加企業の貢献者が日本語訳を作成します。翻訳資料を提供することで、日本のあらゆる企業・組織におけるオープンソース コンプライアンスの浸透と普及を目指しています。
+本プロジェクトでは、The Linux Foundation(LF)から出版されているハンドブック"Open Source Compliance in the Enterprise(2016)"(written by Ibrahim Haddad)を、日本で活動するLF参加企業の貢献者が日本語訳を作成します。翻訳資料を提供することで、日本のあらゆる企業・組織におけるオープンソース コンプライアンスの浸透と普及を目指しています。
 
 1.　プロジェクトへの参加
 
@@ -64,11 +64,7 @@ Japanese Translation using OmegaT
 
 ・　翻訳には免責事項として以下の文言を入れる；
 
-　「本文書は、The Linux FoundationにおけるOpenChainプロジェクトの英文ドキュメントから翻訳された公式の翻訳版です。翻訳版と英語版との間で何らかの意味の違いがあった場合には、英語版が優先されます。
-
-また、OpenChainは世界中のメンバー企業が参加するプロジェクトではありますが、資料の細部では必ずしも各国の法令を検討していない可能性もあります。本翻訳資料を日本で活用する際には、各企業の法務部門を加えた検討が不可欠です。
-
-“This is an official translation from the OpenChain Project. It has been translated from the original English text. In the event there is confusion between a translation　and the English version, The English text shall take precedence.” 」
+TBD
 
 6．　スタイルガイド
 
