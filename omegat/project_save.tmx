@@ -590,8 +590,8 @@
       <tuv lang="EN-US">
         <seg>Approvals phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170509T091510Z" creationid="hfukuchi" creationdate="20170509T091510Z">
-        <seg>承認フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054037Z" creationid="hfukuchi" creationdate="20170509T091510Z">
+        <seg>承認フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -750,8 +750,8 @@
       <tuv lang="EN-US">
         <seg>Auditing phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170428T081442Z" creationid="hfukuchi" creationdate="20170428T081422Z">
-        <seg>監査フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054010Z" creationid="hfukuchi" creationdate="20170428T081422Z">
+        <seg>監査フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -1665,8 +1665,8 @@
       <tuv lang="EN-US">
         <seg>Distribution phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170515T023917Z" creationid="hfukuchi" creationdate="20170515T023917Z">
-        <seg>頒布フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054119Z" creationid="hfukuchi" creationdate="20170515T023917Z">
+        <seg>頒布フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -2390,8 +2390,8 @@
       <tuv lang="EN-US">
         <seg>Final verifications phase prerequisite:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170515T024805Z" creationid="hfukuchi" creationdate="20170515T024805Z">
-        <seg>最終検証フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054132Z" creationid="hfukuchi" creationdate="20170515T024805Z">
+        <seg>最終検証フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -2904,8 +2904,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>Identification phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170428T081507Z" creationid="hfukuchi" creationdate="20170428T072046Z">
-        <seg>特定フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054001Z" creationid="hfukuchi" creationdate="20170428T072046Z">
+        <seg>特定フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -4550,8 +4550,8 @@ In this example, the compliance team identifies all open source included in the 
       <tuv lang="EN-US">
         <seg>Notice phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170512T093350Z" creationid="hfukuchi" creationdate="20170512T093350Z">
-        <seg>通知フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054100Z" creationid="hfukuchi" creationdate="20170512T093350Z">
+        <seg>通知フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -5188,8 +5188,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Pre-Distribution Verifications phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170515T022504Z" creationid="hfukuchi" creationdate="20170515T022504Z">
-        <seg>頒布前検証フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054111Z" creationid="hfukuchi" creationdate="20170515T022504Z">
+        <seg>頒布前検証フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -5465,8 +5465,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Registration phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170512T091322Z" creationid="hfukuchi" creationdate="20170512T091322Z">
-        <seg>登録フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054049Z" creationid="hfukuchi" creationdate="20170512T091322Z">
+        <seg>登録フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -5521,8 +5521,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Resolving Issues phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170508T043823Z" creationid="hfukuchi" creationdate="20170508T043823Z">
-        <seg>課題解決フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054019Z" creationid="hfukuchi" creationdate="20170508T043823Z">
+        <seg>課題解決フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
@@ -5571,8 +5571,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Review phase prerequisite</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170509T074852Z" creationid="hfukuchi" creationdate="20170509T074852Z">
-        <seg>レビュー フェーズの開始条件</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170612T054028Z" creationid="hfukuchi" creationdate="20170509T074852Z">
+        <seg>レビュー フェーズの前提条件</seg>
       </tuv>
     </tu>
     <tu>
