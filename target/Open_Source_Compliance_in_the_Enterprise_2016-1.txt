@@ -125,27 +125,27 @@ EFFECTIVE COMPLIANCE 63
 
 ELEMENTS OF AN END-TO-END COMPLIANCE PROCESS 64
 
-Step 1 . Identification of Open Source 65
+ステップ1Identification of Open Source 65
 
-Step 2 . Auditing Source Code 67
+ステップ 2 . Auditing Source Code 67
 
-Step 3 . Resolving Issues 70
+ステップ3Resolving Issues 70
 
 
 
-Step 4 . Reviews 70
+ステップ4Reviews 70
 
-Step 5 . Approvals 72
+ステップ5Approvals 72
 
-Step 6 . Registration 73
+ステップ6Registration 73
 
-Step 7 . Notices 74
+ステップ7Notices 74
 
-Step 8 . Pre-Distribution Verifications 75
+ステップ8. Pre-Distribution Verifications 75
 
-Step 9 . Distribution 76
+ステップ9Distribution 76
 
-Step 10 . Final Verifications 76
+ステップ10Final Verifications 76
 
 
 Chapter 5 COMPLIANCE PROCESSES AND POLICIES 78
@@ -374,29 +374,25 @@ Chapter 1
 
 INTRODUCTION TO OPEN SOURCE COMPLIANCE
 
-A CHANGING BUSINESS ENVIRONMENT 
-Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms. The business environment was predictable and companies mitigated potential risks through license and contract negotiations with the software vendors. It was very easy to know who was the provider for every software component. Figure 1 illustrates the major building blocks of a traditional hardware and software platform.
+変わりゆくビジネス環境
+従来、プラットフォームやソフトウェアスタックはプロプラエタリなソフトウェアを使って実装され、内部開発されたソフトや交渉の結果であるライセンス条件によるサードパーティのソフトから成る様々なソフトウェアのブロックから構成されていた。ビジネス環境は予測可能で、企業は潜在的なリスクをソフトウェアベンダーとのライセンス交渉や契約交渉を通じて軽減していた。全てのソフトウェアコンポーネントについて誰が提供者であるかを知るのは大変容易であった。図１は従来のハードウェア、ソフトウェアのプラットフォームについて主なブロックを示したものである。
 
-Figure 1. A simplified architecture of a traditional software platform that relies on proprietary software building blocks
-
-
+図1プロプラエタリなソフトウェアのブロックに依る従来のソフトウェアプラットフォームの単純化したアーキテクチャ
 
 
 
-Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers. The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code. As a result, a new multi-
-source development model began to emerge.
-
-Under the new model, a product could now have any combination of:
-
-. Proprietary code, developed by the company building the product/service
-. Proprietary code, originally developed by the company under an open source license in the process of integrating and deploying open source components, but was not contributed back to the upstream open source project
-. Third-party commercial code, developed by third-party software providers and received by the company building the product/service under a commercial license
-. Open source code, developed by the open source community and received by the company building the product/service under an open source license.
 
 
-Figure 2 (next page) illustrates the multi-source development model and the various combinations of sources for incoming source code.
+時と共に企業はOSSを自社のプラットフォームやソフトウェアスタックに組み込み、その恩恵に預かるようになってきた。その理由は製品ごとに様々であるが、様々な業界で共通するのは、オープンソースのコンポーネントには即座に使える卓越した特徴があったこと、分散的な開発による市場投入への時間短縮により経済的に有意の利益があったこと、そしてソースコードをカスタマイズするという新しく出来ることを提供したこと、である。その結果、複数のソースによる新たな開発モデルが登場した。その結果、複数のソースによる新たな開発モデルが登場した。
 
-Under this development model, software components can consist of source code originating from any number of different sources and be licensed under different licenses; for instance, software component A can include proprietary source code in addition to third-party proprietary source code, while software component B can include proprietary source code in addition to source code from an open source project.
+この新たなモデルでは、製品は下記の任意の組み合わせとなる。
+
+. プロプラエタリなコード、その製品やサービスを作る企業が開発したものプロプラエタリなコード、元々はその企業によりオープンソースのライセンス下でオープンソースのコンポーネントを統合したり適用したりすることで開発されたが、上流のオープンソースプロジェクトに寄付されず戻されなかったものサードパーティの商用コード、サードパーティのソフトウェアプロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したものオープンソースのコード、オープンソースのコミュニティにより開発され、製品やサービスを作る企業がオープンソースライセンスの下で受領したもの
+
+
+図２（次ページ）に複数のソースによる開発モデル、および入ってくるソースコードの様々な組み合わせを示す。
+
+この開発モデルでは、ソフトウェアコンポーネントは任意の数の出所から来た、様々なライセンス下でライセンスされたソースコードから構成され得る。たとえば、ソフトウェアコンポーネントAはサードパーティのプロプラエタリのコードに加えプロプラエタリなコードも含んでおり、ソフトウェアコンポーネントBはオープンソースプロジェクトからのソースコードに加えプロプラエタリなコードを含む、である。
 
 
 
@@ -404,109 +400,108 @@ Under this development model, software components can consist of source code ori
 
 
 
-Figure 2. Multi-Source development model
+図 2 マルチソース開発モデル
 
-As the number of open source software components grew in what were once straightforward proprietary software stacks, the business environment diverged from familiar territory and corporate comfort zones.
-Figure 3 (next page) illustrates the adoption of open source software throughout the various levels of a given platform or software stack.
+かつては明らかにプロプラエタリなソフトウェアスタックだったものの中にオープンソースのソフトウェアのコンポーネントが増えていくに従い、ビジネス環境は慣れ親しんだ領域、企業が好む環境から離れていく。
+図３（次ページ）はあるプラットフォームやソフトウェアスタックにおいて、様々な階層でオープンソースソフトウェアを受けいれる様子を示したものである。
 
-One of the major differences between the proprietary and the multi-source development models has been that the licenses of open source software are not negotiated. There are no contracts to sign with the software providers (i.e., open source developers or projects). Rather, the individuals who initiate the project chose a given open source license, and once a project reaches a certain scale, the licenses are virtually impossible to change. When using the multi-source development model, companies must understand the implications of tens of different licenses (and combinations of licenses) coming from hundreds or even thousands of licensors or contributors (copyright holders). As a result, the risks that companies previously managed through company-to-company license and agreement negotiations are now managed through robust compliance programs and careful engineering practices.
+プロプラエタリな開発モデルと、マルチソースによる開発モデルとの大きな違いの一つは、オープンソースソフトウェアのライセンスは交渉するものではないことである。ソフトウェアの提供者（すなわちオープンソースの開発者やプロジェクト）と調印する契約はない。そうではなく、オープンソースプロジェクトを開始した人々が所定のライセンスを選ぶ。そしてプロジェクトがある規模に達すると、変更は事実上不可能となる。マルチソースの開発モデルを使うとは、数十の相異なるライセンス（とライセンスの組み合わせ）に基づく数百人、時には数千人のライセンス提供者やコントリビューター（著作権者）と関わること、を企業は理解しなければならない。その結果、かつては企業対企業のライセンスや合意に至る交渉を通じて管理されていたリスクは、強固なコンプライアンスプログラムと、注意深いエンジニアリングの実施によって管理されることになる。
 
 
 
 Figure 3. A simplified view of the architecture of a modern software platform, showing the proliferation of open source inside each of the software building blocks.
 
-ENTER OPEN SOURCE COMPLIANCE
-Open source initiatives and projects provide companies and other organizations with a vehicle to accelerate innovation through collaboration with the hundreds and sometimes thousands of communities that represent the developers of the open source software. However, there are important responsibilities accompanying the benefits of teaming with the open source community: Companies must ensure compliance to the obligations that accompany open source licenses.
-Open source compliance is the process by which users, integrators, and developers of open source observe copyright notices and satisfy license obligations for their open source software components. A well-designed open source compliance process should simultaneously ensure compliance with the terms of open source licenses and also help companies protect their own intellectual property and that of third-party suppliers from unintended disclosure and/or other consequences.
-Open source compliance helps achieve four main objectives:
+オープンソースコンプライアンス手始め
+オープンソースのイニシアチブやプロジェクトを使う事で、企業や組織はオープンソースソフトウェアの開発者を代表する数百、時に数千のコミュニティと協力し、イノベーションを加速できるようになる。しかしながら、オープンソースのコミュニティと組むには責任が伴う。オープンソースのライセンスに伴う義務を順守することを保証しなければならない。
+オープンソースのコンプライアンスとは、オープンソースのユーザー、インテグレーター、開発者が著作権表示をきちんと見て、自らに関わるオープンソースのソフトウェアコンポーネントのライセンス上の義務を満たすプロセスである。適切に規定されたオープンソースのコンプライアンスのプロセスは、ライセンス条項の順守を保証すると同時に、企業自身、あるいはサードパーティのサプライヤの知的財産が意図せず公開されたり、その他不適当な結果を招いたりしないように設計されるべきである。
+オープンソースのコンプライアンスは4つ[01]の主要な目的の達成に役立つ。
 
-. Comply with open source licensing obligations.
-. Facilitate effective use of open source in commercial products. . Comply with third-party software supplier contractual obligations. 
+. ライセンス上の義務に従う
+. オープンソースが商用製品で効果的に使われることを助ける. サードパーティとの契約上の義務に従う 
 
-Benefits of Ensuring Open Source Compliance
+オープンソースのコンプライアンスを保証する利点
 
-There are several benefits to achieving open source compliance. Companies that maintain a steady-state compliance program often gain a technical advantage, since compliant software portfolios are easier to service, test, upgrade, and maintain. In addition, compliance activities can also help identify crucial pieces of open source that are in use across multiple products and parts of an organization, and/or are highly strategic and beneficial to that organization. Conversely, compliance can demonstrate the costs and risks associated with using open source components, as they will go through multiple rounds of review.
+オープンソースのコンプライアンスを達成する事にはいくつかの利点がある。確固たるコンプライアンスプログラムを持つ企業は技術的にも利益を得ることが多い。規定に従っているソフトウェア群の資産はサービスし、試験し、アップグレードし、保守することが容易だからである。更に、コンプライアンスの活動は、様々な製品や部門で使われていてカギとなる、組織にとって高度に戦略的で利益をもたらすオープンソースソフトウェアの洗い出しにつながる。また逆に、レビューを繰り返すことを通じてコンプライアンスは、オープンソースのコンポーネントの利用に伴うコストやリスクを示すことにもなる。
 
-A healthy compliance program can deliver major benefits when working with external communities as well. In the event of a compliance challenge, such a program can demonstrate an ongoing pattern of acting in good faith.
+健全なコンプライアンスのプログラムは外部コミュニティと協業する上でも大いに有用である。コンプライアンス上の問題が生じた時、そうしたプログラムは会社が善意であることを示すことができる。
 
-Finally, there are less-common ways in which companies benefit from strong open source compliance practices. For example, a well-founded compliance program can help a company be prepared for possible acquisition, sale, or new product or service release, where open source compliance assurance is a mandatory practice before the completion of such transactions. Furthermore, there is the added advantage of verifiable compliance in dealing with OEMs and downstream vendors.
-
-
+最後に、頻度は下がるが強固なコンプライアンスのプログラムがもたらす利益として、例えば、会社の買収や売却、新製品や新サービスのリリースのためより良い準備となる、が挙げられる。オープンソースへのコンプライアンスの保証はそうした業務が完了する前に終了させることが必須だからである。更には、OEMや下流のベンダーとの取引においてコンプライアンスが検証できることは付加的な優位となる。
 
 
 
 
-FAILURE TO COMPLY
 
-Throughout the software development, errors and limitations in processes can lead to open source compliance failures. Examples of such failures include:
 
-. Failure to provide a proper attribution notice. An attribution notice is usually provided as a text file together with the open source component that provides acknowledgement as supplied by the contributors of open source components.
-. Neglecting to provide a license notice. A license notice is a file that includes the open source license text included in the product or stack and is typically provided with product documentation and/or within the product or application user interface.
-. Omission of a copyright notice. A copyright notice is an identifier placed on copies of the work to inform the world of copyright ownership.
-. Failure to provide a modification notice. A modification notice calls out modifications to the source code in a change log file, such as those required by the GPL and LGPL. An example of a modification notice is shown below:
+コンプライアンスの失敗
+
+ソフトウェア開発の全工程において、コンプライアンスプログラム上のエラーや不十分さはコンプライアンス上の失敗に繋がることがある。下記はこうした失敗の例である。
+
+. 不適切な帰属表示 (attribution notice)帰属表示は通常、テキストファイルとしてオープンソースのコンポーネントと共に提供され、オープンソースコンポーネントへのコントリビューターが提供したことを示す。
+. ライセンス表示提供を怠るライセンス表示とは、製品やスタックに含まれるオープンソースのライセンス文書を含んだファイルで、多くの場合、製品の文書と共に、あるいは製品やアプリケーションのUIと共に提供される。
+. 著作権表示の省略著作権表示は、ソフトウェアのコピーにつけられる識別情報で、著作権者を示す。
+. 変更表示の付け忘れ変更表示とは、ソースコードに対する変更をチェンジログ内で表示する、GPLやLGPLで必要になるものである。一例を下記に示す。
 
 
 /* * Date Author Comment * 10/15/2015 Ibrahim Haddad Fixed memory leak in nextlst() */
 
-. Making inappropriate or misleading statements in the product documentation or product advertisement material.
-. Failure to provide the source code. Making source code available (including the modifications) is one of the requirements of the GPL/LGPL family of licenses. 
+. 不十分な、あるいは誤解を招く主張
+. ソースコード提供の失敗ソースコードを利用可能とすること（変更を含む）はGPL/LGPLライセンスファミリーの要求の一つである。 
 
 
 
 
 
-. Failure to provide a written offer for example when using GPL/LGPL license source code. A written notice provides the end users of the product with information on open source software included in the product and how to download source code that is eligible to distribution. It is usually provided as part of the product documentation and also accessible from the product’s user interface. A basic example of a written offer would look as such:
+. GPL/LGPL等のライセンスのソースコードを使う際に書面で告知[02]しない書面での告知は、その製品のエンドユーザーに対してその製品に含まれるオープンソースソフトウェアの情報、そして頒布されるべきソースコードをダウンロードする方法を開示する。It is usually provided as part of the product documentation and also accessible from the product’s user interface. 書面告知の基本的な例は下記のようになる。
 
 
-To obtain a copy of the source code being made publicly available by FooBar, Inc. related to software used in this FooBar product, you can visit http://opensource.foobar.com or send your request in writing by email to opensource@foobar.com or by regular postal mail to:
+Foobarの本製品の中で使われているソフトウェアに関連する、FooBar社が公開しているソースコードのコピーを得るには、http://opensource.foobar.com にアクセスするか、opensource@foobar.com にメールでリクエストを送るか、またはリクエストを通常の郵便で
 
-FooBar Inc.
+Foobar株式会社
 
-Open Source Program Office
+オープンソースプログラム室
 
-Street Address
+住所、郵便番号
 
 City, State, Postal Code
 
-Country
+国名
 
-. Failure to provide the build scripts needed to compile the source code (per GPL and LGPL family of licenses).
-
-
-
-Intellectual Property Failures
-
-Table 1 (next page) provides examples of common accidental admixture of proprietary and open source IP that can arise during the software development process leading to license compliance issues. These problems most commonly involve mixing source code that is licensed under incompatible or conflicting licenses (e.g., proprietary, third-party, and/or open source). Such admixtures may result in companies being forced to release proprietary source code under an open source license, thus losing control of their (presumably) high-value intellectual property and diminishing their capability to differentiate in the marketplace.
+. ビルド用スクリプトを提供しない　コンパイルに必要なもの（GPLやLGPLファミリのライセンス毎に）。
 
 
 
+知的財産権上の失敗
+
+表1 (次ページ) はソフトウェア開発の過程においてプロプラエタリな知財とオープンソースの知財を誤って混ぜてしまい、ライセンスコンプライアンス問題となるありがちな例を示したものである。もっともありがちなのは、異なる、または両立しないライセンス（例：プロプラエタリ、サードパーティやオープンソース）下のソースコードを混ぜてしまう、である。そうして混ぜてしまうと企業はプロプラエタリなソースコードをオープンソースライセンスで開示することを強制され、（おそらくは）高い価値を持つ知財の制御を失い、市場における差別化が弱くなってしまう。
 
 
-The intellectual property failures can lead to one or more of the following results: 
-. An injunction preventing a company from shipping the product until the compliance issue has been resolved
-. A requirement to distribute proprietary source code that corresponds to the binaries in question under an open source license (depending on the specific case)
-. A significant re-engineering effort to eliminate the compliance issues
-. Embarrassment with customers, distributors, third party proprietary software suppliers and an open source community
 
 
-Table 1. Examples of intellectual property failures 
-Problem Type
 
-How Discovered
+知財上の失敗は下記を招く。
+. 差し止め命令によりコンプライアンス上の懸念が解決されるまで製品が出荷できない問題のバイナリコードに関わるプロプラエタリなソースコードを（ケースに応じた）オープンソースライセンスで配布するよう要求されるコンプライアンス上の懸念を解消するため多大な工数が費やされる顧客、ディストリビュータ、サードパーティのソフトウェア供給者、そしてオープンソースコミュニティを困惑させる
 
-How to Avoid
 
-Inserting open source code into proprietary or 3rd party code
+表１知財上の失敗の例
+問題の類型
 
-Occurs during development process when developers copy/paste open source code (aka “snippets”) into proprietary or 3rd party source code
+発見する方法
 
-By scanning the source code for possible matches with open source code
+回避方法
+
+
+オープンソースのコードをサードパーティのコードに挿入
+
+開発プロセスの中で開発者がオープンソースのコード (いわゆるスニペット) をプロプラエタリやサードパーティのコードに挿入して発生
+
+
+オープンソースのコードとの一致の可能性を求めてソースコードをスキャン
 
  
-Offer training to increase awareness of compliance issues, open source (OS) licenses, implications of including OS code in proprietary or 3rd party code
+コンプライアンスやオープンソースライセンス、プロプラエタリやサードパーティのコードにオープンソースのコードを含めることの意味について認識するためのトレーニングを提供
 
-Conduct regular code scans of all project source code for unexpected licenses or code snippets.
-Require approval to use OS software before committing it into product repository 
+予期されないライセンスやコードのスニペットのため、定期的にプロジェクトの全ソースコードをスキャン
+オープンソースソフトウェアを使う際には製品のレポジトリにコミットする前に承認を必要とするようにする 
 
 
 
@@ -515,70 +510,70 @@ Require approval to use OS software before committing it into product repository
 
 
 
-Problem Type
+問題の類型
 
-How Discovered
+発見する方法
 
-How to Avoid
+回避方法
 
-Linking of open source into proprietary source code (or vice versa . specific to C/
-C++ source code) 
-Occurs as a result of linking software components that have conflicting or incompatible licenses
+オープンソースのソフトウェアをプロプラエタリなソースコードのソフトウェアにリンク (またはその逆。C/C++特有の問題) specific to C/
+C++ source code)
+衝突(conflict)する、または互換性のない(incompatible)[03] ライセンスのソフトウェアコンポーネントをリンクした結果発生
 
-With a dependency-tracking tool that allows discovery of linkages between different software components; ID if type of linkage is allowed per com-pany’s OS policies
+異なるソフトウェアコンポーネント間のリンクを検出できる依存性追跡ツールを利用; 企業のオープンソースポリシーで許容されているかを識別[04]
 
-Offer training on linkage scenarios based on company compliance policy 
-Regularly run dependency tracking tool to verify all linkage relationships; flag any issues not in line with compliance policies
+企業のコンプライアンスポリシーに基づくリンクのシナリオについての訓練を提供
+定期的に依存性追跡ツールを動作させ、全てのリンク関係を検証; 企業のポリシーで許容されていないあらゆる事柄にフラグを立てる
 
-Inclusion of proprietary code into an open source component 
-Occurs when developers copy/paste proprietary source code into OS software
+オープンソースのコンポーネントにプロプラエタリなコードを含める
+開発者がプロプラエタリなソースコードをオープンソースソフトウェアにコピー/ペーストして発生
 
-By scanning source code. Tool will ID source code that doesn’t match what’s provided by OS component, triggering various flags for Audit 
-Train the staff
+ソースコードをスキャンする。ツールでオープンソースのコンポーネント由来ではないソースコードは識別できるので、監査のため各種のフラグをつける
+スタッフを訓練
 
-Conduct regular source code inspections
+ソースコードを定期的に検査
 
-Require approval to include proprietary source code in OS components 
+プロプラエタリなソースコードをオープンソースのコンポーネントに含めるには承認を必要とするようにする 
 
 
 
 
-License Compliance Problems
+ライセンスコンプライアンス問題
 
-License compliance problems are typically less damaging than intellectual property problems, as they don’t have the side effect of forcing you to release your proprietary source code under an open source license.
+ライセンスコンプライアンス問題は知財上の問題に比べ一般に損害は小さい。自社のプロプラエタリなコードをオープンソースライセンスで開示するといった副作用がないからである。
 
-License compliance failures may result in any (or a combination) of the following: 
-. An injunction preventing a company from shipping a product until source code is released.
+ライセンスコンプライアンス上の失敗は下記のいずれか（か、その組み合わせ）を招き得る。
+. ソースコードが開示されるまで製品出荷を差し止める命令
 
 
 
 
 
 
-. Support or customer service headaches as a result of version mismatches (as a result of people calling or emailing the support hotline and inquiring about source code releases).
-. Embarrassment and/or bad publicity with customers and open source community.
+. バージョンのミスマッチによりカスタマーサポート・カスタマーサービス上の問題となる（サポートホットラインに電話やemailでソースコード開示について問い合わせがくる結果）
+. 顧客やオープンソースコミュニティにおいて困惑や悪い評判を招く
 
 
-Table 2 provides examples of the most common license compliance problems that occur during the software development process, and offers tips on how to avoid them.
+表２にソフトウェア開発プロセスでの最も一般的なライセンスコンプライアンス問題の例、および回避方法を示す。
 
-Table 2. Examples of license compliance problems and how to avoid them 
-Problem Type
+表2Examples of license compliance problems and how to avoid them
+問題の類型
 
-How to Avoid
+回避方法
 
-Failure to publish or make available source code packages as part of meeting license obligations
+ライセンス上の義務の一環としてソースコードのパッケージを出版[05] (publish)したり利用可能としたりし損ねる
 
-Follow a detailed compliance checklist to ensure that all compliance action items have been completed when a given product, application, or software stack is released into the market
+詳細なコンプライアンスチェックリストに従い、製品やアプリケーション、ソフトウェアスタックの出荷時には全てのコンプライアンス上のアクションアイテムが完了したことを確認
 
-Failure to provide correct version of the source code corresponding to the shipped binaries
+出荷されたバイナリと異なるバージョンのソースコードを提供
 
-Add a verification step into the compliance process to ensure that you’re publishing the version of source code that exactly corresponds to the distributed binary version
+検証作業をコンプライアンスプロセスに追加し、提供するソースコードのバージョンが、出荷される バイナリのバージョンと確かに正確に対応することを確認
 
-Failure to release modifications that were introduced to the open source software being incorporated into the shipping product
+出荷製品に組み込まれたオープンソースソフトウェアへの変更をリリース忘れ
 
-Use a bill of material (BOM) difference tool that allows the identification of software components that change across releases 
-Re-introduce the newer version of the software component in the compliance process 
-Add the “compute diffs” of any modified source code (eligible for open source distribution) to the checklist item before releasing open source used in the product 
+部品表 (bill of material, BOM) 差分検出ツールを使いリリース毎のソフトウェアコンポーネント変更を特定
+コンプライアンスプロセスにおいて、より新しいバージョンのソフトウェアコンポーネントを再導入
+「diffの計算」を変更された(オープンソースとするにふさわしい) ソースコードのチェックリストに加え 、製品に使われたオープンソースのリリース前に行う 
 
 
 
@@ -587,60 +582,59 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
 
 
 
-Problem Type
+問題の類型
 
-How to Avoid
+回避方法
 
-Failure to mark open source code that has been changed or to include a description of the changes
+変更されたオープンソースのコードにマークを付け忘れる、変更の記述を入れ忘れる
 
-Add source code marking as checklist item before releasing source code to ensure you flag all the source code introduced to the original copy you downloaded
+ソースコードへのマーク付けをソースコードのリリース前のチェックリストに加え、ダウンロードしたオリジナルのコピーとの差分すべてに確実にマーク
 
-Conduct source code inspections before releasing the source code 
-Add milestone in compliance process to verify modified source code has been marked as such
+ソースコードのリリース前に検査 
+変更されたソースコードが適切にマークされていることを、コンプライアンスプロセス上のマイルストーンとする
 
-Offer training to staff to ensure they update the change logs of source code files as part of the development process
+ソースコードの変更履歴をアップデートすることを、開発プロセスの一部とするようスタッフを教育
 
 
 
 
 
-Process Failures
+コンプライアンスプロセス上の失敗
 
-Process failures can lead to infringement of the open source licensing terms such as the inability to meet the license obligations. Table 3 (next page) lists the most common compliance process failures that occur during the stages of the software development process, and discusses how to avoid them. 
+コンプライアンスプロセス上の失敗は、オープンソースのライセンス条件の侵害、例えばライセンス上の義務を満たさない、に繋がる。表３にソフトウェア開発で起きる最も一般的なコンプライアンスプロセス上の失敗のリスト 、および回避方法を示す。 
 
 
 
 
-Table 3. Sample process compliance failures 
-Failure
+表3Sample process compliance failures
+失敗
 
-How to Avoid
+回避方法
 
-Failure of developers to request approval from the internal open source committee (sometimes called Open Source Review Board) to use open source software, or failure to submit a request in time
+開発者が企業内のオープンソース委員会 (時にオープンソース評価委員会と呼ばれる) オープンソースソフトウェアの利用申請をしない、期限までに行わない
 
-Offer training on your compliance policies and processes
+コンプライアンスポリシーとプロセスについての教育
 
-Conduct periodic full scans of software platform to detect any OS not corresponding to a given approval form. If OS component is found in the build system without a corresponding compliance ticket, a new ticket is auto-generated. (This assumes companies rely on specific workflow implemented in tools such as Bugzilla to track compliance of SW components.)
+Conduct periodic full scans of software platform to detect any OS not corresponding to a given approval form. 定期的にソフトウェアプラットフォーム の全スキャンを行い、承認された型に該当しないオープンソースを検出。もしビルドされたシステムに該当するコンプライアンスチケットがないオープンソースコンポーネントが検出されたら、自動で新チケットを発行（企業がBugzillaのようなツールに埋め込まれているワークフローを使ってソフトウェアコンポーネントを追跡していると仮定）
 
-Include compliance in performance reviews; e.g., failure to abide by the compliance policies directly affects employees’ bonuses 
-Mandate that developers file approval requests early, even if they didn’t yet decide on adoption of OS code
+業績評価にコンプライアンスを含める。例えばコンプライアンスポリシーに従わなかったらボーナス査定に直結
+開発者がオープンソースの利用申請を早期に、オープンソースのコード の利用を決める前でも行うよう命令
 
-Failure to take the open source training
+オープンソースの訓練を受けない
 
-Ensure completion of OS training is part of employees’ professional development plan and is monitored for completion as part of the performance review process
+オープンソースの訓練は従業員のキャリア開発計画の一部であり、業績評価プロセスの一部としてモニタされていることを念押し
 
-Failure to audit the source code
+ソースコードの監査を行わない
 
-Provide proper training to compliance staff
+コンプライアンスのスタッフを適切に訓練
 
-Conduct periodic source code scans 
-Ensure that auditing is a milestone in the iterative development process 
-Provide proper level of staffing so as not to fall behind in the audit schedule
+ソースコードを定期的にスキャン
+繰り返される開発プロセスのマイルストーンに監査を確かに入れ込む
+適切なレベルのスタッフを揃え、監査がスケジュール遅れとならないようにする
 
-Failure to resolve the
-audit findings
+監査で発見された問題を解決しない
 
-Don’t allow compliance tickets to be resolved if audit report isn’t finalized. Compliance ticket is closed only if no open subtasks are attached to it
+監査レポートが完結しない限りコンプライアンスチケットをクローズ させない。チケットのクローズは、関連するサブのタスクが存在しない時のみとする
 
 
 
@@ -650,74 +644,69 @@ Don’t allow compliance tickets to be resolved if audit report isn’t finalize
 
 
 
-LESSONS LEARNED 
-In the past few years, we have witnessed several cases of non-compliance that made their way to the public eye. Increasingly, the legal disposition towards non-compliance has lessons to teach open source professionals . lessons that we will explore in following subsections.
+得た教訓
+この数年で明るみに出たコンプライアンス違反が数件あった。そうしたコンプライアンス違反の法的な決着を通じて、オープンソースのプロフェッショナル達は次のような教訓を学びつつある。lessons that we will explore in following subsections.
 
-Ensure Compliance Prior to Product Shipment/Service Launch
+製品出荷やサービス立ち上げに先立ちコンプライアンスを確実に行う
 
-The most important outcome of non-compliance cases has been that the companies involved ultimately had to comply with the terms of the license(s) in question, and the costs of addressing the problem after the fact has categorically exceeded those of basic compliance. Therefore, it is really a smart idea to ensure compliance before a product ships or a service launches.
-It is important to acknowledge that compliance is not just a legal-
-department exercise. All facets of the company must be involved in ensuring proper compliance and contributing to correct open source consumption and, when necessary, redistribution. This involvement includes establishing and maintaining consistent compliance policies and procedures as well as ensuring that the licenses of all the software components in use (proprietary, third-party, and open source) can co-exist before shipment or deployment. To that effect, companies need to implement an end-to-end open source management infrastructure that will allow them to:
+コンプライアンス違反事件の最も重要な教訓は、関係した企業は最終的には問題のライセンス条項に従わなければならなかった、であり、この事実を踏まえた問題解決のコストは基本的なコンプライアンスのコストを圧倒的に上回っていた、である。従って、製品出荷やサービス立ち上げに先立ってコンプライアンスを確実に行うのが賢いやり方である。
+コンプライアンスは法務部門の業務に留まるものではない、と認識することは重要である。全部門が関わって適切なコンプライアンス、正しいオープンソースの利用、必要に応じた再配布、を確実に行う必要がある。この関わりには首尾一貫したコンプライアンスポリシーや手続きの確立と維持管理、利用中（プロプラエタリ、サードパーティ、オープンソース）の全ソフトウェアコンポーネントのライセンスが共存し得ることを製品出荷やサービス立ち上げ前に確認すること、が含まれる。そのためには企業はオープンソースを管理するインフラを末端まで構築し下記を行う必要がある。
 
-. Identify all open source used in products, presented in services, and/or used internally
-. Perform architectural reviews to verify if and how open source license obligations are extending to proprietary and third-party software components
-. Collect the applicable open source licenses for review by the legal department
+. 製品の中で、サービスが開示している、あるいは内部で利用されている全てのオープンソースを識別アーキテクチャを評価し、オープンソースのライセンス上の義務がプロプラエタリやサードパーティのソフトウェアコンポーネントまで拡大していないか、拡大しているならばどのように、を検証適用可能なオープンソースライセンスを収集し、法務部門が評価
 
 
 
 
 
 
-. Develop open source use and distribution policies and procedures
-. Mitigate risks through architecture design and engineering practices
+. オープンソースの利用および配布のポリシーと手続きを定めるアーキテクチャ設計と製造の実務においてリスクを低減
 
 
-Non-Compliance is Expensive
+コンプライアンス違反は高くつく
 
-Most of the public cases related to non-compliance have involved GPL source code. Those disputes reached a settlement agreement that included one or more of these terms:
+コンプライアンス違反が公となった事件の多くはGPLのソースコードが関わっている。これらの紛争解決の合意では下記の一つないし一つ以上 の条項が含まれている。
 
-. Take necessary action to become compliant.
-. Appoint a Compliance Officer to monitor and ensure compliance.
-. Notify previous recipients of the product that the product contains open source software and inform them of their rights with respect to that software.
-. Publish licensing notice on company website.
-. Provide additional notices in product publications.
-. Make available the source code including any modifications applied to it (specific to the GPL/LGPL family of licenses).
-. Cease binary distribution of the open source software in question until it has released complete corresponding source code or make it available to the specific clients affected by the non-compliance. . In some cases, pay an undisclosed amount of financial consideration to the plaintiffs.
+. コンプライアンスを満たすよう必要なアクションを取る
+. コンプライアンスオフィサーを置きコンプライアンスをモニタし確認させる
+. 製品を受け取った過去の顧客に、製品はオープンソースソフトウェアを含んでいること、そのソフトウェアについての権利、を通知
+. ライセンス告知を企業のウェブサイトに掲載
+. 製品説明に告知を追加
+. ソースコードをすべての改変と共に利用可能 に（GPL/LGPLファミリのライセンスに限る）
+. 問題となっているオープンソースソフトウェアのバイナリの配布を、関連のソースコードが開示されるまで、あるいはコンプライアンス違反で影響を受けた特定顧客が利用可能となるまで差し止め. いくつかの事件では、原告に対し非開示の額の金銭的対価
 
 
 
 
 
 
-Furthermore, the companies whose compliance has been successfully challenged have incurred costs that included:
+更に、コンプライアンス異議申し立てを受け、それが成功すると下記のコストを負うこととなる。
 
-. Discovery and diligence costs in response to the compliance inquiry, where the company had to investigate the alleged inquiry and perform due diligence on the source code in question
-. Outside and in-house legal costs
-. Damage to brand, reputation, and credibility
+. コンプライアンスの照会への対応として申し立てに応じた調査、問題のソースコードのデューデリジェンス、のためのディスカバリとデューデリジェンスのコスト
+. 外部・内部のリーガルコストブランドや評判、信頼性へのダメージ
 
 
-In almost all cases, the failure to comply with open source license obligations has also resulted in public embarrassment, negative press, and damaged relations with the open source community.
-Relationships Matter
+ほぼすべての事件において、オープンソースライセンス上の義務違反は面目の失墜、否定的な記事、オープンソースコミュニティとの関係悪化を招いている。
+関係は大事
 
-For companies using open source software in their commercial products, it is recommended to develop and maintain a good relationship with the members of the open source communities that create and sustain the open source code they consume. The communities of open source projects expect companies to honor the licenses of the open source software they include in their products. Taking steps in this direction, combined with an open and honest relationship, is very valuable.
-Training is Important
-Training is an essential building block in a compliance program, to ensure that employees have a good understanding of the policies governing the use of open source software. All personnel involved with software need to understand the company’s policies and procedures. Companies often provide such education through formal and informal training sessions.
+オープンソースソフトウェアを自社製品で利用する企業は、利用しているコードを開発し維持七得るオープンソースコミュニティと良い関係を持ち、維持することが望ましい。オープンソースプロジェクトのコミュニティは企業が自社製品に含まれるオープンソースソフトウェアのライセンスを尊重すると期待している。その方向に動き、オープンかつ正直な関係を気づくことは大いに価値がある。
+訓練は重要
+訓練はコンプライアンスプログラムにおいて必須の構成要素であり、オープンソースソフトウェアの利用を律するポリシーを従業員がよく理解する礎となる。ソフトウェアに関わる全職員が企業のポリシーとプロセスを理解する必要がある。企業はそうした教育を公式・非公式の教育で提供することが多い。
 
 
 
 
 
-Chapter 2
+第2章
 
-ESTABLISHING AN OPEN SOURCE MANAGEMENT PROGRAM
+オープンソース管理プログラムの確立
 
-An open source management program provides a structure around all aspects of open source software, including selection, approval, use, distribution, audit, inventory, training, community engagement, and public communication. This chapter provides a high-level overview of the various elements in an open source management program, surveys the challenges in establishing a new compliance program, and provides advice on how to overcome those challenges.
-OPEN SOURCE COMPLIANCE PROGRAM
+オープンソース管理プログラムはオープンソースソフトウェアの全ての側面、その選択、承認、利用、配布、監査、インベントリ、訓練、コミュニティとの関わり、広報等々の体系を定める。本賞はオープンソース管理プログラムの様々な構成要素を概観し、新しいコンプライアンスプログラム策定における難しさを概説し、そうした難しさを克服する方法を述べる。
+オープンソースコンプライアンスプログラム
 
-We’ll begin this chapter with an overview of the core elements needed in a successful open source compliance program. This section, including Figure 4, will provide an overview of these essential elements. 
+最初に、成功するオープンソースコンプライアンスプログラムでコアとなる構成要素を概観する。本章と図4にこれら構成要素の概観を示す 。 
 
 
-Figure 4. Essential elements of an open source management program
+図4オープンソース 管理プログラムの必須構成要素
 
 
 
@@ -726,268 +715,263 @@ Figure 4. Essential elements of an open source management program
 
 
 
-Compliance Strategy
+コンプライアンス戦略
 
-The open source compliance strategy drives the business-based consensus on the main aspects of the policy and process implementation. If you do not start with that high-level consensus, driving agreement on the details of the policy and on investments in the process tends to be very hard, if not impossible. The strategy establishes what must be done to ensure compliance and offers a governing set of principles for how personnel interact with open source software. It includes a formal process for the approval, acquisition, and use of open source, and a method for releasing software that contains open source or that’s licensed under an open source license.
-Inquiry Response Strategy
+オープンソースコンプライアンス戦略は、ポリシーやプロセスの実装 の主たる側面について、ビジネスに立脚してコンセンサスを推し進めるものである。こうしたハイレベルなコンセンサスに基づかずにポリシーやプロセス の実装の細部について社内合意しようとすると、不可能とは言わないまでも非常な困難に直面する。コンプライアンス戦略はコンプライアンスを確保するために行うべきことを定め、職員のオープンソースソフトウェアの扱いを統べる原則を与える。オープンソースの承認、取得 (acquisition) , 利用、オープンソースライセンスを含むかオープンソースラインセンスに基づいてライセンスされたソフトウェアをリリースする方法、の正式なプロセスも本戦略に含まれる。
+照会応答戦略
 
-The inquiry response strategy establishes what must be done when the company’s compliance efforts are challenged. Several companies received negative publicity . and some were formally challenged . because they ignored requests to provide additional compliance information, did not know how to handle compliance inquires, lacked or had a poor open source compliance program, or simply refused to cooperate with the inquirer. None of these approaches is fruitful or beneficial to any of the parties involved. Therefore, companies should have a process in place to deal with incoming inquiries, acknowledge their receipt, inform the inquirer that they will be looking into it, and provide a realistic date for follow-up. In a later chapter, we discuss a simple process for managing open source compliance inquiries.
-Policies and Processes
+照会応答戦略は、コンプライアンスが問われた時に行うべきことを定める。企業は時として悪評（場合によっては正式な申し立て）を、コンプライアンスについての追加情報提供の要請を無視したり、コンプライアンスの照会を扱う方法を知らなかったり、オープンソースコンプライアンスプログラムが欠落していたり不十分だったり、単に照会者と協力しなかったために、受けてきた。こうしたアプローチは関係者のだれにとっても実りや利益を生まない。従って企業は照会を受けとり、受領したことを応答し、照会者に検討することを伝え、現実的なフォローアップの日程を通知する方法を定めるべきである。後ろの章で、オープンソースコンプライアンスに対する照会を扱うシンプルなプロセスについて述べる。
+ポリシーとプロセス
 
-The open source compliance policy is a set of rules that govern the management of open source software (both use of and contribution to). Processes are detailed specifications as to how a company will implement these rules on a daily basis. Compliance policies and processes govern the various aspects of using, contributing, auditing, and distribution of open source software. Figure 5 (next page) illustrates a sample compliance process, with the various steps each software component will go through as part of the due diligence. This process will be discussed in detail in a later chapter.
+オープンソースコンプライアンスポリシーとは、オープンソースソフトウェアの管理（利用と寄付の双方）を取り仕切るルール群である。プロセスとは、日々の業務にこれらルール群を実装するかを詳細に列挙したものである。コンプライアンスポリシーとプロセスがオープンソースソフトウェアの様々な側面、利用、寄付、監査、配布を取り仕切る。図５（次ページ）はコンプライアンスプロセスの例を図示したもので、個々のソフトウェアコンポーネントがデューデリジェンスの一環として通るべき様々なステップを示している。このプロセスの詳細は後ろの章で述べる。
 
  
-Figure 5. Sample compliance due-diligence process
+図5コンプライアンスデューデリジェンスプロセスの例
 
-Compliance Teams
+コンプライアンスチーム
 
-The open source compliance team is a cross-disciplinary group consisting of various individuals tasked with the mission of ensuring open source compliance. The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and the Compliance Officer. The extended team consists of various individuals across multiple departments that contribute on an ongoing basis to the compliance efforts: Documentation, Supply Chain, Corporate Development, IT, Localization and the Open Source Executive Committee (OSEC). However, unlike the core team, members of the extended team are only working on compliance on a part-time basis, based on tasks they receive from the OSRB. Chapter 3 provides a detailed discussion on the roles and responsibilities of individuals involved in achieving open source compliance.
+オープンソースコンプライアンスチームとは、オープンソースコンプライアンスを確実に行うため様々な分野の人々を集めたチームである。コアとなるのはオープンソース評価委員会 (Open Source Review Board, OSRB) と呼ばれることが多い委員会で、エンジニアリング、製品のチームの代表者たち、一人以上の法務顧問、そしてコンプライアンスオフィサーから構成される。拡大チームは様々な部門からコンプライアンス活動のため随時加わる人々で、文書作成、サプライチェーン、全社開発、IT、ローカル化、オープンソース幹部会議 (Open Source Executive Committee, OSEC)らが含まれる。ただし拡大チームのメンバはコアチームと違い、OSRBから仕事を委任された時だけ活動する。コンプライアンスに常時携わるわけではない。第３章ではオープンソースコンプライアンスを達成するための個々の人間の役割と責任について詳述する。
 
-Figure 6 (next page) illustrates the pair of teams involved in achieving compliance: the core team and the extended team.
-
-
-
-
-
-
-
-Figure 6. Individuals and teams involved in ensuring open source compliance
-
-Tools
-
-Open source compliance teams use several tools to automate and facilitate the auditing of source code and the discovery of open source code and its licenses. Such tools include:
-
-. A compliance project management tool to manage the compliance project and track tasks and resources.
-. A software inventory tool to keep track of every single software component, version, and product that uses it, and other related information.
+図６（次ページ）はコンプライアンス達成のためのこれら二つ、コアチームと拡大チーム、を図示している。
 
 
 
 
 
 
-. A source code and license identification tool to help identify the origin and license of the source code included in the build system. . A linkage analysis tool to identify the interactions of any given C/C++ software component with other software components used in the product. This tool will allow you to discover linkages between source code packages that do not conform to company policy. The goal is to determine if any open source obligations extend to proprietary or third party software components. If a linkage issue is found, a bug ticket is assigned to Engineering with a description of the issue in addition to a proposal on how to solve the issue. . A source code peer review tool to review the changes introduced to the original source code before disclosure as part of meeting license obligations.
-. A bill of material (BOM) difference tool to identify the changes introduced to the BOM of any given product given two different builds. This tool is very helpful in guiding incremental compliance efforts. 
 
-Web Presence
+図6オープンソースコンプライアンスを確かなものとする個人とチーム
 
-Companies use portals in two directions: inwards, inside the company; and outwards, as a window to the world and the open source community. The internal portal hosts the compliance policies, guidelines, documents, training, announcements, and access to mailing lists. The external portal offers a public platform for the world and the open source community, as well as a venue to post source code of open source packages, acknowledgements, and other disclosures, in fulfillment of license obligations. 
+ツール
+
+オープンソースコンプライアンスチームはツールを使うことでソースコードの監査、オープンソースコードとそのライセンスの発見、が自動化され楽になる。こうしたツールには
+
+. コンプライアンスプロジェクト管理ツール、コンプライアンスプロジェクトを管理し、タスクやリソースを追跡
+. ソフトウェアインベントリツール、個々のソフトウェアコンポーネント、バージョン、それを使用している製品、関連情報を継続的に追跡
 
 
 
 
-Education
 
-Education is an essential building block in a compliance program, to help ensure that employees possess a good understanding of policies governing the use of open source software. The goal of providing open source and compliance training . formally or informally . is to raise awareness of open source policies and strategies and to build a common understanding around the issues and facts of open source licensing as well as the business and legal risks of incorporating open source software in products and/or software portfolios. Training also serves as a venue to publicize and promote the compliance policy and processes within the organization and to foster a culture of compliance.
+
+. ソースコードとライセンスの識別ツール、ビルドするシステムに含まれるソースコードの由来とライセンスを特定. リンク解析ツール、問題となるC/C++ソフトウェアコンポーネントと、製品に含まれる他のソフトウェアコンポーネントとの関係を特定。本ツールを使うことで、企業のポリシーを満たさないソースコードパッケージとのリンクを発見できる。この目標は、プロプラエタリやサードパーティのソフトウェアコンポーネントにオープンソース上の義務が何ら及んでいないことの確定である。もしリンクが発見されたら、製造部門に対しバグチケットを発行し、問題と解決方法を記述する。. ソースコードのピアレビュー（査読）ツール、ライセンス上の義務を満たすための開示に先立ちオリジナルソースコードに対する変更をレビュー。
+. 部品表 (bill of material, BOM) 差分ツール、二つの異なるビルドでの部品表の違いを特定。本ツールはコンプライアンス準拠作業を積み上げで行う場合に非常に有用である。 
+
+ウェブ上のプレゼンス
+
+企業はポータルを２方向で使う。：一つは内向きに、企業内へ。もう一つは外向きに、社会とオープンソースコミュニティへの窓として。内部向けのポータルはコンプライアンスポリシー、ガイドライン、各種文書、訓練、通知、メーリングリストへのアクセスを提供する。外部向けのポータルは社会とオープンソースコミュニティに向けて公開のプラットフォームとなり、またオープンソースのパッケージのソースコードや受領通知ほかの情報開示を投稿する場としてライセンス上の義務を履行する。 
+
+
+
+
+教育
+
+教育はコンプライアンスプログラムにおいて必須の構成要素で、オープンソースソフトウェアの利用を取り仕切るポリシーを従業員がよく理解する基礎となる。オープンソースとコンプライアンスの教育の目標は、公式非公式を問わず、オープンソースのポリシーや戦略、オープンソースのライセンスや、製品やソフトウェアポートフォリオにオープンソースソフトウェアに組み入れることのビジネス的、法的リスクについて共通理解を作り上げ、注意喚起することである。またトレーニング は、企業内でコンプライアンスポリシーを広め推進し実施し、コンプライアンスの文化を育てる場となる。
 
 公式トレーニング
 
-Depending on the size of the company and the extent to which open source is included in its commercial offerings, the company can mandate that employees working with open source take formal instructor-led courses, possibly culminating in actual exams.
+企業の規模やオープンソースの営利活動への浸透度合いに応じて、企業はオープンソースに携わる従業員に公式の講師によるトレーニングコースを命じ得る。実例でのトレーニングがその頂点となり得る。
 非公式トレーニング
 
-Informal training channels may include any or all of the following:
+非公式のトレーニングは下記のいずれか、あるいは全部を含む。
 
-. Brown bag seminars: Brown bag seminars are usually presentations made during lunchtime by a company employee or an invited speaker. The goal of these seminars is to present and evoke discussions of the various aspects of incorporating open source in a commercial product or an enterprise software portfolio. これらのセッションは、企業のコンプライアンス プログラム、ポリシー、そしてプロセスに関する議論も含みます。. New employee orientation: In some instances, the Compliance Officer presents on the company’s compliance efforts, rules, policies, and processes to new employees as part of employee orientation, supplying new employees with necessary open source management information: who to talk to, what internal website to visit, how to sign-up for open source and compliance training, etc.
+. ブラウンバッグセミナー（茶色鞄のセミナー）：ブラウンバッグセミナーとは一般に、昼食時に従業員や招待者が行うプレゼンテーションである。こうしたセミナーの目標は、商用の製品や企業のソフトウェアポートフォリオの中にオープンソースを組み込むことの様々な側面について講演し、議論を起こすことである。これらのセッションは、企業のコンプライアンス プログラム、ポリシー、そしてプロセスに関する議論も含みます。. 新人研修：時にはコンプライアンスオフィサーが企業のコンプライアンスの努力、規則、ポリシー、プロセスを新人に対して研修の一部として講演し、必要となるオープンソースの管理上の情報（聞くべき人、訪れるべき内部のウェブサイト、オープンソースとコンプライアンスのトレーニングへの参加方法等々）を提供する。
 
 
 
 
 
 
-Automation 
-Developers who wish to use or contribute to open source software will be requested to submit online requests and get proper approvals. This process is best managed via an automated online system, commonly a bug tracker that has a specifically designed workflow to accommodate the management of open source compliance.
+自動化
+オープンソースソフトウェアを使いたい、寄付したい開発者はオンラインで申請し、適切な承認を得る必要がある。これは自動化されたオンラインシステム、通常はオープンソースコンプライアンスの管理を特に組み込んだワークフローに従うバグ追跡システムで行うのがベストである。
 
-Messaging
+メッセージの発信
 
-Messaging, both internal and external, is an integral part of any compliance program. The single most important recommendation with respect to messaging is to be clear and consistent, whether it is internally explaining the company’s goals and concerns around open source to your employees or externally toward the developer communities of the open source projects you use in your product/software stack.
-COMPLIANCE CHALLENGES AND SOLUTIONS
+メッセージの発信は内部向け、外部向けともコンプライアンスプログラムの必須の構成要素である。ここで最も重要なのは明確で首尾一貫していることで、内部的に従業員に対してオープンソース関連の会社の目標や懸念事項を伝える場合も、外部に向け自社製品やソフトウェアスタックが利用しているオープンソースプロジェクトの開発者コミュニティに伝える場合も同様である。
+コンプライアンスの難しさと解決策
 
-Companies will almost certainly face challenges establishing their open source compliance program. In the following sections, we discuss some of the most common challenges, and offer recommendations on how to overcome them.
+企業でのコンプライアンスプログラムの確立では、ほぼ確実に困難に直面する。以下の説では最もありふれた困難を取り上げ、克服する方法を示唆する。
 
-Creating a Compliance Program 
-The first challenge is to balance the compliance program and its supporting infrastructure with (existing) internal processes while meeting deadlines to ship products and launch services. Various approaches can help ease or solve such challenges and assist in the creation of a streamlined program that is not seen as a burden to development activities.
+コンプライアンスプログラムの作成
+最初の難しさは、コンプライアンスプログラムやそれを支える（既存の）内部手続きのためのインフラと、製品出荷やサービス開始の〆切とのバランスを取ることである。こうした難しさを和らげ解決し、開発活動にとって重荷とは見做されない能率的なプログラム確立を助ける様々な手段がある。
 
 
 
 
 
-Proposed Solutions
+解決策
 
-EXECUTIVE SUPPORT
+役員のサポート
 
-It is important to have executive-level commitment to the open source management program to ensure success and continuity.
-LIGHTWEIGHT POLICIES AND PROCESSES
+役員レベルでのオープンソース管理プログラムへのコミットは、その成功と継続のために重要である。
+ポリシーとプロセスの負荷の軽さ
 
-Processes and policies are important; however, they have to be light and efficient so that development teams do not regard them as overly burdensome to the development process.
-Streamline open source management upon two important foundational elements: a simple and clear compliance policy and a lightweight compliance process.
+プロセスとポリシー は重要である。だが開発プロセスにとって重荷に過ぎると開発チームが見做さないよう軽く効果的でなければならない。
+能率的なオープンソース管理は二つの基盤の上に成り立つ。：簡単で明確なコンプライアンスポリシーと、軽いコンプライアンスプロセスである。
 
-MANDATE BASIC RULES
+基本ルールを強制
 
-As part of putting the compliance program in place, you will need to establish some simple rules that everyone must follow:
+コンプライアンスプログラムを実施する一環として、誰でも従わねばならない幾つかのシンプルな規則を定める必要がある。
 
-. Require developers to fill out a request form for any open source software they plan to incorporate into a product of software stack.
-. Require third-party software suppliers to disclose information about open source software included in their deliverables. Your software suppliers may not have great open source compliance practices, and it is recommended that you update your contractual agreement to include language related to open source disclosures. . Mandate architecture reviews and code inspections for the Open Source Review Board (OSRB) to understand how software components are interrelated and to discover license obligations that can propagate from open source to proprietary software. You will need proper tooling to accommodate a large-scale operation. 
+. 開発者がオープンソースソフトウェアを製品やソフトウェアスタックに組み入れを計画するときは申請する
+. サードパーティのソフトウェアサプライヤに、提供物に含まれるオープンソースソフトウェアの情報を開示させる。あなたのサプライヤがオープンソースコンプライアンスを見事に実践しているとは限らない。オープンソースの開示に関わる文言を入れるよう、契約を見直すべきである。. アーキテクチャのレビューとコードの検査を指示し、オープンソース評価委員会 (OSRB) がソフトウェアコンポーネント間の関係を理解し、オープンソースからプロプラエタリなソフトウェアへとライセンス上の義務が派生していることを見つけられるようにする。大規模に行うには適切なツールが必要となる。 
 
 
 
 
 
-. Scan all incoming software received from third party software providers and ensure that their open source disclosures are correct and complete. 
+. サードパーティのソフトウェアプロバイダから受領するすべてのソフトウェアをスキャンし、オープンソースに関する開示が正しく、完全であることを確認する 
 
-INTEGRATE COMPLIANCE IN THE DEVELOPMENT PROCESS
+コンプライアンスを開発プロセスに統合
 
-The most successful way to establish compliance is to incorporate the compliance process and policies, checkpoints and activities as part of existing software development processes.
-Long-Term Goals versus Short-Term Execution
-Figure 4 described the essential elements needed for a successful compliance program. Some team members may be overwhelmed by the amount of work needed to implement such a complete program. In reality, it is not all that difficult, because you do not have to implement all elements simultaneously. The priority for all organizations is to ship products and services on time while building and expanding their internal open source compliance infrastructure. Therefore, you should expect to build your compliance infrastructure as you go, keeping in mind scalability for future activities and products. The key is thoughtful and realistic planning.
+コンプライアンス確立の最善の方法は、コンプライアンスプロセスやポリシー、チェックポイント、活動を既存のソフトウェア開発プロセスに組み込むことである。
+長期的な目標と短期的な実行
+図4はコンプライアンスプログラムの成功に必須の構成要素を示している。プログラムのすべてを実装するのに必要な作業の多さに圧倒される関係者もいるだろう。実際にはそこまで難しいものではない。すべての要素を同時に実装しなければならない訳ではないからである。すべての組織において優先されるのは、製品やサービスを期限通りに出荷し、と同時に内部的なオープンソースコンプライアンスのインフラストラクチャー を構築し拡大することである。従って、企業なりのコンプライアンスのインフラストラクチャーを状況の進展に合わせて構築すべきと考えればよく、その際には将来の活動や製品をふまえ拡張性を考えるべきである。カギとなるのは思慮深く現実的な計画である。
 
-Proposed Solutions
+解決策
 
-. Plan a complete compliance infrastructure to meet your long-
-term goals, and then implement the pieces stepwise, as needed for short-term execution. For instance, if you are just starting to develop a product or deliver a service that includes open source and you do not yet have any compliance infrastructure in place, the most immediate concern should be establishing a compliance team, processes and policy, tools and automation, and training your employees. Having kicked off these activities (in that order) and possessing a good grip on the build system (from a compliance perspective), you can move on to other program elements.
-. Establish policies and processes.
-. Incorporate compliance as part of the development process. 
+. 長期的な目標に合致する、十全なコンプライアンスのインフラストラクチャーを計画し、短期的な実行の必要性に合わせ、要素を一つずつ実装する。たとえば、もしオープンソースを含む製品開発やサービス提供を始めたばかりであり、すでに動いているコンプライアンスのインフラストラクチャーが何もないならば、最も差し迫った懸念はコンプライアンスチームを作ることであり、プロセスとポリシー、ツールと自動化を確立することであり、従業員を訓練することである。これらの活動を（この順番で）開始し、システム構築を（コンプライアンスの観点から）適切に制御しつつ開始したならば、プログラムの他の要素に進むことができる。
+. ポリシーとプロセスを確立
+. 開発プロセスの一部としてコンプライアンスを組み込み 
 
 
 
 
 
-Communicating Compliance
+コンプライアンスについての対話
 
-Communication is essential to ensure the success of compliance activities. Two types of communication activities are important to consider: internal with your organization, and external towards the developer communities of the open source projects used in your products.
-Internal Communication
+コンプライアンス活動の成功を確かなものとするには、対話は必須である。2種類の対話、あなたの組織内での内部的なもの、あなたの製品で使われているオープンソースのプロジェクトの開発者コミュニティとの外部に向けたもの、を考えることが重要である。
+内部的な対話
 
-Companies need internal compliance communication to ensure that employees are aware of what is involved when they include open source in a commercial software portfolio, and to ensure that they are educated about the company’s compliance policies, processes, and guidelines. Internal communications can take any of several forms:
+企業はコンプライアンスについての対話が内部的に必要となる。オープンソースを商業ソフトウェアのポートフォリオへの組み入れが何をもたらすのか従業員が理解していることを確実にするためであり、企業のコンプライアンスポリシー、プロセス、ガイドラインについて教育を受けていることを確かなものとするためである。内部的な対話は下記のいずれでもよい。
 
-. Email communication providing executive support and of open source compliance activities
-. Formal training mandated for all employees working with open source software . Brown-bag open source and compliance seminars to bring additional compliance awareness and promote active discussion . An internal open source portal to host the company’s compliance policies and procedures, open source related publications and presentations, mailing lists, and a discussion forum related to open source and compliance . A company-wide open source newsletter, usually sent every other month or on quarterly basis, to raise awareness of open source compliance 
+. オープンソースコンプライアンス活動を幹部がサポート する電子メールでの対話オープンソースソフトウェア関連業務に携わる全従業員に対する正式な訓練命令オープンソースとコンプライアンスについてのブラウンバッグセミナーによりコンプライアンスについて更に注意喚起し、活発な議論を奨励内部的なポータルを作り、企業のコンプライアンスポリシーやプロセス、オープンソースに関係した出版物やプレゼンテーション、メーリングリスト、オープンソースとコンプライアンスに関係する討論フォーラムをホスト企業全体に向けたオープンソースのニュースレター。一般に隔月か四半期ごとに、オープンソースのコンプライアンスについて注意喚起 
 
-External Communication
+外部との対話
 
-Companies need external compliance communications to ensure that the open source community is aware of their efforts to meet the license obligations of the open source software they are using in their products. 
+企業は外部とのコンプライアンスについての対話が必要となる。自社が製品で使うオープンソースソフトウェアについてライセンス上の義務を果たす努力をしていることを、オープンソースのコミュニティに確かに認識させるためである。 
 
 
 
 
-External communications can take one of several forms:
+外部との対話は下記のいずれでもよい。
 
-. Website dedicated to distributing open source software for the purpose of compliance
-. Outreach and support of open source organizations: Such activities are important to help the company build relationships with open source organizations, understand the roles of these organizations, and contribute to their efforts where it makes sense . Participation in open source events and conferences: Participation can be at various levels ranging from sponsoring an event, to contributing presentations and publications, or simply sending developers to attend and meet open source developers and foster new relationships with open source community members
+. コンプライアンス遵守のためにオープンソースを配布するためのウェブサイト. オープンソースの組織への参加 やサポート。こうした活動は企業がオープンソースの組織との関係を確立し、そうした組織の役割を理解し、有意義な貢献をするのを助ける。オープンソースのイベントや会議への参加。参加には様々なレベルがある。イベントのスポンサーから講演や出版物への寄与、あるいは単に開発者を参加させオープンソースの開発者たちと知り合いオープンソースコミュニティのメンバと新たな関係を育成する。
 
 
-Establishing a Clean Software Baseline
+クリーンなソフトウェア起点 の確立
 
-One of the initial challenges when starting a compliance program is to find exactly which open source software is in use and under which licenses it is available. This initial auditing process is often described as establishing a clean compliance baseline for your product or software portfolio. This is an intensive activity over a period of time that can extend for months, depending on how soon you started the compliance activities in parallel to the development activities.
-Proposed Solutions
+コンプライアンスプログラムの開始当初の困難の一つは、使われているオープンソースソフトウェアとそのライセンスを正確に把握することである。この初期の監査プロセスは、製品やソフトウェアポートフォリオのクリーンなソフトウェア起点の確立、と呼ばれることが多い。これは数か月かかることもある重い活動で、開発と並行してどの程度早期に作業を開始するかに掛かっている。
+解決策
 
-Organizations achieve initial compliance through the following activities:
+組織は初期のコンプライアンスを以下の活動を通じて達成する。
 
-. Early submission and review of open source usage requests.
-. Continuous automated source code based on a predefined interval of time for all source code.
-. Continual scans on the source code base, including that received from third-party software providers, to intercept source code that was checked into the code base without a corresponding compliance ticket. Such source code scans can be scheduled to run on a monthly basis, for instance. . Enforced design and architectural review, in addition to code inspections, to analyze the interactions between open source, proprietary code, and third party software components. Such reviews are mandatory only when a given interaction may invoke license compliance obligations. 
+. オープンソースの利用申請の早めの提出と評価
+. 自動化されたソースコードのスキャン を継続的に、事前設定した時間間隔で全ソースコードに対して 実行
+. ソースコードのベースを継続的にスキャン。これにはサードパーティのソフトウェアプロバイダから受領したものを含める。該当するコンプライアンスチケットなしにコードベースにチェックインしたソースコードを捕まえるためである。こうしたソースコードのスキャンはたとえば毎月行う。. 設計とアーキテクチャの評価をソースコードの検査に加えて強制する。これはオープンソース、プロプラエタリ、そしてサードパーティのソフトウェアコンポーネントのコードの関係を解析するためである。これを強制するのは、そうした関係がライセンス上のコンプライアンスの義務に関わるときのみでよい。 
 
-If a company fails to establish baseline compliance, it is almost guaranteed that future revisions of the same product (or other products built using the initial baseline) will suffer from compliance issues.
-To guard against such scenarios, companies should consider the following:
+もし企業がコンプライアンスの起点構築に失敗すると、その製品の将来の改訂版（またはおなじ起点を使った異なる製品）がコンプライアンス問題で苦しむことはほぼ確定となる。
+そうしたシナリオを防ぐため、企業は下記を考慮すべきである。
 
-. Offer simple but enforced policies and lightweight processes.
-. Include compliance checkpoints as part of the software development process as it moves from concept into shipping a product or software stack. Ideally, with every development milestone, you can incorporate a corresponding compliance milestone, ensuring that all software components used in the build have parallel and approved compliance tickets.
-. Ensure availability of a dedicated compliance team. This topic is discussed at length in a later chapter.
-. Utilize tools and automation to support efficient processing of compliance tickets. This topic is discussed in a later chapter.
+. シンプルだが確実に行われるポリシーと軽量なプロセスを提供
+. コンプライアンス上のチェックポイントをソフトウェアの開発プロセスに含め、コンセプトが出荷される製品やソフトウェアスタックとなる時に行う。理想的にはすべての開発上のマイルストーンにおいて対応するコンプライアンス上のマイルストーンを組み込み、ビルドに使われる全ソフトウェアコンポーネントが対応する、承認されたコンプライアンスチケットを確実に持つようにする。
+. 専任のコンプライアンスチームを確保する。この点は後ろの章で文章を割く。
+. コンプライアンスチケットを効率的に処理するためツールや自動化を利用する。この点は後ろの章で論じる。
 
 
-Maintaining Compliance
+コンプライアンスの維持
 
-There are several challenges in maintaining open source compliance, similar to those faced when establishing baseline compliance. In fact, many of the steps are identical, but on a smaller, incremental scale. Maintaining compliance is a continuous effort that depends on discipline and commitment to build compliance activities into existing engineering and business processes.
-Figure 7 illustrates the concept of incremental compliance, whereby you need to ensure compliance of whatever source code changes took place between the initial compliant baseline and the current versio
+オープンソースのコンプライアンスを維持するには、コンプライアンスの起点確立と同様、いくつかの困難がある。実際には踏むべきステップの多くは同じで、ただし規模は小さく、積み増しとなる。コンプライアンスの維持は継続的な努力であり、規律、そして既存の製造およびビジネスのプロセスへのコンプライアンス活動組み込みのコミットメントによる。
+図7に積み上げのコンプライアンスの概念を示す。ここでは初期のコンプライアンスの起点と現在のバージョンとの間で起きたソースコードの変更が何であれ、コンプライアンスを確実に満たすことが必要となる。
 
 
 
-Figure 7. Example of incremental compliance
+図7積み上げのコンプライアンスの例
 
-Proposed Solutions
+解決策
 
-Companies can maintain open source compliance through the following activities:
+企業は以下の活動を通じてコンプライアンスを維持し得る。
 
-. Adherence to the company’s compliance policy and process, in addition to any provided guidelines . Continuous audits of all source code integrated in the code base, regardless of its origins
-. Continuous improvements to the tools used in ensuring compliance and automating as much of the process as possible to ensure high efficiency in executing the compliance program
+. 企業のコンプライアンスポリシーとプロセス、加えてあらゆるガイドラインの厳守コードベースに統合されたすべてのソースコードについて、出所を問わず継続的に監査コンプライアンスや自動化に使われるツールを継続的に改善し、コンプライアンスプログラムにおいて可能な限り多くのプロセスを高い効率で実行
 
 
-Institutionalization and Sustainability
+内面化と末永い実行 
 
-Maintaining open source compliance activities is an ongoing challenge as the organization grows and ships more products and services using open source software. Companies can take several steps to institutionalize compliance within their development culture and to ensure its sustainability. 
+オープンソースのコンプライアンス活動を維持するのは組織 が成長し、オープンソースを使った更なる製品やサービス出荷に伴う進行中の挑戦である。企業は開発のカルチャーの中へとコンプライアンスを内面化し、末永く実行するためにいくつかの段階を踏むとよい。 
 
 
 
 
-Proposed Solutions
+解決策
 
-SPONSORSHIP
+後援者
 
-Executive-level commitment is essential to ensure sustainability of compliance activities. There must be a company executive who acts as ongoing compliance champion and who ensures corporate support for open source management functions.
-CONSISTENCY
+役員レベルのコミットメントがコンプライアンス活動を持続させる上で必須である。進行中のコンプライアンスのリーダーとなり、オープンソースの管理機能を企業としてサポートする役員がいなければならない。
+一貫性
 
-Achieving consistency across the company is key in large companies with multiple business units and subsidiaries. A consistent interdepartmental approach helps with recordkeeping, and also facilitates sharing code across groups.
+企業全体で一貫性を保つことは複数のビジネスユニットや子会社を持つ大企業では重要である。部門間での一貫したアプローチは、記録の保持、グループ間でのコードの共有促進と並び有用である。
 
-MEASUREMENT AND ANALYSIS
+計測と分析
 
-Measure and analyze the impact and effectiveness of compliance activities, processes, and procedures with the goal of studying performance and improving the compliance program. Metrics will help you communicate the productivity advantages that accrue from each program element when promoting the compliance program.
-REFINING COMPLIANCE PROCESSES
+コンプライアンス活動やプロセス、手続きのインパクトや効率性を計測し分析すべきである。パフォーマンスを調べ、コンプライアンスプログラムを改善するためである。計測の尺度は、コンプライアンスプログラムを推進する場合にプログラムの個々の構成要素から得られる生産性向上について対話をする助けとなる。
+コンプライアンスプロセスの改善
 
-The scope and nature of an organization’s use of open source is dynamic . dependent on products, technologies, mergers, acquisitions, offshore development activities, and many other factors. Therefore, it is necessary to continuously review compliance policies and processes and introduce improvements.
-Furthermore, open source license interpretations and legal risks continue to evolve. In such a dynamic environment, a compliance program must evolve as well. 
+組織がオープンソースを利用する範囲や目的 は変化する。製品や技術、企業の吸収や合併、海外への委託、その他多くの要因によって動く。従って、今ぷらインすポリシーとプロセスを絶えず評価し、改善する必要がある。
+更に、オープンソースラインセンスの解釈や法的リスクも進化する。こうしたダイナミックな環境の中で、コンプライアンスプログラムも進化する必要がある。 
 
 
 
 
-ENFORCEMENT
+守らせること 
 
-A compliance program is of no value unless it is enforced. An effective compliance program should include mechanisms for ongoing monitoring of adherence to the program and for enforcing policies, procedures, and guidelines throughout the organization. One way to enforce the compliance program is to integrate it within the software development process and ensure that some measurable portion of employee performance evaluation depends on their commitment to and execution of compliance program activities.
+コンプライアンスプログラムは、守られなければ無意味である。効果を持たせるため、コンプライアンスプログラムにはプログラム厳守を監視し、ポリシーやプロセスやガイドラインを全社的に守らせる メカニズムを含めるべきである。コンプライアンスプログラムを守らせる方法の一つは、ソフトウェア開発プロセスと統合し、従業員の業績査定の幾分かをコンプライアンスプログラム活動へのコミットメントと実行とすることである。
 
-STAFFING 
-Ensure that staff is allocated to the compliance function, and that adequate compliance training is provided to every employee in the organization. In larger organizations, the compliance officer and related roles may grow to be FTEs (full time equivalents); in smaller organizations, the responsibility of open source management is more likely to be a shared and/or a part-time activity.
+スタッフ割り当て
+スタッフがコンプライアンスの職務のために割り当てられ、十分なコンプライアンスの訓練が組織の全従業員に確実に施されていなければならない。大きな組織ではコンプライアンスオフィサー、および関連する職務はフルタイムの仕事となり得る。小さい組織では分担したり、時間の一部を割くべき活動となる可能性が高い。
 
 
 
 
 
-Chapter 3
+第3章
 
-ACHIEVING COMPLIANCE: ROLES AND RESPONSIBILITIES
+コンプライアンス達成に向けて：役割と責任
 
-A single individual, no matter how adept, can’t successfully implement open source compliance across a whole organization. Figure 8 presents a breakdown of the different departments responsible for achieving open source compliance. There are two teams involved in achieving compliance: a core team and an extended team, with the latter typically being a superset of the former.
+一人の個人では、どれほどの達人であろうとも、オープンソースコンプライアンスを組織全体に実装することはできない。図8はオープンソースコンプライアンスの達成に責任がある様々な部門を書き下したものである。コンプライアンス達成には二つのチームが必要となる。コアチームと拡大チームである。後者は通常、前者を包括するものとなる。
 
 
 
-Figure 8. Individuals and teams involved in ensuring open source compliance
+図8オープンソースコンプライアンスを確かなものとする個人とチーム
 
 
 
 
 
-The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsels, and the Compliance Officer. Table 4 describes the roles and responsibilities of each participant in this core team.
+コアチームはオープンソース評価委員会 (Open Source Review Board, OSRB) と呼ばれることも多い。エンジニアリングと製品のチームの代表者たち、一人以上の法務顧問、そしてコンプライアンスオフィサーから構成される。表４に個々の参加者のコアチームにおける役割と責任を示す。
 
-The extended team, described in Table 5 (page 49), consists of various individuals across multiple departments that contribute on an on-going basis to the compliance efforts: Documentation, Supply Chain, Corporate Development, IT, Localization, and the Open Source Executive Committee (OSEC). However, unlike the core team (in substantial organizations), members of the extended team are working on compliance only on a part-
-time basis, based on tasks they receive from the OSRB.
+拡大チームは表5 (49ページ) に示す通り、様々な部門からコンプライアンス活動のため随時加わる人々で、文書作成、サプライチェーン、全社開発 、IT、ローカル化、オープンソース幹部会議 (Open Source Executive Committee, OSEC)らが含まれる。ただし拡大チームのメンバは（実体をもつ組織である）コアチームと違い、OSRBから仕事を委任された時だけ活動する。
 
-Table 4. Primary roles and responsibilities of the compliance core team (OSRB)
+表4コンプライアンスコアチーム (OSRB) の主な役割と責任
 
-Participant 
-Primary Roles and Responsibilities
+参加者
+主な役割と責任
 
-Legal Representative
+法務の代表者
 
-This representation varies from a Legal counsel to a Legal paralegal depending on the task at hand.
+代表者はその時の作業に応じ、法律顧問から弁護士補助職員まで変化する
 
-Participate in OSRB and OSEC
+OSRBとOSECへ参加
 
-Review and approve usage, modification, distribution of open source (OS) software
+オープンソースソフトウェアの利用、改変、配布をレビューし承認
 
-Provide guidance on licensing
+ライセンスについてのガイドラインの提供
 
-Contribute to and approve training 
-Contribute to improving the OS compliance program
+トレーニングの提供と承認
+オープンソースコンプライアンスプログラム改善への貢献
 
-Review and approve content of OS portals 
-Review and approve list of obligations to fulfill 
-Review and approve open source notices
+オープンソースのポータルの内容をレビューし承認
+ライセンス上満たすべき義務一覧のレビューと承認
+オープンソースに関する告知の承認
 
 
 
@@ -997,43 +981,43 @@ Review and approve open source notices
 
 
 
-Participant 
-Primary Roles and Responsibilities
+参加者
+主な役割と責任
 
-Engineering and Product Team Representative
+エンジニアリングおよび製品チームの代表
 
-In some companies, there is no distinction between engineering and product teams.
+企業によってはエンジニアリングと製品のチームは分かれていない
 
-Participate in OSRB and OSEC
+OSRBとOSECへ参加
 
-Follow compliance policies and processes 
-Integrate compliance practices in dev process
+コンプライアンスポリシーとプロセスの遵守
+コンプライアンスの実践を開発プロセスの中に統合
 
-Contribute to improving the compliance program
+コンプライアンスプログラムの改善に貢献
 
-Follow technical compliance guidelines
+技術的なコンプライアンスプログラムの遵守
 
-Respond quickly to all questions
+あらゆる質問への迅速な回答
 
-Conduct design, architecture, and code reviews 
-Prepare software packages for distribution
+設計、アーキテクチャ、コードのレビューの実施
+配布のためのソフトウェアパッケージ準備
 
-Compliance Officer
+コンプライアンスオフィサー
 
-Open source compliance officer is not necessary a dedicated resource. In most cases, the individual fulfills the role of Manager or Director of Open Source.
+オープンソースコンプライアンスオフィサーは必ずしも専任である必要はない。大抵の場合、オープンソース部門の部長や所長が役割を果たす
 
-Drive all compliance activities 
-Coordinate source code scans and audits 
-Coordinate distribution of source code packages
+全てのコンプライアンス活動を推進
+ソースコードのスキャンと監査を調整
+ソースコードパッケージの配布を調整
 
-Participate in OSRB and OSEC
+OSRBとOSECへ参加
 
-Contribute to compliance and OS training 
-Contribute to improving compliance program
+コンプライアンスとオープンソースのトレーニングに寄与
+コンプライアンスプログラムの改善に寄与
 
-Report to OSEC on compliance activities
+OSECにコンプライアンス活動について報告
 
-Contribute to creation of new tools to facilitate automation, discovery of OS in dev environment 
+自動化や、開発環境の中にオープンソースのコードを見つける新たなツール作成に寄与 
 
 
 
@@ -1042,31 +1026,31 @@ Contribute to creation of new tools to facilitate automation, discovery of OS in
 
 
 
-Table 5. Primary roles and responsibilities of the compliance extended team
+表5コンプライアンス拡大チームの役割と責任
 
-Participant 
-Primary Roles and Responsibilities
+参加者
+主な役割と責任
 
-Open Source Executive Committee (OSEC) Decide on open source strategy
+オープンソースの戦略を決定するオープンソース幹部会議 (Open Source Executive Committee, OSEC) 
 
-Review and approve proposals to release IP 
-Review and approve proposals to release proprietary source code under an open source license. This is not required if the source code was created with the assumption that it will be open sourced.
+知財のリリース提案 をレビューし承認
+プロプラエタリなコードをオープンソースライセンス下でリリースする提案をレビューし承認。これはそのソースコードはオープンソースにする前提で開発されたならば不要
 
-Documentation 
-Include open source license information and notices in the product documentation
+文書作成
+オープンソースライセンスの情報と告知を製品の文書の中に含める
 
-Localization 
-Translate basic information in target languages about open source information related to the product or software stack
+ローカル化
+製品やソフトウェアスタックに関わるオープンソースについて、基本的情報をターゲットとなる言語に翻訳
 
-Supply Chain 
-Mandate third party software providers to disclose open source in licensed or purchased software components
+サプライチェーン
+サードパーティプロバイダからライセンスされた、または購入したソフトウェアコンポーネントに含まれるオープンソースの情報の開示をサードパーティプロバイダに指示
 
-Assist with ingress of third party software bundled with and/or includes open source software
+オープンソースソフトウェアが含まれている、またはバンドルされているサードパーティのソフトウェアの納入を手助け
 
-Information Technology (IT) 
-Provide support and maintenance for the tools and automation infrastructure used by the compliance program
+IT (情報技術)
+コンプライアンスプログラムで利用されるツールと自動化のインフラをサポートし整備
 
-Create and/or acquire new tools based on OSRB requests
+OSRBの要請に応じ、新しいツールを作成、入手
 
 
 
@@ -1076,8 +1060,8 @@ Create and/or acquire new tools based on OSRB requests
 
 
 
-Participant 
-Primary Roles and Responsibilities
+参加者
+主な役割と責任
 
 Corporate Development 
 Request open source compliance be completed before a merger or acquisition 
@@ -1087,49 +1071,48 @@ Request open source compliance be completed when receiving source code from outs
 
 
 
-OPEN SOURCE REVIEW BOARD (OSRB)
+オープンソース評価委員会 (Open Source Review Board, OSRB)
 
-The OSRB is responsible for: 
-. Ensuring mutual compliance with third-party software and open source software licenses. . Facilitating effective usage of and contributions to open source software.
-. Protecting proprietary intellectual property (and consequently product differentiation) by ensuring that open source license obligations do not propagate to proprietary or third party software
-
-
-On a daily basis, OSRB members are involved in the following tasks:
-
-. Establish the Compliance End-to-End Process: The OSRB is responsible for creating the compliance end-to-end process including usage, audit, development, engagement, assurance, and compliance management. Chapter 4 provides an overview of the end-to-end compliance process.
-. Create and maintain compliance policies, processes, guidelines, templates, and forms used in the compliance program. 
+OSRBは下記に責任を持つ。
+. サードパーティのソフトウェアとオープンソースのソフトウェアライセンスとが相互にコンプライアンスを確かに満たすようにする. オープンソースソフトウェアの効果的な利用、およびオープンソースソフトウェアへの寄与を促進
+. プロプラエタリな知財（引いては製品の差異化）を、オープンソースのライセンスがプロプラエタリな、またはサードパーティのソフトウェアに確かに及ばないようにすることで防御
 
 
+日々の活動としては、OSDBのメンバーは下記に従事する。
+
+. エンドツーエンド（端から端まで）のコンプライアンスプロセスの確立。OSRBはエンドツーエンドのコンプライアンスプロセス、すなわち利用、監査、開発、関与、保障、コンプライアンス管理に責任を持つ。エンドツーエンドのコンプライアンスプログラムについては4章で概観する。
+. コンプライアンスプログラムで使われるコンプライアンスポリシー、プロセス、ガイドライン、テンプレート、フォームを作成し保守 
 
 
 
-. Review requests for the use, modification, and distribution of open source: The OSRB reviews and approves incoming requests from engineering and product teams for using open source. Chapter 6 provides a discussion on the usage process. . Perform software audits: The OSRB performs audits on all software included in a product, which involves the following tasks:
-. Run a source code scanning tool over the software base
-. Analyze the results provided by the scanning tool
-. Address all the hits, possible matches, and licensing conflicts flagged by the scanning tool . Oversee the closure of all issues identified by scanning tools
+
+
+. オープンソースの利用、改変、配布の申請をレビューする。OSRBはエンジニアリングや製品部門からのオープンソース利用申請 をレビューし承認する。利用のプロセスは6章で論じる。. Perform software audits: The OSRB performs audits on all software included in a product, which involves the following tasks:
+. ソフトウェアベースに対しソースコードをスキャンするツールを適用Analyze the results provided by the scanning tool
+. スキャンのツールで発見されたコード合致 、潜在的な合致、ライセンスの衝突を識別 . スキャンのツールで特定されたすべての問題が解決することを監督
 . Create a final audit report and ensure that all identified issues have been closed
 
 
-Depending on the size of the organization, auditing responsibilities can be assigned to the OSRB or to an independent team (auditing team) that reports to the Compliance Officer. Chapter 6 provides a discussion of the auditing process.
+監査はOSRBか独立した監査チームかが組織の規模に応じて責任を持ち、コンプライアンスオフィサーに報告する。Chapter 6 provides a discussion of the auditing process.
 
-. Perform architectural reviews: As part of the approval process, the OSRB performs architecture review with Engineering representative to analyze the interaction between open source code, proprietary code, and third-party source code. The goal of this review is to ensure that architectural guidelines are respected and that the interactions among open source, proprietary, and third-party software are within the acceptable legal guidelines. . Perform linkage analysis review: The OSRB also performs a linkage analysis to determine if any open source license obligations propagate to proprietary or third-party software through linking (from API calls, etc.).
-
-
-
-
-
-
-. Verify the resolution of issues that deter releasing product or launching services that contain open source. . Provide guidance on open source questions coming from company staff and engineers.
-. Perform code inspections as part of the pre-distribution verification, to ensure that open source license text and copyright notices have been kept intact and that engineers have updated the change logs to reflect the changes introduced to the source code.
-. Compile a list of license obligations that must be met to use the open source software in question and pass it to appropriate departments for fulfillment: Once the OSRB has approved the usage of open source in a product, as part of the approval process the OSRB compiles a list of obligations and passes it to the various other individuals and teams to ensure its fulfillment. As part of the pre-distribution process, the OSRB performs final checks before product or service releases, including verifying the fulfillment of obligations.
-. Develop and offer open source and compliance training: The OSRB drives the development of open source and compliance training to ensure that employees have a good understanding of the company’s open source policies and compliance practices. In addition, the OSRB should educate employees on some of the most common open source licenses and the issues surrounding using open source in commercial contexts. Training must be mandatory for all staff engaged in management and development of software using open source. . Host and maintain the company’s open source websites: The internal website, intended for employees, focuses on open source processes and policies, guidelines, training, and announcements. The external website usually exists for the primary reason of making available source code packages in fulfillment of certain compliance obligations.
+. アーキテクチャのレビュー実行。承認過程の一つとして、OSRBはエンジニアリング部門の代表と共にアーキテクチャをレビューし、オープンソースのソースコード、プロプラエタリのコード 、サードパーティのソースコードの関係を解析する。本レビューの目的は、アーキテクチャのガイドラインが尊重され、オープンソース、プロプラエタリ、サードパーティのソフトウェアの関係が、現場が受け入れ可能な法的ガイドラインの範囲内に収まっていることを確認することである。. リンク解析をレビュー。OSRBはAPI呼び出し等によるリンク関係により、何らかのオープンソースのライセンス上の義務がプロプラエタリやサードパーティのソフトウェアに広がっていないかの確認のためリンク解析を行う 。
 
 
 
 
 
 
-. Handle compliance inquiries: The OSRB is responsible for answering any inquiries sent to the company in relation to open source compliance. Chapter 9 discusses the process of handling compliance inquiries. . Maintain records of compliance: OSRB is responsible for ensuring that all compliance records for any given open source software component are up to date.
+. オープンソースを含む製品のリリースやサービスの開始を取りやめる決定を検証. 社内のスタッフやエンジニアから寄せられるオープンソースに関する質問に対しガイダンスを提供
+. 配布前の検証作業の一環としてコードの検査を実施。オープンソースライセンスのテキストや著作権表示が完全な形となっており、ソースコードに対して施された変更を反映するようエンジニアたちが変更ログ をアップデートしていることを確認
+. 問題となっているオープンソースソフトウェアで満たすべきライセンス上の義務の一覧を作り、満たすよう関係部門に展開：OSRBがオープンソースを製品に利用することを承認したら、承認プロセスの一部としてOSDBは義務一覧を作り、関係する様々な個人やチームに展開して確実に満たすようにする 。配布前のプロセスの一部としてOSDBは製品やサービスのリリース前に最終チェックを行うが、義務を満たしていることの検証もここに含む。
+. オープンソースとコンプライアンスの訓練を開発し提供。OSRBはオープンソースとコンプライアンスの訓練の開発を主導し、従業員が企業のオープンソースのポリシーやコンプライアンスのプロセスについて良く理解するようにする。更に、OSRBは最も広く利用されるいくつかのオープンソースのライセンス、商用でのオープンソース利用に関わる話題についても教育すべきである。この訓練はオープンソースを使ったソフトウェアの開発や管理に関わる従業員全員が受けなければならない。. 企業のオープンソースのウェブサイトをホストし維持。：従業員向けの内部のウェブサイトはオープンソースのプロセスやポリシー 、ガイドライン、訓練、告知が主となる。外部向けのサイトは通常、ソースコードのパッケージを利用可能とし、特定のコンプライアンス上の義務を満たすことが第一の目的となる。
+
+
+
+
+
+
+. コンプライアンスの質問を取扱う。OSRBは企業に送付されたオープンソースのコンプライアンスに関わるあらゆる質問に答える責任がある。9章でコンプライアンスの質問を扱うプロセスを述べる。. Maintain records of compliance: OSRB is responsible for ensuring that all compliance records for any given open source software component are up to date.
 . Review end-user documentation to ensure that appropriate copyright, attribution, and license notices are given to consumers regarding open source included in the product or the software stack. In addition, specific to the GPL/LGPL family of licenses, provide a written offer on how to obtain the source code, when applicable.
 . Recommend new tools to be used as part of the compliance infrastructure that will contribute to making the compliance work more efficient through automation.
 . Sign off on product distribution from an open source compliance perspective. . Develop community involvement policy, process, procedures, and guidelines. This responsibility is not compliance-related; however, it is listed here for completion of the list of responsibilities. 
@@ -1245,119 +1228,110 @@ Corporate Development is also involved with compliance in transactions such as s
 
 
 
-Chapter 4
+第4章
 
-OPEN SOURCE COMPLIANCE PROCESS
+オープン ソース コンプライアンス プロセス
 
-Implementation of open source compliance processes can vary across organizations based on a number of factors including the underlying development processes into which compliance must fit, the size and nature of the code base, the number of products or services involved, the amount of externally supplied code, the size and organizational structure, and so on. But the core elements of compliance usually remain the same: identifying the open source in the code base, reviewing and approving its use, and satisfying obligations. This chapter focuses on the core elements of a compliance process. The result of compliance due diligence is identification of all free and open source software used in a product intended for external distribution, and a plan to meet the attendant license obligations. Figure 10 offers a high-level overview of a sample end-to-end compliance process, and illustrates the various compliance steps or phases that components containing free and open source software undergo before receiving approval for integration in an externally distributed product or service.
+オープン ソース コンプライアンス プロセスの実現は、コンプライアンスを組み込む必要がある開発プロセス、コードのサイズと数、関連する製品とサービスの数、外部から導入されたコード量、組織のサイズや体制など、多くの要因に基づいて、組織ごとに変化します。しかし、コンプライアンスの中心的要素は、通常同じです：コード中のオープン ソースを特定し、レビューし、利用を許可し、義務を順守することです。この章では、コンプライアンス プロセスの中心的要素に焦点を当てます。コンプライアンス精査の結果は、外部出荷を意図した製品において使われる全てのフリー オープン ソース ソフトウェアの特定と、それに付随するライセンス義務を遵守するための計画です。図10は、一貫したコンプライアンス プロセスの高水準の概要図の一例を提示しており、外部出荷される製品やサービスへの統合許可を受ける前にフリー オープン ソース ソフトウェアを含むコンポーネントが通過する様々なコンプライアンス ステップやフェーズを図示しています。
 
  
-Figure 10. Simplified view of the compliance end-to-end process
+図10一貫したコンプライアンス プロセスの簡略図
 
-What you see in Figure 10 is just one example, as there are many ways of organizing the compliance process to accomplish the same goals. Throughout this chapter we will examine these various phases, the inputs and outputs of each phase, and how to control software usage via the compliance process. 
-
-
+図10に示されているのは一例であり、同じ目的を達成するためにコンプライアンス プロセスを作る方法は多くあります。この章を通じて、これらの様々なフェーズ、各フェーズのインプットとアウトプット、そしてコンプライアンス プロセスによってソフトウエア利用をどのように管理するかを確認していきます。 
 
 
-EFFECTIVE COMPLIANCE 
-The term due diligence refers to a number of concepts involving source code inspection, source code surveillance, or the performance of quality duties and system audits. In the case of open source compliance, due diligence is required to ensure the following:
-
-. Open source software used in the product has been identified, reviewed, and approved . Product implementation includes only approved open source components and licenses.
-. All obligations related to the use of licensed material have been identified . Appropriate notices have been provided in documentation, including attributions and copyright notices . Source code, including modifications (when applicable), has been prepared and is available at the time the product ships . Verification of all the steps in the process
 
 
-There are great benefits to having an end-to-end compliance process that is simple and well understood within the organization. Such a process would:
+効果的なコンプライアンス
+精査（due diligence）という用語は、ソース コード検査、ソース コード監視、品質義務やシステム監査の実行などを含む多くの概念を指しています。オープン ソース コンプライアンスのこのケースでは、精査は、以下の項目の確認を要求されるものとします；
 
-. Enable organizations to benefit from open source while complying with obligations . Move open source use from ad hoc to a standardized process
-. Help manage acquisition of open source components . Help employees understand how to work with open source in a responsible way
-. Improve the relationship with developers in the various open source projects used by your organization 
+. 製品で利用されるオープン ソース ソフトウェアは、特定され、レビューされ、承認されている。製品実装は、承認されたオープン ソース コンポーネントとライセンスのみを含む。
+. ライセンスされたものの利用に関する全ての義務は、特定されている。適切な通知は、帰属表記や著作権表記を含む文書で提示されている。変更（適用可能な場合）を含むソース コードは準備されて、製品出荷の時点で入手可能になっている。プロセス中の全段階の検証
+
+
+簡潔で、組織内で十分に理解されている一貫したコンプライアンス プロセスを持つことには大きな利点があります。そのようなプロセスは：
+
+. 組織に義務を履行させつつ、一方で組織がオープン ソースから恩恵を得られるようにします。オープン ソース利用を一時的なものから標準プロセスへと移行させます。オープン ソース コンポーネント入手の管理を助けます。従業員が、責任ある方法でオープン ソースとどのように取り組めばよいか理解するのを助けます。組織で利用している様々なオープン ソース プロジェクトの開発者との関係を改善します。 
 
 
 
 
 
-. Accelerate exchange of information and ideas with the project communities of integrated code through sharing of source code modifications . Speed innovation, since the organization is able to safely adopt open source components and use them as enablers for new services and products 
+. ソース コード変更の共有を行うことで、統合コードのプロジェクト コミュニティとの間で、情報やアイディアの交換が加速されます。組織は安全にオープン ソース コンポーネントを採用して、新しいサービスや製品の立ち上げに必須のものとして利用できるので、イノベーションを加速できます。 
 
-ELEMENTS OF AN END-TO-END COMPLIANCE PROCESS
+一貫したコンプライアンス プロセスの要素
 
-There are ten key steps in an end-to-end compliance process (Figure 11, next page):
+一貫したコンプライアンス プロセスの10ステップ
 
-1. Identification of incoming source code
+1. 入るソース コードの特定
 
-2. Auditing source code
+2. ソース コードの監査
 
-3. Resolving any issues uncovered by the audit
-4. Completing appropriate reviews
+3. 監査で検出された課題の解決
+4. 適切なレビューの完了
 
-5. Receiving approval to use open source
+5. オープン ソース利用の承認受領
 
-6. Registering open source in the software inventory
+6. ソフトウェア リストへのオープン ソースの登録
 
-7. Updating product documentation to reflect open source usage
-8. Performing verification of all previous steps prior to distribution
+7. オープン ソース利用を反映した製品文書の更新
+8. 頒布前の上記全段階の検証
 
-9. Distributing source code packages
-10. Performing final verifications in relation to distribution 
+9. ソース コード パッケージの頒布
+10. 頒布に関連した最終検証の実施 
 
 
 
 
 
 
-Figure 11. End-to-end compliance process 
-The remainder of this chapter will address each of these ten steps in detail.
+図11一貫したコンプライアンス プロセス
+この章の残りの部分では、これらの10ステップについて詳しく説明します。
 
-Step 1 . Identification of Open Source 
-The goal of this initial step is to monitor the ingress and incorporation of open source in a software portfolio, either as a standalone package or embedded within third-party or company-developed software. There are several methods to identify open source used in the product:
+ステップ1オープン ソースの特定
+この最初のステップの目的は、標準パッケージや、サード パーティか自社開発ソフトウェアに組み込まれた形で、オープン ソースがソフトウェア ポートフォリオに入り込んだり統合されたりすることを監視することです。製品に利用されるオープン ソースを特定するいくつかの方法があります。
 
-. A request to use open source: This is the most common method for identifying the usage of open source in a product. Engineering staff or Product Management is required to inform the Open Source Review Board (OSRB; described in Chapter 3) or compliance team of the intent to use specific open source in a specific product or platform release. The submitter provides information regarding the intended use of the open source package for review and approval. . Auditing the full platform or product code base to establish a compliance baseline, and then auditing code modules that are changed in subsequent releases.
-. Third-party software provider due diligence: This involves requiring a full disclosure of open source components in products provided by third-party suppliers, with an accompanying review of the disclosure by the open source compliance team. In some cases, it will make sense to require third-party software vendors to provide an audit of the supplied code as an additional layer of diligence. This helps ensure you are controlling the intake of open source by your product. . Auditing proprietary (company-developed) software components: In some instances, engineers may decide to copy/paste source code from open source components and include it in proprietary software components. Therefore, it is important to also audit company-developed software components, since they may include open source code, which may lead to compliance failures if not discovered before product ship date.
-. Inspect all open source components entering the organization source code repository that do not correspond to an incoming request to use open source: Relying on engineers to fill out forms announcing their intent to use open source is not always a reliable method to account for all incoming open source software. Therefore, as a backup, consider setting up a source code control system with a separate folder for open source and a notification alert any time there is a check-in to this folder. Since it is always a recommended practice to separate open source, company-developed proprietary software, and third party software in different folders in your build system, it becomes feasible to set up alerts when new code is being submitted. If a new component was submitted that does not correspond to an existing usage (open source request) form, then it is a new component and requires that a new form be filled out. 
+. オープン ソース利用の要求：これは、製品中のオープン ソース利用を特定する最も普通の方法です。技術担当か製品マネージャは、OSRB（3章で説明）かコンプライアンス チームに特定製品やプラットフォーム リリースに特定のオープン ソースを利用したい旨を通知することが求められています。申請者は、レビューと承認の対象であるオープン ソース パッケージの計画した利用に関して情報を提供します。. コンプライアンス基盤として確立するために、全プラットフォームや製品コード ベースを監査し、その上で、後続のリリースで変更されたコード モジュールを監査する。
+. サード パーティ ソフトウェア プロバイダー精査：これは、オープン ソース コンプライアンス チームによる開示内容のレビューを伴う、サード パーティ供給者によって提供された製品中にあるオープン ソース コンポーネントの全開示を要求します。あるケースでは、精査の追加として、供給コードの監査結果をサード パーティ ソフトウェア ベンダーに要求することも意味があります。これは、製品へ入るオープン ソースの管理を確実にします。. プロプライエタリ（自社開発の） ソフトウェア コンポーネントの監査：例として、技術者が、オープン ソース コンポーネントにあるソース コードをコピー／ペーストして、プロプライエタリ ソフトウェアに加えるかもしれません。それゆえに、製品出荷日前に発見されなければコンプライアンス違反に陥るようなオープン ソース コードを含んでいるかもしれませんので、自社開発ソフトウェア コンポーネントを監査することは重要です。
+. 組織のソース コード リポジトリに入る、オープン ソースの利用要求に対応していない全オープン ソース コンポーネントの検査：オープン ソース利用の意図のフォームへの記載を技術者に頼るのは、全ての入るオープン ソース ソフトウェアを説明するには必ずしも確実な方法とはいえません。それゆえに、バックアップとして、オープン ソース用の分離したフォルダーを持つソース コード管理システムの準備と、このフォルダーにチェックインがされた時の警告を検討して下さい。オープン ソースと自社開発プロプライエタリ ソフトウェアとサード パーティ ソフトウェアをビルド システムで別のフォルダーに分離しておくのは常に奨励されるプラクティスですから、新しいコードが提出された時に警告が出るようにすることはできます。既存の利用（オープン ソース要求）フォームに対応しない新しいコンポーネントが提出されたら、それは新しいコンポーネントであり、新しいフォームに記入する必要があります。 
 
-Identification phase prerequisite
+特定フェーズの前提条件
 
-One of the following conditions is met:
+以下条件の一つが満たされる：
 
-. An incoming OSRB form requesting using a specific open source . Discovery of an open source being used (without proper authorization) via a platform scan 
-
-
-
-. Discovery of an open source being used as part of third party software 
-
-Identification phase outcome 
-. A compliance record is created (or updated) for the open source . An audit is requested to scan the source code
+. 特定のオープン ソース利用を要求する入るOSRBフォームプラットフォーム スキャンによって（適切な承認なしに）利用されているオープン ソースの発覚 
 
 
-Step 2 . Auditing Source Code 
-The second step in compliance due diligence consists of scanning the source code using automated analysis tools to discover matches with known open source projects.
 
-The auditing personnel perform a source code scan iteratively from one release to another, to build a chain of evidence that proves what is included in the release is compliant with the various applicable open source licenses.
+. サード パーティ ソフトウェアの一部として利用されているオープン ソースの発覚 
 
-The goals of the audit are to:
-
-. Update the release bill of materials to account for any open source added (or removed) since the last previous scan
-. Confirm the origin(s) of the source code, including the provenance of any open source . Flag any dependencies, code matches, and licensing conflicts
+特定フェーズの結果
+. コンプライアンス記録は、オープン ソースに対して生成（更新）されます。ソース コードをスキャンするように、監査が要求されます。
 
 
-Auditing phase prerequisite
+ステップ 2 . ソース コードの監査
+コンプライアンス精査の2番目のステップは、既知のオープン ソース プロジェクトとの一致を検出する自動解析ツールを使ったスキャンで構成されます。
 
-A proper compliance record (also called a ticket) is created capturing all necessary information about the usage of that specific open source and providing the location of the source code within the internal build system. In some cases, specifically when a full platform scan is done, an open source component may be scanned before having a proper compliance report. In this case, a record is created when the open source component is discovered.
+監査担当者は、リリースに含まれているものは様々な適用可能なオープン ソース ライセンスに適合している証拠を、リリースごとに反復して、ソースコードスキャンを実施します。
 
+監査の目的は：
+
+. 最後のスキャンからの間に、加えられた（削除された）オープン ソースを説明するリリースBOMを更新します。オープン ソースの由来も含めて、ソース コードの由来を確認します。全ての依存関係、コード一致、ライセンス矛盾にフラグを付けます。
+
+
+監査フェーズの前提条件
+
+適切なコンプライアンス記録（チケットとも呼ばれます）は、特定のオープン ソース利用に関する全ての必要な情報を補足し、内部ビルドシステム内のソース コードの場所を提供するように、作成されます。ある場合には、特にプラットフォームのフル スキャンが実施される時、適切なコンプライアンス報告が作成される前に、オープン ソース コンポーネントはスキャンされることもあります。この場合には、オープン ソース コンポーネントが発見された時に、記録が作成されます。
 
 
 
 
-Auditing phase outcome 
-. An audit report identifying the origins and licenses of the source code
-. Change request tickets are filed against the appropriate engineering team for any issues identified during the audit that require resolution 
 
-Several actions can trigger discovery and an audit for software components (Figure 12, next page): 
-. A request from a developer to use an open source component
-. A source code scan of the entire software stack
-. Source code changes in a previously approved component . Open source received from a third-party vendor . Source code downloaded from the web (unknown author or license)
-. Proprietary software committed into the source code repository system
-. Open source added to the code repository that does not correspond to a usage form
-. Using previously approved open source in a different product
+監査フェーズの結果
+. ソース コードの出自とライセンスを特定する監査報告. 変更要求チケットは、適切な技術チームに対して、監査中に特定された解決すべき課題について記載されます。 
+
+いくつかの活動が、ソフトウェア コンポーネントの発見と監査の契機となります。（図12、次ページ）
+. 開発者からのオープン ソース コンポーネント利用の要求. 全ソフトウェア スタックのソース コード スキャン以前に承認されたコンポーネントでのソース コード変更サード パーティ ベンダーから受け取ったオープン ソースウェブからダウンロードされたソース コード（著者やライセンスが不明）ソース コード リポジトリへ提出されるプロプライエタリ ソフトウェアコード リポジトリへ追加された、利用申請フォームに対応していないオープン ソース以前、異なる製品で承認を受けたオープン ソースの利用
 
 
 
@@ -1365,144 +1339,140 @@ Several actions can trigger discovery and an audit for software components (Figu
 
  
 
-Figure 12. Methods to identify and audit incoming open source
+図12入るオープン ソースの特定と監査の方法
 
 
 
 
 
-Step 3 . 課題解決
-In this step of the compliance due diligence, all issues identified during the auditing step are resolved. The OSRB Chair monitors closure of tickets assigned to engineers during the Audit step. Once the engineers have resolved the identified issues, the OSRB Chair should request a new audit to confirm that the resolved issues no longer exist.
-Resolving Issues phase prerequisite
+ステップ3課題解決
+コンプライアンス精査のこのステップでは、監査ステップで特定された全ての課題が解決されます。OSRBチェアは、監査ステップで技術者に割り当てられたチケットのクローズを監視します。技術者が特定された課題を解決した時には、OSRBチェアは、解決された課題がもはや存在しないことを確認するために監査を要求するべきです。
+課題解決フェーズの前提条件
 
-A source code svcan has been completed, and an audit report is generated identifying the origins and licenses of the source code. The report has flagged source code files that were not identified, or possible license conflicts resulting from mixing source code coming in under different licenses. The Compliance Officer will drive the effort to resolve these issues.
+ソース コード スキャンが完了し、ソース コードの出自とライセンスを特定した監査報告が生成される。報告は、特定されていないソース コード ファイルや、異なるライセンスで結合されるソース コードによって生じるライセンス矛盾にフラグを付けます。コンプライアンス オフィサーは、これらの課題解決を推進します。
 
-Resolving Issues phase outcome
-A resolution for each of the flagged files in the report and a resolution for any flagged license conflict.
-Step 4 . レビュー
-Once the auditing is complete and all issues identified earlier have been resolved, the compliance ticket for a specific software component moves to the review step. Various reviews are performed, as illustrated in Figure 13 (next page), and all identified issues must be resolved. The reviewers need to understand the licenses that govern use, modification, and distribution of the software, and identify the obligations of the various licenses. For any given software components, the reviewers of the compliance ticket are:
-. Internal package owner (the developer working on specific source code component)
-. Source code scanning or auditing personnel
-
+課題解決フェーズの結果
+報告にあるフラグ付きのファイルの解決と、フラグ付きのライセンス矛盾の解決
+ステップ4レビュー
+監査が完了し、以前に特定された全ての課題が解決されたら、特定のソフトウェア コンポーネントに対するコンプライアンス チケットは、レビュー ステップへ移動します。図13（次ページ）に示すように、様々なレビューが実施され、特定された全ての課題は解決していなければなりません。レビュアーは、ソフトウェアの利用、変更、頒布を支配するライセンスを理解し、様々なライセンスの義務を特定する必要があります。与えられたソフトウェア コンポーネントに対する、コンプライアンス チケットのレビュアーは、
+. 社内パッケージ所有者（特定のソース コード コンポーネントの開発者）ソース コード スキャンか監査の担当者
 
 
 
 
 
-. OSRB (Open Source Review Board), which includes OSRB chair (Compliance Officer), Legal counsel, and OSRB engineering representative . OSEC (Open Source Executive Committee)
+
+. OSRBチェア、法務担当、およびOSRB技術代表からなるOSRB (オープン ソース レビュー ボード)OSEC （オープン ソース エグゼクティブ ボード）
 
 
 
 
-Figure 13. Reviewers of the compliance ticket and their roles
+図13コンプライアンス チケットのレビュアーとその役割
 
-As part of this step of compliance due diligence, there are two important reviews: the architecture review and the linkage analysis review.
-
-
+コンプライアンス精査のこのステップの一部として、2つの重要なレビューがあります：アーキテクチャー レビュー、リンク解析レビュー
 
 
 
-アーキテクチャ レビュー
 
-The goal of the architecture review is to analyze any interactions between the open source, third-party, and proprietary code. The result of the architecture review is an analysis of the licensing obligations that may extend from the open source components to the proprietary components (and vice versa). The internal package owner, the OSRB engineering representative, and the open source expert usually perform the architecture review. If they identify a dependency resulting in a licensing conflict, the OSRB Chair will issue a ticket to Engineering to resolve the dependency problem by reworking the source code.
 
-Linkage Analysis Review 
-The goal of a linkage analysis review is to find potentially problematic code combinations at the static and dynamic link level, such as linking a GPL or more commonly an LGPL-licensed library to a proprietary source code component. The OSRB Chair performs this review using an automated tool. Linkage conflicts are reported to Engineering to resolve.
+アーキテクチャー レビュー
 
-Review phase prerequisite
+アーキテクチャー レビューの目的は、オープン ソース、サード パーティ、プロプライエタリ コード間の相互作用を解析することです。アーキテクチャー レビューの結果は、オープン ソース コンポーネントからプロプライエタリ コンポーネントへ（その逆も）影響を与えるライセンス義務の解析です。社内パッケージ所有者、OSRB技術代表、そしてオープン ソース エキスパートが、アーキテクチャ レビューを行います。もしライセンスの矛盾になるような依存関係を発見した場合、コンプライアンス オフィサーは、ソース コードの再作業によって依存関係問を題解決するためにチケットを技術担当に発行する。
+
+リンク解析レビュー
+リンク解析の目的は、動的および静的リンク レベルで、GPL ライブラリをプロプライエタリ ソース コード コンポーネントにリンクしているなど、問題発生の可能性のあるコードの組み合わせ を検出することです。OSRB チェアは、自動ツールを使用してこの調査を行います。リンク問題は、解決するように技術担当に報告されます。
+
+レビュー フェーズの前提条件
 
 監査されたソース コード、解決されている全ての課題。
 
-Review phase outcome 
-OSRB members perform an architecture review and a linkage analysis for the specific component and mark it as ready for the next step (i.e., Approval) if no issues are uncovered.
+レビュー フェーズの結果
+OSRBメンバーは、特定のコンポーネントに対してアーキテクチャ レビューとリンク解析を実施し、もし課題が発見されなければ、次のステップ（つまり承認）への準備が整っているという印をつけます。
 
-Step 5 . 承認
-Once all reviews have been completed, the software component’s compliance ticket moves to the approval step, where it is either approved for usage in the product or not. The approval comes from the OSRB (which includes, as described in an earlier chapter, Legal Counsel, an Engineering representative, and an open source expert). 
-
-
-
-
-For most software components, approval is granted by the OSRB once a ticket has progressed to that point in the compliance process. Once the OSRB approves the usage of an open source component, the OSRB communicates the approval to the product teams so they understand their responsibilities and begin preparations to fulfill the license obligations. If the OSRB rejects the use of the open source component, they communicate the reason for rejection to the requester, and this information is recorded as part of the compliance ticket. As a result, the open source component cannot be used in the product, although the requester can consider submitting an appeal for reconsideration by the OSRB.
-
-Approvals phase prerequisite
-
-All OSRB members have reviewed the compliance ticket, and the OSRB has completed the architecture review and linkage analysis.
-
-Approvals phase outcome 
-Approve or deny usage of the specific component.
-
-Step 6 . Registration 
-Once a software component has been approved for usage in a product or as part of a service, its compliance ticket will be updated to reflect the approval. It will also be added to the software inventory that tracks open source use and use cases.
-
-If you follow a conservative approach with your compliance practices, you would approve open source software for a specific version and usage in a specific product or service version. If a new version of this open source software becomes available, you require a new approval to ensure that the usage model and even the license are still in line with your internal policy.
-Registration phase prerequisite
-
-The OSRB has approved the component’s usage in the product.
+ステップ5承認
+全てのレビューが完了したら、ソフトウェア コンポーネントのコンプライアンス チケットは、製品に利用して良いかを決定する承認ステップへ移動します。承認はOSRBが行います。（前の章で説明したように、法務担当、技術代表、オープン ソース エキスパートが含まれます） 
 
 
 
 
+ほとんどのソフトウェア コンポーネントに対して、チケットがコンプライアンス プロセスのこの点まで進めば、承認が与えられます。OSRBがオープン ソース コンポーネントの利用を承認したら、OSRBは製品チームに承認を伝えますので、製品チームは責任を理解し、ライセンス義務履行の準備を始めます。OSRBがオープン ソース コンポーネントの利用を却下する場合、OSRBは却下の理由を要求者に伝え、この情報はコンプライアンス チケットの一部として記録されます。要求者はOSRBに再考を促すことは可能ですが、結果としては、オープン ソース コンポーネントは製品に使用できません。
 
-Registration phase outcome
-The component is registered in the software inventory, with the component name, version, internal owner, and the details of where the component is being used, such as product name, version, release number, etc.
-Step 7 . 通知
-One of the key obligations when using open source is the documentation obligation, also referred to as the notice obligation. Companies using open source in an externally distributed product or service must:
+承認フェーズの前提条件
 
-. Inform the end user how to obtain a copy of the source code that’s been made available as a result of meeting the license obligations (when applicable)
-. Acknowledge the use of open source by providing required copyright and attribution notices
-. Reproduce the entire text of the license agreements for the open source code included in the product 
+全てのOSRBメンバーはコンプライアンス チケットをレビューし、OSRBはアーキテクチャー レビューとリンク解析を完了している。
 
-If companies are non-compliant with open source license obligations, they are not licensed, and thus exposed to legal action by the copyright holder for copyright infringement, and can potentially lose the right to use and distribute the software in question. In order to fulfill documentation obligations, appropriate notices must be included with the product. In this step of the compliance due diligence, the OSRB Chair prepares the notices and passes them to the appropriate departments for fulfillment.
-Notice phase prerequisite
+承認フェーズの結果
+特定コンポーネントの利用の承認または却下
 
-The software component has been approved for usage and registered in the software inventory.
+ステップ6登録
+ソフトウェア コンポーネントが製品やサービスへの利用を承認されたら、コンプライアンス チケットは、承認を反映するように更新されます。ソフトウェア コンポーネントは、オープン ソース利用とユースケースを記録したソフトウェア一覧表に加えられます。
+
+保守的なアプローチの後にコンプライアンス プラクティスを進めるならば、特定のバージョンと、特定の製品やサービスバージョンでの利用に対して、オープン ソース ソフトウェアを承認します。このオープン ソース ソフトウェアの新しいバージョンが入手可能になったら、利用形態とライセンスが内部ポリシーと整合していることを確認するために新しい承認依頼を出します。
+登録フェーズの前提条件
+
+OSRBはコンポーネントの製品への利用を承認している。
 
 
 
 
 
-Notice phase outcome 
-The license, copyright, and attribution notices for a specific component are prepared and passed along to the appropriate departments to be included in the product documentation.
+登録フェーズの結果
+コンポーネントは、コンポーネント名、バージョン、内部所有者、および製品名、バージョン、リリース番号等のコンポーネントが利用される場所の詳細などと共に、ソフトウェア一覧表に登録されます。
+ステップ7通知
+オープン ソースを利用する際の重要な責務の一つは、ドキュメント記載の義務、または通知義務ともいわれるものです。外部に提供する製品やサービスにオープン ソースを利用している企業は以下を行う必要があります：
 
-Step 8 . Pre-Distribution Verifications
-The next step in the compliance due diligence is to decide on the method and mode of distribution, type of packages to distribute, and mechanism of distribution.
-The goals of the pre-distribution verification are to ensure that:
+. エンド ユーザーに、ライセンス義務を満たした結果として入手可能になっているソース コードのコピーをどのおうに入手できるかを通知します（必要に応じて）必要な著作権や帰属を通知することで、オープン ソースを利用していることを知らせます。. 製品に含まれているオープン ソース コードに対応するライセンスの全文を提示します。 
 
-. 頒布されることになっているオープン ソース パッケージは、特定され、承認されている。. Source code packages (including modifications) have been verified to match the binary equivalent shipping in the product
-. Appropriate notices have been included in the product documentation to inform end-users of their right to request source code for identified open source . All source code comments have been reviewed and any offending or inappropriate content has been removed. This is not strictly a compliance issue; however, in some cases, an innocent comment about where the code was received can trigger a larger compliance question. 
+オープン ソース ライセンス義務を順守しない企業は、ライセンスを取得できず、著作権を侵害したとして、著作権所有者に法的行動をさらされる可能性があります。また、対象となるソフトウェアを使用および配布する権利を失う可能性があります。ドキュメント記載義務を履行するには、製品に適切な通知を含める必要があります。コンプライアンス精査の中のこのステップでは、OSRB チェアが通知文を準備し、それを各担当部署に手渡します 。
+通知フェーズの前提条件
 
-Pre-Distribution Verifications phase prerequisite
-
-Component has been approved for usage, it has been registered in the software inventory, and all notices have been captured and sent for fulfillment. 
-
-
-
-
-Pre-Distribution Verifications phase outcome 
-. Decide on distribution method and mode.
-. Ensure that all the pre-distribution verifications have been successfully completed.
-
-
-Step 9 . Distribution
-
-Once all pre-distribution verifications have been completed, it’s time to upload the open source packages to the distribution website, labeled with the product and version it corresponds to (this scenario assumes that you have chosen this method to make source code available; other methods are discussed in a later chapter). Note that this action is helpful to those desiring code download but may not be sufficient by itself to satisfy license obligations. Furthermore, a recommended practice is to provide email and postal mail contact information for any compliance or open source-related questions.
-Distribution phase prerequisite
-
-All pre-distribution verifications have been checked and no issue is discovered.
-
-Distribution phase outcome 
-The source code of the component in question is uploaded to the website for distribution (if that is the distribution method of choice).
-
-Step 10 . Final Verifications 
-Once you upload the open source packages to the distribution website, validate that the packages have been uploaded correctly and can be downloaded and uncompressed on an external computer without errors. If you are providing a patch, ensure that it applies cleanly and that you have specified the proper version of the upstream component.
+ソフトウェア コンポーネントについて、使用が承認され、ソフトウェア一覧表への登録が完了している。
 
 
 
 
 
-Final verifications phase prerequisite:
+通知フェーズの結果
+対象のコンポーネントのライセンス、著作権、および帰属通知が準備され、製品の資料に含めるべく担当部署に手渡される。
 
-The source code is published on the website.
+ステップ8. 頒布前検証
+コンプライアンス精査の次のステップは、頒布の方法とモード、頒布するパッケージのタイプ、および頒布メカニズムを決定することです。
+頒布前検証の目的は、以下を確実にすることです：
 
-Final verifications outcome 
-You receive verification that the source code is uploaded correctly and accessible for download, and that it corresponds to the same version that was approved. 
+. 頒布されることになっているオープン ソース パッケージは、特定され、承認されている。. ソース コード パッケージ（変更を含む）は、製品として出荷されるバイナリと一致することが確認されている。適切な通知が、製品文書に含まれていて、エンド ユーザーに特定のオープン ソースのソース コードを要求する権利があることを知らせている。全てのソース コード コメントはレビューされ、不適切な内容は取り除かれている。これは厳密にはコンプライアンスの課題ではないですが、しかしながら、ある場合には、コードが受け取られた場所に関する無邪気なコメントが大きなコンプライアンスに関する問い合わせを生むきっかけになる可能性があります。 
+
+頒布前検証フェーズの前提条件
+
+コンポーネントは利用が承認され、ソフトウェア一覧表に登録され、全ての通知が収集され義務履行のために送付されている。 
+
+
+
+
+頒布前検証フェーズの結果
+. 頒布方法と様式を決定します
+. 全ての頒布前検証が問題なく完了していることを確実にします。
+
+
+ステップ9頒布
+
+頒布前検証が全て完了したら、対応する製品とバージョンをラベル付けして（このシナリオは、ソース コードを入手可能になることを想定しています。他の方法は後続の章で議論します。）、オープン ソース パッケージを頒布用ウェブサイトにアップロードします。この作業は、コードのダウンロードを希望する人には役に立ちますが、これ自体でライセンス義務を満たしていることにはなりません。更に、推奨プラクティスでは、コンプライアンスやオープン ソースに関係する問い合わせの受付に関する、電子メールや住所などの情報を提供します。
+頒布フェーズの前提条件
+
+全ての頒布前検証がチェックされ、問題が発見されていない。
+
+頒布フェーズの結果
+対象のコンポーネントのソース コードは、頒布用のウェブサイトにアップロードされる。（そういう頒布方法が選択された場合）
+
+ステップ10最終検証
+オープン ソース パッケージを頒布用のウェブサイトにアップロードしたら、パッケージが正しくアップロードされ、ダウンロードでき、エラー無しに外部コンピューターで解凍できることを確認します。もし、パッチを提供する時には、それが容易に適用できること、アップストリーム コンポーネントの適切なバージョンを特定していることを確認します。
+
+
+
+
+
+最終検証フェーズの前提条件
+
+ソース コードはウェブサイト上で公開される。
+
+最終検証の結果
+ソース コードは正しくアップロードされ、ダウンロード可能で、承認されたものと同じバージョンに対応しているという確認結果を受けます。 
