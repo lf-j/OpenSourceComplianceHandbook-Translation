@@ -86,7 +86,7 @@ https://www.jtf.jp/jp/style_guide/pdf/jtf_style_guide.pdf
 
 8．公開方法
 
-・現時点では、本リポジトリにて公開。(TBD)
+・現時点では、本リポジトリにて公開。(正式リリース版の公開については検討中。TBD)
 
 9.　既知の問題
 
