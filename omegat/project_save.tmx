@@ -831,6 +831,15 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Analyze the results provided by the scanning tool
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070252Z" creationid="hfukuchi" creationdate="20170626T070252Z">
+        <seg>スキャンするツールの結果を分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And additional validation is required after source code becomes publicly available.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170328T071528Z" creationid="hfukuchi" creationdate="20170127T083105Z">
@@ -1502,6 +1511,14 @@ source development model began to emerge.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170131T043530Z" creationid="hfukuchi" creationdate="20170131T043530Z">
         <seg>第6章</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 6 provides a discussion of the auditing process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070746Z" creationid="hfukuchi" creationdate="20170626T070746Z">
+        <seg>6章で監査のプロセスについて論じます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2265,6 +2282,14 @@ source development model began to emerge.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Create a final audit report and ensure that all identified issues have been closed</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070337Z" creationid="hfukuchi" creationdate="20170626T070337Z">
+        <seg>最終監査報告書を作成し、特定されたすべての問題が解決されたことを確実にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Create and maintain compliance policies, processes, guidelines, templates, and forms used in the compliance program.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T035145Z" creationid="hfukuchi" creationdate="20170614T035145Z">
@@ -2416,6 +2441,14 @@ source development model began to emerge.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082353Z" creationid="hfukuchi" creationdate="20170614T040148Z">
         <seg>オープンソースとコンプライアンスの訓練を開発し提供。OSRBはオープンソースとコンプライアンスの訓練の開発を主導し、従業員が企業のオープンソースのポリシーやコンプライアンスのプロセスについて良く理解するようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Develop community involvement policy, process, procedures, and guidelines.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T071637Z" creationid="hfukuchi" creationdate="20170626T071637Z">
+        <seg>コミュニティに関与するポリシー、プロセス、手続き、ガイドラインを策定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4852,6 +4885,14 @@ time basis, based on tasks they receive from the OSRB.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In addition, specific to the GPL/LGPL family of licenses, provide a written offer on how to obtain the source code, when applicable.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T071428Z" creationid="hfukuchi" creationdate="20170626T071428Z">
+        <seg>またGPL/LGPLファミリのライセンスの場合には、可能であれば ソースコードを得る方法を書面にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition, the OSRB should educate employees on some of the most common open source licenses and the issues surrounding using open source in commercial contexts.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082400Z" creationid="hfukuchi" creationdate="20170614T040206Z">
@@ -5945,6 +5986,14 @@ department exercise.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LEGAL</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T071711Z" creationid="hfukuchi" creationdate="20170626T071711Z">
+        <seg>法務</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>LESSONS LEARNED</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T002831Z" creationid="hfukuchi" creationdate="20170614T002831Z">
@@ -6304,6 +6353,14 @@ department exercise.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170215T081714Z" creationid="hfukuchi" creationdate="20170215T081714Z">
         <seg>意思伝達</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maintain records of compliance: OSRB is responsible for ensuring that all compliance records for any given open source software component are up to date.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070841Z" creationid="hfukuchi" creationdate="20170626T070841Z">
+        <seg>コンプライアンスの記録を取る：いかなるオープンソースソフトウェアコンポーネントについてもコンプライアンスに関するすべての記録が最新のものとなっていることにOSDBは責任を持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6891,8 +6948,8 @@ department exercise.</seg>
       <tuv lang="EN-US">
         <seg>On a daily basis, OSRB members are involved in the following tasks:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082054Z" creationid="hfukuchi" creationdate="20170614T034912Z">
-        <seg>日々の活動としては、OSDBのメンバーは下記に従事します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070100Z" creationid="hfukuchi" creationdate="20170614T034912Z">
+        <seg>日々の活動としては、OSRBのメンバーは下記に従事します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7507,6 +7564,15 @@ or stored on equivalent media), your work is not complete.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Perform software audits: The OSRB performs audits on all software included in a product, which involves the following tasks:
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070153Z" creationid="hfukuchi" creationdate="20170626T070153Z">
+        <seg>ソフトウェアの監査の実施：OSRBは製品に含まれる全ソフトウェアについて監査を行う。これは下記が含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Performing final verifications in relation to distribution</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170427T063008Z" creationid="hfukuchi" creationdate="20170427T063008Z">
@@ -8027,6 +8093,14 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Recommend new tools to be used as part of the compliance infrastructure that will contribute to making the compliance work more efficient through automation.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T071456Z" creationid="hfukuchi" creationdate="20170626T071456Z">
+        <seg>コンプライアンスの作業をより自動化し効率的にする、コンプライアンスの基盤の一部として利用されるべき新しいツールを推薦。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Recommended practices related to the various building blocks in an open source compliance program.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170328T081112Z" creationid="hfukuchi" creationdate="20170131T071101Z">
@@ -8297,6 +8371,14 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T022711Z" creationid="hfukuchi" creationdate="20170614T022711Z">
         <seg>オープンソースソフトウェアの利用、改変、配布をレビューし承認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Review end-user documentation to ensure that appropriate copyright, attribution, and license notices are given to consumers regarding open source included in the product or the software stack.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070924Z" creationid="hfukuchi" creationdate="20170626T070924Z">
+        <seg>エンドユーザー向け文書をレビューし、製品やソフトウェアスタックに含まれるオープンソースについて、消費者へのコピーライト、帰属、ライセンスの告知が適切であることを確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8659,6 +8741,14 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170123T050415Z" creationid="hfukuchi" creationdate="20170123T050415Z">
         <seg>共有されているヘッダ ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sign off on product distribution from an open source compliance perspective.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T071529Z" creationid="hfukuchi" creationdate="20170626T071529Z">
+        <seg>製品出荷をオープンソースコンプライアンスの観点から承認。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11293,6 +11383,14 @@ distribution checklist.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081811Z" creationid="hfukuchi" creationdate="20170614T022641Z">
         <seg>代表者はその時の作業に応じ、法律顧問から弁護士補助職員まで変化します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This responsibility is not compliance-related; however, it is listed here for completion of the list of responsibilities.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T071706Z" creationid="hfukuchi" creationdate="20170626T071706Z">
+        <seg>これはコンプライアンスではないが、責任ある事柄のリストの完全性という観点で挙げておく。</seg>
       </tuv>
     </tu>
     <tu>

@@ -1076,7 +1076,7 @@ OSRBは下記に責任を持ちます。
 . プロプラエタリな知財（引いては製品の差異化）を、オープンソースのライセンスがプロプラエタリな、またはサードパーティのソフトウェアに確かに及ばないようにすることで防御
 
 
-日々の活動としては、OSDBのメンバーは下記に従事します。
+日々の活動としては、OSRBのメンバーは下記に従事します。
 
 . エンドツーエンド（端から端まで）のコンプライアンスプロセスの確立します。OSRBはエンドツーエンドのコンプライアンスプロセス、すなわち利用、監査、開発、関与、保障、コンプライアンス管理に責任を持ちます。エンドツーエンドのコンプライアンスプログラムについては4章で概観します。
 . コンプライアンスプログラムで使われるコンプライアンスポリシー、プロセス、ガイドライン、テンプレート、フォームを作成し保守 
@@ -1085,13 +1085,11 @@ OSRBは下記に責任を持ちます。
 
 
 
-. オープンソースの利用、改変、配布の申請をレビューする。OSRBはエンジニアリングや製品部門からのオープンソース利用申請 をレビューし承認します。利用のプロセスは6章で論じます。. Perform software audits: The OSRB performs audits on all software included in a product, which involves the following tasks:
-. ソフトウェアベースに対しソースコードをスキャンするツールを適用Analyze the results provided by the scanning tool
-. スキャンのツールで発見されたコード合致 、潜在的な合致、ライセンスの衝突を識別 . スキャンのツールで特定されたすべての問題が解決することを監督
-. Create a final audit report and ensure that all identified issues have been closed
+. オープンソースの利用、改変、配布の申請をレビューする。OSRBはエンジニアリングや製品部門からのオープンソース利用申請 をレビューし承認します。利用のプロセスは6章で論じます。. ソフトウェアの監査の実施：OSRBは製品に含まれる全ソフトウェアについて監査を行う。これは下記が含まれます。ソフトウェアベースに対しソースコードをスキャンするツールを適用スキャンするツールの結果を分析スキャンのツールで発見されたコード合致 、潜在的な合致、ライセンスの衝突を識別 . スキャンのツールで特定されたすべての問題が解決することを監督
+. 最終監査報告書を作成し、特定されたすべての問題が解決されたことを確実にする
 
 
-監査はOSRBか独立した監査チームかが組織の規模に応じて責任を持ち、コンプライアンスオフィサーに報告します。Chapter 6 provides a discussion of the auditing process.
+監査はOSRBか独立した監査チームかが組織の規模に応じて責任を持ち、コンプライアンスオフィサーに報告します。6章で監査のプロセスについて論じます。
 
 . アーキテクチャのレビュー実行。承認過程の一つとして、OSRBはエンジニアリング部門の代表と共にアーキテクチャをレビューし、オープンソースのソースコード、プロプラエタリのコード 、サードパーティのソースコードの関係を解析します。本レビューの目的は、アーキテクチャのガイドラインが尊重され、オープンソース、プロプラエタリ、サードパーティのソフトウェアの関係が、現場が受け入れ可能な法的ガイドラインの範囲内に収まっていることを確認することです。. リンク解析をレビュー。OSRBはAPI呼び出し等によるリンク関係により、何らかのオープンソースのライセンス上の義務がプロプラエタリやサードパーティのソフトウェアに広がっていないかの確認のためリンク解析を行います。
 
@@ -1110,12 +1108,12 @@ OSRBは下記に責任を持ちます。
 
 
 
-. コンプライアンスの質問を取扱う。OSRBは企業に送付されたオープンソースのコンプライアンスに関わるあらゆる質問に答える責任があります。第9章でコンプライアンスの質問を扱うプロセスを述べます。. Maintain records of compliance: OSRB is responsible for ensuring that all compliance records for any given open source software component are up to date.
-. Review end-user documentation to ensure that appropriate copyright, attribution, and license notices are given to consumers regarding open source included in the product or the software stack. In addition, specific to the GPL/LGPL family of licenses, provide a written offer on how to obtain the source code, when applicable.
-. Recommend new tools to be used as part of the compliance infrastructure that will contribute to making the compliance work more efficient through automation.
-. Sign off on product distribution from an open source compliance perspective. . Develop community involvement policy, process, procedures, and guidelines. This responsibility is not compliance-related; however, it is listed here for completion of the list of responsibilities. 
+. コンプライアンスの質問を取扱う。OSRBは企業に送付されたオープンソースのコンプライアンスに関わるあらゆる質問に答える責任があります。第9章でコンプライアンスの質問を扱うプロセスを述べます。. コンプライアンスの記録を取る：いかなるオープンソースソフトウェアコンポーネントについてもコンプライアンスに関するすべての記録が最新のものとなっていることにOSDBは責任を持ちます。
+. エンドユーザー向け文書をレビューし、製品やソフトウェアスタックに含まれるオープンソースについて、消費者へのコピーライト、帰属、ライセンスの告知が適切であることを確認します。またGPL/LGPLファミリのライセンスの場合には、可能であれば ソースコードを得る方法を書面にします。
+. コンプライアンスの作業をより自動化し効率的にする、コンプライアンスの基盤の一部として利用されるべき新しいツールを推薦。
+. 製品出荷をオープンソースコンプライアンスの観点から承認。. コミュニティに関与するポリシー、プロセス、手続き、ガイドラインを策定。これはコンプライアンスではないが、責任ある事柄のリストの完全性という観点で挙げておく。 
 
-LEGAL
+法務
 
 The Legal Counsel is a core member of the OSRB, the committee that ensures compliance with open source licenses. The Legal Counsel focuses on four essential duties:
 
