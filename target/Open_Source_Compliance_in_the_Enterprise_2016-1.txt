@@ -1115,53 +1115,50 @@ OSRBは下記に責任を持ちます。
 
 法務
 
-The Legal Counsel is a core member of the OSRB, the committee that ensures compliance with open source licenses. The Legal Counsel focuses on four essential duties:
+法律顧問はオープンソースライセンスへのコンプライアンスを確かなものとする委員会 、OSDBのコアメンバーです。法律顧問は４つの必須の義務があります。
 
-1. Provide approval regarding the use of open source in products or services
-The approval of the Legal Counsel is required when using open source in a commercial product. Typically, the Legal Counsel reviews the compliance ticket in the online tracking system (for instance, JIRA or Bugzilla), the resulting report from the source code scanning tool, and the license 
-
-
-
-
-information provided with the source code package. They then evaluate risk factors based on feedback provided by both engineering and the open source compliance officer. As part of this exercise, the Legal Counsel also decides on incoming and outgoing licenses of the software component in question. The incoming licenses are the licenses of all source code included in a given body of code; the outgoing licenses are the licenses under which the source code and/or object files are being made available to its recipients.
-2. Advise on open source licensing
-. Offer guidance about open source license obligations. . Advise on licensing conflicts arising from incompatible or conflicting licenses primarily based on company policy, which is some cases rely on external factors such as legal opinions of relevant open source organizations.
-. Advise on IP issues associated with the use of open source. This is especially the case when the company is about to release previously proprietary source code under open source license(s).
-. Provide recommendations and guidance to engineering teams on open source questions and concerns.
-
-
-
-3. Review and approve updates to end-user documentation
-This form of legal support is related to ensuring that appropriate open source notices (copyright, attributions, and license notices) are provided to consumers in relation to any open source included in the product. In addition, if there is source code licensed under one of the GPL/LGPL family of licenses, a written offer needs to be provided along with information on how to obtain the source code.
+1. 製品やサービスでのオープンソースの利用を承認
+オープンソースを商用製品に用いる時には法律顧問の承認が必要です。典型的には、法律顧問はコンプライアンスチケットを評価します。これはオンライントラッキングシステム (例えばJIRAやBugzilla) 、ソースコードをスキャンするツールの結果報告、 
 
 
 
 
-
-4. Contribute to the startup and ongoing management of the open source compliance program
-
-. Establish and maintain the open source policy and process. . Handle inquiries sent to the company in relation to open source compliance.
-. Provide training around open source licenses, company policies, and guidelines.
-
-
-ENGINEERING AND PRODUCT TEAMS
-
-Engineering and product teams may have one or more representatives who participates in the OSRB, tracks down all compliance-related tasks assigned to engineering, and ensures proper resolution. In parallel, engineering and product teams have several responsibilities with respect to open source compliance:
-
-. Submit requests to use open source software: Engineering and product teams decide what external software to bring into the product baseline, including third-party and open source. Their primary responsibility from a compliance perspective is to submit a usage form for any open source that is planned for inclusion in a product or service. The form describes the intended use of the open source in question and helps construct and maintain a good record of software origin and provenance. . Follow technical compliance guidelines: Engineering and product teams should follow OSRB technical guidelines to architect, design, integrate, and implement source code. The OSRB guidelines typically cover:
-. Common mistakes and how to avoid them
-. Rules to follow when integrating libraries and other middleware to avoid linkage issues that might arise
-
-
-. Development in kernel space versus user space (on Linux), especially with whole-platform development in embedded environments
-. Specific engineering situations that are applicable to open source compliance
+ソースコードのパッケージに添付のライセンス情報を使います。次にリスク要因を、エンジニアとオープンソースコンプライアンスオフィサーからの情報に基づいて評価します。この作業の一環として、法律顧問は対象ソフトウェアコンポーネントについて入ってくる、及び出ていくライセンスについて決定を行います。入ってくるライセンスとは、対象となるコードに含まれるソースコード全てのライセンスのこと です。出ていくライセンスとは、製品やサービスの 受領者が利用できるソースコードやオブジェクトファイルのライセンスのことです。
+2. オープンソースのライセンスについて助言
+. オープンソースライセンス 上の義務についてガイドラインを提供. 互換性がなかったり、衝突するライセンスに由来するライセンスの衝突について第一に企業のポリシーに基づいて助言を行います。これは時として関連するオープンソースの組織の法律上の意見表明になど外部条件に依ることもあります。
+. オープンソースの利用に伴う知財権について助言します。これは特に、企業が元々はプロプラエタリだったソースコードをオープンソースライセンス下で提供するときに問題となります。
+. エンジニアリングチームからのオープンソースについての質問や懸念に対し勧告したり、ガイダンスを提供したりします。
 
 
 
-. Conduct design reviews: Engineering teams should continuously conduct design reviews to discover and remedy any compliance issues in a timely manner. The Compliance Officer drives the design reviews and invites different engineering participants depending on the software component in question.
-. Cooperate with OSRB: Engineering teams must respond promptly to questions asked by the OSRB and cooperate in resolving compliance tickets.
-. Track changes: Maintain a change log for each modified open source component: As part of meeting the open source license obligations and depending on the open source license in questions, some licenses (such as the GPL/LGPL family of licenses) mandate that modified files carry prominent notices stating that you changed the files and the date of the change(s).
-. Prepare source code packages for distribution: Engineering teams prepare the source code packages that will be made available on a public website as part of meeting open source license obligations (other source code distribution methods are discussed in a later chapter). . Integrate compliance milestones as part of the development process: This exercise takes place in collaboration with the OSRB and the Compliance Officer. . Undergo open source training: All engineers must take the available open source training. . Monitor the open source projects to determine whether any bug fixes or security patches have become available, and take responsibility for updating the open source component used in the product. The individual package owner within the organization usually performs this specific task. 
+3. エンドユーザー向け文書のアップデートをレビューし承認
+こうした法務上のサポートは、製品に含まれるすべてのオープンソースについて、適切なオープンソースの告知 (著作権、帰属、ライセンス告知)を確実に消費者に提供するために行います。これに加え、GPL/LGPLファミリのライセンスのいずれかに従ってソースコードがライセンスされるならば、ソースコードを得る方法の情報を書面で提供する必要があります。
+
+
+
+
+
+4. オープンソースコンプライアンスプログラムの立ち上げと継続に貢献
+
+. オープンソースのポリシーとプロセスを確立し維持. オープンソースのコンプライアンスに関連して企業に送付された質問を取り扱う
+. オープンソースのライセンス、企業のポリシー、ガイドラインに関わる訓練を提供
+
+
+エンジニアリングおよび製品チーム
+
+エンジニアリングと製品のチームはOSRBに一人または複数の代表を出し、エンジニアリングチームに割り当てられたコンプライアンス関連のタスク全てを追跡し、適切、確実に解決します。これと並行し、エンジニアリングと製品のチームはオープンソースのコンプライアンスについていくつかの責任を負います。
+
+. オープンソースソフトウェアについて要望を提出：エンジニアリングと製品のチームは製品の基盤として導入すべき外部のソフトウェアを決定します。これはサードパーティやオープンソースのソフトウェアを含みます。コンプライアンスの観点からのチームの主な責任は、製品やサービスに含まれる予定の全オープンソースについて利用申請書類を出すことです。この書類には問題となるオープンソースの利用方法を記述します。これはソフトウェアの起源と由来について良好な記録を構築し維持する助けとなります。. 技術上のコンプライアンスのガイドラインの順守：エンジニアリングと製品のチームはソースコードに関するOSRBの構想、設計、統合、実装についての技術ガイドラインを遵守すべきです。OSRBのガイドラインは通常以下をカバーします。よくあるミスと回避方法リンクにより起き得る問題を回避するため、ライブラリやその他ミドルウェアを統合するときの規則
+
+
+. カーネル空間とユーザー空間のどちらで開発を行うか（Linuxの場合）、特に組み込み環境においてプラットフォーム全体を開発する時オープンソースコンプライアンスに関わり得るエンジニアリング上の特別な状況 
+
+
+
+. 設計のレビュー：エンジニアリングチームは継続的に設計をレビューし、コンプライアンス問題をタイムリーに発見し救済策を講じるべきです。コンプライアンスオフィサーは設計のレビューを主導し、対象となるソフトウェアコンポーネントに応じて異なる参加者をエンジニアリングチームから招きます。
+. OSRBとの協力：エンジニアリングチームはOSRBからの質問に迅速に回答し、コンプライアンスチケットを解決するのに協力しなければなりません。
+. 変更の追跡：変更ログを変更したオープンソースコンポーネント毎に維持管理： オープンソースのライセンス上の義務を満たすため変更ログが必要となります。問題となるライセンスに依りますが、ある種のライセンス（GPL/LGPLファミリーなど）では変更されたファイルには、変更したこととその日付を目立つように付けることを求めています。
+. 配布のためのソースコードパッケージを準備：エンジニアリングチームはライセンスの義務に従って公開のウェブサイトで利用可能とするソースコードパッケージを準備します（これ以外のソースコードの配布方法については後ろの章で論じます）. コンプライアンス上のマイルストーンを開発プロセスの一部に統合：これはOSRBとコンプライアンスオフィサーと協力して行います。. オープンソースの訓練を受ける：すべてのエンジニアは利用できるオープンソースの訓練を受けねばなりません。. オープンソースのプロジェクトをモニタし、バグフィックスやセキュリティパッチが利用可能となったかを判断し、製品で使われているオープンソースコンポーネントのアップデートに責任を持ちます。個々のパッケージの組織内でのオーナーが通常はこの仕事を行います。 
 
 COMPLIANCE OFFICER
 
