@@ -477,6 +477,24 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Act as liaison between OSEC and OSRB
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083933Z" creationid="hfukuchi" creationdate="20170627T083933Z">
+        <seg>OSECとORSBの間の連絡役となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Act as liaison between the engineering and product team and the OSRB and OSEC in regard to usage plan approval processes
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T084006Z" creationid="hfukuchi" creationdate="20170627T084006Z">
+        <seg>オープンソースの利用申請書類の承認について、エンジニアリングおよび製品チームとOSRB、OSECの連絡役となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Action</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170321T053428Z" creationid="hfukuchi" creationdate="20170321T053428Z">
@@ -1394,6 +1412,14 @@ source development model began to emerge.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>COMPLIANCE OFFICER</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083408Z" creationid="hfukuchi" creationdate="20170627T083408Z">
+        <seg>コンプライアンスオフィサー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>COMPLIANCE PROCESS</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170131T071111Z" creationid="hfukuchi" creationdate="20170131T071111Z">
@@ -2178,6 +2204,22 @@ source development model began to emerge.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Contacts in the key open source project communities .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083623Z" creationid="hfukuchi" creationdate="20170627T083623Z">
+        <seg>重要なオープンソースプロジェクトのコミュニティとの人脈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contacts in the open source organizations such as the Linux Foundation, Apache Foundation, Mozilla Foundation, Software Freedom Law Center, etc.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083653Z" creationid="hfukuchi" creationdate="20170627T083653Z">
+        <seg>The Linux Foundation, Apache Foundation, Mozilla Foundation, Software Freedom Law Center (ソフトウェアの自由のための法律センター) などのオープンソースの団体との人脈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Continual scans on the source code base, including that received from third-party software providers, to intercept source code that was checked into the code base without a corresponding compliance ticket.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081057Z" creationid="hfukuchi" creationdate="20170614T015433Z">
@@ -2299,10 +2341,28 @@ source development model began to emerge.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Coordinate source code distribution of open source packages (when stipulated by licenses) with engineering and product teams, including preparing and verifying a distribution checklist for each open source package
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083913Z" creationid="hfukuchi" creationdate="20170627T083843Z">
+        <seg>オープンソースのパッケージのソースコード配布（ライセンスに規定されている場合）についてエンジニアリングおよび製品チームと調整します。これは個々のオープンソースパッケージの配布チェックリストの用意と確認を含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Coordinate source code scans and audits</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T024216Z" creationid="hfukuchi" creationdate="20170614T024216Z">
         <seg>ソースコードのスキャンと監査を調整</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coordinate source code scans and drive all auditing issues to closure
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083803Z" creationid="hfukuchi" creationdate="20170627T083803Z">
+        <seg>ソースコードのスキャン作業を調整し、すべての監査を終わりまで主導する</seg>
       </tuv>
     </tu>
     <tu>
@@ -2730,6 +2790,14 @@ source development model began to emerge.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Drive the compliance due diligence end-to-end process and act as the compliance program manager, ensuring all compliance-related tasks are addressed and there are no compliance issues blocking products from shipping</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083745Z" creationid="hfukuchi" creationdate="20170627T083745Z">
+        <seg>コンプライアンスのエンドツーエンド (端から端まで) のデューデリジェンスプロセスを主導し、コンプライアンスプログラムの管理者として、コンプライアンスに関連する全ての業務が適切に認識され製品出荷を妨げるコンプライアンス上の問題が存在しないようにする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>During legal review, the legal counsel will need to decide on the incoming and outgoing license(s):</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170403T084757Z" creationid="hfukuchi" creationdate="20170117T052758Z">
@@ -3091,6 +3159,14 @@ source development model began to emerge.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170120T054655Z" creationid="hfukuchi" creationdate="20170120T054321Z">
         <seg>新しいソフトウェア コンポーネントをコンプライアンス プロセスに入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Escalate compliance issues to OSEC .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083951Z" creationid="hfukuchi" creationdate="20170627T083951Z">
+        <seg>コンプライアンス上の課題をOSECに上げます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4427,6 +4503,14 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Historical perspective on open source .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083549Z" creationid="hfukuchi" creationdate="20170627T083549Z">
+        <seg>オープンソースについての歴史的な視点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Host and maintain the company’s open source websites: The internal website, intended for employees, focuses on open source processes and policies, guidelines, training, and announcements.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082413Z" creationid="hfukuchi" creationdate="20170614T040304Z">
@@ -4560,6 +4644,14 @@ time basis, based on tasks they receive from the OSRB.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170331T074820Z" creationid="hfukuchi" creationdate="20170316T093901Z">
         <seg>イブラヒム ハダッド（Ph.D.） は、Samsung Electronics Co. Ltd.（韓国）のR&amp;Dに関する100%子会社であるSamsung Research AmericaのR&amp;D担当副社長で、オープン ソース グループ長です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ideally, the compliance officer must possess as many as possible of the following:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083441Z" creationid="hfukuchi" creationdate="20170627T083441Z">
+        <seg>理想としてはコンプライアンスオフィサーは下記を出来る限り備えている必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4987,6 +5079,14 @@ time basis, based on tasks they receive from the OSRB.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074725Z" creationid="hfukuchi" creationdate="20170614T010623Z">
         <seg>後ろの章で、オープンソースコンプライアンスに対する照会を扱うシンプルなプロセスについて述べます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to the responsibilities pertaining to the OSRB, the Compliance Officer carries the following duties:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083713Z" creationid="hfukuchi" creationdate="20170627T083713Z">
+        <seg>OSRBに帰属する責任に加え、コンプライアンスオフィサーは以下の義務がある。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6112,6 +6212,23 @@ department exercise.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170120T054003Z" creationid="hfukuchi" creationdate="20170120T054003Z">
         <seg>この情報を知ることで、インクリメンタル コンプライアンスの達成は、比較的容易なタスクになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Knowledge and experience in establishing corporate-wide policies and processes .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083514Z" creationid="hfukuchi" creationdate="20170627T083514Z">
+        <seg>企業全体のポリシーとプロセスを確立できる知識と経験</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Knowledge of community consensus and practices
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083607Z" creationid="hfukuchi" creationdate="20170627T083607Z">
+        <seg>コミュニティのコンセンサスと慣行の知識</seg>
       </tuv>
     </tu>
     <tu>
@@ -7653,6 +7770,15 @@ or stored on equivalent media), your work is not complete.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Participate in engineering design reviews, code inspections, and distribution readiness assessments to assure that the engineering and product teams follow all compliance processes and policies and conform to the approved OSRB usage form
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083825Z" creationid="hfukuchi" creationdate="20170627T083825Z">
+        <seg>エンジニアリングチームによる設計のレビュー、コードの検査、配布可能化の評価に参加し、エンジニアリングおよび製品チームがコンプライアンスの全プロセスとポリシーに従っていること、OSRB承認済の利用申請書類に適合することを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Participation in open source events and conferences: Participation can be at various levels ranging from sponsoring an event, to contributing presentations and publications, or simply sending developers to attend and meet open source developers and foster new relationships with open source community members</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080948Z" creationid="hfukuchi" creationdate="20170614T015052Z">
@@ -8383,6 +8509,14 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Report on compliance activities to the OSEC, including flagging issues that prevent shipping a product or service</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T084024Z" creationid="hfukuchi" creationdate="20170627T084024Z">
+        <seg>コンプライアンス活動についてOSECに報告します。これは製品やサービスの出荷を妨げている課題の注意喚起を含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Report to OSEC on compliance activities</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T024328Z" creationid="hfukuchi" creationdate="20170614T024328Z">
@@ -9041,6 +9175,15 @@ party shrink-wrap</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170403T074302Z" creationid="hfukuchi" creationdate="20170112T024143Z">
         <seg>サード パーティ企業から受け取るソフトウェアは、含まれているオープン ソースを全て特定しなければなりません。このことは、製品出荷前までにライセンス義務を実施することを確実にしてくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Solid understanding of common open source licenses and obligations to discuss with legal counsel Knowledge of industry practices
+.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083458Z" creationid="hfukuchi" creationdate="20170627T083458Z">
+        <seg>法律顧問の業界慣行の知識と討議できる、一般的なオープンソースラインセンスと義務について確たる理解</seg>
       </tuv>
     </tu>
     <tu>
@@ -9814,6 +9957,14 @@ distribution checklist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Technical knowledge related to the company’s products .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083535Z" creationid="hfukuchi" creationdate="20170627T083535Z">
+        <seg>企業の製品についての技術的知識</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Template for architectural diagram (applies to an embedded environment that relies on C or C++)</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170327T084848Z" creationid="hfukuchi" creationdate="20170123T053027Z">
@@ -9859,6 +10010,14 @@ distribution checklist.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170508T051908Z" creationid="hfukuchi" creationdate="20170508T050018Z">
         <seg>コンプライアンス オフィサーは、これらの課題解決を推進します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Compliance Officer, also called OSRB Chair or Manager/Director of Open Source, chairs the OSRB and manages the compliance program.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083424Z" creationid="hfukuchi" creationdate="20170627T083424Z">
+        <seg>コンプライアンスオフィサーはOSRB議長やオープンソース部長/役員とも呼ばれます。OSRBの議長でありコンプライアンスプログラムを管理します。</seg>
       </tuv>
     </tu>
     <tu>

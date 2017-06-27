@@ -1160,30 +1160,23 @@ OSRBは下記に責任を持ちます。
 . 変更の追跡：変更ログを変更したオープンソースコンポーネント毎に維持管理： オープンソースのライセンス上の義務を満たすため変更ログが必要となります。問題となるライセンスに依りますが、ある種のライセンス（GPL/LGPLファミリーなど）では変更されたファイルには、変更したこととその日付を目立つように付けることを求めています。
 . 配布のためのソースコードパッケージを準備：エンジニアリングチームはライセンスの義務に従って公開のウェブサイトで利用可能とするソースコードパッケージを準備します（これ以外のソースコードの配布方法については後ろの章で論じます）. コンプライアンス上のマイルストーンを開発プロセスの一部に統合：これはOSRBとコンプライアンスオフィサーと協力して行います。. オープンソースの訓練を受ける：すべてのエンジニアは利用できるオープンソースの訓練を受けねばなりません。. オープンソースのプロジェクトをモニタし、バグフィックスやセキュリティパッチが利用可能となったかを判断し、製品で使われているオープンソースコンポーネントのアップデートに責任を持ちます。個々のパッケージの組織内でのオーナーが通常はこの仕事を行います。 
 
-COMPLIANCE OFFICER
+コンプライアンスオフィサー
 
-The Compliance Officer, also called OSRB Chair or Manager/Director of Open Source, chairs the OSRB and manages the compliance program.
-Ideally, the compliance officer must possess as many as possible of the following:
+コンプライアンスオフィサーはOSRB議長やオープンソース部長/役員とも呼ばれます。OSRBの議長でありコンプライアンスプログラムを管理します。
+理想としてはコンプライアンスオフィサーは下記を出来る限り備えている必要があります。
 
-. Solid understanding of common open source licenses and obligations to discuss with legal counsel Knowledge of industry practices
-. Knowledge and experience in establishing corporate-wide policies and processes . Technical knowledge related to the company’s products . Historical perspective on open source . Knowledge of community consensus and practices
-. Contacts in the key open source project communities . Contacts in the open source organizations such as the Linux Foundation, Apache Foundation, Mozilla Foundation, Software Freedom Law Center, etc. 
+. 法律顧問の業界慣行の知識と討議できる、一般的なオープンソースラインセンスと義務について確たる理解企業全体のポリシーとプロセスを確立できる知識と経験企業の製品についての技術的知識オープンソースについての歴史的な視点コミュニティのコンセンサスと慣行の知識重要なオープンソースプロジェクトのコミュニティとの人脈The Linux Foundation, Apache Foundation, Mozilla Foundation, Software Freedom Law Center (ソフトウェアの自由のための法律センター) などのオープンソースの団体との人脈 
 
-In addition to the responsibilities pertaining to the OSRB, the Compliance Officer carries the following duties:
+OSRBに帰属する責任に加え、コンプライアンスオフィサーは以下の義務がある。
 
-. Drive the compliance due diligence end-to-end process and act as the compliance program manager, ensuring all compliance-related tasks are addressed and there are no compliance issues blocking products from shipping
+. コンプライアンスのエンドツーエンド (端から端まで) のデューデリジェンスプロセスを主導し、コンプライアンスプログラムの管理者として、コンプライアンスに関連する全ての業務が適切に認識され製品出荷を妨げるコンプライアンス上の問題が存在しないようにする
 
 
 
 
 
 
-. Coordinate source code scans and drive all auditing issues to closure
-. Participate in engineering design reviews, code inspections, and distribution readiness assessments to assure that the engineering and product teams follow all compliance processes and policies and conform to the approved OSRB usage form
-. Coordinate source code distribution of open source packages (when stipulated by licenses) with engineering and product teams, including preparing and verifying a distribution checklist for each open source package
-. Act as liaison between OSEC and OSRB
-. Escalate compliance issues to OSEC . Act as liaison between the engineering and product team and the OSRB and OSEC in regard to usage plan approval processes
-. Report on compliance activities to the OSEC, including flagging issues that prevent shipping a product or service
+. ソースコードのスキャン作業を調整し、すべての監査を終わりまで主導するエンジニアリングチームによる設計のレビュー、コードの検査、配布可能化の評価に参加し、エンジニアリングおよび製品チームがコンプライアンスの全プロセスとポリシーに従っていること、OSRB承認済の利用申請書類に適合することを確認します。オープンソースのパッケージのソースコード配布（ライセンスに規定されている場合）についてエンジニアリングおよび製品チームと調整します。これは個々のオープンソースパッケージの配布チェックリストの用意と確認を含みます。OSECとORSBの間の連絡役となります。コンプライアンス上の課題をOSECに上げます。オープンソースの利用申請書類の承認について、エンジニアリングおよび製品チームとOSRB、OSECの連絡役となります。コンプライアンス活動についてOSECに報告します。これは製品やサービスの出荷を妨げている課題の注意喚起を含みます。
 
 
 OPEN SOURCE EXECUTIVE COMMITTEE
