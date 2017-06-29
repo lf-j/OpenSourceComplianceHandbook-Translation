@@ -4786,8 +4786,8 @@ time basis, based on tasks they receive from the OSRB.</seg>
       <tuv lang="EN-US">
         <seg>I hope you find it useful in your day-to-day drive to achieve open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T064336Z" creationid="hfukuchi" creationdate="20170629T064336Z">
-        <seg>オープン ソース コンプライアンスを推進する日々の活動に役立つことを願っています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T085604Z" creationid="hfukuchi" creationdate="20170629T064336Z">
+        <seg>オープン ソース コンプライアンスを推進する皆様の日々の活動に役立てられることを願っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7137,8 +7137,8 @@ department exercise.</seg>
       <tuv lang="EN-US">
         <seg>My involvement with open source compliance started early in my career as a software developer, and has been a part of my job directly or indirectly for two decades now.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T055643Z" creationid="hfukuchi" creationdate="20170629T055643Z">
-        <seg>私がオープン ソース コンプライアンスに携わり始めたのは、ソフトウェア開発者であった私のキャリアの早い時期で、今に至る20年の間、オープン ソース コンプライアンスは、直接間接に私の仕事の一部であり続けています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T085302Z" creationid="hfukuchi" creationdate="20170629T055643Z">
+        <seg>私がオープン ソース コンプライアンスに携わり始めたのは、ソフトウェア開発者としてキャリアを始めた早い時期で、今に至る20年の間、オープン ソース コンプライアンスは、直接間接に私の仕事の一部であり続けています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9484,8 +9484,8 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
       <tuv lang="EN-US">
         <seg>Since most of my experience was focused in the embedded space (with C and C++ being the dominant programming languages), this emphasis comes across throughout this handbook.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T064238Z" creationid="hfukuchi" creationdate="20170629T064238Z">
-        <seg>私の経験のほとんどは、組み込み系の世界（CやC++が主なプログラミング言語）に注力してきましたので、このことがこのハンドブック全体を通して強調して現れます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T085515Z" creationid="hfukuchi" creationdate="20170629T064238Z">
+        <seg>私の経験のほとんどは、組み込み系の世界（CやC++が主なプログラミング言語）に注力してきましたので、この影響がこのハンドブック全体を通して強く現れています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12424,8 +12424,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>Throughout my journey working with open source software, it was difficult to find practical references on open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T060448Z" creationid="hfukuchi" creationdate="20170629T055959Z">
-        <seg>オープン ソース ソフトウェアに取り組み続けた期間を通じて、オープン ソース コンプライアンスに関して実践参考例を見つけることは難しいことでした。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T085346Z" creationid="hfukuchi" creationdate="20170629T055959Z">
+        <seg>オープン ソース ソフトウェアに取り組み続けた旅のような期間を通じて、オープン ソース コンプライアンスに関する実践参考例を見つけることは難しいことでした。</seg>
       </tuv>
     </tu>
     <tu>
