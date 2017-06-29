@@ -1,10 +1,10 @@
-OPEN SOURCE COMPLIANCE IN THE ENTERPRISE
+企業におけるオープン ソース コンプライアンス
 
 
 Ibrahim Haddad, PhD
 
 
-This page intentionally left blank.
+このページは意図的に空白にしてあります。
 
 
 Ibrahim Haddad, Ph.D.
@@ -13,7 +13,7 @@ The Linux Foundation
 
 2016
 
-Open Source Compliance in the Enterprise
+企業におけるオープン ソース コンプライアンス
 
 
 
@@ -30,16 +30,16 @@ All rights reserved
 5
 
 
-Contents
+目次
 
 
-Chapter 1 INTRODUCTION TO OPEN SOURCE COMPLIANCE 16
+第1章 第1章	オープン ソース コンプライアンス入門
 
-A CHANGING BUSINESS ENVIRONMENT 16
+変わりゆくビジネス環境 16
 
-ENTER OPEN SOURCE COMPLIANCE 19
+オープンソースコンプライアンス手始め 19
 
-Benefits of Ensuring Open Source Compliance 20
+オープンソースのコンプライアンスを保証する利点 20
 
 FAILURE TO COMPLY 21
 
@@ -554,7 +554,7 @@ C++ source code)
 
 表２にソフトウェア開発プロセスでの最も一般的なライセンスコンプライアンス問題の例、および回避方法を示します。
 
-表2Examples of license compliance problems and how to avoid them
+表2ライセンスコンプライアンス問題の例と回避方法
 問題の類型
 
 回避方法
@@ -604,7 +604,7 @@ C++ source code)
 
 
 
-表3Sample process compliance failures
+表3コンプライアンスプロセス上の失敗の例
 失敗
 
 回避方法
@@ -643,7 +643,7 @@ Conduct periodic full scans of software platform to detect any OS not correspond
 
 
 得た教訓
-この数年で明るみに出たコンプライアンス違反が数件ありました。そうしたコンプライアンス違反の法的な決着を通じて、オープンソースのプロフェッショナル達は次のような教訓を学びつつあります。lessons that we will explore in following subsections.
+この数年で明るみに出たコンプライアンス違反が数件ありました。そうしたコンプライアンス違反の法的な決着を通じて、オープンソースのプロフェッショナル達は次のような教訓を学びつつあります。
 
 製品出荷やサービス立ち上げに先立ちコンプライアンスを確実に行う
 
@@ -1061,9 +1061,9 @@ OSRBの要請に応じ、新しいツールを作成、入手
 参加者
 主な役割と責任
 
-Corporate Development 
-Request open source compliance be completed before a merger or acquisition 
-Request open source compliance be completed when receiving source code from outsourced development centers or third-party software vendors
+企業買収
+会社の合併や吸収買収に先立ちオープンソースコンプライアンスが完了するよう要請
+外部委託した開発会ハウセンター、またはサードパーティのソフトウェアベンダーからソースコードを受領するに先立ちオープンソースコンプライアンスが完了するよう要請 
 
 
 
