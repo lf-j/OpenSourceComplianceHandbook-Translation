@@ -313,31 +313,31 @@ CONCLUSION 146
 
 序文（Preface）
 
-私がオープン ソース コンプライアンスに携わり始めたのは、ソフトウェア開発者としてキャリアを始めた早い時期で、今に至る20年の間、オープン ソース コンプライアンスは、直接間接に私の仕事の一部であり続けています。オープン ソース ソフトウェアに取り組み続けた旅のような期間を通じて、オープン ソース コンプライアンスに関する実践参考例を見つけることは難しいことでした。私の興味は、自分自身の経験を広く利用できるようにすることに注がれました。そうすれば、他の人もその経験から学んで彼らの経験を公開し、業界として、我々はオープン ソース コンプライアンスを達成する良い方法を目指して励み、そうしながらエンジニアリング リソースや製品出荷に要する期間を最小化することができるわけです。
-このハンドブックは、企業においてオープン ソース コンプライアンスを推進してきた私の経験をまとめたもので、オープン ソース コンプライアンスを構築し維持する実践的な面に焦点を当てています。私の経験のほとんどは、組み込み系の世界（CやC++が主なプログラミング言語）に注力してきましたので、この影響がこのハンドブック全体を通して強く現れています。
-オープン ソース コンプライアンスを推進する皆様の日々の活動に役立てられることを願っています。 
+私がオープン ソース コンプライアンスに携わり始めたのは、ソフトウェア開発者としてキャリアを始めた早い時期で、今に至る20年の間、オープン ソース コンプライアンスは、直接間接に私の仕事の一部であり続けています。オープン ソース ソフトウェアに取り組み続けた旅のような期間を通じて、オープン ソース コンプライアンスに関する実践参考例を見つけることは難しいことでした。私の興味は、自分自身の経験を広く利用できるようにすることに注がれていきました。そうすれば、他の人も私の経験から学んでさらに彼らの経験を公開し、業界として、私たちはオープン ソース コンプライアンスを達成する良い方法を目指して励み、そうしながらエンジニアリング リソースや製品出荷に要する期間を最小化することができるわけです。
+このハンドブックは、企業の中でオープン ソース コンプライアンスを推進してきた私の経験をまとめたもので、オープン ソース コンプライアンスを構築し維持する実践的な面に焦点を当てています。私の経験のほとんどは、組み込み系の世界（CやC++が主なプログラミング言語）に注力してきましたので、その影響がこのハンドブック全体を通して強く現れています。
+この本がオープン ソース コンプライアンスを推進する皆様の日々の活動に役立てられることを願っています。 
 
 
 
 
 序文（Foreword）
 
-Open source has expanded not only from an idealistic movement led by individuals around software and intellectual property but from one where organizations (e.g., governments, companies, and universities) realize that open source is a key part of their IT strategy and want to participate in its development. Early success in Linux and other open source technologies has spread to all areas of technology.
+オープン ソースは、ソフトウェアや知的財産に関わる個人によってリードされた理想主義的な運動からばかりでなく、オープン ソースがIT戦略における主要な部分であると認識して、オープン ソース開発に参加したいと考えているような（政府、企業、大学などの）組織における活動によっても、広がってきています。Linuxや他のオープン ソース技術における初期段階の成功は、技術の全ての分野にも広がってきています。
 
-More traditional organizations are also taking notice; they are making open source software a priority and using the software for strategic advantage in their operations.
-Use of open source in enterprise IT has doubled since 2010.
+伝統的な組織も注目しています。オープンソース ソフトウェアを優先度の高い項目に挙げ、ソフトウェアを組織活動で戦略的優位を得るために使っています。
+エンタープライズITでのオープン ソースの利用は、2010年から倍増しています。
 
-78% of surveyed companies run their businesses on open source.
+調査した企業の78%は、オープン ソース上でビジネスを運用しています。
 
-64% currently participate in open source projects.
+64%が、現在、オープン ソース プロジェクトに参加しています。
 
-39% plan to launch their own open source projects.
+39%が、自社のオープン ソース プロジェクトを立ち上げています。
 
 North Bridge & Black Duck
-“The 2015 Future of Open Source Survey”
+「2015年オープン ソースの未来調査」
 
-“Open Source First: Simply put, any solution developed using taxpayer dollars should be in the taxpayer’s domain (open source). At GSA, we believe that all code we developed should be shared under an open license so others may benefit from it. In addition, we will give priority to using open source software as we design now solutions.”
-Office of the CIO, U.S. General Services Administration (U.S. agency that oversees $66 billion of procurement annually)
+「オープン ソース ファースト：納税者のお金で開発された全てのソリューションは、納税者のものに（オープン ソース）」GSAにおいて開発された全てのコードは、オープン ライセンスのもとに共有されるべきであり、他の人々はそれから便益を受けることができます。加えて、自分たちが設計したソリューションとしてのオープン ソース ソフトウェアを優先的に利用していきます。
+Office of the CIO, 米国連邦調達庁（年間660億ドルの調達を行う米国政府機関）
 
  
 
