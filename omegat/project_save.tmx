@@ -1420,6 +1420,14 @@ source development model began to emerge.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By bringing efforts together to establish a common platform and utilizing open source best practices, we’re able to build the foundation for a new era of drone applications that extend from the camera to the cloud.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T051144Z" creationid="hfukuchi" creationdate="20170703T051144Z">
+        <seg>共通プラットフォームを確立するために共に努力し、オープン ソース ベスト プラクティスを利用することで、カメラからクラウドにまで広がるドローン アプリケーションの基盤を確立することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By scanning source code.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170613T091051Z" creationid="hfukuchi" creationdate="20170613T091051Z">
@@ -1689,6 +1697,16 @@ source development model began to emerge.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170329T074638Z" creationid="hfukuchi" creationdate="20170315T091617Z">
         <seg>チェックリスト：開発やコンプライアンスのプロセスの全てのポイントで必要なことは何かを覚えておくための、一貫性のある、極めて簡単な方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chris Anderson, CEO, 3DR
+(Former Editor in Chief of Wired magazine and author of “The Long Tail”)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T051530Z" creationid="hfukuchi" creationdate="20170703T051530Z">
+        <seg>Chris Anderson, CEO, 3DR
+（ワイアード マガジン 前編集長、「ロング テール」著者）</seg>
       </tuv>
     </tu>
     <tu>
@@ -6295,6 +6313,14 @@ In this example, the compliance team identifies all open source included in the 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It emerges at an important time, as the industry strives to be leaner, more efficient, and more digital.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T031436Z" creationid="hfukuchi" creationdate="20170703T031251Z">
+        <seg>業界が、もっと積極的に、もっと効率的に、もっとディジタル化を促進しようと努力している、そういう重要な時期に現れています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It improves the efficiency of processing incremental, scans since it reduces the delta of source code that needs to be scanned from previous source code scans.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170328T082414Z" creationid="hfukuchi" creationdate="20170201T092214Z">
@@ -6476,6 +6502,14 @@ department exercise.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170512T085815Z" creationid="hfukuchi" creationdate="20170512T085815Z">
         <seg>ソフトウェア コンポーネントは、オープン ソース利用とユースケースを記録したソフトウェア一覧表に加えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s a powerful approach that lets people work together to build great solutions while realizing shared benefits.”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052651Z" creationid="hfukuchi" creationdate="20170703T052651Z">
+        <seg>偉大なソリューションを構築するために、人々を共に作業させるパワフルなアプローチです。そこからは実際にメリットが共有されます。」</seg>
       </tuv>
     </tu>
     <tu>
@@ -7574,8 +7608,8 @@ department exercise.</seg>
       <tuv lang="EN-US">
         <seg>Office of the CIO, U.S. General Services Administration (U.S. agency that oversees $66 billion of procurement annually)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T083659Z" creationid="hfukuchi" creationdate="20170630T083659Z">
-        <seg>Office of the CIO, 米国連邦調達庁（年間660億ドルの調達を行う米国政府機関）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T030624Z" creationid="hfukuchi" creationdate="20170630T083659Z">
+        <seg>CIOオフィス, 米国連邦調達庁（年間660億ドルの調達を行う米国政府機関）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7911,6 +7945,15 @@ or stored on equivalent media), your work is not complete.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open source development will accelerate the innovation and help drive the scalability of this technology, and we are proud
+to support the Hyperledger Project.”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T032746Z" creationid="hfukuchi" creationdate="20170703T031808Z">
+        <seg>オープン ソース開発は、イノベーションを加速させ、この技術の大規模な利用の促進を助けてくれるでしょう。我々はHyperledgerプロジェクトをサポートしていることに誇りを感じています。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open source has expanded not only from an idealistic movement led by individuals around software and intellectual property but from one where organizations (e.g., governments, companies, and universities) realize that open source is a key part of their IT strategy and want to participate in its development.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170630T073253Z" creationid="hfukuchi" creationdate="20170630T072920Z">
@@ -7972,6 +8015,14 @@ or stored on equivalent media), your work is not complete.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081012Z" creationid="hfukuchi" creationdate="20170614T015332Z">
         <seg>組織は初期のコンプライアンスを以下の活動を通じて達成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Organizations are looking for guidance on how best to participate appropriately in open source communities and to do so in a legal and responsible way.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T055107Z" creationid="hfukuchi" creationdate="20170703T053554Z">
+        <seg>組織は、オープン ソース コミュニティへの適切な参加や、法的で責任あるやり方での参加の最善な方法についてのガイダンスを探しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8169,6 +8220,22 @@ or stored on equivalent media), your work is not complete.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T022444Z" creationid="hfukuchi" creationdate="20170614T022444Z">
         <seg>参加者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Participants need expertise to train them how to collaborate with their competitors in an effective manner.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T060106Z" creationid="hfukuchi" creationdate="20170703T054712Z">
+        <seg>参加者は、効果的な方法で、自分の競争者といかに協力するかについてのトレーニングを必要としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Participants want to share their code and IP, and they need a trusted neutral home for IP assets (trademark, copyright, patents).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T060157Z" creationid="hfukuchi" creationdate="20170703T054322Z">
+        <seg>参加者は、コードとIPを共有することを望み、IP資産（商標、著作権、特許）のための、信頼のおける中立的な管理場所を必要としています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10497,6 +10564,14 @@ distribution checklist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Dronecode ‘full-stack’ platform approach, combined with the hardware and software innovations of its members, will bring about a new generation of drones that are autonomous, aware of their environments, and continuously connected .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052156Z" creationid="hfukuchi" creationdate="20170703T051339Z">
+        <seg>Dronecodeの「フルスタック」プラットフォーム アプローチは、メンバーのハードウェアとソフトウェアのイノベーションを結合しており、自律的で、環境を認識し、継続的にネット接続されている新世代ドローンを作り出すことでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The GPL and LGPL are examples of licenses in this category.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170306T084934Z" creationid="hfukuchi" creationdate="20170306T084934Z">
@@ -12078,6 +12153,14 @@ distribution checklist.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They also need a framework to pool resources (financial, technical, etc.).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T054444Z" creationid="hfukuchi" creationdate="20170703T054444Z">
+        <seg>リソース プール（財政、技術）のフレームワークを必要としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They provide easy-to-understand information about these licenses, such as license grants, restrictions, obligations, patent impact, and more.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170316T090205Z" creationid="hfukuchi" creationdate="20170316T090029Z">
@@ -12572,6 +12655,14 @@ distribution checklist.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073917Z" creationid="hfukuchi" creationdate="20170614T003259Z">
         <seg>そのためには企業はオープンソースを管理するインフラを末端まで構築し下記を行う必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To that end, this book is geared to creating a shared understanding on the best ways to create shared value and innovation while adhering to the spirit and legal particulars of open source licensing.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T055956Z" creationid="hfukuchi" creationdate="20170703T055011Z">
+        <seg>そのためにも、本書は、オープン ソース ライセンスの精神と法的項目を固守しながらも、共有される価値とイノベーションを創造する最善の方法について共有理解を作り出すことに焦点を合わせています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13297,6 +13388,14 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>an airborne Internet of Things.”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052208Z" creationid="hfukuchi" creationdate="20170703T051402Z">
+        <seg>それは、飛行するIoTです。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>and M.Sc.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170403T073804Z" creationid="hfukuchi" creationdate="20170322T093203Z">
@@ -13425,6 +13524,14 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>“From increasing member investments to a growing, vibrant developer community, the Dronecode Project’s first year has been extremely exciting.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T050756Z" creationid="hfukuchi" creationdate="20170703T050756Z">
+        <seg>「成長し活気ある開発コミュニティへのメンバー投資から、Dronecodeプロジェクトの初年度はかなりエキサイティングなものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>“Must include a copy of the license in documentation available to the end user”</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170310T081648Z" creationid="hfukuchi" creationdate="20170310T081648Z">
@@ -13449,10 +13556,26 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>“Open source is essential to our development process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052306Z" creationid="hfukuchi" creationdate="20170703T052306Z">
+        <seg>「オープン ソースは、我々の開発に本質的なものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>“Scan early and often” follows the same spirit.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170201T084654Z" creationid="hfukuchi" creationdate="20170201T084654Z">
         <seg>「早めに、そして頻繁にスキャン“Scan early and often”」は、同じ精神に従っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>“The development of Blockchain technology has the potential to redefine the operations and economics of the financial services industry.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T031338Z" creationid="hfukuchi" creationdate="20170703T030831Z">
+        <seg>「ブロックチェーン技術の開発は、金融サービス業界の業務や経済構造を再定義する可能性を秘めています。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
