@@ -1704,8 +1704,8 @@ source development model began to emerge.</seg>
         <seg>Chris Anderson, CEO, 3DR
 (Former Editor in Chief of Wired magazine and author of “The Long Tail”)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T051530Z" creationid="hfukuchi" creationdate="20170703T051530Z">
-        <seg>Chris Anderson, CEO, 3DR
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170704T005217Z" creationid="hfukuchi" creationdate="20170703T051530Z">
+        <seg>クリス アンダーソン, CEO, 3DR
 （ワイアード マガジン 前編集長、「ロング テール」著者）</seg>
       </tuv>
     </tu>
@@ -9249,6 +9249,22 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170214T091749Z" creationid="hfukuchi" creationdate="20170214T091617Z">
         <seg>レビューは、従業員が以下の項目を実行したかを評価します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Richard Lumb, Chief Executive, Financial Services, Accenture</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170704T005248Z" creationid="hfukuchi" creationdate="20170704T005248Z">
+        <seg>リチャード ラム, Chief Executive, 財務サービス, Accenture</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Rob Alexander, CIO, Capital One</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170704T005823Z" creationid="hfukuchi" creationdate="20170704T005823Z">
+        <seg>ロブ アレキサンダー, CIO, Capital One</seg>
       </tuv>
     </tu>
     <tu>
