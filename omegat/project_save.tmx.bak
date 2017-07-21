@@ -7222,8 +7222,8 @@ department exercise.</seg>
       <tuv lang="EN-US">
         <seg>My interest grew in making my own experiences available so that others could possibly learn from them, and then publish their experiences, so that as an industry we can all strive towards better ways to achieve open source compliance while minimizing impact on engineering resources and product delivery timelines.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T082125Z" creationid="hfukuchi" creationdate="20170629T063459Z">
-        <seg>そういったことから私自身の経験を公開することに興味が湧いてきました。私の経験を公開することでいろいろな人たちが何かを学び、そして学んだ人が経験したことを公開するようになり、さらに私たち皆が産業において製品デリバリの期間やエンジニアリング リソースに与えるインパクトを最小限にとどめるよう、オープンソース コンプライアンスを達成するよりよいやり方に向けた取り組みに尽力できるのではないか、と。</seg>
+      <tuv lang="JA" changeid="0000011038279" changedate="20170721T083320Z" creationid="hfukuchi" creationdate="20170629T063459Z">
+        <seg>そういったこともあり私自身の経験を公開することに興味が湧いてきました。私の経験を公開することでいろいろな人たちが何かを学び、そして学んだ人が経験したことを公開するようになり、さらに私たち皆が産業において製品デリバリの期間やエンジニアリング リソースに与えるインパクトを最小限にとどめるよう、オープンソース コンプライアンスを実現する、よりよいやり方に向けた取り組みに尽力できるのではないか、と。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9670,8 +9670,8 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
       <tuv lang="EN-US">
         <seg>Since most of my experience was focused in the embedded space (with C and C++ being the dominant programming languages), this emphasis comes across throughout this handbook.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T081849Z" creationid="hfukuchi" creationdate="20170629T064238Z">
-        <seg>ただ私の経験の大半は（CやC++が主要プログラミング言語である）組み込み領域中心だったため、本ハンドブックでは全般的にその傾向が色濃く出ている点についてはご留意いただければと思います。</seg>
+      <tuv lang="JA" changeid="0000011038279" changedate="20170721T083337Z" creationid="hfukuchi" creationdate="20170629T064238Z">
+        <seg>ただ私の経験の大半が（CやC++が主要プログラミング言語である）組み込み領域中心だったため、本ハンドブックでは全般的にその傾向が色濃く出ている点についてはご留意いただければと思います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12480,6 +12480,7 @@ distribution checklist.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>[tani] ①少し口語的な印象があったので表現を微修正、②英語を表記しました。</note>
       <tuv lang="EN-US">
         <seg>This page intentionally left blank.</seg>
       </tuv>
