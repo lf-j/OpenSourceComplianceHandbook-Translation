@@ -344,12 +344,11 @@ Office of the CIO, U.S. General Services Administration (U.S. agency that overse
 
 
 
-“The development of Blockchain technology has the potential to redefine the operations and economics of the financial services industry. It emerges at an important time, as the industry strives to be leaner, more efficient, and more digital. Open source development will accelerate the innovation and help drive the scalability of this technology, and we are proud
-to support the Hyperledger Project.”
+“The development of Blockchain technology has the potential to redefine the operations and economics of the financial services industry. It emerges at an important time, as the industry strives to be leaner, more efficient, and more digital. Open source development will accelerate the innovation and help drive the scalability of this technology, and we are proud to support the Hyperledger Project.”
 Richard Lumb, Chief Executive, Financial Services, Accenture
 
 
-“From increasing member investments to a growing, vibrant developer community, the Dronecode Project’s first year has been extremely exciting. By bringing efforts together to establish a common platform and utilizing open source best practices, we’re able to build the foundation for a new era of drone applications that extend from the camera to the cloud. The Dronecode ‘full-stack’ platform approach, combined with the hardware and software innovations of its members, will bring about a new generation of drones that are autonomous, aware of their environments, and continuously connected . an airborne Internet of Things.”
+“From increasing member investments to a growing, vibrant developer community, the Dronecode Project’s first year has been extremely exciting. By bringing efforts together to establish a common platform and utilizing open source best practices, we’re able to build the foundation for a new era of drone applications that extend from the camera to the cloud. The Dronecode ‘full-stack’ platform approach, combined with the hardware and software innovations of its members, will bring about a new generation of drones that are autonomous, aware of their environments, and continuously connected - an airborne Internet of Things.”
 Chris Anderson, CEO, 3DR
 (Former Editor in Chief of Wired magazine and author of “The Long Tail”)
 
@@ -383,8 +382,7 @@ Figure 1. A simplified architecture of a traditional software platform that reli
 
 
 
-Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers. The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code. As a result, a new multi-
-source development model began to emerge.
+Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers. The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code. As a result, a new multi-source development model began to emerge.
 
 Under the new model, a product could now have any combination of:
 
@@ -521,8 +519,7 @@ How Discovered
 
 How to Avoid
 
-Linking of open source into proprietary source code (or vice versa . specific to C/
-C++ source code) 
+Linking of open source into proprietary source code (or vice versa - specific to C/C++ source code) 
 Occurs as a result of linking software components that have conflicting or incompatible licenses
 
 With a dependency-tracking tool that allows discovery of linkages between different software components; ID if type of linkage is allowed per com-pany’s OS policies
@@ -637,8 +634,7 @@ Conduct periodic source code scans
 Ensure that auditing is a milestone in the iterative development process 
 Provide proper level of staffing so as not to fall behind in the audit schedule
 
-Failure to resolve the
-audit findings
+Failure to resolve the audit findings
 
 Don’t allow compliance tickets to be resolved if audit report isn’t finalized. Compliance ticket is closed only if no open subtasks are attached to it
 
@@ -656,8 +652,7 @@ In the past few years, we have witnessed several cases of non-compliance that ma
 Ensure Compliance Prior to Product Shipment/Service Launch
 
 The most important outcome of non-compliance cases has been that the companies involved ultimately had to comply with the terms of the license(s) in question, and the costs of addressing the problem after the fact has categorically exceeded those of basic compliance. Therefore, it is really a smart idea to ensure compliance before a product ships or a service launches. 
-It is important to acknowledge that compliance is not just a legal-
-department exercise. All facets of the company must be involved in ensuring proper compliance and contributing to correct open source consumption and, when necessary, redistribution. This involvement includes establishing and maintaining consistent compliance policies and procedures as well as ensuring that the licenses of all the software components in use (proprietary, third-party, and open source) can co-exist before shipment or deployment. To that effect, companies need to implement an end-to-end open source management infrastructure that will allow them to:
+It is important to acknowledge that compliance is not just a legal-department exercise. All facets of the company must be involved in ensuring proper compliance and contributing to correct open source consumption and, when necessary, redistribution. This involvement includes establishing and maintaining consistent compliance policies and procedures as well as ensuring that the licenses of all the software components in use (proprietary, third-party, and open source) can co-exist before shipment or deployment. To that effect, companies need to implement an end-to-end open source management infrastructure that will allow them to:
 
 . Identify all open source used in products, presented in services, and/or used internally
 . Perform architectural reviews to verify if and how open source license obligations are extending to proprietary and third-party software components
@@ -841,8 +836,7 @@ Figure 4 described the essential elements needed for a successful compliance pro
 
 Proposed Solutions
 
-. Plan a complete compliance infrastructure to meet your long-
-term goals, and then implement the pieces stepwise, as needed for short-term execution. For instance, if you are just starting to develop a product or deliver a service that includes open source and you do not yet have any compliance infrastructure in place, the most immediate concern should be establishing a compliance team, processes and policy, tools and automation, and training your employees. Having kicked off these activities (in that order) and possessing a good grip on the build system (from a compliance perspective), you can move on to other program elements.
+. Plan a complete compliance infrastructure to meet your long-term goals, and then implement the pieces stepwise, as needed for short-term execution. For instance, if you are just starting to develop a product or deliver a service that includes open source and you do not yet have any compliance infrastructure in place, the most immediate concern should be establishing a compliance team, processes and policy, tools and automation, and training your employees. Having kicked off these activities (in that order) and possessing a good grip on the build system (from a compliance perspective), you can move on to other program elements.
 . Establish policies and processes.
 . Incorporate compliance as part of the development process. 
 
@@ -964,8 +958,7 @@ Figure 8. Individuals and teams involved in ensuring open source compliance
 
 The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsels, and the Compliance Officer. Table 4 describes the roles and responsibilities of each participant in this core team.
 
-The extended team, described in Table 5 (page 49), consists of various individuals across multiple departments that contribute on an on-going basis to the compliance efforts: Documentation, Supply Chain, Corporate Development, IT, Localization, and the Open Source Executive Committee (OSEC). However, unlike the core team (in substantial organizations), members of the extended team are working on compliance only on a part-
-time basis, based on tasks they receive from the OSRB.
+The extended team, described in Table 5 (page 49), consists of various individuals across multiple departments that contribute on an on-going basis to the compliance efforts: Documentation, Supply Chain, Corporate Development, IT, Localization, and the Open Source Executive Committee (OSEC). However, unlike the core team (in substantial organizations), members of the extended team are working on compliance only on a part-time basis, based on tasks they receive from the OSRB.
 
 Table 4. Primary roles and responsibilities of the compliance core team (OSRB)
 
@@ -1227,8 +1220,7 @@ Supply chain (software procurement) procedures must be updated to address the ac
 A best practice in this area is to mandate that third-party software providers disclose any open source used in their offering, along with a statement on how they plan to meet the applicable open source license obligations. If third-party software includes open source, Supply Chain must ensure that open source license obligations are satisfied, since, after initial ingress, those obligations become your responsibility as distributor of a product or service that includes open source. It is not acceptable to point “upstream” to a supplier and to inform recipients of your code that meeting license obligations was the responsibility of the supplier instead of your own. 
 IT
 
-IT provides support and maintenance for the tools and automation infrastructure employed by a compliance program. This responsibility spans the servers hosting the various tools, the tools, mailing lists, and web portals. In addition, IT may receive requests from the OSRB to develop and/
-or acquire tools that will be used to improve effectiveness the compliance activities. 
+IT provides support and maintenance for the tools and automation infrastructure employed by a compliance program. This responsibility spans the servers hosting the various tools, the tools, mailing lists, and web portals. In addition, IT may receive requests from the OSRB to develop and/or acquire tools that will be used to improve effectiveness the compliance activities. 
 CORPORATE DEVELOPMENT
 
 Corporate Development is involved with open source compliance in two major scenarios: mergers and acquisitions transactions, and outsourced development. 
@@ -1549,10 +1541,11 @@ In the source code scanning phase, all the source code is scanned using a source
 
 
 
-. An incoming OSRB usage form, usually filled out by engineering staff. This is a simple online form that an engineer or a developer fills out, providing basic information about the source code in question. Upon the submission of the form, a compliance ticket (in a system such as JIRA or Bugzilla) will be created automatically, and a source code scanning request will be sent to the auditing staff. . A periodically scheduled full-platform scan: Such scans are very useful to uncover open source that may have snuck into your software platform without an OSRB form. . Changes in previously approved software components: In many cases, engineers start evaluating and testing with a certain version of an OSS component, and later adopt that component when a new version is available.
+. An incoming OSRB usage form, usually filled out by engineering staff. This is a simple online form that an engineer or a developer fills out, providing basic information about the source code in question. Upon the submission of the form, a compliance ticket (in a system such as JIRA or Bugzilla) will be created automatically, and a source code scanning request will be sent to the auditing staff. 
+. A periodically scheduled full-platform scan: Such scans are very useful to uncover open source that may have snuck into your software platform without an OSRB form. 
+. Changes in previously approved software components: In many cases, engineers start evaluating and testing with a certain version of an OSS component, and later adopt that component when a new version is available.
 . Source code received from a third-party software provider who may or may not have disclosed open source
-. Source code downloaded from the web with unknown author and/
-or license, which may or may not have incorporated open source in it
+. Source code downloaded from the web with unknown author and/or license, which may or may not have incorporated open source in it
 . A new proprietary software component entering the build system where engineering may or may not have borrowed open source code and used it in a proprietary software component
 
 
@@ -1832,8 +1825,7 @@ Company ID of employee submitting the form (facilitating retrieval of employee n
 OSS Code Information 
 Package name and version
 
-Software class: open source, internally developed, third-
-party shrink-wrap
+Software class: open source, internally developed, third-party shrink-wrap
 
 Website URL
 
@@ -1948,8 +1940,7 @@ Distribution Policy and Process
 
 The goal of a distribution policy is to govern the process of supplying source project code and to provide guidelines on the various logistical aspects of meeting open source license obligations regarding the availability of open source code. The distribution policy applies to any software package where the license requires redistributing source code, and it covers the publication process, publication methods, modes, and checklists.
 
-Prior to triggering the process, you need to decide on the method and mode of providing source. Subsequently, the process begins with preparing source code for external distribution, following a pre- distribution checklist, ensuring source code package availability, and then completing the post-
-distribution checklist. 
+Prior to triggering the process, you need to decide on the method and mode of providing source. Subsequently, the process begins with preparing source code for external distribution, following a pre-distribution checklist, ensuring source code package availability, and then completing the post-distribution checklist. 
 
 
 
@@ -2058,16 +2049,14 @@ Attention: Open Source Compliance Inquiries
 Street Address
 City, State, Postal Code
 Country 
-FooBar makes every possible effort to make the source code publicly available at http://
-opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
+FooBar makes every possible effort to make the source code publicly available at http://opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
 
 
 Alternatively, if you prefer receiving requests via email and not via postal mail, the wording of the written offer would change slightly to: 
 
 To obtain a copy of the source code being made publicly available by FooBar, Inc. (“FooBar”) related to software used in this FooBar product (“Product”), you should send your request in writing to opensourcecompliance@foobar.com.
 
-FooBar makes every possible effort to make the source code publicly available at http://
-opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
+FooBar makes every possible effort to make the source code publicly available at http://opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
 
 
 
@@ -2207,8 +2196,7 @@ It is very helpful and efficient to develop, maintain, and evolve checklists tha
 . Appropriate notices have been included in the product documentation, in addition to the availability of a written offer to inform end users of their right to request source code for identified open source (when applicable)
 
 
-Once open source packages are uploaded to the distribution website (and/
-or stored on equivalent media), your work is not complete. You still need to verify that:
+Once open source packages are uploaded to the distribution website (and/or stored on equivalent media), your work is not complete. You still need to verify that:
 
 . Packages have been uploaded correctly
 . Packages can be downloaded and uncompressed on an external computer without error
@@ -2234,14 +2222,14 @@ In the following subsections we provide basic information about such tools and h
 Source Code Identification Tools 
 Source code and license identification tools provide recognition and analysis capabilities to assist users in identifying the origin of source code and licenses associated with open source software components. 
 . Antelink Reporter: http://www.antelink.com/
-. Black Duck Protex: https://www.blackducksoftware.com/products/
-protex
-. The Black Duck Hub: https://www.blackducksoftware.com/
-products/hub
-. FOSSology: http://www.fossology.org/projects/fossology . nexB DejaCode: http://www.nexb.com/products.html
-. Open Logic Exchange: http://www.openlogic.com/products-
-services/openlogic-exchange
-. Palamida Enterprise: http://www.palamida.com/products/enterprise . Protecode Enterprise: http://www.protecode.com/our-products/ . WhiteSource: http://www.whitesourcesoftware.com
+. Black Duck Protex: https://www.blackducksoftware.com/products/protex
+. The Black Duck Hub: https://www.blackducksoftware.com/products/hub
+. FOSSology: http://www.fossology.org/projects/fossology 
+. nexB DejaCode: http://www.nexb.com/products.html
+. Open Logic Exchange: http://www.openlogic.com/products-services/openlogic-exchange
+. Palamida Enterprise: http://www.palamida.com/products/enterprise 
+. Protecode Enterprise: http://www.protecode.com/our-products/ 
+. WhiteSource: http://www.whitesourcesoftware.com
 
 
 
@@ -2250,8 +2238,8 @@ Project Management Tools
 
 A project management tool is essential to managing and tracking compliance activities. Some companies use bug tracking tools (see list below) already in place with a customized compliance workflow; other companies rely on specific project management tools or even in-house solutions. Whatever your preference, tools should reflect the workflow of compliance processes, facilitating moving compliance tickets from one phase of the process to another, providing task and resource management, time tracking, email notifications, project statistics, and reporting capabilities. 
 Example bug-tracking tools commonly employed for compliance: 
-. Bugzilla: https://www.bugzilla.org/ . IBM Rationale ClearQuest: http://www.ibm.com/software/products/
-en/clearquest/
+. Bugzilla: https://www.bugzilla.org/ 
+. IBM Rationale ClearQuest: http://www.ibm.com/software/products/en/clearquest/
 . JIRA: https://www.atlassian.com/software/jira . Redmine: http://www.redmine.org/ . Bugzilla: https://www.bugzilla.org/ 
 
 Software Bill of Material (BOM) Difference Tools
@@ -2335,7 +2323,7 @@ If the compliance inquiry was a false alarm, you can close the compliance inquir
 
 Rectify
 
-If the investigation uncovers an actual compliance issue, you should report back to the inquirer confirming that fact, with assurances that your organization will take all the necessary steps to bring your product or service back to compliance, specifying a date by which you expect to complete this task. It is your responsibility to resolve the issue with the inquirer, while being collaborative and showing good will. You need to show that you understand the obligations under the applicable license, communicate how . and when . you will meet the obligations.
+If the investigation uncovers an actual compliance issue, you should report back to the inquirer confirming that fact, with assurances that your organization will take all the necessary steps to bring your product or service back to compliance, specifying a date by which you expect to complete this task. It is your responsibility to resolve the issue with the inquirer, while being collaborative and showing good will. You need to show that you understand the obligations under the applicable license, communicate how and when you will meet the obligations.
 
 Once you fix the problem, you should notify the inquirer immediately, and invite them to verify the solution.
 
@@ -2422,7 +2410,7 @@ There are two primary options for fulfilling documentation obligations requireme
 
 . Display the open source notices on the product itself. This is a viable option if the product has a user interface that allows the user to interact with it and pull up or display licensing information. An example of this option is a cell phone or a tablet. . Include the open source notices in the product manual or any kind of documentation accompanying the product. 
 
-Some companies opt for both options when possible, in addition to maintaining these notices on a given website (optional, but also often adopted, and it’s low maintenance . basically just hosting the notices file on the website). The important takeaway from the notices considerations is to ensure that all open source notice requirements are satisfied prior to a product distribution or service launch.
+Some companies opt for both options when possible, in addition to maintaining these notices on a given website (optional, but also often adopted, and it’s low maintenance - basically just hosting the notices file on the website). The important takeaway from the notices considerations is to ensure that all open source notice requirements are satisfied prior to a product distribution or service launch.
 
 DISTRIBUTION CONSIDERATIONS 
 Generally speaking, companies want to ensure that any source code subject to open source distribution obligations is compliance-ready prior to product shipment. By thoroughly integrating compliance practices into the development cycle, distribution considerations can be greatly simplified and streamlined.
@@ -2540,8 +2528,7 @@ This advertising clause from the original BSD license is written as follows:
 
 All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the University of California, Berkeley and its contributors.
 
-Where applicable, all marketing and advertising material (including web-
-based, magazines, newspapers, flyers, etc.) must display the acknowledgement.
+Where applicable, all marketing and advertising material (including web-based, magazines, newspapers, flyers, etc.) must display the acknowledgement.
 
 GENERAL GUIDELINES
 
@@ -2687,8 +2674,7 @@ In an effort to reduce the number of questions received by Legal Counsel and to 
 
 
 Pre-approved Licenses 
-Permissive open source licenses often fall under this category. Source code available under these licenses may be pre-approved for use by developers without having to go through the approval process with their manager and/
-or legal counsel. Such pre-approvals usually also require the developer to capture any notices and to make sure they are sent to the documentation team.
+Permissive open source licenses often fall under this category. Source code available under these licenses may be pre-approved for use by developers without having to go through the approval process with their manager and/or legal counsel. Such pre-approvals usually also require the developer to capture any notices and to make sure they are sent to the documentation team.
 
 Licenses Requiring Manager Approval
 
