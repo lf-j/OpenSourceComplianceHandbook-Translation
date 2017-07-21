@@ -383,8 +383,7 @@ Figure 1. A simplified architecture of a traditional software platform that reli
 
 
 
-Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers. The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code. As a result, a new multi-
-source development model began to emerge.
+Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers. The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code. As a result, a new multi-source development model began to emerge.
 
 Under the new model, a product could now have any combination of:
 
@@ -637,8 +636,7 @@ Conduct periodic source code scans
 Ensure that auditing is a milestone in the iterative development process 
 Provide proper level of staffing so as not to fall behind in the audit schedule
 
-Failure to resolve the
-audit findings
+Failure to resolve the audit findings
 
 Don’t allow compliance tickets to be resolved if audit report isn’t finalized. Compliance ticket is closed only if no open subtasks are attached to it
 
@@ -656,8 +654,7 @@ In the past few years, we have witnessed several cases of non-compliance that ma
 Ensure Compliance Prior to Product Shipment/Service Launch
 
 The most important outcome of non-compliance cases has been that the companies involved ultimately had to comply with the terms of the license(s) in question, and the costs of addressing the problem after the fact has categorically exceeded those of basic compliance. Therefore, it is really a smart idea to ensure compliance before a product ships or a service launches. 
-It is important to acknowledge that compliance is not just a legal-
-department exercise. All facets of the company must be involved in ensuring proper compliance and contributing to correct open source consumption and, when necessary, redistribution. This involvement includes establishing and maintaining consistent compliance policies and procedures as well as ensuring that the licenses of all the software components in use (proprietary, third-party, and open source) can co-exist before shipment or deployment. To that effect, companies need to implement an end-to-end open source management infrastructure that will allow them to:
+It is important to acknowledge that compliance is not just a legal-department exercise. All facets of the company must be involved in ensuring proper compliance and contributing to correct open source consumption and, when necessary, redistribution. This involvement includes establishing and maintaining consistent compliance policies and procedures as well as ensuring that the licenses of all the software components in use (proprietary, third-party, and open source) can co-exist before shipment or deployment. To that effect, companies need to implement an end-to-end open source management infrastructure that will allow them to:
 
 . Identify all open source used in products, presented in services, and/or used internally
 . Perform architectural reviews to verify if and how open source license obligations are extending to proprietary and third-party software components
@@ -841,8 +838,7 @@ Figure 4 described the essential elements needed for a successful compliance pro
 
 Proposed Solutions
 
-. Plan a complete compliance infrastructure to meet your long-
-term goals, and then implement the pieces stepwise, as needed for short-term execution. For instance, if you are just starting to develop a product or deliver a service that includes open source and you do not yet have any compliance infrastructure in place, the most immediate concern should be establishing a compliance team, processes and policy, tools and automation, and training your employees. Having kicked off these activities (in that order) and possessing a good grip on the build system (from a compliance perspective), you can move on to other program elements.
+. Plan a complete compliance infrastructure to meet your long-term goals, and then implement the pieces stepwise, as needed for short-term execution. For instance, if you are just starting to develop a product or deliver a service that includes open source and you do not yet have any compliance infrastructure in place, the most immediate concern should be establishing a compliance team, processes and policy, tools and automation, and training your employees. Having kicked off these activities (in that order) and possessing a good grip on the build system (from a compliance perspective), you can move on to other program elements.
 . Establish policies and processes.
 . Incorporate compliance as part of the development process. 
 
@@ -964,8 +960,7 @@ Figure 8. Individuals and teams involved in ensuring open source compliance
 
 The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsels, and the Compliance Officer. Table 4 describes the roles and responsibilities of each participant in this core team.
 
-The extended team, described in Table 5 (page 49), consists of various individuals across multiple departments that contribute on an on-going basis to the compliance efforts: Documentation, Supply Chain, Corporate Development, IT, Localization, and the Open Source Executive Committee (OSEC). However, unlike the core team (in substantial organizations), members of the extended team are working on compliance only on a part-
-time basis, based on tasks they receive from the OSRB.
+The extended team, described in Table 5 (page 49), consists of various individuals across multiple departments that contribute on an on-going basis to the compliance efforts: Documentation, Supply Chain, Corporate Development, IT, Localization, and the Open Source Executive Committee (OSEC). However, unlike the core team (in substantial organizations), members of the extended team are working on compliance only on a part-time basis, based on tasks they receive from the OSRB.
 
 Table 4. Primary roles and responsibilities of the compliance core team (OSRB)
 
@@ -1227,8 +1222,8 @@ Supply chain (software procurement) procedures must be updated to address the ac
 A best practice in this area is to mandate that third-party software providers disclose any open source used in their offering, along with a statement on how they plan to meet the applicable open source license obligations. If third-party software includes open source, Supply Chain must ensure that open source license obligations are satisfied, since, after initial ingress, those obligations become your responsibility as distributor of a product or service that includes open source. It is not acceptable to point “upstream” to a supplier and to inform recipients of your code that meeting license obligations was the responsibility of the supplier instead of your own. 
 IT
 
-IT provides support and maintenance for the tools and automation infrastructure employed by a compliance program. This responsibility spans the servers hosting the various tools, the tools, mailing lists, and web portals. In addition, IT may receive requests from the OSRB to develop and/
-or acquire tools that will be used to improve effectiveness the compliance activities. 
+IT provides support and maintenance for the tools and automation infrastructure employed by a compliance program. This responsibility spans the servers hosting the various tools, the tools, mailing lists, and web portals. In addition, IT may receive requests from the OSRB to develop and/or acquire tools that will be used to improve effectiveness the compliance activities. 
+
 CORPORATE DEVELOPMENT
 
 Corporate Development is involved with open source compliance in two major scenarios: mergers and acquisitions transactions, and outsourced development. 

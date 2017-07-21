@@ -38,8 +38,7 @@ In the source code scanning phase, all the source code is scanned using a source
 
 . An incoming OSRB usage form, usually filled out by engineering staff. This is a simple online form that an engineer or a developer fills out, providing basic information about the source code in question. Upon the submission of the form, a compliance ticket (in a system such as JIRA or Bugzilla) will be created automatically, and a source code scanning request will be sent to the auditing staff. . A periodically scheduled full-platform scan: Such scans are very useful to uncover open source that may have snuck into your software platform without an OSRB form. . Changes in previously approved software components: In many cases, engineers start evaluating and testing with a certain version of an OSS component, and later adopt that component when a new version is available.
 . Source code received from a third-party software provider who may or may not have disclosed open source
-. Source code downloaded from the web with unknown author and/
-or license, which may or may not have incorporated open source in it
+. Source code downloaded from the web with unknown author and/or license, which may or may not have incorporated open source in it
 . A new proprietary software component entering the build system where engineering may or may not have borrowed open source code and used it in a proprietary software component
 
 
@@ -435,8 +434,7 @@ Distribution Policy and Process
 
 The goal of a distribution policy is to govern the process of supplying source project code and to provide guidelines on the various logistical aspects of meeting open source license obligations regarding the availability of open source code. The distribution policy applies to any software package where the license requires redistributing source code, and it covers the publication process, publication methods, modes, and checklists.
 
-Prior to triggering the process, you need to decide on the method and mode of providing source. Subsequently, the process begins with preparing source code for external distribution, following a pre- distribution checklist, ensuring source code package availability, and then completing the post-
-distribution checklist. 
+Prior to triggering the process, you need to decide on the method and mode of providing source. Subsequently, the process begins with preparing source code for external distribution, following a pre- distribution checklist, ensuring source code package availability, and then completing the post-distribution checklist. 
 
 
 
@@ -545,16 +543,14 @@ Attention: Open Source Compliance Inquiries
 Street Address
 City, State, Postal Code
 Country 
-FooBar makes every possible effort to make the source code publicly available at http://
-opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
+FooBar makes every possible effort to make the source code publicly available at http://opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
 
 
 Alternatively, if you prefer receiving requests via email and not via postal mail, the wording of the written offer would change slightly to: 
 
 To obtain a copy of the source code being made publicly available by FooBar, Inc. (“FooBar”) related to software used in this FooBar product (“Product”), you should send your request in writing to opensourcecompliance@foobar.com.
 
-FooBar makes every possible effort to make the source code publicly available at http://
-opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
+FooBar makes every possible effort to make the source code publicly available at http://opensource.foobar.com (“Website”) within reasonable business delays. Before sending your written request, please check the Website, as the source code may already be published there.
 
 
 
@@ -694,8 +690,7 @@ It is very helpful and efficient to develop, maintain, and evolve checklists tha
 . Appropriate notices have been included in the product documentation, in addition to the availability of a written offer to inform end users of their right to request source code for identified open source (when applicable)
 
 
-Once open source packages are uploaded to the distribution website (and/
-or stored on equivalent media), your work is not complete. You still need to verify that:
+Once open source packages are uploaded to the distribution website (and/or stored on equivalent media), your work is not complete. You still need to verify that:
 
 . Packages have been uploaded correctly
 . Packages can be downloaded and uncompressed on an external computer without error
@@ -721,14 +716,13 @@ In the following subsections we provide basic information about such tools and h
 Source Code Identification Tools 
 Source code and license identification tools provide recognition and analysis capabilities to assist users in identifying the origin of source code and licenses associated with open source software components. 
 . Antelink Reporter: http://www.antelink.com/
-. Black Duck Protex: https://www.blackducksoftware.com/products/
-protex
-. The Black Duck Hub: https://www.blackducksoftware.com/
-products/hub
+. Black Duck Protex: https://www.blackducksoftware.com/products/protex
+. The Black Duck Hub: https://www.blackducksoftware.com/products/hub
 . FOSSology: http://www.fossology.org/projects/fossology . nexB DejaCode: http://www.nexb.com/products.html
-. Open Logic Exchange: http://www.openlogic.com/products-
-services/openlogic-exchange
-. Palamida Enterprise: http://www.palamida.com/products/enterprise . Protecode Enterprise: http://www.protecode.com/our-products/ . WhiteSource: http://www.whitesourcesoftware.com
+. Open Logic Exchange: http://www.openlogic.com/products-services/openlogic-exchange
+. Palamida Enterprise: http://www.palamida.com/products/enterprise 
+. Protecode Enterprise: http://www.protecode.com/our-products/ 
+. WhiteSource: http://www.whitesourcesoftware.com
 
 
 
@@ -739,7 +733,9 @@ A project management tool is essential to managing and tracking compliance activ
 Example bug-tracking tools commonly employed for compliance: 
 . Bugzilla: https://www.bugzilla.org/ . IBM Rationale ClearQuest: http://www.ibm.com/software/products/
 en/clearquest/
-. JIRA: https://www.atlassian.com/software/jira . Redmine: http://www.redmine.org/ . Bugzilla: https://www.bugzilla.org/ 
+. JIRA: https://www.atlassian.com/software/jira 
+. Redmine: http://www.redmine.org/ 
+. Bugzilla: https://www.bugzilla.org/ 
 
 Software Bill of Material (BOM) Difference Tools
 
