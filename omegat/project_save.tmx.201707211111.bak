@@ -2325,7 +2325,6 @@ source development model began to emerge.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani] 目次の部分で和訳されていないところがありましたが自動変換されると思うのでスルーします。</note>
       <tuv lang="EN-US">
         <seg>Contents</seg>
       </tuv>
@@ -4451,8 +4450,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>Foreword</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T044657Z" creationid="hfukuchi" creationdate="20170629T070719Z">
-        <seg>前書き</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T070719Z" creationid="hfukuchi" creationdate="20170629T070719Z">
+        <seg>序文（Foreword）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4842,12 +4841,11 @@ time basis, based on tasks they receive from the OSRB.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani]よりそれっぽくしました。</note>
       <tuv lang="EN-US">
         <seg>I hope you find it useful in your day-to-day drive to achieve open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T081538Z" creationid="hfukuchi" creationdate="20170629T064336Z">
-        <seg>皆さんがオープン ソース コンプライアンスを実現するべく、日々の推進活動で本書が役立ってくれることを願ってやみません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T034444Z" creationid="hfukuchi" creationdate="20170629T064336Z">
+        <seg>この本がオープン ソース コンプライアンスを推進する皆様の日々の活動に役立てられることを願っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7218,22 +7216,19 @@ department exercise.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani]ここも自分がIbrahimだったらこんな感じにするかな、という感じで逸脱しない範囲で変えてみました（ボツやむなし）</note>
       <tuv lang="EN-US">
         <seg>My interest grew in making my own experiences available so that others could possibly learn from them, and then publish their experiences, so that as an industry we can all strive towards better ways to achieve open source compliance while minimizing impact on engineering resources and product delivery timelines.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T083320Z" creationid="hfukuchi" creationdate="20170629T063459Z">
-        <seg>そういったこともあり私自身の経験を公開することに興味が湧いてきました。私の経験を公開することでいろいろな人たちが何かを学び、そして学んだ人が経験したことを公開するようになり、さらに私たち皆が産業において製品デリバリの期間やエンジニアリング リソースに与えるインパクトを最小限にとどめるよう、オープンソース コンプライアンスを実現する、よりよいやり方に向けた取り組みに尽力できるのではないか、と。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T034241Z" creationid="hfukuchi" creationdate="20170629T063459Z">
+        <seg>私の興味は、自分自身の経験を広く利用できるようにすることに注がれていきました。そうすれば、他の人も私の経験から学んでさらに彼らの経験を公開し、業界として、私たちはオープン ソース コンプライアンスを達成する良い方法を目指して励み、そうしながらエンジニアリング リソースや製品出荷に要する期間を最小化することができるわけです。</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani]　すこし日本語としての読みやすさに軸足を置いて修正案を書いて意味ます（以降同じように[tani]フラグを付けています）
-[tani]　オープンソースの間にはスペースなしで統一した方がよいですかね。</note>
       <tuv lang="EN-US">
         <seg>My involvement with open source compliance started early in my career as a software developer, and has been a part of my job directly or indirectly for two decades now.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T082232Z" creationid="hfukuchi" creationdate="20170629T055643Z">
-        <seg>オープンソース コンプライアンスに携わるようになったのは、ソフトウェア開発者として私のキャリアが始まったころでした。そこから今に至る20年、オープンソース コンプライアンスは直接的にも間接的にも私の仕事の一部であり続けています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T085302Z" creationid="hfukuchi" creationdate="20170629T055643Z">
+        <seg>私がオープン ソース コンプライアンスに携わり始めたのは、ソフトウェア開発者としてキャリアを始めた早い時期で、今に至る20年の間、オープン ソース コンプライアンスは、直接間接に私の仕事の一部であり続けています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7418,8 +7413,6 @@ department exercise.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani] ①少し口語的な印象があったので表現を微修正、②英語を表記しました。
-</note>
       <tuv lang="EN-US">
         <seg>OPEN SOURCE COMPLIANCE IN THE ENTERPRISE</seg>
       </tuv>
@@ -8172,24 +8165,11 @@ to support the Hyperledger Project.”</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani] Preface,Forewordの違い、確かに難しいですね。Preface, Forewordともに英語表記せずそれぞれ、「はじめに」、「前書き」としてみてはどうでしょう。日本語としての厳密な違いは内容ですが、こんなような分け方でどうでしょうか。
-
-・はじめに：著者がその書籍を執筆するにいたった理由、モチベーションなどを説明する
-・前書き：第三者の言葉をつかって全体の背景を入り口として提供する
-
-
-【参考】一応以下の記事を残しておきます。
-「What’s the Difference Between a Foreword, Preface, and Introduction?」http://www.bpsbooks.com/BPS-Books-blog/bid/21727/What-s-the-Difference-Between-a-Foreword-Preface-and-Introduction
-
-・「Preface」: In a preface an author explains briefly why they wrote the book, or how they came to write it.
-・「Foreword」:A foreword (one of the most often misspelled words in the language) is most often written by someone other than the author:
-
-こちらも参考になりました「本や論文の構成要素」http://lise-sophia.net/kktm/Essay/construct_of_book_paper.htm</note>
       <tuv lang="EN-US">
         <seg>PREFACE</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T045007Z" creationid="hfukuchi" creationdate="20170629T053507Z">
-        <seg>はじめに</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T070732Z" creationid="hfukuchi" creationdate="20170629T053507Z">
+        <seg>序文（Preface）</seg>
       </tuv>
     </tu>
     <tu>
@@ -9666,12 +9646,11 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
       </tuv>
     </tu>
     <tu>
-      <note>[tani] Ibrahimはここを注記として記載していると思うので、少し言葉を足してニュアンスを強くしました。</note>
       <tuv lang="EN-US">
         <seg>Since most of my experience was focused in the embedded space (with C and C++ being the dominant programming languages), this emphasis comes across throughout this handbook.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T083337Z" creationid="hfukuchi" creationdate="20170629T064238Z">
-        <seg>ただ私の経験の大半が（CやC++が主要プログラミング言語である）組み込み領域中心だったため、本ハンドブックでは全般的にその傾向が色濃く出ている点についてはご留意いただければと思います。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T034352Z" creationid="hfukuchi" creationdate="20170629T064238Z">
+        <seg>私の経験のほとんどは、組み込み系の世界（CやC++が主なプログラミング言語）に注力してきましたので、その影響がこのハンドブック全体を通して強く現れています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12343,12 +12322,11 @@ distribution checklist.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani]</note>
       <tuv lang="EN-US">
         <seg>This handbook summarizes my experience driving open source compliance activities in the enterprise, and focuses on practical aspects of creating and maintaining an open source compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T082018Z" creationid="hfukuchi" creationdate="20170629T063735Z">
-        <seg>このハンドブックは、まさにそういった企業でオープンソース コンプライアンスを推進してきた私の経験をまとめたものであり、オープンソース コンプライアンスプログラムの整備、その運営についての実践的側面にフォーカスしたものとなっています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T034256Z" creationid="hfukuchi" creationdate="20170629T063735Z">
+        <seg>このハンドブックは、企業の中でオープン ソース コンプライアンスを推進してきた私の経験をまとめたもので、オープン ソース コンプライアンスを構築し維持する実践的な面に焦点を当てています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12483,8 +12461,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>This page intentionally left blank.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T040350Z" creationid="hfukuchi" creationdate="20170629T052212Z">
-        <seg>本ページは意図的に空白にしています。(This page intentinally left blank.) </seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T052212Z" creationid="hfukuchi" creationdate="20170629T052212Z">
+        <seg>このページは意図的に空白にしてあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12624,14 +12602,11 @@ distribution checklist.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani] すこしIbrahimの郷愁感を出してみました（ギリギリラインですのでボツなら削除で（笑））
-</note>
       <tuv lang="EN-US">
         <seg>Throughout my journey working with open source software, it was difficult to find practical references on open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T083033Z" creationid="hfukuchi" creationdate="20170629T055959Z">
-        <seg>オープンソース ソフトウェアと共に歩んできた私の旅ですが、振り返るとオープンソース コンプライアンスにおける実践的（プラクティカル）な情報を探すのが大変だった旅でした。
-</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T085346Z" creationid="hfukuchi" creationdate="20170629T055959Z">
+        <seg>オープン ソース ソフトウェアに取り組み続けた旅のような期間を通じて、オープン ソース コンプライアンスに関する実践参考例を見つけることは難しいことでした。</seg>
       </tuv>
     </tu>
     <tu>
