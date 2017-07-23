@@ -7418,7 +7418,7 @@ department exercise.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani] ここでのTHEは総称の定冠詞
+      <note>[tani] ①少し口語的な印象があったので表現を微修正、②英語を表記しました。
 </note>
       <tuv lang="EN-US">
         <seg>OPEN SOURCE COMPLIANCE IN THE ENTERPRISE</seg>
@@ -12480,7 +12480,6 @@ distribution checklist.</seg>
       </tuv>
     </tu>
     <tu>
-      <note>[tani] ①少し口語的な印象があったので表現を微修正、②英語を表記しました。</note>
       <tuv lang="EN-US">
         <seg>This page intentionally left blank.</seg>
       </tuv>
