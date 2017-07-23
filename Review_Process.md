@@ -28,4 +28,5 @@
 ・受け取る場合には、Merge作業を行う
 
 その他
+
 ・[GitHub] WatchをOnにするとメールやGitHub上で通知が来る
