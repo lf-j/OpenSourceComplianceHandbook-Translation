@@ -373,8 +373,8 @@ Rob Alexander, CIO, Capital One
 
 オープン ソース コンプライアンス導入
 
-A CHANGING BUSINESS ENVIRONMENT 
-Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms. ビジネス環境は予測可能で、企業は潜在的なリスクをソフトウェアベンダーとのライセンス交渉や契約交渉を通じて軽減していました。全てのソフトウェアコンポーネントについて誰が提供者であるかを知るのは大変容易でした。図１は従来のハードウェア、ソフトウェアのプラットフォームについて主なブロックを示したものです。
+変わりゆくビジネス環境
+従来、プラットフォームやソフトウェアスタックはプロプラエタリなソフトウェアを使って実装され、内部開発されたソフトや交渉の結果であるライセンス条件によるサードパーティのソフトから成る様々なソフトウェアのブロックから構成されていました。ビジネス環境は予測可能で、企業は潜在的なリスクをソフトウェアベンダーとのライセンス交渉や契約交渉を通じて軽減していました。全てのソフトウェアコンポーネントについて誰が提供者であるかを知るのは大変容易でした。図１は従来のハードウェア、ソフトウェアのプラットフォームについて主なブロックを示したものです。
 
 図1プロプラエタリなソフトウェアのブロックに依る従来のソフトウェアプラットフォームの単純化したアーキテクチャ
 
@@ -410,8 +410,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
 
 図3A simplified view of the architecture of a modern software platform, showing the proliferation of open source inside each of the software building blocks.
 
-ENTER OPEN SOURCE COMPLIANCE 
-Open source initiatives and projects provide companies and other organizations with a vehicle to accelerate innovation through collaboration with the hundreds and sometimes thousands of communities that represent the developers of the open source software. しかしながら、オープンソースのコミュニティと組むには責任が伴います。オープンソースのライセンスに伴う義務を順守することを保証しなければなりません。
+オープンソースコンプライアンス手始め
+オープンソースのイニシアチブやプロジェクトを使う事で、企業や組織はオープンソースソフトウェアの開発者を代表する数百、時に数千のコミュニティと協力し、イノベーションを加速できるようになります。しかしながら、オープンソースのコミュニティと組むには責任が伴います。オープンソースのライセンスに伴う義務を順守することを保証しなければなりません。
 オープンソースのコンプライアンスとは、オープンソースのユーザー、インテグレーター、開発者が著作権表示をきちんと見て、自らに関わるオープンソースのソフトウェアコンポーネントのライセンス上の義務を満たすプロセスです。適切に規定されたオープンソースのコンプライアンスのプロセスは、ライセンス条項の順守を保証すると同時に、企業自身、あるいはサードパーティのサプライヤの知的財産が意図せず公開されたり、その他不適当な結果を招いたりしないように設計されるべきです。
 オープンソースのコンプライアンスは3つの主要な目的の達成に役立ちます。
 
@@ -481,8 +481,8 @@ The intellectual property failures can lead to one or more of the following resu
 . 差し止め命令によりコンプライアンス上の懸念が解決されるまで製品が出荷できない問題のバイナリコードに関わるプロプラエタリなソースコードを（ケースに応じた）オープンソースライセンスで配布するよう要求されますコンプライアンス上の懸念を解消するため多大な工数が費やされます顧客、ディストリビュータ、サードパーティのソフトウェア供給者、そしてオープンソースコミュニティを困惑させます
 
 
-表１Examples of intellectual property failures 
-Problem Type
+表１表１知財上の失敗の例 
+問題の類型
 
 発見する方法
 
@@ -519,14 +519,14 @@ Occurs as a result of linking software components that have conflicting or incom
 
 異なるソフトウェアコンポーネント間のリンクを検出できる依存性追跡ツールを利用; 企業のオープンソースポリシーで許容されているかを識別
 
-Offer training on linkage scenarios based on company compliance policy 
-Regularly run dependency tracking tool to verify all linkage relationships; flag any issues not in line with compliance policies
+企業のコンプライアンスポリシーに基づくリンクのシナリオについての訓練を提供
+定期的に依存性追跡ツールを動作させ、全てのリンク関係を検証; 企業のポリシーで許容されていないあらゆる事柄にフラグを立てます
 
-Inclusion of proprietary code into an open source component 
-Occurs when developers copy/paste proprietary source code into OS software
+オープンソースのコンポーネントにプロプラエタリなコードを含めます
+開発者がプロプラエタリなソースコードをオープンソースソフトウェアにコピー/ペーストして発生
 
-ソースコードをスキャンする。Tool will ID source code that doesn’t match what’s provided by OS component, triggering various flags for Audit 
-Train the staff
+ソースコードをスキャンする。ツールでオープンソースのコンポーネント由来ではないソースコードは識別できるので、監査のため各種のフラグをつけます
+スタッフを訓練
 
 ソースコードを定期的に検査
 
@@ -553,8 +553,8 @@ License compliance failures may result in any (or a combination) of the followin
 
 表２にソフトウェア開発プロセスでの最も一般的なライセンスコンプライアンス問題の例、および回避方法を示します。
 
-表2Examples of license compliance problems and how to avoid them 
-Problem Type
+表2ライセンスコンプライアンス問題の例と回避方法
+問題の類型
 
 回避方法
 
@@ -568,9 +568,10 @@ Problem Type
 
 出荷製品に組み込まれたオープンソースソフトウェアへの変更をリリース忘れ
 
-Use a bill of material (BOM) difference tool that allows the identification of software components that change across releases 
-Re-introduce the newer version of the software component in the compliance process 
-Add the “compute diffs” of any modified source code (eligible for open source distribution) to the checklist item before releasing open source used in the product 
+部品表 (bill of material, BOM) 差分検出ツールを使いリリース毎のソフトウェアコンポーネント変更を特定
+コンプライアンスプロセスにおいて、より新しいバージョンのソフトウェアコンポーネントを再導入
+「diffの計算」を変更された(オープンソースとするにふさわしい) ソースコードのチェックリストに加え 、製品に使われたオープンソースのリリース前に行う 
+ 
 
 
 
@@ -587,8 +588,8 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
 
 ソースコードへのマーク付けをソースコードのリリース前のチェックリストに加え、ダウンロードしたオリジナルのコピーとの差分すべてに確実にマーク
 
-Conduct source code inspections before releasing the source code 
-Add milestone in compliance process to verify modified source code has been marked as such
+ソースコードのリリース前に検査 
+変更されたソースコードが適切にマークされていることを、コンプライアンスプロセス上のマイルストーンとする
 
 ソースコードの変更履歴をアップデートすることを、開発プロセスの一部とするようスタッフを教育
 
@@ -603,8 +604,8 @@ Add milestone in compliance process to verify modified source code has been mark
 
 
 
-表3Sample process compliance failures 
-Failure
+表3コンプライアンスプロセス上の失敗の例 
+失敗
 
 回避方法
 
@@ -614,8 +615,8 @@ Failure
 
 Conduct periodic full scans of software platform to detect any OS not corresponding to a given approval form. 定期的にソフトウェアプラットフォーム の全スキャンを行い、承認された型に該当しないオープンソースを検出。もしビルドされたシステムに該当するコンプライアンスチケットがないオープンソースコンポーネントが検出されたら、自動で新チケットを発行（企業がBugzillaのようなツールに埋め込まれているワークフローを使ってソフトウェアコンポーネントを追跡していると仮定）
 
-Include compliance in performance reviews; e.g., failure to abide by the compliance policies directly affects employees’ bonuses 
-Mandate that developers file approval requests early, even if they didn’t yet decide on adoption of OS code
+業績評価にコンプライアンスを含める。例えばコンプライアンスポリシーに従わなかったらボーナス査定に直結
+開発者がオープンソースの利用申請を早期に、オープンソースのコード の利用を決める前でも行うよう命令
 
 オープンソースの訓練を受けない
 
@@ -625,9 +626,7 @@ Mandate that developers file approval requests early, even if they didn’t yet 
 
 コンプライアンスのスタッフを適切に訓練
 
-Conduct periodic source code scans 
-Ensure that auditing is a milestone in the iterative development process 
-Provide proper level of staffing so as not to fall behind in the audit schedule
+繰り返される開発プロセスのマイルストーンに監査を確かに入れ込む。適切なレベルのスタッフを揃え、監査がスケジュール遅れとならないようにする
 
 監査で発見された問題を解決しない
 
@@ -641,8 +640,8 @@ Provide proper level of staffing so as not to fall behind in the audit schedule
 
 
 
-LESSONS LEARNED 
-In the past few years, we have witnessed several cases of non-compliance that made their way to the public eye. そうしたコンプライアンス違反の法的な決着を通じて、オープンソースのプロフェッショナル達は次のような教訓を学びつつあります。
+得た教訓 
+この数年で明るみに出たコンプライアンス違反が数件ありました。そうしたコンプライアンス違反の法的な決着を通じて、オープンソースのプロフェッショナル達は次のような教訓を学びつつあります。
 
 製品出荷やサービス立ち上げに先立ちコンプライアンスを確実に行う
 
@@ -686,8 +685,8 @@ In the past few years, we have witnessed several cases of non-compliance that ma
 関係は大事
 
 オープンソースソフトウェアを自社製品で利用する企業は、利用しているコードを開発し維持七得るオープンソースコミュニティと良い関係を持ち、維持することが望ましいです。オープンソースプロジェクトのコミュニティは企業が自社製品に含まれるオープンソースソフトウェアのライセンスを尊重すると期待しています。その方向に動き、オープンかつ正直な関係を気づくことは大いに価値があります。
-Training is Important 
-Training is an essential building block in a compliance program, to ensure that employees have a good understanding of the policies governing the use of open source software. ソフトウェアに関わる全職員が企業のポリシーとプロセスを理解する必要があります。企業はそうした教育を公式・非公式の教育で提供することが多いです。
+訓練は重要
+訓練はコンプライアンスプログラムにおいて必須の構成要素であり、オープンソースソフトウェアの利用を律するポリシーを従業員がよく理解する礎となります。ソフトウェアに関わる全職員が企業のポリシーとプロセスを理解する必要があります。企業はそうした教育を公式・非公式の教育で提供することが多いです。
 
 
 
