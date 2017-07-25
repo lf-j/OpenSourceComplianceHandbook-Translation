@@ -44,7 +44,7 @@
 
 ・　OmegaT起動後、リポジトリを開くと、原文一覧が表示されるので、1つの原文を選択。
 
-・　原文は、MS Office形式で準備。
+・　原文は、Text形式で準備。
 
 ・　原文のタブは、訳文に残す。頻繁にt0, t1などのタブが入っているが、英文字のスペース調整のようなので、タブはそのままにして、スペース文字を削除する。
 
@@ -77,6 +77,39 @@ https://www.jtf.jp/jp/style_guide/pdf/jtf_style_guide.pdf
 ・　各レビュー者は、それぞれ訳文ファイルを生成し、MS　Officeなどにて修正履歴・修正表示・コメントを入れる。修正付きの訳文は、メーリングリストに流すか、GitHubのREVIEWフォルダにアップロードする。
 
 ・レビュー者が修正をコミットすることもあり得るが、修正量が少ないときに限定されると考えられる。
+
+#レビュー手順
+
+##コントリビューター：
+
+[Branch]適当な名前のブランチ（Review_xxxなど）を作成する
+
+[Omega-T]上記ブランチでレビューに基づき、OmegaTで作業を実施する
+
+[Omega-T]変更作業後には、OmegaTでTargetを生成する
+
+[Pull Request]Pull Request作成する
+
+[Pull Request]題名、概要説明、理由を記載する
+
+[Pull Request]Pull Requestには1案件のみを入れる
+
+[Pull Request]依存関係のある複数のPull Requestを作成する場合には、依存関係に従って、適切な順番でPull Requestを作成する
+
+[Pull Request]Pull Requestを提出する
+
+##メンテナー：
+
+Pull Requestを受領して判断する
+
+Pull Requestのコメントに判断結果を記入する
+
+受け取る場合には、Merge作業を行う
+
+##その他
+
+[GitHub] WatchをOnにするとメールやGitHub上で通知が来る
+
 
 8．公開方法
 
