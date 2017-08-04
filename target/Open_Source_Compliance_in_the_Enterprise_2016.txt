@@ -41,271 +41,271 @@ All rights reserved
 
 オープンソースのコンプライアンスを保証する利点 20
 
-FAILURE TO COMPLY 21
+コンプライアンスの失敗 21
 
-Intellectual Property Failures 22
+知的財産権上の失敗 22
 
-License Compliance Problems 24
+ライセンスコンプライアンス問題 24
 
-Process Failures 26
+コンプライアンスプロセス上の失敗 26
 
-LESSONS LEARNED 28
+得た教訓 28
 
-Ensure Compliance Prior to Product Shipment/Service Launch 28
+製品出荷やサービス立ち上げに先立ちコンプライアンスを確実に行う 28
 
-Non-Compliance is Expensive 29
+コンプライアンス違反は高くつく 29
 
-Relationships Matter 30
+関係は大事 30
 
-Training is Important 30
-
-
-Chapter 2 ESTABLISHING AN OPEN SOURCE MANAGEMENT PROGRAM 31
-
-OPEN SOURCE COMPLIANCE PROGRAM 31
-
-Compliance Strategy 32
-
-Inquiry Response Strategy 32
-
-Policies and Processes 32
-
-Compliance Teams 33
-
-Tools 34
-
-Web Presence 35
-
-Education 36
-
-Automation 37
+訓練は重要 30
 
 
+第2章 オープンソース管理プログラムの確立 31
 
-Messaging 37
+オープンソースコンプライアンスプログラム 31
 
-COMPLIANCE CHALLENGES AND SOLUTIONS 37
+コンプライアンス戦略 32
 
-Long-Term Goals versus Short-Term Execution 39
+照会応答戦略 32
 
-Communicating Compliance 40
+ポリシーとプロセス 32
 
-Establishing a Clean Software Baseline 41
+コンプライアンスチーム 33
 
-Maintaining Compliance 42
+ツール 34
 
-Institutionalization and Sustainability 43
+ウェブ上のプレゼンス 35
 
-Chapter 3 ACHIEVING COMPLIANCE: ROLES AND RESPONSIBILITIES 46
+教育 36
 
-OPEN SOURCE REVIEW BOARD (OSRB) 50
+自動化 37
 
-LEGAL 53
 
-ENGINEERING AND PRODUCT TEAMS 55
 
-COMPLIANCE OFFICER 57
+意思伝達 37
 
-OPEN SOURCE EXECUTIVE COMMITTEE 58
+コンプライアンスの難しさと解決策 37
 
-DOCUMENTATION 58
+長期的な目標と短期的な実行 39
 
-LOCALIZATION 59
+コンプライアンスについての対話 40
 
-SUPPLY CHAIN 59
+クリーンなソフトウェア起点 の確立 41
+
+コンプライアンスの維持 42
+
+内面化と末永い実行  43
+
+第3章コンプライアンス達成に向けて：役割と責任 46
+
+オープンソース評価委員会 (Open Source Review Board, OSRB) 50
+
+法務 53
+
+エンジニアリングおよび製品チーム 55
+
+コンプライアンスオフィサー 57
+
+オープンソース幹部会議 (OSEC) 58
+
+文書化 58
+
+ローカル化 59
+
+サプライチェーン 59
 
 IT 60
 
-CORPORATE DEVELOPMENT 60
+企業買収 60
 
 
-Chapter 4 OPEN SOURCE COMPLIANCE PROCESS 62
+第4章　オープン ソース コンプライアンス プロセス 62
 
-EFFECTIVE COMPLIANCE 63
+効果的なコンプライアンス 63
 
-ELEMENTS OF AN END-TO-END COMPLIANCE PROCESS 64
+一貫したコンプライアンス プロセスの要素 64
 
-ステップ1Identification of Open Source 65
+ステップ1オープン ソースの特定 65
 
-ステップ 2 . Auditing Source Code 67
+ステップ 2 . ソース コードの監査 67
 
-ステップ3Resolving Issues 70
+ステップ3課題解決 70
 
 
 
-ステップ4Reviews 70
+ステップ4レビュー 70
 
-ステップ5Approvals 72
+ステップ5承認 72
 
-ステップ6Registration 73
+ステップ6登録 73
 
-ステップ7Notices 74
+ステップ7通知 74
 
-ステップ8. Pre-Distribution Verifications 75
+ステップ8. 頒布前検証 75
 
-ステップ9Distribution 76
+ステップ9頒布 76
 
-ステップ10Final Verifications 76
+ステップ10最終検証 76
 
 
-Chapter 5 COMPLIANCE PROCESSES AND POLICIES 78
+第5章コンプライアンス プロセスとポリシー 78
 
-POLICY 78
+ポリシー 78
 
-PROCESS 79
+プロセス 79
 
-Source Code Scan 79
+ソース コード スキャン 79
 
-Identification and Resolution 81
+特定と解決 81
 
-Legal Review 81
+法務レビュー 81
 
-Architecture Review 82
+アーキテクチャー レビュー 82
 
-Final Review 83
+最終レビュー 83
 
-PROCESS STAGES’ INPUTS AND OUTPUTS 83
+プロセスの各ステージにおけるインプットとアウトプット 83
 
-Source Code Scan Phase 84
+ソース コード スキャン フェーズ 84
 
-Identification and Resolution Phase 85
+特定と解決フェーズ 85
 
-Legal Review Phase 85
+法務レビュー フェーズ 85
 
-Architecture Review Phase 87
+アーキテクチャー レビュー フェーズ 87
 
-Final Approval Phase 87
+最終承認フェーズ 87
 
-DETAILED USAGE PROCESS 88
+詳細な利用プロセス 88
 
-INCREMENTAL COMPLIANCE PROCESS 93
+インクリメンタル コンプライアンス プロセス 93
 
-OSRB USAGE FORM 95
+OSRB利用フォーム 95
 
-Rules Governing the OSRB Usage Form 99
+OSRB利用フォームに影響する規則 99
 
 
 
-AUDITING 99
+監査 99
 
-SOURCE CODE DISTRIBUTION 100
+ソース コード頒布 100
 
-Distribution Incentives 100
+頒布の動機 100
 
-Distribution Policy and Process 101
+頒布プロセスとポリシー 101
 
-Distribution Methods and Modes 103
+頒布方法と様式 103
 
-Distribution Checklists 104
+頒布チェックリスト 104
 
-Pre-Distribution Checklist 105
+頒布前チェックリスト 105
 
-Post-Publication Checklist 107
+一般公開後のチェックリスト107
 
-Written Offer 107
+書面による申出 107
 
 
-Chapter 6 RECOMMENDED PRACTICES FOR COMPLIANCE PROCESS MANAGEMENT 109
+第6章 コンプライアンス プロセス管理の推奨プラクティス 109
 
-COMPLIANCE PROCESS 109
+コンプライアンス プロセス 109
 
-Identification Phase 109
+特定フェーズ 109
 
-Source Code Auditing 111
+ソース コード監査 111
 
-Resolving Issues 112
+課題解決  112
 
-Reviews 113
+レビュー  113
 
-Approvals 114
+承認  114
 
-Notices 115
+通知  115
 
-Verifications 115
+検証 115
 
-TOOLS AND AUTOMATION 116
+ツールと自動化 116
 
-Source Code Identification Tools 117
+ソース コード特定ツール 117
 
-Project Management Tools 118
+プロジェクト管理ツール 118
 
-Software Bill of Material (BOM) Difference Tools 118
+ソフトウェアBOM差分ツール 118
 
-Linkage Analysis Tool 119
+リンク解析ツール 119
 
 
 
-CHAPTER 7 MANAGING COMPLIANCE INQUIRIES 121
+第7章 コンプライアンスに関する照会の管理 121
 
-RESPONDING TO COMPLIANCE INQUIRIES 122
+コンプライアンスに関する照会への対応 122
 
-Acknowledge 122
+確認 122
 
-Inform 123
+通知 123
 
-Investigate 123
+調査 123
 
-Report 123
+報告 123
 
-Close Inquiry 124
+照会のクローズ 124
 
-Rectify 124
+矯正 124
 
-Improve 124
+改善 124
 
-General Considerations 124
+一般的な考察 124
 
 
-CHAPTER 8 OTHER COMPLIANCE-RELATED PRACTICES 125
+第8章 その他のコンプライアンス関連プラクティス 125
 
-EMPLOYEE APPRAISAL 125
+従業員の評価 125
 
-WEB PORTALS 126
+ウェブ ポータル 126
 
-MESSAGING 126
+意思伝達  126
 
-TRAINING 127
+トレーニング 127
 
-Informal Training 127
+非公式トレーニング 127
 
-Formal Training 128
+公式トレーニング 128
 
-SOURCE CODE MODIFICATION CONSIDERATIONS 128
+ソース コード変更に関する考察 128
 
-NOTICES CONSIDERATIONS 128
+通知に関する考察 128
 
-DISTRIBUTION CONSIDERATIONS 129
+頒布に関する考察 129
 
-USAGE CONSIDERATIONS 130
+利用に関する考察 130
 
-ATTRIBUTION CONSIDERATIONS 132
+帰属についての考察 132
 
-Attribution Types 132
+帰属タイプ 132
 
-Presentation of Attributions 133
+帰属の提示 133
 
 
 
-SPECIFIC LICENSE OBLIGATIONS 133
+特定のライセンス義務 133
 
-GENERAL GUIDELINES 135
+一般的なガイドライン 135
 
 
-Chapter 9 SCALING OPEN SOURCE LEGAL SUPPORT 137
+第9章 オープン ソース法務サポートを拡大させる 137
 
-PRACTICAL LEGAL ADVICE 137
+実際的な法務アドバイス 137
 
-LICENSE PLAYBOOKS 138
+ライセンス プレーブック 138
 
-LICENSE COMPATIBILITY MATRIX 139
+ライセンス両立性マトリックス 139
 
-LICENSE CLASSIFICATION 141
+ライセンス分類 141
 
-SOFTWARE INTERACTION METHODS 143
+ソフトウェア相互作用法 143
 
-CHECKLISTS 145
+チェックリスト 145
 
-CONCLUSION 146
+結論 146
 
 
 
