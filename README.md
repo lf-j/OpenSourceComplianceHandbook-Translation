@@ -7,7 +7,7 @@ Japanese Translation using OmegaT
 1.　プロジェクトへの参加
 
 ・CONTRIBUTING.mdを参照してください。
-  
+
 2.　リポジトリ構成（Repository Configuration）
 
 ・「RELEASE」フォルダ：公開用翻訳。
