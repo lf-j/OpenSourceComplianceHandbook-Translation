@@ -6,6 +6,14 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>(Former Editor in Chief of Wired magazine and author of “The Long Tail”)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170911T064045Z" creationid="hfukuchi" creationdate="20170911T064045Z">
+        <seg>（ワイアード マガジン 前編集長、「ロング テール」著者）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(Initial compliance, also called baseline compliance, happens when development starts, and goes until the release of the first version of the product.) Incremental compliance requires a comparatively small effort in comparison to the efforts involved in establishing baseline compliance.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170405T090111Z" creationid="hfukuchi" creationdate="20170119T074405Z">
@@ -1985,6 +1993,14 @@ As a refresher, the compliance management process includes the various steps a s
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170329T074638Z" creationid="hfukuchi" creationdate="20170315T091617Z">
         <seg>チェックリスト：開発やコンプライアンスのプロセスの全てのポイントで必要なことは何かを覚えておくための、一貫性のある、極めて簡単な方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chris Anderson, CEO, 3DR</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170911T065025Z" creationid="hfukuchi" creationdate="20170911T065025Z">
+        <seg>クリス アンダーセン　CEO　3DR</seg>
       </tuv>
     </tu>
     <tu>
@@ -8518,6 +8534,14 @@ Figure 4 described the essential elements needed for a successful compliance pro
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>North Bridge &amp; Black Duck</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170911T064853Z" creationid="hfukuchi" creationdate="20170911T064853Z">
+        <seg>ノースブリッジ＆ブラックダック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>North Bridge &amp; Black Duck
 “The 2015 Future of Open Source Survey”</seg>
       </tuv>
@@ -8883,6 +8907,14 @@ Regularly run dependency tracking tool to verify all linkage relationships; flag
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Office of the CIO, U.S.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170911T064834Z" creationid="hfukuchi" creationdate="20170911T064834Z">
+        <seg>CIOオフィス </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Office of the CIO, U.S. General Services Administration (U.S. agency that oversees $66 billion of procurement annually)</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170703T030624Z" creationid="hfukuchi" creationdate="20170630T083659Z">
@@ -9234,6 +9266,14 @@ or stored on equivalent media), your work is not complete.</seg>
 to support the Hyperledger Project.”</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170703T032746Z" creationid="hfukuchi" creationdate="20170703T031808Z">
+        <seg>オープン ソース開発は、イノベーションを加速させ、この技術の大規模な利用の促進を助けてくれるでしょう。我々はHyperledgerプロジェクトをサポートしていることに誇りを感じています。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open source development will accelerate the innovation and help drive the scalability of this technology, and we are proud to support the Hyperledger Project.”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170911T063819Z" creationid="hfukuchi" creationdate="20170911T063819Z">
         <seg>オープン ソース開発は、イノベーションを加速させ、この技術の大規模な利用の促進を助けてくれるでしょう。我々はHyperledgerプロジェクトをサポートしていることに誇りを感じています。」</seg>
       </tuv>
     </tu>
@@ -12518,6 +12558,15 @@ Mandate third party software providers to disclose open source in licensed or pu
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Dronecode ‘full-stack’ platform approach, combined with the hardware and software innovations of its members, will bring about a new generation of drones that are autonomous, aware of their environments, and continuously connected - an airborne Internet of Things.”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170911T064017Z" creationid="hfukuchi" creationdate="20170911T064017Z">
+        <seg>Dronecodeの「フルスタック」プラットフォーム アプローチは、メンバーのハードウェアとソフトウェアのイノベーションを結合しており、自律的で、環境を認識し、継続的にネット接続されている新世代ドローンを作り出すことでしょう。それは、飛行するIoTです。」
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Dronecode ‘full-stack’ platform approach, combined with the hardware and software innovations of its members, will bring about a new generation of drones that are autonomous, aware of their environments, and continuously connected - an airborne Internet of Things.”
 Chris Anderson, CEO, 3DR
 (Former Editor in Chief of Wired magazine and author of “The Long Tail”)</seg>
@@ -15667,6 +15716,14 @@ Below is an example of a written offer to provide the source code:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170201T084654Z" creationid="hfukuchi" creationdate="20170201T084654Z">
         <seg>「早めに、そして頻繁にスキャン“Scan early and often”」は、同じ精神に従っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>“The 2015 Future of Open Source Survey”</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170911T064952Z" creationid="hfukuchi" creationdate="20170911T064937Z">
+        <seg>「オープン ソース未来予測2015」</seg>
       </tuv>
     </tu>
     <tu>
