@@ -256,6 +256,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A request from a developer to use an open source component</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085509Z" creationid="hfukuchi" creationdate="20170913T085509Z">
+        <seg>開発者からのオープン ソース コンポーネント利用の要求.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A request from a developer to use an open source component
 .</seg>
       </tuv>
@@ -269,6 +277,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170427T064600Z" creationid="hfukuchi" creationdate="20170427T064600Z">
         <seg>オープン ソース利用の要求：これは、製品中のオープン ソース利用を特定する最も普通の方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A requirement to distribute proprietary source code that corresponds to the binaries in question under an open source license (depending on the specific case)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T060137Z" creationid="hfukuchi" creationdate="20170913T060137Z">
+        <seg>問題のバイナリコードに関わるプロプラエタリなソースコードを（ケースに応じた）オープンソースライセンスで配布するよう要求される</seg>
       </tuv>
     </tu>
     <tu>
@@ -294,6 +310,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170112T082121Z" creationid="hfukuchi" creationdate="20170112T082121Z">
         <seg>コンプライアンス利用プロセスの例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A significant re-engineering effort to eliminate the compliance issues</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T060204Z" creationid="hfukuchi" creationdate="20170913T060204Z">
+        <seg>コンプライアンス上の懸念を解消するため多大な工数が費やされる</seg>
       </tuv>
     </tu>
     <tu>
@@ -331,6 +355,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A simplified view of the architecture of a modern software platform, showing the proliferation of open source inside each of the software building blocks.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T055249Z" creationid="hfukuchi" creationdate="20170913T055249Z">
+        <seg> 現代のソフトウェアプラットフォームの単純化したアーキテクチャ。個々のソフトウェアの構築ブロック内部でオープンソースが増えていることを示している。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A single individual, no matter how adept, can’t successfully implement open source compliance across a whole organization.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081655Z" creationid="hfukuchi" creationdate="20170614T022126Z">
@@ -359,6 +391,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T011803Z" creationid="hfukuchi" creationdate="20170614T011803Z">
         <seg>ソースコードのピアレビュー（査読）ツール、ライセンス上の義務を満たすための開示に先立ちオリジナルソースコードに対する変更をレビュー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A source code scan of the entire software stack</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085521Z" creationid="hfukuchi" creationdate="20170913T085521Z">
+        <seg>全ソフトウェア スタックのソース コード スキャン</seg>
       </tuv>
     </tu>
     <tu>
@@ -484,11 +524,27 @@ Traditionally, platforms and software stacks were implemented using proprietary 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Access to source code for an undisclosed component that was discovered in a product</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T074737Z" creationid="hfukuchi" creationdate="20170914T074737Z">
+        <seg>製品内にあることがわかったが、開示されていないコンポーネントに関するソース コードへのアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Access to source code for an undisclosed component that was discovered in a product
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170329T035521Z" creationid="hfukuchi" creationdate="20170210T092357Z">
         <seg>製品内にあることがわかったが、開示されていないコンポーネントに関するソース コードへのアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Access to source code in accordance with a written offer to provide source code licensed under GPL, LGPL, or other licenses</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T074717Z" creationid="hfukuchi" creationdate="20170914T074717Z">
+        <seg>GPL, LGPLやその他のライセンスで許諾されたソース コードを提供するという文書通知に従って行われる、ソース コードへのアクセス</seg>
       </tuv>
     </tu>
     <tu>
@@ -542,6 +598,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Acknowledge the use of open source by providing required copyright and attribution notices</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085729Z" creationid="hfukuchi" creationdate="20170913T085729Z">
+        <seg>必要な著作権や帰属を通知することで、オープン ソースを利用していることを知らせます。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Acknowledge the use of open source by providing required copyright and attribution notices
 .</seg>
       </tuv>
@@ -559,11 +623,27 @@ Traditionally, platforms and software stacks were implemented using proprietary 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Act as liaison between OSEC and OSRB</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084945Z" creationid="hfukuchi" creationdate="20170913T084945Z">
+        <seg>OSECとORSBの間の連絡役となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Act as liaison between OSEC and OSRB
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083933Z" creationid="hfukuchi" creationdate="20170627T083933Z">
         <seg>OSECとORSBの間の連絡役となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Act as liaison between the engineering and product team and the OSRB and OSEC in regard to usage plan approval processes</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085007Z" creationid="hfukuchi" creationdate="20170913T085007Z">
+        <seg>オープンソースの利用申請書類の承認について、エンジニアリングおよび製品チームとOSRB、OSECの連絡役となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -866,6 +946,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An audit report identifying the origins and licenses of the source code</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085456Z" creationid="hfukuchi" creationdate="20170913T085456Z">
+        <seg>ソース コードの出自とライセンスを特定する監査報告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An audit report identifying the origins and licenses of the source code
 .</seg>
       </tuv>
@@ -947,6 +1035,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An injunction preventing a company from shipping the product until the compliance issue has been resolved</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T060114Z" creationid="hfukuchi" creationdate="20170913T060114Z">
+        <seg>差し止め命令によりコンプライアンス上の懸念が解決されるまで製品が出荷できない</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An injunction preventing a company from shipping the product until the compliance issue has been resolved
 .</seg>
       </tuv>
@@ -968,6 +1064,14 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074515Z" creationid="hfukuchi" creationdate="20170614T005850Z">
         <seg>オープンソース管理プログラムはオープンソースソフトウェアの全ての側面、その選択、承認、利用、配布、監査、インベントリ、訓練、コミュニティとの関わり、広報等々の体系を定めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Analyze the results provided by the scanning tool</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084035Z" creationid="hfukuchi" creationdate="20170913T084035Z">
+        <seg>スキャンするツールの結果を分析</seg>
       </tuv>
     </tu>
     <tu>
@@ -1537,6 +1641,14 @@ Developers who wish to use or contribute to open source software will be request
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Bill of material difference tools</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073913Z" creationid="hfukuchi" creationdate="20170914T073913Z">
+        <seg>BoM比較ツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Bill of material difference tools
 .</seg>
       </tuv>
@@ -1828,6 +1940,14 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Changes may include:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T080439Z" creationid="hfukuchi" creationdate="20170914T080439Z">
+        <seg>変更は、以下を含むかもしれません：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Changes may include:
 .</seg>
       </tuv>
@@ -2039,6 +2159,14 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Code matches</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T090001Z" creationid="hfukuchi" creationdate="20170913T090001Z">
+        <seg>コード一致</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Code matches
 .</seg>
       </tuv>
@@ -2068,6 +2196,14 @@ As a refresher, the compliance management process includes the various steps a s
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170321T040334Z" creationid="hfukuchi" creationdate="20170321T040334Z">
         <seg>異なるライセンスで許諾されたソースを一つのバイナリへ結合する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Common mistakes and how to avoid them</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084416Z" creationid="hfukuchi" creationdate="20170913T084416Z">
+        <seg>よくあるミスと回避方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -2105,6 +2241,14 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Communication protocols</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085914Z" creationid="hfukuchi" creationdate="20170913T085914Z">
+        <seg>通信プロトコル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Communication protocols
 .</seg>
       </tuv>
@@ -2118,6 +2262,14 @@ As a refresher, the compliance management process includes the various steps a s
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170123T050428Z" creationid="hfukuchi" creationdate="20170123T050428Z">
         <seg>通信プロトコル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Communication protocols among components and subsystems</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073317Z" creationid="hfukuchi" creationdate="20170914T073317Z">
+        <seg>コンポーネントとサブシステム間の通信プロトコル</seg>
       </tuv>
     </tu>
     <tu>
@@ -2275,6 +2427,14 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Complete the open source and compliance training within a time limit set by the manager</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075529Z" creationid="hfukuchi" creationdate="20170914T075529Z">
+        <seg>マネージャによって設定された期限内にオープン ソースとコンプライアンスに関するトレーニングを修了する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Complete the open source and compliance training within a time limit set by the manager
 .</seg>
       </tuv>
@@ -2288,6 +2448,14 @@ As a refresher, the compliance management process includes the various steps a s
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170328T065436Z" creationid="hfukuchi" creationdate="20170125T053746Z">
         <seg>頒布プロセスの一部で発生するかもしれない誤りを把握するために、頒布後のチェックリストを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Completing a pre-distribution checklist to ensure that all prior steps have been successfully completed and that the source code packages are ready for external distribution</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091840Z" creationid="hfukuchi" creationdate="20170913T091840Z">
+        <seg>前に置かれた全ステップが問題なく完了していることと、外部頒布に向けてソース コード パッケージの準備が整っていることを確実にするために、頒布前チェックリストを全て確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2445,6 +2613,14 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Component dependencies</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085907Z" creationid="hfukuchi" creationdate="20170913T085907Z">
+        <seg>コンポーネントの依存状態</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Component dependencies
 .</seg>
       </tuv>
@@ -2462,6 +2638,14 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Component run-time context (kernel/drivers/modules, middleware, libraries, applications, etc.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T081324Z" creationid="hfukuchi" creationdate="20170914T081324Z">
+        <seg>コンポーネントの実行時のコンテキスト(Kernel/dirver/modules, middleware, libraries, applications, etc.)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Component run-time context (kernel/drivers/modules, middleware, libraries, applications, etc.)
 .</seg>
       </tuv>
@@ -2472,11 +2656,27 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Components deployed in kernel space (drivers, etc.) versus user space (libraries, middleware, applications)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073406Z" creationid="hfukuchi" creationdate="20170914T073406Z">
+        <seg>カーネル空間実行（ドライバ等）とユーザー空間実行（ライブラリ、ミドルウェア、アプリケーション）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Components deployed in kernel space (drivers, etc.) versus user space (libraries, middleware, applications)
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170202T091203Z" creationid="hfukuchi" creationdate="20170202T091203Z">
         <seg>カーネル空間実行（ドライバ等）とユーザー空間実行（ライブラリ、ミドルウェア、アプリケーション）.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Components originating from third-party software providers (both open source and proprietary)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T081235Z" creationid="hfukuchi" creationdate="20170914T081235Z">
+        <seg>サード パーティ プロバイダから提供されたものに由来するコンポーネント</seg>
       </tuv>
     </tu>
     <tu>
@@ -2515,11 +2715,27 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Components that use shared header files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073426Z" creationid="hfukuchi" creationdate="20170914T073426Z">
+        <seg>共有されたヘッダファイルを使用するコンポーネント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Components that use shared header files
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170202T091242Z" creationid="hfukuchi" creationdate="20170202T091242Z">
         <seg>共有されたヘッダファイルを使用するコンポーネント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Components that were included in the software BOM that don’t have a corresponding approval</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075621Z" creationid="hfukuchi" creationdate="20170914T075621Z">
+        <seg>ソフトウェアBOMに含まれているが、承認を受けていないコンポーネント</seg>
       </tuv>
     </tu>
     <tu>
@@ -2653,6 +2869,14 @@ Add milestone in compliance process to verify modified source code has been mark
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Connect with license scanning tools or consume the output thereof</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T074531Z" creationid="hfukuchi" creationdate="20170914T074531Z">
+        <seg>ライセンス スキャン ツールと接続します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Connect with license scanning tools or consume the output thereof
 .</seg>
       </tuv>
@@ -2714,6 +2938,14 @@ Add milestone in compliance process to verify modified source code has been mark
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081057Z" creationid="hfukuchi" creationdate="20170614T015433Z">
         <seg>ソースコードのベースを継続的にスキャン。これにはサードパーティのソフトウェアプロバイダから受領したものを含めます。該当するコンプライアンスチケットなしにコードベースにチェックインしたソースコードを捕まえるためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Continuous audits of all source code integrated in the code base, regardless of its origins</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061807Z" creationid="hfukuchi" creationdate="20170913T061807Z">
+        <seg>コードベースに統合されたすべてのソースコードについて、出所を問わず継続的に監査</seg>
       </tuv>
     </tu>
     <tu>
@@ -2851,6 +3083,14 @@ Contribute to improving compliance program</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Coordinate source code distribution of open source packages (when stipulated by licenses) with engineering and product teams, including preparing and verifying a distribution checklist for each open source package</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084926Z" creationid="hfukuchi" creationdate="20170913T084926Z">
+        <seg>オープンソースのパッケージのソースコード配布（ライセンスに規定されている場合）についてエンジニアリングおよび製品チームと調整します。これは個々のオープンソースパッケージの配布チェックリストの用意と確認を含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Coordinate source code distribution of open source packages (when stipulated by licenses) with engineering and product teams, including preparing and verifying a distribution checklist for each open source package
 .</seg>
       </tuv>
@@ -2864,6 +3104,14 @@ Contribute to improving compliance program</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T024216Z" creationid="hfukuchi" creationdate="20170614T024216Z">
         <seg>ソースコードのスキャンと監査を調整</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Coordinate source code scans and drive all auditing issues to closure</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084819Z" creationid="hfukuchi" creationdate="20170913T084819Z">
+        <seg>ソースコードのスキャン作業を調整し、すべての監査を終わりまで主導する</seg>
       </tuv>
     </tu>
     <tu>
@@ -3019,6 +3267,14 @@ The first challenge is to balance the compliance program and its supporting infr
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Customers who buy the product or use the service containing open source software are informed of their rights to receive the source code when applicable</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091703Z" creationid="hfukuchi" creationdate="20170913T091703Z">
+        <seg>オープン ソース ソフトウェアを含む製品を購入する顧客やサービスを利用するユーザは、適用可能な場合に、ソース コードを受け取る権利があることを通知される。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Customers who buy the product or use the service containing open source software are informed of their rights to receive the source code when applicable
 .</seg>
       </tuv>
@@ -3102,6 +3358,14 @@ The documentation team is responsible for including written offers and any appro
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Deciding on a distribution mode</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091738Z" creationid="hfukuchi" creationdate="20170913T091738Z">
+        <seg>頒布様式を決めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Deciding on a distribution mode
 .</seg>
       </tuv>
@@ -3115,6 +3379,14 @@ The documentation team is responsible for including written offers and any appro
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170124T064956Z" creationid="hfukuchi" creationdate="20170124T064956Z">
         <seg>ソース コード提供方法を決めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependencies</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085955Z" creationid="hfukuchi" creationdate="20170913T085955Z">
+        <seg>依存関係</seg>
       </tuv>
     </tu>
     <tu>
@@ -3192,6 +3464,14 @@ The documentation team is responsible for including written offers and any appro
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Develop open source use and distribution policies and procedures</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061137Z" creationid="hfukuchi" creationdate="20170913T061137Z">
+        <seg>オープンソースの利用および配布のポリシーと手続きを定める</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Develop open source use and distribution policies and procedures
 .</seg>
       </tuv>
@@ -3225,6 +3505,14 @@ The documentation team is responsible for including written offers and any appro
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Development in kernel space versus user space (on Linux), especially with whole-platform development in embedded environments</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084513Z" creationid="hfukuchi" creationdate="20170913T084508Z">
+        <seg>カーネル空間とユーザー空間のどちらで開発を行うか（Linuxの場合）、特に組み込み環境においてプラットフォーム全体を開発する時</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Development in kernel space versus user space (on Linux), especially with whole-platform development in embedded environments
 .</seg>
       </tuv>
@@ -3238,6 +3526,14 @@ The documentation team is responsible for including written offers and any appro
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170628T083538Z" creationid="hfukuchi" creationdate="20170628T083538Z">
         <seg>デューデリジェンスの実務はオープンソースについての開示、開示されたオープンソースとライセンスの評価のガイドを含むよう改める必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discovery and diligence costs in response to the compliance inquiry, where the company had to investigate the alleged inquiry and perform due diligence on the source code in question</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061252Z" creationid="hfukuchi" creationdate="20170913T061252Z">
+        <seg>コンプライアンスの照会への対応として申し立てに応じた調査、問題のソースコードのデューデリジェンス、のためのディスカバリとデューデリジェンスのコスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -3528,11 +3824,27 @@ Coordinate distribution of source code packages</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dynamic versus static linking</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091457Z" creationid="hfukuchi" creationdate="20170913T091457Z">
+        <seg>動的リンクと静的リンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dynamic versus static linking
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170123T050254Z" creationid="hfukuchi" creationdate="20170123T050254Z">
         <seg>動的リンクと静的リンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dynamic versus static linking (discussed in the following section)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073343Z" creationid="hfukuchi" creationdate="20170914T073343Z">
+        <seg>動的リンクと静的リンク（以下の節で議論されます）</seg>
       </tuv>
     </tu>
     <tu>
@@ -3707,6 +4019,14 @@ Open source initiatives and projects provide companies and other organizations w
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075311Z" creationid="hfukuchi" creationdate="20170614T012055Z">
         <seg>教育はコンプライアンスプログラムにおいて必須の構成要素で、オープンソースソフトウェアの利用を取り仕切るポリシーを従業員がよく理解する基礎となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Email communication providing executive support and of open source compliance activities</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061613Z" creationid="hfukuchi" creationdate="20170913T061613Z">
+        <seg>オープンソースコンプライアンス活動を幹部がサポートする電子メールでの対話</seg>
       </tuv>
     </tu>
     <tu>
@@ -3951,6 +4271,14 @@ License changes can occur between version upgrades.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170328T073136Z" creationid="hfukuchi" creationdate="20170130T042745Z">
         <seg>オープン ソース パッケージは、企業のものでないマシンでコンパイルできることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ensuring engineers consistently fill out request forms for each open source component they want to use</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075234Z" creationid="hfukuchi" creationdate="20170914T075234Z">
+        <seg>技術者が利用したいオープン ソース コンポーネント毎に一貫して要求フォームを確実に記入するようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4809,6 +5137,14 @@ audit findings</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File inventory</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085940Z" creationid="hfukuchi" creationdate="20170913T085940Z">
+        <seg>ファイル一覧表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File inventory
 .</seg>
       </tuv>
@@ -5483,6 +5819,14 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Help employees understand how to work with open source in a responsible way</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085347Z" creationid="hfukuchi" creationdate="20170913T085347Z">
+        <seg>従業員が、責任ある方法でオープン ソースとどのように取り組めばよいか理解するのを助けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Help employees understand how to work with open source in a responsible way
 .</seg>
       </tuv>
@@ -5826,11 +6170,27 @@ The goal of this initial step is to monitor the ingress and incorporation of ope
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Identified files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085947Z" creationid="hfukuchi" creationdate="20170913T085947Z">
+        <seg>特定されたファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Identified files
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170116T092244Z" creationid="hfukuchi" creationdate="20170116T092244Z">
         <seg>特定されたファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Identify all open source used in products, presented in services, and/or used internally</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061029Z" creationid="hfukuchi" creationdate="20170913T061029Z">
+        <seg>製品の中で、サービスが開示している、あるいは内部で利用されている全てのオープンソースを識別</seg>
       </tuv>
     </tu>
     <tu>
@@ -5848,6 +6208,14 @@ The goal of this initial step is to monitor the ingress and incorporation of ope
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170207T060348Z" creationid="hfukuchi" creationdate="20170207T060348Z">
         <seg>バイナリとライブラリのライセンスを特定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Identify linking among binaries and libraries</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T074508Z" creationid="hfukuchi" creationdate="20170914T074508Z">
+        <seg>バイナリとライブラリ間のリンクを特定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6384,6 +6752,14 @@ CIOオフィス, </seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In preparation for the legal review, it is best to provide attorneys with all discovered licensing information for specific components:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T072947Z" creationid="hfukuchi" creationdate="20170914T072947Z">
+        <seg>法務レビューの準備としては、特定のコンポーネントに対して発見されたライセンス情報の全てを、法務担当に提供するのが最も良い方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In preparation for the legal review, it is best to provide attorneys with all discovered licensing information for specific components:
 .</seg>
       </tuv>
@@ -6665,6 +7041,14 @@ CIOオフィス, </seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this example, the compliance team identifies all open source included in the software baseline (here called v 1.0), and drives all of the open source components through the compliance end-to-end process.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T090957Z" creationid="hfukuchi" creationdate="20170913T090957Z">
+        <seg>この例では、コンプライアンス チームは、ソフトウェア ベースライン（ここでは仮にV 1.0と呼びます）に含まれる全てのオープン ソースを特定し、オープン ソース コンポーネント全てが、コンプライアンス プロセス全体を通るようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this instance, your organization has incorporated open source into a product or service, and due to the open source component license, you have the obligation to make source code available, including any modifications to it.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170124T043516Z" creationid="hfukuchi" creationdate="20170124T043516Z">
@@ -6835,6 +7219,14 @@ Mandate that developers file approval requests early, even if they didn’t yet 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Included packages compile/build properly</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073758Z" creationid="hfukuchi" creationdate="20170914T073758Z">
+        <seg>含まれるパッケージは、適切にコンパイル、ビルドできる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Included packages compile/build properly
 .</seg>
       </tuv>
@@ -6848,6 +7240,14 @@ Mandate that developers file approval requests early, even if they didn’t yet 
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170324T093202Z" creationid="hfukuchi" creationdate="20170123T045609Z">
         <seg>会社IPは含まれるか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inclusion of open source components into proprietary or third-party source code or vice versa</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T081933Z" creationid="hfukuchi" creationdate="20170914T081933Z">
+        <seg>オープン ソース コンポーネントをプロプライエタリやサード パーティ ソース コードへの挿入、またはその逆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6887,6 +7287,14 @@ Occurs when developers copy/paste proprietary source code into OS software</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Incoming licenses = Proprietary License + License A + License B + License C</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T090106Z" creationid="hfukuchi" creationdate="20170913T090038Z">
+        <seg>入るライセンス = プロプライエタリ ライセンス + ライセンスA + ライセンスB + ライセンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Incoming licenses = Proprietary License + License A + License B + License C
 Outgoing license(s) = ?</seg>
       </tuv>
@@ -6909,6 +7317,14 @@ Outgoing license(s) = ?</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170629T052034Z" creationid="hfukuchi" creationdate="20170614T002943Z">
         <seg>そうしたコンプライアンス違反の法的な決着を通じて、オープンソースのプロフェッショナル達は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incremental compliance</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T090324Z" creationid="hfukuchi" creationdate="20170913T090312Z">
+        <seg>インクリメンタル コンプライアンス</seg>
       </tuv>
     </tu>
     <tu>
@@ -6975,6 +7391,14 @@ In this example, the compliance team identifies all open source included in the 
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170329T040404Z" creationid="hfukuchi" creationdate="20170213T084005Z">
         <seg>照会者に自社のコンプライアンス手続きとプラクティスを伝え、照会された事項を調査することを確約します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inform the end user how to obtain a copy of the source code that’s been made available as a result of meeting the license obligations (when applicable)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085715Z" creationid="hfukuchi" creationdate="20170913T085715Z">
+        <seg>エンド ユーザーに、ライセンス義務を満たした結果として入手可能になっているソース コードのコピーをどのおうに入手できるかを通知します（必要に応じて）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7166,6 +7590,14 @@ Provide support and maintenance for the tools and automation infrastructure used
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Inter-component dependencies beyond APIs (s/w buses, IPCs, web APIs, etc.)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T081342Z" creationid="hfukuchi" creationdate="20170914T081342Z">
+        <seg>APIを超えたコンポーネント間依存関係(s/w buses, IPCs, web APIs, etc.).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Inter-component dependencies beyond APIs (s/w buses, IPCs, web APIs, etc.)
 .</seg>
       </tuv>
@@ -7179,6 +7611,14 @@ Provide support and maintenance for the tools and automation infrastructure used
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170321T060123Z" creationid="hfukuchi" creationdate="20170321T060123Z">
         <seg>言語間の結合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Interaction methods between various software components (proprietary, third-party, open source)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T082020Z" creationid="hfukuchi" creationdate="20170914T082020Z">
+        <seg>様々なソフトウェア コンポーネント間（プロプライエタリ、サード パーティ、オープン ソース）の相互作用法</seg>
       </tuv>
     </tu>
     <tu>
@@ -7212,6 +7652,14 @@ Provide support and maintenance for the tools and automation infrastructure used
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080854Z" creationid="hfukuchi" creationdate="20170614T014547Z">
         <seg>内部的な対話は下記のいずれでも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internal package owner (the developer working on specific source code component)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085631Z" creationid="hfukuchi" creationdate="20170913T085631Z">
+        <seg>社内パッケージ所有者（特定のソース コード コンポーネントの開発者）</seg>
       </tuv>
     </tu>
     <tu>
@@ -7443,6 +7891,14 @@ department exercise.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is usually provided as part of the product documentation and also accessible from the product’s user interface.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T060109Z" creationid="hfukuchi" creationdate="20170913T060109Z">
+        <seg>これは通常、製品添付の文書に含めるとともに、製品のユーザーインターフェースからアクセスできるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is very helpful and efficient to develop, maintain, and evolve checklists that cover the verification steps that the compliance team follows, both to ensure consistency and to ensure that no verification steps are overlooked.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170328T085418Z" creationid="hfukuchi" creationdate="20170206T035817Z">
@@ -7509,6 +7965,14 @@ Rob Alexander, CIO, Capital One</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Kernel space versus user space</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091517Z" creationid="hfukuchi" creationdate="20170913T091517Z">
+        <seg>カーネル空間とユーザー空間</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Kernel space versus user space
 .</seg>
       </tuv>
@@ -7530,6 +7994,14 @@ Rob Alexander, CIO, Capital One</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083514Z" creationid="hfukuchi" creationdate="20170627T083514Z">
         <seg>企業全体のポリシーとプロセスを確立できる知識と経験</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Knowledge of community consensus and practices</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084708Z" creationid="hfukuchi" creationdate="20170913T084708Z">
+        <seg>コミュニティのコンセンサスと慣行の知識</seg>
       </tuv>
     </tu>
     <tu>
@@ -7757,6 +8229,14 @@ Input</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Legal opinion on compliance, and decision on incoming and outgoing licenses</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T090214Z" creationid="hfukuchi" creationdate="20170913T090214Z">
+        <seg>コンプライアンスに関する法務の意見、入るライセンスと出るライセンスに関する決定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Legal opinion on compliance, and decision on incoming and outgoing licenses
 .</seg>
       </tuv>
@@ -7859,6 +8339,14 @@ Input</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073225Z" creationid="hfukuchi" creationdate="20170613T091950Z">
         <seg>ライセンスコンプライアンス問題は知財上の問題に比べ一般に損害は小さいです。自社のプロプラエタリなコードをオープンソースライセンスで開示するといった副作用がないからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>License conflicts to be verified by legal</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085933Z" creationid="hfukuchi" creationdate="20170913T085933Z">
+        <seg>法務担当によって検証されるべきライセンス矛盾</seg>
       </tuv>
     </tu>
     <tu>
@@ -7999,6 +8487,14 @@ Occurs as a result of linking software components that have conflicting or incom
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170613T090455Z" creationid="hfukuchi" creationdate="20170613T090455Z">
         <seg>オープンソースのソフトウェアをプロプラエタリなソースコードのソフトウェアにリンク (またはその逆。C/C++特有の問題) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Linking open source components into proprietary or third-party source code or vice versa</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T081947Z" creationid="hfukuchi" creationdate="20170914T081947Z">
+        <seg>オープン ソース コンポーネントをプロプライエタリやサード パーティ ソース コードにリンク、またはその逆。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8328,6 +8824,14 @@ Figure 4 described the essential elements needed for a successful compliance pro
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Module dependencies</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091419Z" creationid="hfukuchi" creationdate="20170913T091419Z">
+        <seg>モジュールの依存関係</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Module dependencies
 .</seg>
       </tuv>
@@ -8373,6 +8877,14 @@ Figure 4 described the essential elements needed for a successful compliance pro
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074002Z" creationid="hfukuchi" creationdate="20170614T003637Z">
         <seg>コンプライアンス違反が公となった事件の多くはGPLのソースコードが関わっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Move open source use from ad hoc to a standardized process</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085322Z" creationid="hfukuchi" creationdate="20170913T085322Z">
+        <seg>オープン ソース利用を一時的なものから標準プロセスへと移行させます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8427,6 +8939,14 @@ Figure 4 described the essential elements needed for a successful compliance pro
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Names of new software components added in v1.1</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091217Z" creationid="hfukuchi" creationdate="20170913T091150Z">
+        <seg>V1.1で追加された新しいソフトウェア コンポーネントの名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Names of new software components added in v1.1
 .</seg>
       </tuv>
@@ -8440,6 +8960,14 @@ Figure 4 described the essential elements needed for a successful compliance pro
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170119T083312Z" creationid="hfukuchi" creationdate="20170119T083312Z">
         <seg>使用されなくなったソフトウェア コンポーネントの名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Names of updated software components</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091241Z" creationid="hfukuchi" creationdate="20170913T091241Z">
+        <seg>更新されているソフトウェア コンポーネントの名前</seg>
       </tuv>
     </tu>
     <tu>
@@ -8473,6 +9001,14 @@ Figure 4 described the essential elements needed for a successful compliance pro
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075520Z" creationid="hfukuchi" creationdate="20170614T012558Z">
         <seg>新人研修：時にはコンプライアンスオフィサーが企業のコンプライアンスの努力、規則、ポリシー、プロセスを新人に対して研修の一部として講演し、必要となるオープンソースの管理上の情報（聞くべき人、訪れるべき内部のウェブサイト、オープンソースとコンプライアンスのトレーニングへの参加方法等々）を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New open source used</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T080455Z" creationid="hfukuchi" creationdate="20170914T080455Z">
+        <seg>新しいオープン ソース</seg>
       </tuv>
     </tu>
     <tu>
@@ -9172,6 +9708,14 @@ or stored on equivalent media), your work is not complete.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open source added to the code repository that does not correspond to a usage form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085608Z" creationid="hfukuchi" creationdate="20170913T085608Z">
+        <seg>コード リポジトリへ追加された、利用申請フォームに対応していないオープン ソースコード リポジトリへ追加された、利用申請フォームに対応していないオープン ソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open source added to the code repository that does not correspond to a usage form
 .</seg>
       </tuv>
@@ -9245,6 +9789,14 @@ or stored on equivalent media), your work is not complete.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Open source components (modified versus as-is)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091442Z" creationid="hfukuchi" creationdate="20170913T091442Z">
+        <seg>オープン ソース コンポーネント（変更後とオリジナル）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Open source components (modified versus as-is)
 .</seg>
       </tuv>
@@ -9301,6 +9853,14 @@ Richard Lumb, Chief Executive, Financial Services, Accenture</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072241Z" creationid="hfukuchi" creationdate="20170613T081400Z">
         <seg>オープンソースのイニシアチブやプロジェクトを使う事で、企業や組織はオープンソースソフトウェアの開発者を代表する数百、時に数千のコミュニティと協力し、イノベーションを加速できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open source packages destined for distribution have been identified and approved</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085749Z" creationid="hfukuchi" creationdate="20170913T085749Z">
+        <seg>頒布されることになっているオープン ソース パッケージは、特定され、承認されている。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9444,6 +10004,14 @@ Corporate Development is also involved with compliance in transactions such as s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Outgoing license(s) = ?</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T090110Z" creationid="hfukuchi" creationdate="20170913T090110Z">
+        <seg>出るライセンス = ?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170116T091219Z" creationid="hfukuchi" creationdate="20170116T091219Z">
@@ -9456,6 +10024,14 @@ Corporate Development is also involved with compliance in transactions such as s
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080939Z" creationid="hfukuchi" creationdate="20170614T015022Z">
         <seg>オープンソースの組織への参加 やサポート。こうした活動は企業がオープンソースの組織との関係を確立し、そうした組織の役割を理解し、有意義な貢献をするのを助けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Outside and in-house legal costs</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061312Z" creationid="hfukuchi" creationdate="20170913T061312Z">
+        <seg>外部・内部のリーガルコスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -9481,6 +10057,14 @@ Corporate Development is also involved with compliance in transactions such as s
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071825Z" creationid="hfukuchi" creationdate="20170613T080216Z">
         <seg>時と共に企業はOSSを自社のプラットフォームやソフトウェアスタックに組み込み、その恩恵に預かるようになってきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Oversee the closure of all issues identified by scanning tools</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084215Z" creationid="hfukuchi" creationdate="20170913T084215Z">
+        <seg>スキャンのツールで特定されたすべての問題の解決を監督</seg>
       </tuv>
     </tu>
     <tu>
@@ -9575,11 +10159,27 @@ Corporate Development is also involved with compliance in transactions such as s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Packages can be downloaded and uncompressed on an external computer without error</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073738Z" creationid="hfukuchi" creationdate="20170914T073738Z">
+        <seg>パッケージは、外部コンピュータでエラー無しにダウンロードして圧縮解凍できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Packages can be downloaded and uncompressed on an external computer without error
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170328T090345Z" creationid="hfukuchi" creationdate="20170206T081724Z">
         <seg>パッケージは、外部コンピュータでエラー無しにダウンロードして圧縮解凍できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Packages have been uploaded correctly</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073717Z" creationid="hfukuchi" creationdate="20170914T073717Z">
+        <seg>パッケージは、正しくアップロードされている。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9636,6 +10236,14 @@ Primary Roles and Responsibilities</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Participate in engineering design reviews, code inspections, and distribution readiness assessments to assure that the engineering and product teams follow all compliance processes and policies and conform to the approved OSRB usage form</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084847Z" creationid="hfukuchi" creationdate="20170913T084847Z">
+        <seg>エンジニアリングチームによる設計のレビュー、コードの検査、配布可能化の評価に参加し、エンジニアリングおよび製品チームがコンプライアンスの全プロセスとポリシーに従っていること、OSRB承認済の利用申請書類に適合することを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Participate in engineering design reviews, code inspections, and distribution readiness assessments to assure that the engineering and product teams follow all compliance processes and policies and conform to the approved OSRB usage form
 .</seg>
       </tuv>
@@ -9677,6 +10285,14 @@ Primary Roles and Responsibilities</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Perform architectural reviews to verify if and how open source license obligations are extending to proprietary and third-party software components</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061056Z" creationid="hfukuchi" creationdate="20170913T061056Z">
+        <seg>アーキテクチャを評価し、オープンソースのライセンス上の義務がプロプラエタリやサードパーティのソフトウェアコンポーネントまで拡大していないか、拡大しているならばどのように、を検証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Perform architectural reviews to verify if and how open source license obligations are extending to proprietary and third-party software components
 .</seg>
       </tuv>
@@ -9706,6 +10322,14 @@ Primary Roles and Responsibilities</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082235Z" creationid="hfukuchi" creationdate="20170614T035928Z">
         <seg>リンク解析をレビュー。OSRBはAPI呼び出し等によるリンク関係により、何らかのオープンソースのライセンス上の義務がプロプラエタリやサードパーティのソフトウェアに広がっていないかの確認のためリンク解析を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Perform software audits: The OSRB performs audits on all software included in a product, which involves the following tasks:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084125Z" creationid="hfukuchi" creationdate="20170913T083913Z">
+        <seg>ソフトウェアの監査の実施：OSRBは製品に含まれる全ソフトウェアについて監査を行う。これは下記が含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9941,6 +10565,14 @@ The next step in the compliance due diligence is to decide on the method and mod
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Preparing the source code packages for external distribution</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091757Z" creationid="hfukuchi" creationdate="20170913T091757Z">
+        <seg>外部頒布のためにソース コード パッケージの準備をします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Preparing the source code packages for external distribution
 .</seg>
       </tuv>
@@ -10102,10 +10734,26 @@ The next step in the compliance due diligence is to decide on the method and mod
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project Management Tools</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073954Z" creationid="hfukuchi" creationdate="20170914T073954Z">
+        <seg>プロジェクト管理ツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project Management Tools 118</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170804T060236Z" creationid="hfukuchi" creationdate="20170804T060236Z">
         <seg>プロジェクト管理ツール 118</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project management tools</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073854Z" creationid="hfukuchi" creationdate="20170914T073854Z">
+        <seg>プロジェクト管理ツール</seg>
       </tuv>
     </tu>
     <tu>
@@ -10127,11 +10775,27 @@ The next step in the compliance due diligence is to decide on the method and mod
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Proprietary code, developed by the company building the product/service</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T054820Z" creationid="hfukuchi" creationdate="20170913T054820Z">
+        <seg>プロプラエタリなコード、その製品やサービスを作る企業が開発したもの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Proprietary code, developed by the company building the product/service
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080404Z" creationid="hfukuchi" creationdate="20170613T080404Z">
         <seg>プロプラエタリなコード、その製品やサービスを作る企業が開発したもの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proprietary code, originally developed by the company under an open source license in the process of integrating and deploying open source components, but was not contributed back to the upstream open source project</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T054830Z" creationid="hfukuchi" creationdate="20170913T054830Z">
+        <seg>プロプラエタリなコード、元々はその企業によりオープンソースのライセンス下でオープンソースのコンポーネントを統合したり適用したりすることで開発されたが、上流のオープンソースプロジェクトに寄付されず戻されなかったもの</seg>
       </tuv>
     </tu>
     <tu>
@@ -10170,11 +10834,27 @@ The next step in the compliance due diligence is to decide on the method and mod
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Proprietary software committed into the source code repository system</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085546Z" creationid="hfukuchi" creationdate="20170913T085546Z">
+        <seg>ソース コード リポジトリへ提出されるプロプライエタリ ソフトウェア</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Proprietary software committed into the source code repository system
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170508T034035Z" creationid="hfukuchi" creationdate="20170508T034035Z">
         <seg>ソース コード リポジトリへ提出されるプロプライエタリ ソフトウェア</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Proprietary software created by internal developers, which may include snippets of open source or which integrates open source at the component level, with dependencies on or links to open source code</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T092333Z" creationid="hfukuchi" creationdate="20170913T092333Z">
+        <seg>内部開発者によって作られたプロプライエタリ ソフトウェア。オープン ソースのコード断片を含んでいるかもしれません。コンポーネント レベルでオープン ソース コードと依存関係を持ったり、リンクされたりして、オープン ソースと統合されているかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10733,6 +11413,14 @@ A resolution for each of the flagged files in the report and a resolution for an
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Response time to compliance tickets</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075638Z" creationid="hfukuchi" creationdate="20170914T075638Z">
+        <seg>コンプライアンス チケットへの応答時間</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Response time to compliance tickets
 .</seg>
       </tuv>
@@ -10977,6 +11665,14 @@ OSRB利用フォームに影響するいくつかの規則があります。</se
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075249Z" creationid="hfukuchi" creationdate="20170627T075249Z">
         <seg>リンクにより起き得る問題を回避するため、ライブラリやその他ミドルウェアを統合するときの規則</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Run a source code scanning tool over the software base</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084044Z" creationid="hfukuchi" creationdate="20170913T083941Z">
+        <seg>ソフトウェアベースに対しソースコードをスキャンするツールを適用</seg>
       </tuv>
     </tu>
     <tu>
@@ -11446,6 +12142,14 @@ Scenario 8: Source code is rejected</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Shared header files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T091539Z" creationid="hfukuchi" creationdate="20170913T091539Z">
+        <seg>共有されているヘッダ ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shared header files
 .</seg>
       </tuv>
@@ -11560,6 +12264,14 @@ party shrink-wrap</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Software interaction methods: A guide to understanding how software components available under different licenses interact, and if the method of interaction is allowed per company compliance policies</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T080736Z" creationid="hfukuchi" creationdate="20170914T080736Z">
+        <seg>ソフトウェア相互作用法：異なるライセンスで利用可能なソフトウェア コンポーネントがどのように相互作用するか、相互作用の方法は企業のコンプライアンス ポリシーで許可されているかを理解するガイド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Software interaction methods: A guide to understanding how software components available under different licenses interact, and if the method of interaction is allowed per company compliance policies
 .</seg>
       </tuv>
@@ -11573,6 +12285,14 @@ party shrink-wrap</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170403T074302Z" creationid="hfukuchi" creationdate="20170112T024143Z">
         <seg>サード パーティ企業から受け取るソフトウェアは、含まれているオープン ソースを全て特定しなければなりません。このことは、製品出荷前までにライセンス義務を実施することを確実にしてくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Solid understanding of common open source licenses and obligations to discuss with legal counsel Knowledge of industry practices</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084647Z" creationid="hfukuchi" creationdate="20170913T084647Z">
+        <seg>法律顧問の業界慣行の知識と討議できる、一般的なオープンソースラインセンスと義務について確たる理解</seg>
       </tuv>
     </tu>
     <tu>
@@ -11614,6 +12334,14 @@ party shrink-wrap</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170411T041527Z" creationid="hfukuchi" creationdate="20170215T080950Z">
         <seg>いくつかの企業は、社内向け、社外向けのオープン ソース ウェブ ポータルを運営しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some companies opt for both options when possible, in addition to maintaining these notices on a given website (optional, but also often adopted, and it’s low maintenance - basically just hosting the notices file on the website).</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T080119Z" creationid="hfukuchi" creationdate="20170914T080119Z">
+        <seg>いくつかの企業は、ウェブサイト（一つの選択肢ではありますが、頻繁に採用され、維持にも手がかかりません。基本的にはウェブサイト上に通知ファイルを置くだけです。）上で通知を維持しながら、可能な時には両方の選択肢を選びます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11799,6 +12527,14 @@ or legal counsel.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Source code available under these licenses may be pre-approved for use by developers without having to go through the approval process with their manager and/or legal counsel.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T081116Z" creationid="hfukuchi" creationdate="20170914T081116Z">
+        <seg>これらのライセンスで許諾されたソース コードは、開発者が、マネージャや法務担当への承認プロセスを通すことなく、利用が事前承認されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Source code available under these licenses requires legal review and approval.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170321T051548Z" creationid="hfukuchi" creationdate="20170321T051548Z">
@@ -11811,6 +12547,14 @@ or legal counsel.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170508T033823Z" creationid="hfukuchi" creationdate="20170508T033823Z">
         <seg>以前に承認されたコンポーネントでのソース コード変更</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source code downloaded from the web (unknown author or license)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085537Z" creationid="hfukuchi" creationdate="20170913T085537Z">
+        <seg>ウェブからダウンロードされたソース コード（著者やライセンスが不明）</seg>
       </tuv>
     </tu>
     <tu>
@@ -11829,6 +12573,14 @@ or license, which may or may not have incorporated open source in it
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170411T041111Z" creationid="hfukuchi" creationdate="20170112T091418Z">
+        <seg>作者やライセンスが不明であり、オープン ソースが含まれているかもしれないウェブからダウンロードしたソース コード。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source code downloaded from the web with unknown author and/or license, which may or may not have incorporated open source in it</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085846Z" creationid="hfukuchi" creationdate="20170913T085846Z">
         <seg>作者やライセンスが不明であり、オープン ソースが含まれているかもしれないウェブからダウンロードしたソース コード。</seg>
       </tuv>
     </tu>
@@ -11863,6 +12615,14 @@ or license, which may or may not have incorporated open source in it
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170329T043535Z" creationid="hfukuchi" creationdate="20170217T073154Z">
         <seg>プロプライエタリを残すソース コード変更は、特に派生物への義務を持つような（GPL, LGPL等の）オープン ソース パッケージ内で行っていはいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source code packages (including modifications) have been verified to match the binary equivalent shipping in the product</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085759Z" creationid="hfukuchi" creationdate="20170913T085759Z">
+        <seg>ソース コード パッケージ（変更を含む）は、製品として出荷されるバイナリと一致することが確認されている。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11908,6 +12668,14 @@ or license, which may or may not have incorporated open source in it
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Source code packages made available (including modifications) match the binary(ies) shipping in the product or software stack</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073553Z" creationid="hfukuchi" creationdate="20170914T073553Z">
+        <seg>ソース コード パッケージ（変更分も含めて）は、製品やソフトウェア スタックに入って出荷されるバイナリと一致するものが、入手可能にされる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Source code packages made available (including modifications) match the binary(ies) shipping in the product or software stack
 .</seg>
       </tuv>
@@ -11938,6 +12706,14 @@ or license, which may or may not have incorporated open source in it
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170403T075120Z" creationid="hfukuchi" creationdate="20170112T090954Z">
         <seg>オープン ソースを開示しているか不明なサード パーティ ソフトウェア プロバイダーから受け取ったソース コード。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Source code scanning and license identification tools</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073838Z" creationid="hfukuchi" creationdate="20170914T073838Z">
+        <seg>ソース コード スキャンとライセンス特定ツール</seg>
       </tuv>
     </tu>
     <tu>
@@ -12525,6 +13301,14 @@ Mandate third party software providers to disclose open source in licensed or pu
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The COPYING, README, or LICENSE files for open source components</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073038Z" creationid="hfukuchi" creationdate="20170914T073038Z">
+        <seg>オープン ソース コンポーネントに対するCOPYING, README, LICENSE ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The COPYING, README, or LICENSE files for open source components
 .</seg>
       </tuv>
@@ -12647,6 +13431,14 @@ Chris Anderson, CEO, 3DR
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170509T074730Z" creationid="hfukuchi" creationdate="20170509T074730Z">
         <seg>OSRB チェアは、自動ツールを使用してこの調査を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The OSRB guidelines typically cover:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084431Z" creationid="hfukuchi" creationdate="20170913T084431Z">
+        <seg>OSRBのガイドラインは通常以下をカバーします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13348,6 +14140,14 @@ Chris Anderson, CEO, 3DR
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The list of discovered issues, information on how they were resolved, and who verified that these issues were successfully resolved</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T090202Z" creationid="hfukuchi" creationdate="20170913T090202Z">
+        <seg>発見された課題、課題が解決された経緯に関する情報、課題が解決されたことを確認した人のリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The list of discovered issues, information on how they were resolved, and who verified that these issues were successfully resolved
 .</seg>
       </tuv>
@@ -13541,6 +14341,14 @@ Chris Anderson, CEO, 3DR
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The reason why a violation is believed to exist</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075044Z" creationid="hfukuchi" creationdate="20170914T075044Z">
+        <seg>違反があると信じる理由</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The reason why a violation is believed to exist
 .</seg>
       </tuv>
@@ -13714,6 +14522,14 @@ Chris Anderson, CEO, 3DR
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170118T084956Z" creationid="hfukuchi" creationdate="20170118T084956Z">
         <seg>そのソフトウェア コンポーネントは、もはや使われない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source code audit report generated by the scanning tool</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073006Z" creationid="hfukuchi" creationdate="20170914T073006Z">
+        <seg>スキャン ツールによって生成されたソース コード監査報告</seg>
       </tuv>
     </tu>
     <tu>
@@ -14201,11 +15017,27 @@ Chris Anderson, CEO, 3DR
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Third-party commercial code, developed by third-party software providers and received by the company building the product/service under a commercial license</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T054905Z" creationid="hfukuchi" creationdate="20170913T054905Z">
+        <seg>サードパーティの商用コード、サードパーティのソフトウェアプロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したもの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Third-party commercial code, developed by third-party software providers and received by the company building the product/service under a commercial license
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080614Z" creationid="hfukuchi" creationdate="20170613T080614Z">
         <seg>サードパーティの商用コード、サードパーティのソフトウェアプロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したもの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Third-party components under a commercial license</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T073244Z" creationid="hfukuchi" creationdate="20170914T073244Z">
+        <seg>商用ライセンスで許諾されたサード パーティ コンポーネント</seg>
       </tuv>
     </tu>
     <tu>
@@ -14927,11 +15759,27 @@ Training is an essential building block in a compliance program, to ensure that 
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Update the product manual to:</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T092032Z" creationid="hfukuchi" creationdate="20170913T092032Z">
+        <seg>製品マニュアルを更新します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Update the product manual to:
 .</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170130T043930Z" creationid="hfukuchi" creationdate="20170130T043930Z">
         <seg>製品マニュアルを更新します。：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update the release bill of materials to account for any open source added (or removed) since the last previous scan</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T085436Z" creationid="hfukuchi" creationdate="20170913T085436Z">
+        <seg>最後のスキャンからの間に、加えられた（削除された）オープン ソースを説明するリリースBOMを更新します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14957,6 +15805,14 @@ Training is an essential building block in a compliance program, to ensure that 
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170120T061336Z" creationid="hfukuchi" creationdate="20170120T055145Z">
         <seg>もはや使われなくなったソフトウェア コンポーネントをソフトウエア管理表から除いて更新します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update to an out-of-date attribution or copyright notice</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T074838Z" creationid="hfukuchi" creationdate="20170914T074838Z">
+        <seg>無効となった帰属や著作権の通知に対する更新</seg>
       </tuv>
     </tu>
     <tu>
@@ -15048,6 +15904,14 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use of shared header files</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T081303Z" creationid="hfukuchi" creationdate="20170914T081303Z">
+        <seg>共有ヘッダ ファイルの利用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Use of shared header files
 .</seg>
       </tuv>
@@ -15117,6 +15981,14 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170427T054806Z" creationid="hfukuchi" creationdate="20170427T054806Z">
         <seg>プロセス中の全段階の検証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Verification of whether a specific open source component is used in a product or service</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T074812Z" creationid="hfukuchi" creationdate="20170914T074812Z">
+        <seg>特定のオープン ソース コンポーネントが製品やサービスで利用されているかどうかの確認</seg>
       </tuv>
     </tu>
     <tu>
@@ -15194,6 +16066,14 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Verifying engineers are following the guidelines set by the OSRB</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075253Z" creationid="hfukuchi" creationdate="20170914T075253Z">
+        <seg>OSRBによって定められたガイドラインに従って技術者が行動していることを検証します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Verifying engineers are following the guidelines set by the OSRB
 .</seg>
       </tuv>
@@ -15248,6 +16128,14 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170411T041141Z" creationid="hfukuchi" creationdate="20170123T044908Z">
         <seg>ウェブサイトURL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Website dedicated to distributing open source software for the purpose of compliance</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061701Z" creationid="hfukuchi" creationdate="20170913T061701Z">
+        <seg>コンプライアンス遵守のためにオープンソースを配布するためのウェブサイト</seg>
       </tuv>
     </tu>
     <tu>
@@ -15456,6 +16344,14 @@ Below is an example of a written offer to provide the source code:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You need to show that you understand the obligations under the applicable license, communicate how and when you will meet the obligations.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075153Z" creationid="hfukuchi" creationdate="20170914T075153Z">
+        <seg>適用されているライセンスに基づく義務を理解していることを示し、いつまでにどのようにして義務を満足するかを伝える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You receive verification that the source code is uploaded correctly and accessible for download, and that it corresponds to the same version that was approved.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170515T024958Z" creationid="hfukuchi" creationdate="20170515T024958Z">
@@ -15572,6 +16468,22 @@ Below is an example of a written offer to provide the source code:</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081500Z" creationid="hfukuchi" creationdate="20170614T020922Z">
         <seg>製品や技術、企業の吸収や合併、海外への委託、その他多くの要因によって動きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>explaining company goals and concerns around open source, or externally .</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075819Z" creationid="hfukuchi" creationdate="20170914T075819Z">
+        <seg>　</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>facing community participants.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170914T075822Z" creationid="hfukuchi" creationdate="20170914T075822Z">
+        <seg>　</seg>
       </tuv>
     </tu>
     <tu>
