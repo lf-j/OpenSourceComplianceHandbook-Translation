@@ -63,8 +63,8 @@ or license, which may or may not have incorporated open source in it
 アーキテクチャー レビューの中では、コンプライアンス オフィサーとOSRB技術代表は、オープン ソースとプロプライエタリ、およびサード パーティ コードの間の相互関係を解析します。これは特定されたアーキテクチャー図を検査することで実行されます。
 
 . オープン ソース コンポーネント (そのままで利用、又は変更して利用) . プロプライエタリ コンポーネント
-. サード パーティ ソフトウェア プロバイダー由来のコンポーネントComponent dependencies
-. Communication protocols
+. サード パーティ ソフトウェア プロバイダー由来のコンポーネントコンポーネントの依存状態
+. 通信プロトコル
 . 特に、異なるオープン ソース ライセンスによって許諾されているような場合で、特定のソフトウェア コンポーネントが相互作用するか、または依存するような、他のオープン ソース パッケージ。
 
 
@@ -97,11 +97,11 @@ or license, which may or may not have incorporated open source in it
 
 スキャン フェーズのアウトプットは、ソース コード スキャン ツールによって生成される報告です。これには、次のような情報が書かれます。
 
-. 利用されている既知のソフトウェア コンポーネント、ソフトウェア構成リスト（BoM）として知られているもの影響があるライセンス、ライセンス文、義務の要約License conflicts to be verified by legal
-. File inventory
-. Identified files
-. Dependencies
-. Code matches
+. 利用されている既知のソフトウェア コンポーネント、ソフトウェア構成リスト（BoM）として知られているもの影響があるライセンス、ライセンス文、義務の要約法務担当によって検証されるべきライセンス矛盾
+. ファイル一覧表
+. 特定されたファイル
+. 依存関係
+. コード一致
 . 特定保留中のファイル特定保留中のソース コード一致
 
 
@@ -137,8 +137,8 @@ or license, which may or may not have incorporated open source in it
 
 入るライセンスは、受け取ったソフトウェア パッケージに対するライセンスです。出るライセンスは、使用許諾するソフトウェア パッケージに対するライセンスです。あるケースでは、入るライセンスが（BSDのように）再許諾を許すような許容型ライセンスである場合には、企業はそのソフトウェアをプロプライエタリ ライセンスで再許諾します。より複雑な例としては、プロプライエタリ ソース コード、ライセンスAで許諾されているがライセンスBでも許諾可能なソース コード、ライセンスCで許諾されたソース コードが含まれるものがあります。法務レビュー期間に、法務担当は出るライセンスと入るライセンスを決める必要があります。
 
-Incoming licenses = Proprietary License + License A + License B + License C
-Outgoing license(s) = ?
+入るライセンス = プロプライエタリ ライセンス + ライセンスA + ライセンスB + ライセンス
+出るライセンス = ?
 
 
 
@@ -161,14 +161,14 @@ OSRBメンバは、特定のコンポーネントに対してアーキテクチ�
 
 このフェーズへのインプットは、ソフトウェア コンポーネントに関する全てのコンプライアンス記録です。それには以下が含まれます。
 
-. スキャン ツールによって生成されたソース コード スキャン報告The list of discovered issues, information on how they were resolved, and who verified that these issues were successfully resolved
+. スキャン ツールによって生成されたソース コード スキャン報告発見された課題、課題が解決された経緯に関する情報、課題が解決されたことを確認した人のリスト
 . アーキテクチャー図、ソフトウェア コンポーネントが他のソフトウェア コンポーネントとどのように相互作用するかの情報 
 
 
 
 
 
-. Legal opinion on compliance, and decision on incoming and outgoing licenses
+. コンプライアンスに関する法務の意見、入るライセンスと出るライセンスに関する決定
 . 組み込み環境（C/C++）で適用可能であれば、動的リンクと静的リンクの解析 
 
 アウトプット
@@ -259,8 +259,8 @@ OSRBメンバーがソフトウェア コンポーネント中にコンプライ
 
 図19は、製品開発とインクリメンタル コンプライアンスを示しています。
 
-図19Incremental compliance
-In this example, the compliance team identifies all open source included in the software baseline (here called v 1.0), and drives all of the open source components through the compliance end-to-end process. 製品が出荷されたら、追加機能や不具合修正などを含む開発は、新しいブランチで行われます。この例では、V 1.1です。
+図19インクリメンタル コンプライアンス
+この例では、コンプライアンス チームは、ソフトウェア ベースライン（ここでは仮にV 1.0と呼びます）に含まれる全てのオープン ソースを特定し、オープン ソース コンポーネント全てが、コンプライアンス プロセス全体を通るようにします。製品が出荷されたら、追加機能や不具合修正などを含む開発は、新しいブランチで行われます。この例では、V 1.1です。
 インクリメンタル コンプライアンスに関しては、解決すべきいくつかの課題が発生します。特に、V1.0とV1.1の間で変更されたソース コードを正確に把握し、リリースの間の変化点についてコンプライアンスを検証します。
 . 新しいソフトウェア コンポーネントが、導入されているかもしれません。. 既存のソフトウェア コンポーネントが、既に使用中止になっているかもしれません。. 既存のソフトウェア コンポーネントが、新しいバージョンに更新されているかもしれません。. ソフトウェア コンポーネントのライセンスが、バージョンの間で変更されているかもしれません。
 . 既存のソフトウェア コンポーネントが、不具合修正を含むコード変更や、機能やアーキテクチャーに対する変更を含んでいるかもしれません。 
@@ -268,8 +268,8 @@ In this example, the compliance team identifies all open source included in the 
 あるべき質問は、「どうすれば全ての変更を追跡できるだろうか？」というものです。
 答えは単純です。：第7章で議論しますが、BoM比較ツールです。ここでの議論のために簡単に言うと、そのツールは、同じ製品やサービスに使う2つのBOMの差分を与えてくれます。製品V1.1のBOMと製品V1.0のBOMがあると、その差分を計算します。ツールの出力は以下のようなものです。
 
-. Names of new software components added in v1.1
-. Names of updated software components
+. V1.1で追加された新しいソフトウェア コンポーネントの名前
+. 更新されているソフトウェア コンポーネントの名前
 . 使用されなくなったソフトウェア コンポーネントの名前
 
 
@@ -368,12 +368,12 @@ IPを開示するか?
 
 アーキテクチャー図は、あるプラットフォーム上での様々なソフトウェア コンポーネント間の相互作用を示します。図21は、アーキテクチャー図の一例です。この図では、以下を示します。
 
-. Module dependencies
+. モジュールの依存関係
 . プロプライエタリ コンポーネント
-. Open source components (modified versus as-is)
-. Dynamic versus static linking
-. Kernel space versus user space
-. Shared header files
+. オープン ソース コンポーネント（変更後とオリジナル）
+. 動的リンクと静的リンク
+. カーネル空間とユーザー空間
+. 共有されているヘッダ ファイル
 . 通信プロトコル課題となっているソフトウェア コンポーネントが、相互作用する、または依存関係にあるような、他のオープン ソース コンポーネント。特に、別のオープン ソース ライセンスによって許諾されている場合。 
 
 図21（CやC++に依存するような組み込み環境へ適用する）アーキテクチャー図のテンプレート 
@@ -411,7 +411,7 @@ OSRB利用フォームに影響するいくつかの規則があります。こ�
 
 ソース コード頒布プロセスとポリシーの目的は、以下を確実にすることです。
 
-. Customers who buy the product or use the service containing open source software are informed of their rights to receive the source code when applicable
+. オープン ソース ソフトウェアを含む製品を購入する顧客やサービスを利用するユーザは、適用可能な場合に、ソース コードを受け取る権利があることを通知される。
 . 頒布したソース コードは、頒布サイトに転送されるソフトウェアのバイナリ バージョンと照らし合わせて正しいバージョンであり、また、適切にラベル付けされている。
 
 
@@ -442,9 +442,9 @@ distribution checklist.
 
 
 図23は、頒布プロセスの例を示します。以下を含みます。
-. ソース コード提供方法を決めます。Deciding on a distribution mode
-. Preparing the source code packages for external distribution
-. Completing a pre-distribution checklist to ensure that all prior steps have been successfully completed and that the source code packages are ready for external distribution
+. ソース コード提供方法を決めます。頒布様式を決めます。
+. 外部頒布のためにソース コード パッケージの準備をします。
+. 前に置かれた全ステップが問題なく完了していることと、外部頒布に向けてソース コード パッケージの準備が整っていることを確実にするために、頒布前チェックリストを全て確認します。
 . 頒布を実行します。頒布プロセスの一部で発生するかもしれない誤りを把握するために、頒布後のチェックリストを確認します。 
 
  
@@ -492,7 +492,7 @@ distribution checklist.
 以下は、ソース コードの一般公開や頒布の前に行うチェックリスト例です。
 
 . オープン ソース パッケージに加えられた変更は、文書化されて、オープン ソースのリリース ノートに変更履歴として含まれていることを検証します。変更されたソース コード ファイルは、著作権表記や免責事項の記載や一般的な変更履歴への記載を含んでいることを確認します。
-. ソース コード パッケージに含まれている全ての内容物は、技術担当によってレビューされ、OSRBによって確認されていることを、確認します。. オープン ソース パッケージは、企業のものでないマシンでコンパイルできることを確認します。企業で初期設定したマシン上でパッケージをコンパイルする時に、環境やコンパイラが全て事前に構成されたり設定されているということがよくあります。しかしながら、別のシステムでパッケージをコンパイルしようとする場合には、コンパイラの設定や、Makefileのオプションや、Include path等が適切でないかもしれません。このステップの目的は、頒布しようとしているオープン ソース パッケージが、平凡なエンド ユーザー システム上でコンパイルできることを確実にすることです。. Update the product manual to:
+. ソース コード パッケージに含まれている全ての内容物は、技術担当によってレビューされ、OSRBによって確認されていることを、確認します。. オープン ソース パッケージは、企業のものでないマシンでコンパイルできることを確認します。企業で初期設定したマシン上でパッケージをコンパイルする時に、環境やコンパイラが全て事前に構成されたり設定されているということがよくあります。しかしながら、別のシステムでパッケージをコンパイルしようとする場合には、コンパイラの設定や、Makefileのオプションや、Include path等が適切でないかもしれません。このステップの目的は、頒布しようとしているオープン ソース パッケージが、平凡なエンド ユーザー システム上でコンパイルできることを確実にすることです。. 製品マニュアルを更新します。
 . 製品がオープン ソース ソフトウェアを含むことを言及します。
 . 製品に含まれる異なるオープン ソース ソフトウェアに対応する全てのライセンスのリストを含めます。
 
@@ -580,7 +580,7 @@ opensource.foobar.com (“Website”) within reasonable business delays. 書面�
 
 
 
-. Proprietary software created by internal developers, which may include snippets of open source or which integrates open source at the component level, with dependencies on or links to open source code
+. 内部開発者によって作られたプロプライエタリ ソフトウェア。オープン ソースのコード断片を含んでいるかもしれません。コンポーネント レベルでオープン ソース コードと依存関係を持ったり、リンクされたりして、オープン ソースと統合されているかもしれません。
 . 独立プロバイダやコンサルタントによって開発され、商用ライセンスやオープン ソース ライセンスで許諾されたサード パーティ ソフトウェア。このソフトウェア カテゴリは上と同様にコード断片や依存関係を含んでいるかもしれません。
 . オープン ソース プロジェクトのメンバーによって開発されたオープン ソース ソフトウェア。
 
@@ -627,9 +627,9 @@ opensource.foobar.com (“Website”) within reasonable business delays. 書面�
 . スキャン結果に疑問がある場合は、技術担当者と検討します。（問題となっているソフトウェア コンポーネントの担当開発者にインタビューします。）. スキャン ツールでフラグを付けられた各ファイルやコード断片を精査し、解決します。驚くような由来のソース コードと一致することがあります。
 . オープン ソースに施された変更を特定します。理想的には、コード変更をしたかどうか、（ドキュメントはいうに及ばず、）技術者の記録に依存するべきではありません。誰が、いつ、コード変更を行ったかを特定するには、ビルド ツール(SCM, build automation, etc.)に頼るべきです。
 . 例えば、ソース コード スキャン ツールが、プロプライエタリ コンポーネントの中に未承認のGPL許諾されたソース コード（コード断片）の利用を発見したならば、このことについて、技術担当に訂正要求を提出します。技術担当が課題を解決した後、問題のソース コードが削除され、適切で同等のコードによって置き換えられていることを確認するために、ソース コードを再スキャンすることを推奨します。
-. In preparation for the legal review, it is best to provide attorneys with all discovered licensing information for specific components:
-. The source code audit report generated by the scanning tool
-. The COPYING, README, or LICENSE files for open source components
+. 法務レビューの準備としては、特定のコンポーネントに対して発見されたライセンス情報の全てを、法務担当に提供するのが最も良い方法です。
+. スキャン ツールによって生成されたソース コード監査報告
+. オープン ソース コンポーネントに対するCOPYING, README, LICENSE ファイル
 . サード パーティ ソフトウェア プロバイダから受け取るソフトウェア コンポーネントに対するライセンス契約
 
 
@@ -646,12 +646,12 @@ opensource.foobar.com (“Website”) within reasonable business delays. 書面�
 
 このレビューの目的は、特定することです。
 
-. オープン ソース コンポーネント（そのまま利用、または変更利用）プロプライエタリ コンポーネントThird-party components under a commercial license
-. Component dependencies
-. Communication protocols among components and subsystems
-. Dynamic versus static linking (discussed in the following section)
-. Components deployed in kernel space (drivers, etc.) versus user space (libraries, middleware, applications)
-. Components that use shared header files
+. オープン ソース コンポーネント（そのまま利用、または変更利用）プロプライエタリ コンポーネント商用ライセンスで許諾されたサード パーティ コンポーネント
+. コンポーネントの依存状態
+. コンポーネントとサブシステム間の通信プロトコル
+. 動的リンクと静的リンク（以下の節で議論されます）
+. カーネル空間実行（ドライバ等）とユーザー空間実行（ライブラリ、ミドルウェア、アプリケーション）
+. 共有されたヘッダファイルを使用するコンポーネント
 . 特に別のオープン ソース ライセンスで許諾されているような場合、特定のソフトウェア コンポーネントと相互作用する、または依存関係にある、別のオープン ソース
 
 
@@ -689,17 +689,17 @@ opensource.foobar.com (“Website”) within reasonable business delays. 書面�
 
 
 
-. Open source packages destined for distribution have been identified and approved
-. 不適切なコメントは、ソース コード パッケージから取り除かれている。（厳密には、これはコンプライアンス課題ではありません。しかしながら、コメントは、見えていないコンプライアンス課題を明らかにするかもしれません。）Source code packages made available (including modifications) match the binary(ies) shipping in the product or software stack
+. 頒布されることになっているオープン ソース パッケージは、特定され、承認されている。
+. 不適切なコメントは、ソース コード パッケージから取り除かれている。（厳密には、これはコンプライアンス課題ではありません。しかしながら、コメントは、見えていないコンプライアンス課題を明らかにするかもしれません。）ソース コード パッケージ（変更分も含めて）は、製品やソフトウェア スタックに入って出荷されるバイナリと一致するものが、入手可能にされる。
 . エンド ユーザーにオープン ソースのソース コードを要求する権利を伝える文書通知に加えて、適切な通知が、製品文書に入れられる。
 
 
 Once open source packages are uploaded to the distribution website (and/
 or stored on equivalent media), your work is not complete. 以下を検証する必要があります。
 
-. Packages have been uploaded correctly
-. Packages can be downloaded and uncompressed on an external computer without error
-. Included packages compile/build properly
+. パッケージは、正しくアップロードされている。
+. パッケージは、外部コンピュータでエラー無しにダウンロードして圧縮解凍できる。
+. 含まれるパッケージは、適切にコンパイル、ビルドできる。
 . 開発者は、将来の製品、製品開発コード名、競合他社への言及、その他不適切なコメントを残していない。
 
 
@@ -711,9 +711,9 @@ or stored on equivalent media), your work is not complete. 以下を検証する
 
 
 
-. Source code scanning and license identification tools
-. Project management tools
-. Bill of material difference tools
+. ソース コード スキャンとライセンス特定ツール
+. プロジェクト管理ツール
+. BoM比較ツール
 . リンク解析ツール
 
 
@@ -733,7 +733,7 @@ services/openlogic-exchange
 
 
 
-Project Management Tools
+プロジェクト管理ツール
 
 プロジェクト管理ツールは、コンプライアンス活動を管理し追跡するのに不可欠なものです。いくつかの企業では、カスタマイズしたコンプライアンス ワークフローと共にバグ追跡ツールをすでに実際に利用しています。他の企業では、特定のプロジェクト管理ツールや自社開発ツールを利用しています。どちらにしても、ツールは、プロセスのある段階から別の段階へコンプライアンス チケットを移し、タスクやリソースの管理、時間追跡、email通知、プロジェクト統計、報告機能などを提供して、コンプライアンス プロセスのワークフローを反映させるべきです。
 コンプライアンスで広く利用される不具合追跡ツールの例
@@ -755,13 +755,13 @@ BOM管理ツールは、物理的な製造の世界には多くのものがあ�
 依存関係解析ツールの目的は、CやC++言語に特有の話題ですが、動的リンク、静的リンクのレベルで問題のあるコードの組み合わせにフラグを付けることです。このツールは、ツールの使用者が事前に定義したライセンス ポリシーに基づいて、バイナリとライブラリのライセンス間のリンクの矛盾を特定します。
 上記のソース コード特定ツール、多くの静的解析ツール、ビルドや統合の報告ツール、自社内製のコード解析ツールなど、依存関係を解析するために一緒に利用されるツールが多くあります。依存関係マッピングに対する主な要求事項は、以下の機能です。
 
-. Identify linking among binaries and libraries
+. バイナリとライブラリ間のリンクを特定します。
 . バイナリとライブラリのライセンスを特定します。
 
 
 
 
-. Connect with license scanning tools or consume the output thereof
+. ライセンス スキャン ツールと接続します。
 . （GPLで許諾されたコードとのリンクなど）方針から逸脱しているリンクにフラグを付け、企業方針と合うように構成します。 
 
 著者の経験では、依存関係マッピング ツールは、BOMツールとよく似ていますが、通常、自社内製であるか、かつ／または、既存ツールや機能をより集めて作られたものです。
@@ -778,10 +778,10 @@ BOM管理ツールは、物理的な製造の世界には多くのものがあ�
 コンプライアンス情報の提供要求を無視した後に、否定的な評判を受けたり、かつ／または、法的手続きを受けた組織、コンプライアンスに関する照会をどう扱えばよいかわからなかった組織、コンプライアンス プログラムを持っていなかったり整備していない組織、ライセンスが強制的でないと（誤って）考えて協力を単に拒む組織があります。今日、ベスト プラクティスは、これらのアプローチがいずれの関係者の利益にもならないことを教えてくれます。従って、企業は、コンプライアンスに関する照会を無視するべきではありません。むしろ、照会を受け取ったことを知らせ、照会者に回答を保留していることを伝え、回答予定日を知らせるべきです。
 コンプライアンスに関する照会は、以下の要求も含まれます。
 
-. Access to source code in accordance with a written offer to provide source code licensed under GPL, LGPL, or other licenses
-. Access to source code for an undisclosed component that was discovered in a product
-. Verification of whether a specific open source component is used in a product or service
-. Update to an out-of-date attribution or copyright notice
+. GPL, LGPLやその他のライセンスで許諾されたソース コードを提供するという文書通知に従って行われる、ソース コードへのアクセス
+. 製品内にあることがわかったが、開示されていないコンポーネントに関するソース コードへのアクセス
+. 特定のオープン ソース コンポーネントが製品やサービスで利用されているかどうかの確認
+. 無効となった帰属や著作権の通知に対する更新
 . ライセンス義務の一環として入手可能になっているオープン ソース パッケージにおいて、抜けているファイルの提供
 
 
@@ -801,7 +801,7 @@ BOM管理ツールは、物理的な製造の世界には多くのものがあ�
 
 照会者の身元と動機を理解し、主張が正当で正確なものでその時点で意味のあるものかを確認するのは重要です。照会者がライセンスを十分に理解しておらず、誤った仮定で照会を提出することがしばしばあることを理解します。照会が情報を欠いている時には、追加で次のような確認を要求します。
 
-. 影響のある製品やサービスや、該当するコードの名前The reason why a violation is believed to exist
+. 影響のある製品やサービスや、該当するコードの名前違反があると信じる理由
 . プロジェクト コードと違反状態にあるライセンスの名前プロジェクト サイトへのリンク 
 
 通知
@@ -847,22 +847,22 @@ BOM管理ツールは、物理的な製造の世界には多くのものがあ�
 従業員の評価
 技術面やコンプライアンス強制に関連して、全ての企業が直面する4つの挑戦があります。
 
-. Ensuring engineers consistently fill out request forms for each open source component they want to use
-. コンプライアンス チケットに対して適時に応答するように、技術者に要求します。Verifying engineers are following the guidelines set by the OSRB
+. 技術者が利用したいオープン ソース コンポーネント毎に一貫して要求フォームを確実に記入するようにします。
+. コンプライアンス チケットに対して適時に応答するように、技術者に要求します。OSRBによって定められたガイドラインに従って技術者が行動していることを検証します。
 . 組織内のオープン ソース コンプライアンスに関するトレーニングを技術者が受けるように義務付けます。 
 
 これらの4つの挑戦に直面した企業をサポートするのに効果的であったプラクティスは、従業員の実績評価の一部としてオープン ソースとコンプライアンス評価項目を含めることです。結果として、従業員のボーナスの一部は、コンプライアンス ポリシーと手順に彼らが従った程度によって決まります。レビューは、従業員が以下の項目を実行したかを評価します。 
 
 
 . 利用するオープン ソース コンポーネント毎にOSRBフォームを記入する。Respond to compliance tickets without significant delays
-. Complete the open source and compliance training within a time limit set by the manager
+. マネージャによって設定された期限内にオープン ソースとコンプライアンスに関するトレーニングを修了する。
 . OSRBが制定したガイドラインの範囲内でオープン ソースを利用し、コンプライアンス違反を起こさない。
 
 
 逆に、コンプライアンスを従業員の実績評価として利用するためには、OSRBは各担当者の以下の点を追跡しなければなりません。
 
-. Components that were included in the software BOM that don’t have a corresponding approval
-. Response time to compliance tickets
+. ソフトウェアBOMに含まれているが、承認を受けていないコンポーネント
+. コンプライアンス チケットへの応答時間
 . トレーニングコース修了経営チームへ報告されたコンプライアンス違反
 
 
@@ -872,7 +872,7 @@ BOM管理ツールは、物理的な製造の世界には多くのものがあ�
 
 意思伝達
 
-意思の伝達に関する最も重要で唯一の推奨事項は、社内にオープンソースに関連する企業目標や懸念事項を説明するか、社外のコミュニティ参加者に対するかに関わらず、明確で一貫性を持つことです。explaining company goals and concerns around open source, or externally . facing community participants. コミュニティとの接点となるサイトを持つことは、コンプライアンスに関する照会に応答する時に特に重要になります。
+意思の伝達に関する最も重要で唯一の推奨事項は、社内にオープンソースに関連する企業目標や懸念事項を説明するか、社外のコミュニティ参加者に対するかに関わらず、明確で一貫性を持つことです。　　コミュニティとの接点となるサイトを持つことは、コンプライアンスに関する照会に応答する時に特に重要になります。
 
 
 
@@ -1002,8 +1002,8 @@ M&Aによるリスクの理解
 
 
 
-. 製品アップデートに関して、ライセンス情報もまたアップデートされなければなりません。例えば、新しいソフトウェア リリースが入手可能になった時、アップデートされたリリースは、新しいリリースで導入されたオープン ソースの全ての変更を反映している、アップデートされたライセンス情報ファイルを含んでいなければなりません。Changes may include:
-. New open source used
+. 製品アップデートに関して、ライセンス情報もまたアップデートされなければなりません。例えば、新しいソフトウェア リリースが入手可能になった時、アップデートされたリリースは、新しいリリースで導入されたオープン ソースの全ての変更を反映している、アップデートされたライセンス情報ファイルを含んでいなければなりません。変更は、以下を含むかもしれません：
+. 新しいオープン ソース
 . 評価が下がった／使われなくなったオープン ソース新しいバージョンにアップグレードされたオープン ソース。帰属／著作権表記の更新を必要とするかもしれません。まれにライセンスの更新を必要とすることもあります。
 
 
@@ -1071,7 +1071,7 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.
 
 
 
-. Software interaction methods: A guide to understanding how software components available under different licenses interact, and if the method of interaction is allowed per company compliance policies
+. ソフトウェア相互作用法：異なるライセンスで利用可能なソフトウェア コンポーネントがどのように相互作用するか、相互作用の方法は企業のコンプライアンス ポリシーで許可されているかを理解するガイド
 . チェックリスト：開発やコンプライアンスのプロセスの全てのポイントで必要なことは何かを覚えておくための、一貫性のある、極めて簡単な方法 
 
 以下の節では、これらの5つのアドバイスを確認し、例を示し、これらによって開発者がオープン ソースに関わる時にどのように助けになるかを議論します。
@@ -1237,11 +1237,11 @@ Other
 
 
 
-. Components originating from third-party software providers (both open source and proprietary)
-. Component dependencies
-. Use of shared header files
-. Component run-time context (kernel/drivers/modules, middleware, libraries, applications, etc.)
-. Inter-component dependencies beyond APIs (s/w buses, IPCs, web APIs, etc.)
+. サード パーティ プロバイダから提供されたものに由来するコンポーネント
+. コンポーネントの依存状態
+. 共有ヘッダ ファイルの利用
+. コンポーネントの実行時のコンテキスト(Kernel/dirver/modules, middleware, libraries, applications, etc.)
+. APIを超えたコンポーネント間依存関係(s/w buses, IPCs, web APIs, etc.).
 . 言語間の結合
 
 
@@ -1360,9 +1360,9 @@ a
 結論
 ソフトウェア開発者は、統合し利用する様々なオープン ソース コンポーネントのライセンスに関しての教育を受ける必要があります。法務担当が実際的な方法で教育を実施するようにすることは、とても役に立ちます。ソフトウェア開発者が、法務に関連する日々の質問に答えてくれる文書化された実際的なアドバイスに、アクセスできるからです。この実際的なアドバイスは、通常以下の点を中心に展開します。
 
-. Inclusion of open source components into proprietary or third-party source code or vice versa
-. Linking open source components into proprietary or third-party source code or vice versa
-. Interaction methods between various software components (proprietary, third-party, open source)
+. オープン ソース コンポーネントをプロプライエタリやサード パーティ ソース コードへの挿入、またはその逆。
+. オープン ソース コンポーネントをプロプライエタリやサード パーティ ソース コードにリンク、またはその逆。
+. 様々なソフトウェア コンポーネント間（プロプライエタリ、サード パーティ、オープン ソース）の相互作用法
 . オープン ソース コンポーネントを利用する際に満足しなければならないライセンス義務
 
 
