@@ -24,8 +24,8 @@
       <tuv lang="EN-US">
         <seg>(This assumes companies rely on specific workflow implemented in tools such as Bugzilla to track compliance of SW components.)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T002335Z" creationid="hfukuchi" creationdate="20170614T002335Z">
-        <seg>（企業がBugzillaのようなツールに埋め込まれているワークフローを使ってソフトウェアコンポーネントを追跡していると仮定）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043758Z" creationid="hfukuchi" creationdate="20170614T002335Z">
+        <seg>（企業がBugzillaのようなツールに埋め込まれているワークフローを使ってソフトウェア コンポーネントを追跡していると仮定）</seg>
       </tuv>
     </tu>
     <tu>
@@ -122,16 +122,16 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>A compliance program is of no value unless it is enforced.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081522Z" creationid="hfukuchi" creationdate="20170614T021345Z">
-        <seg>コンプライアンスプログラムは、守られなければ無意味です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045304Z" creationid="hfukuchi" creationdate="20170614T021345Z">
+        <seg>コンプライアンス プログラムは、守られなければ無意味です。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>A compliance project management tool to manage the compliance project and track tasks and resources.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T011441Z" creationid="hfukuchi" creationdate="20170614T011441Z">
-        <seg>コンプライアンスプロジェクト管理ツール、コンプライアンスプロジェクトを管理し、タスクやリソースを追跡</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051754Z" creationid="hfukuchi" creationdate="20170614T011441Z">
+        <seg>コンプライアンス プロジェクト管理ツール、コンプライアンス プロジェクトを管理し、タスクやリソースを追跡</seg>
       </tuv>
     </tu>
     <tu>
@@ -186,8 +186,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>A linkage analysis tool to identify the interactions of any given C/C++ software component with other software components used in the product.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T011555Z" creationid="hfukuchi" creationdate="20170614T011555Z">
-        <seg>リンク解析ツール、問題となるC/C++ソフトウェアコンポーネントと、製品に含まれる他のソフトウェアコンポーネントとの関係を特定。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051815Z" creationid="hfukuchi" creationdate="20170614T011555Z">
+        <seg>リンク解析ツール、問題となるC/C++ソフトウェアコンポーネントと、製品に含まれる他のソフトウェア コンポーネントとの関係を特定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -283,8 +283,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>A requirement to distribute proprietary source code that corresponds to the binaries in question under an open source license (depending on the specific case)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T060137Z" creationid="hfukuchi" creationdate="20170913T060137Z">
-        <seg>問題のバイナリコードに関わるプロプラエタリなソースコードを（ケースに応じた）オープンソースライセンスで配布するよう要求される</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043055Z" creationid="hfukuchi" creationdate="20170913T060137Z">
+        <seg>問題のバイナリコードに関わるプロプラエタリなソースコードを（ケースに応じた）オープンソース ライセンスで配布するよう要求される</seg>
       </tuv>
     </tu>
     <tu>
@@ -349,32 +349,32 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>A simplified architecture of a traditional software platform that relies on proprietary software building blocks</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080152Z" creationid="hfukuchi" creationdate="20170613T080152Z">
-        <seg>プロプラエタリなソフトウェアのブロックに依る従来のソフトウェアプラットフォームの単純化したアーキテクチャ</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015339Z" creationid="hfukuchi" creationdate="20170613T080152Z">
+        <seg>プロプラエタリなソフトウェアのブロックに依る従来のソフトウェア プラットフォームの単純化したアーキテクチャ</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>A simplified view of the architecture of a modern software platform, showing the proliferation of open source inside each of the software building blocks.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T055249Z" creationid="hfukuchi" creationdate="20170913T055249Z">
-        <seg> 現代のソフトウェアプラットフォームの単純化したアーキテクチャ。個々のソフトウェアの構築ブロック内部でオープンソースが増えていることを示している。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042629Z" creationid="hfukuchi" creationdate="20170913T055249Z">
+        <seg> 現代のソフトウェア プラットフォームの単純化したアーキテクチャ。個々のソフトウェアの構築ブロック内部でオープンソースが増えていることを示している。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>A single individual, no matter how adept, can’t successfully implement open source compliance across a whole organization.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081655Z" creationid="hfukuchi" creationdate="20170614T022126Z">
-        <seg>一人の個人では、どれほどの達人であろうとも、オープンソースコンプライアンスを組織全体に実装することはできません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053208Z" creationid="hfukuchi" creationdate="20170614T022126Z">
+        <seg>一人の個人では、どれほどの達人であろうとも、オープンソース コンプライアンスを組織全体に実装することはできません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>A software inventory tool to keep track of every single software component, version, and product that uses it, and other related information.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T011511Z" creationid="hfukuchi" creationdate="20170614T011511Z">
-        <seg>ソフトウェアインベントリツール、個々のソフトウェアコンポーネント、バージョン、それを使用している製品、関連情報を継続的に追跡</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051804Z" creationid="hfukuchi" creationdate="20170614T011511Z">
+        <seg>ソフトウェア インベントリ ツール、個々のソフトウェア コンポーネント、バージョン、それを使用している製品、関連情報を継続的に追跡</seg>
       </tuv>
     </tu>
     <tu>
@@ -462,8 +462,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>A written notice provides the end users of the product with information on open source software included in the product and how to download source code that is eligible to distribution.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072831Z" creationid="hfukuchi" creationdate="20170613T084717Z">
-        <seg>書面での告知は、その製品のエンドユーザーに対してその製品に含まれるオープンソースソフトウェアの情報、そして頒布されるべきソースコードをダウンロードする方法を開示します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042918Z" creationid="hfukuchi" creationdate="20170613T084717Z">
+        <seg>書面での告知は、その製品のエンド ユーザーに対してその製品に含まれるオープンソース ソフトウェアの情報、そして頒布されるべきソースコードをダウンロードする方法を開示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -568,8 +568,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>Achieving consistency across the company is key in large companies with multiple business units and subsidiaries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081418Z" creationid="hfukuchi" creationdate="20170614T020640Z">
-        <seg>企業全体で一貫性を保つことは複数のビジネスユニットや子会社を持つ大企業では重要です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045224Z" creationid="hfukuchi" creationdate="20170614T020640Z">
+        <seg>企業全体で一貫性を保つことは複数のビジネス ユニットや子会社を持つ大企業では重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -675,8 +675,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>Add milestone in compliance process to verify modified source code has been marked as such</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T001730Z" creationid="hfukuchi" creationdate="20170614T001730Z">
-        <seg>変更されたソースコードが適切にマークされていることを、コンプライアンスプロセス上のマイルストーンとする</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043639Z" creationid="hfukuchi" creationdate="20170614T001730Z">
+        <seg>変更されたソースコードが適切にマークされていることを、コンプライアンス プロセス上のマイルストーンとする</seg>
       </tuv>
     </tu>
     <tu>
@@ -932,8 +932,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>An attribution notice is usually provided as a text file together with the open source component that provides acknowledgement as supplied by the contributors of open source components.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072639Z" creationid="hfukuchi" creationdate="20170613T084008Z">
-        <seg>帰属表示は通常、テキストファイルとしてオープンソースのコンポーネントと共に提供され、オープンソースコンポーネントへのコントリビューターが提供したことを示します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042841Z" creationid="hfukuchi" creationdate="20170613T084008Z">
+        <seg>帰属表示は通常、テキストファイルとしてオープンソースのコンポーネントと共に提供され、オープンソース コンポーネントへのコントリビューターが提供したことを示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1054,16 +1054,16 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>An internal open source portal to host the company’s compliance policies and procedures, open source related publications and presentations, mailing lists, and a discussion forum related to open source and compliance .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T014821Z" creationid="hfukuchi" creationdate="20170614T014821Z">
-        <seg>内部的なポータルを作り、企業のコンプライアンスポリシーやプロセス、オープンソースに関係した出版物やプレゼンテーション、メーリングリスト、オープンソースとコンプライアンスに関係する討論フォーラムをホスト</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044813Z" creationid="hfukuchi" creationdate="20170614T014821Z">
+        <seg>内部的なポータルを作り、企業のコンプライアンス ポリシーやプロセス、オープンソースに関係した出版物やプレゼンテーション、メーリングリスト、オープンソースとコンプライアンスに関係する討論フォーラムをホスト</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>An open source management program provides a structure around all aspects of open source software, including selection, approval, use, distribution, audit, inventory, training, community engagement, and public communication.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074515Z" creationid="hfukuchi" creationdate="20170614T005850Z">
-        <seg>オープンソース管理プログラムはオープンソースソフトウェアの全ての側面、その選択、承認、利用、配布、監査、インベントリ、訓練、コミュニティとの関わり、広報等々の体系を定めます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T045953Z" creationid="hfukuchi" creationdate="20170614T005850Z">
+        <seg>オープンソース管理プログラムはオープンソース ソフトウェアの全ての側面、その選択、承認、利用、頒布、監査、インベントリ、訓練、コミュニティとの関わり、広報等々の体系を定めます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1111,8 +1111,8 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       <tuv lang="EN-US">
         <seg>Appoint a Compliance Officer to monitor and ensure compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074025Z" creationid="hfukuchi" creationdate="20170614T003748Z">
-        <seg>コンプライアンスオフィサーを置きコンプライアンスをモニタし確認させます</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043929Z" creationid="hfukuchi" creationdate="20170614T003748Z">
+        <seg>コンプライアンス オフィサーを置きコンプライアンスをモニタし確認させます</seg>
       </tuv>
     </tu>
     <tu>
@@ -1334,8 +1334,8 @@ source development model began to emerge.</seg>
       <tuv lang="EN-US">
         <seg>As a result, the risks that companies previously managed through company-to-company license and agreement negotiations are now managed through robust compliance programs and careful engineering practices.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072218Z" creationid="hfukuchi" creationdate="20170613T081208Z">
-        <seg>その結果、かつては企業対企業のライセンスや合意に至る交渉を通じて管理されていたリスクは、強固なコンプライアンスプログラムと、注意深いエンジニアリングの実施によって管理されることになります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042621Z" creationid="hfukuchi" creationdate="20170613T081208Z">
+        <seg>その結果、かつては企業対企業のライセンスや合意に至る交渉を通じて管理されていたリスクは、強固なコンプライアンス プログラムと、注意深いエンジニアリングの実施によって管理されることになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1374,16 +1374,16 @@ source development model began to emerge.</seg>
       <tuv lang="EN-US">
         <seg>As part of the pre-distribution process, the OSRB performs final checks before product or service releases, including verifying the fulfillment of obligations.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082344Z" creationid="hfukuchi" creationdate="20170614T040127Z">
-        <seg>配布前のプロセスの一部としてOSDBは製品やサービスのリリース前に最終チェックを行いますが、義務を満たしていることの検証もここに含みます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091802Z" creationid="hfukuchi" creationdate="20170614T040127Z">
+        <seg>頒布前のプロセスの一部としてOSDBは製品やサービスのリリース前に最終チェックを行いますが、義務を満たしていることの検証もここに含みます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>As part of this exercise, the Legal Counsel also decides on incoming and outgoing licenses of the software component in question.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T073851Z" creationid="hfukuchi" creationdate="20170627T073851Z">
-        <seg>この作業の一環として、法律顧問は対象ソフトウェアコンポーネントについて入ってくる、及び出ていくライセンスについて決定を行います。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082417Z" creationid="hfukuchi" creationdate="20170627T073851Z">
+        <seg>この作業の一環として、法律顧問は対象ソフトウェア コンポーネントについて入ってくる、及び出ていくライセンスについて決定を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1398,8 +1398,8 @@ source development model began to emerge.</seg>
       <tuv lang="EN-US">
         <seg>As the number of open source software components grew in what were once straightforward proprietary software stacks, the business environment diverged from familiar territory and corporate comfort zones.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072049Z" creationid="hfukuchi" creationdate="20170613T080928Z">
-        <seg>かつては明らかにプロプラエタリなソフトウェアスタックだったものの中にオープンソースのソフトウェアのコンポーネントが増えていくに従い、ビジネス環境は慣れ親しんだ領域、企業が好む環境から離れていきます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015711Z" creationid="hfukuchi" creationdate="20170613T080928Z">
+        <seg>かつては明らかにプロプラエタリなソフトウェア スタックだったものの中にオープンソースのソフトウェアのコンポーネントが増えていくに従い、ビジネス環境は慣れ親しんだ領域、企業が好む環境から離れていきます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,8 +1414,8 @@ source development model began to emerge.</seg>
       <tuv lang="EN-US">
         <seg>Assist with ingress of third party software bundled with and/or includes open source software</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T034526Z" creationid="hfukuchi" creationdate="20170614T034526Z">
-        <seg>オープンソースソフトウェアが含まれている、またはバンドルされているサードパーティのソフトウェアの納入を手助け</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091438Z" creationid="hfukuchi" creationdate="20170614T034526Z">
+        <seg>オープンソース ソフトウェアが含まれている、またはバンドルされているサードパーティのソフトウェアの納入を手助け</seg>
       </tuv>
     </tu>
     <tu>
@@ -1684,16 +1684,16 @@ Developers who wish to use or contribute to open source software will be request
       <tuv lang="EN-US">
         <seg>Brown bag seminars: Brown bag seminars are usually presentations made during lunchtime by a company employee or an invited speaker.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075457Z" creationid="hfukuchi" creationdate="20170614T012438Z">
-        <seg>ブラウンバッグセミナー（茶色鞄のセミナー）：ブラウンバッグセミナーとは一般に、昼食時に従業員や招待者が行うプレゼンテーションです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044145Z" creationid="hfukuchi" creationdate="20170614T012438Z">
+        <seg>ブラウンバッグ セミナー：ブラウンバッグ（訳注：昼食が入った袋） セミナーとは一般に、昼食時に従業員や招待者が行うプレゼンテーションです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Brown-bag open source and compliance seminars to bring additional compliance awareness and promote active discussion .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T014804Z" creationid="hfukuchi" creationdate="20170614T014804Z">
-        <seg>オープンソースとコンプライアンスについてのブラウンバッグセミナーによりコンプライアンスについて更に注意喚起し、活発な議論を奨励</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044803Z" creationid="hfukuchi" creationdate="20170614T014804Z">
+        <seg>オープンソースとコンプライアンスについてのブラウンバッグ セミナーによりコンプライアンスについて更に注意喚起し、活発な議論を奨励</seg>
       </tuv>
     </tu>
     <tu>
@@ -1804,8 +1804,8 @@ Developers who wish to use or contribute to open source software will be request
       <tuv lang="EN-US">
         <seg>COMPLIANCE OFFICER</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083408Z" creationid="hfukuchi" creationdate="20170627T083408Z">
-        <seg>コンプライアンスオフィサー</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082749Z" creationid="hfukuchi" creationdate="20170627T083408Z">
+        <seg>コンプライアンス オフィサー</seg>
       </tuv>
     </tu>
     <tu>
@@ -2007,8 +2007,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Chapter 3 provides a detailed discussion on the roles and responsibilities of individuals involved in achieving open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075003Z" creationid="hfukuchi" creationdate="20170614T011256Z">
-        <seg>第３章ではオープンソースコンプライアンスを達成するための個々の人間の役割と責任について詳述します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051718Z" creationid="hfukuchi" creationdate="20170614T011256Z">
+        <seg>第３章ではオープンソース コンプライアンスを達成するための個々の人間の役割と責任について詳述します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2031,8 +2031,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Chapter 4 provides an overview of the end-to-end compliance process.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082114Z" creationid="hfukuchi" creationdate="20170614T035126Z">
-        <seg>エンドツーエンドのコンプライアンスプログラムについては4章で概観します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091601Z" creationid="hfukuchi" creationdate="20170614T035126Z">
+        <seg>エンドツーエンドのコンプライアンス プログラムについては4章で概観します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2135,6 +2135,14 @@ As a refresher, the compliance management process includes the various steps a s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>City, State, Postal Code</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043016Z" creationid="hfukuchi" creationdate="20170925T043016Z">
+        <seg>市、州、郵便番号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Clean Bill of Materials (BOM)</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170302T082145Z" creationid="hfukuchi" creationdate="20170302T082145Z">
@@ -2186,8 +2194,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Collect the applicable open source licenses for review by the legal department</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T003500Z" creationid="hfukuchi" creationdate="20170614T003500Z">
-        <seg>適用可能なオープンソースライセンスを収集し、法務部門が評価</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043914Z" creationid="hfukuchi" creationdate="20170614T003500Z">
+        <seg>適用可能なオープンソース ライセンスを収集し、法務部門が評価</seg>
       </tuv>
     </tu>
     <tu>
@@ -2301,16 +2309,16 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Companies need external compliance communications to ensure that the open source community is aware of their efforts to meet the license obligations of the open source software they are using in their products.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080921Z" creationid="hfukuchi" creationdate="20170614T014928Z">
-        <seg>企業は外部とのコンプライアンスについての対話が必要となります。自社が製品で使うオープンソースソフトウェアについてライセンス上の義務を果たす努力をしていることを、オープンソースのコミュニティに確かに認識させるためです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044830Z" creationid="hfukuchi" creationdate="20170614T014928Z">
+        <seg>企業は外部とのコンプライアンスについての対話が必要となります。自社が製品で使うオープンソース ソフトウェアについてライセンス上の義務を果たす努力をしていることを、オープンソースのコミュニティに確かに認識させるためです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Companies need internal compliance communication to ensure that employees are aware of what is involved when they include open source in a commercial software portfolio, and to ensure that they are educated about the company’s compliance policies, processes, and guidelines.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080837Z" creationid="hfukuchi" creationdate="20170614T014532Z">
-        <seg>企業はコンプライアンスについての対話が内部的に必要となります。オープンソースを商業ソフトウェアのポートフォリオへの組み入れが何をもたらすのか従業員が理解していることを確実にするためであり、企業のコンプライアンスポリシー、プロセス、ガイドラインについて教育を受けていることを確かなものとするためです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044742Z" creationid="hfukuchi" creationdate="20170614T014532Z">
+        <seg>企業はコンプライアンスについての対話が内部的に必要となります。オープンソースを商業ソフトウェアのポートフォリオへの組み入れが何をもたらすのか従業員が理解していることを確実にするためであり、企業のコンプライアンス ポリシー、プロセス、ガイドラインについて教育を受けていることを確かなものとするためです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2341,16 +2349,16 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Companies that maintain a steady-state compliance program often gain a technical advantage, since compliant software portfolios are easier to service, test, upgrade, and maintain.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072443Z" creationid="hfukuchi" creationdate="20170613T083322Z">
-        <seg>確固たるコンプライアンスプログラムを持つ企業は技術的にも利益を得ることが多いです。規定に従っているソフトウェア群の資産はサービスし、試験し、アップグレードし、保守することが容易だからです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042735Z" creationid="hfukuchi" creationdate="20170613T083322Z">
+        <seg>確固たるコンプライアンス プログラムを持つ企業は技術的にも利益を得ることが多いです。規定に従っているソフトウェア群の資産はサービスし、試験し、アップグレードし、保守することが容易だからです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Companies use portals in two directions: inwards, inside the company; and outwards, as a window to the world and the open source community.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075244Z" creationid="hfukuchi" creationdate="20170614T011928Z">
-        <seg>企業はポータルを２方向で使います。：一つは内向きに、企業内へ。もう一つは外向きに、社会とオープンソースコミュニティへの窓として。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T043716Z" creationid="hfukuchi" creationdate="20170614T011928Z">
+        <seg>企業はポータルを２方向で使います：一つは内向き、企業内へ。もう一つは外向き、社会とオープンソースコミュニティへの窓として。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2389,8 +2397,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Companies will almost certainly face challenges establishing their open source compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075608Z" creationid="hfukuchi" creationdate="20170614T012850Z">
-        <seg>企業でのコンプライアンスプログラムの確立では、ほぼ確実に困難に直面します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044252Z" creationid="hfukuchi" creationdate="20170614T012850Z">
+        <seg>企業でのコンプライアンス プログラムの確立では、ほぼ確実に困難に直面します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2421,8 +2429,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Compile a list of license obligations that must be met to use the open source software in question and pass it to appropriate departments for fulfillment: Once the OSRB has approved the usage of open source in a product, as part of the approval process the OSRB compiles a list of obligations and passes it to the various other individuals and teams to ensure its fulfillment.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082308Z" creationid="hfukuchi" creationdate="20170614T040114Z">
-        <seg>問題となっているオープンソースソフトウェアで満たすべきライセンス上の義務の一覧を作り、満たすよう関係部門に展開：OSRBがオープンソースを製品に利用することを承認したら、承認プロセスの一部としてOSDBは義務一覧を作り、関係する様々な個人やチームに展開して確実に満たすようにします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091750Z" creationid="hfukuchi" creationdate="20170614T040114Z">
+        <seg>問題となっているオープンソース ソフトウェアで満たすべきライセンス上の義務の一覧を作り、満たすよう関係部門に展開：OSRBがオープンソースを製品に利用することを承認したら、承認プロセスの一部としてOSDBは義務一覧を作り、関係する様々な個人やチームに展開して確実に満たすようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2487,8 +2495,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Compliance Officer</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T024111Z" creationid="hfukuchi" creationdate="20170614T024111Z">
-        <seg>コンプライアンスオフィサー</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053342Z" creationid="hfukuchi" creationdate="20170614T024111Z">
+        <seg>コンプライアンス オフィサー</seg>
       </tuv>
     </tu>
     <tu>
@@ -2511,8 +2519,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Compliance Teams</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T010955Z" creationid="hfukuchi" creationdate="20170614T010955Z">
-        <seg>コンプライアンスチーム</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051513Z" creationid="hfukuchi" creationdate="20170614T010955Z">
+        <seg>コンプライアンス チーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -2575,8 +2583,8 @@ As a refresher, the compliance management process includes the various steps a s
       <tuv lang="EN-US">
         <seg>Compliance policies and processes govern the various aspects of using, contributing, auditing, and distribution of open source software.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074849Z" creationid="hfukuchi" creationdate="20170614T010843Z">
-        <seg>コンプライアンスポリシーとプロセスがオープンソースソフトウェアの様々な側面、利用、寄付、監査、配布を取り仕切ります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051443Z" creationid="hfukuchi" creationdate="20170614T010843Z">
+        <seg>コンプライアンス ポリシーとプロセスがオープンソース ソフトウェアの様々な側面、利用、寄付、監査、配布を取り仕切ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2785,8 +2793,8 @@ Prepare software packages for distribution</seg>
       <tuv lang="EN-US">
         <seg>Conduct periodic full scans of software platform to detect any OS not corresponding to a given approval form.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170727T015054Z" creationid="hfukuchi" creationdate="20170727T015054Z">
-        <seg>定期的にソフトウェアプラットフォーム の全スキャンを行い、承認された型に該当しないオープンソースを検出。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043735Z" creationid="hfukuchi" creationdate="20170727T015054Z">
+        <seg>定期的にソフトウェア プラットフォーム の全スキャンを行い、承認された型に該当しないオープンソースを検出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2912,8 +2920,8 @@ Add milestone in compliance process to verify modified source code has been mark
       <tuv lang="EN-US">
         <seg>Contacts in the key open source project communities .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083623Z" creationid="hfukuchi" creationdate="20170627T083623Z">
-        <seg>重要なオープンソースプロジェクトのコミュニティとの人脈</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082819Z" creationid="hfukuchi" creationdate="20170627T083623Z">
+        <seg>重要なオープンソース プロジェクトのコミュニティとの人脈</seg>
       </tuv>
     </tu>
     <tu>
@@ -2936,8 +2944,8 @@ Add milestone in compliance process to verify modified source code has been mark
       <tuv lang="EN-US">
         <seg>Continual scans on the source code base, including that received from third-party software providers, to intercept source code that was checked into the code base without a corresponding compliance ticket.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081057Z" creationid="hfukuchi" creationdate="20170614T015433Z">
-        <seg>ソースコードのベースを継続的にスキャン。これにはサードパーティのソフトウェアプロバイダから受領したものを含めます。該当するコンプライアンスチケットなしにコードベースにチェックインしたソースコードを捕まえるためです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045020Z" creationid="hfukuchi" creationdate="20170614T015433Z">
+        <seg>ソースコードのベースを継続的にスキャン。これにはサードパーティのソフトウェア プロバイダから受領したものを含めます。該当するコンプライアンス チケットなしにコードベースにチェックインしたソースコードを捕まえるためです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2969,8 +2977,8 @@ Add milestone in compliance process to verify modified source code has been mark
       <tuv lang="EN-US">
         <seg>Continuous improvements to the tools used in ensuring compliance and automating as much of the process as possible to ensure high efficiency in executing the compliance program</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T020426Z" creationid="hfukuchi" creationdate="20170614T020426Z">
-        <seg>コンプライアンスや自動化に使われるツールを継続的に改善し、コンプライアンスプログラムにおいて可能な限り多くのプロセスを高い効率で実行</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045201Z" creationid="hfukuchi" creationdate="20170614T020426Z">
+        <seg>コンプライアンスや自動化に使われるツールを継続的に改善し、コンプライアンス プログラムにおいて可能な限り多くのプロセスを高い効率で実行</seg>
       </tuv>
     </tu>
     <tu>
@@ -3021,16 +3029,16 @@ Contribute to improving compliance program</seg>
       <tuv lang="EN-US">
         <seg>Contribute to improving compliance program</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T024304Z" creationid="hfukuchi" creationdate="20170614T024304Z">
-        <seg>コンプライアンスプログラムの改善に寄与</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091342Z" creationid="hfukuchi" creationdate="20170614T024304Z">
+        <seg>コンプライアンス プログラムの改善に寄与</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Contribute to improving the OS compliance program</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T022806Z" creationid="hfukuchi" creationdate="20170614T022806Z">
-        <seg>オープンソースコンプライアンスプログラム改善への貢献</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053317Z" creationid="hfukuchi" creationdate="20170614T022806Z">
+        <seg>オープンソース コンプライアンス プログラム改善への貢献</seg>
       </tuv>
     </tu>
     <tu>
@@ -3045,8 +3053,8 @@ Contribute to improving compliance program</seg>
       <tuv lang="EN-US">
         <seg>Contribute to the startup and ongoing management of the open source compliance program</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T074529Z" creationid="hfukuchi" creationdate="20170627T074529Z">
-        <seg>オープンソースコンプライアンスプログラムの立ち上げと継続に貢献</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082521Z" creationid="hfukuchi" creationdate="20170627T074529Z">
+        <seg>オープンソース コンプライアンス プログラムの立ち上げと継続に貢献</seg>
       </tuv>
     </tu>
     <tu>
@@ -3069,24 +3077,24 @@ Contribute to improving compliance program</seg>
       <tuv lang="EN-US">
         <seg>Cooperate with OSRB: Engineering teams must respond promptly to questions asked by the OSRB and cooperate in resolving compliance tickets.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075722Z" creationid="hfukuchi" creationdate="20170627T075722Z">
-        <seg>OSRBとの協力：エンジニアリングチームはOSRBからの質問に迅速に回答し、コンプライアンスチケットを解決するのに協力しなければなりません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082649Z" creationid="hfukuchi" creationdate="20170627T075722Z">
+        <seg>OSRBとの協力：エンジニアリング チームはOSRBからの質問に迅速に回答し、コンプライアンス チケットを解決するのに協力しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Coordinate distribution of source code packages</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T024232Z" creationid="hfukuchi" creationdate="20170614T024232Z">
-        <seg>ソースコードパッケージの配布を調整</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091312Z" creationid="hfukuchi" creationdate="20170614T024232Z">
+        <seg>ソースコード パッケージの配布を調整</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Coordinate source code distribution of open source packages (when stipulated by licenses) with engineering and product teams, including preparing and verifying a distribution checklist for each open source package</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084926Z" creationid="hfukuchi" creationdate="20170913T084926Z">
-        <seg>オープンソースのパッケージのソースコード配布（ライセンスに規定されている場合）についてエンジニアリングおよび製品チームと調整します。これは個々のオープンソースパッケージの配布チェックリストの用意と確認を含みます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082903Z" creationid="hfukuchi" creationdate="20170913T084926Z">
+        <seg>オープンソースのパッケージのソースコード配布（ライセンスに規定されている場合）についてエンジニアリングおよび製品チームと調整します。これは個々のオープンソース パッケージの配布チェックリストの用意と確認を含みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3171,8 +3179,8 @@ Request open source compliance be completed when receiving source code from outs
       <tuv lang="EN-US">
         <seg>Corporate Development is also involved with compliance in transactions such as spin-offs and joint ventures.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T083701Z" creationid="hfukuchi" creationdate="20170628T083701Z">
-        <seg>企業買収部門はスピンオフやジョイントベンチャーのコンプライアンスにも関わります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091257Z" creationid="hfukuchi" creationdate="20170628T083701Z">
+        <seg>企業買収部門はスピンオフやジョイント ベンチャーのコンプライアンスにも関わります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3227,8 +3235,8 @@ Request open source compliance be completed when receiving source code from outs
       <tuv lang="EN-US">
         <seg>Create and maintain compliance policies, processes, guidelines, templates, and forms used in the compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T035145Z" creationid="hfukuchi" creationdate="20170614T035145Z">
-        <seg>コンプライアンスプログラムで使われるコンプライアンスポリシー、プロセス、ガイドライン、テンプレート、フォームを作成し保守</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091610Z" creationid="hfukuchi" creationdate="20170614T035145Z">
+        <seg>コンプライアンス プログラムで使われるコンプライアンス ポリシー、プロセス、ガイドライン、テンプレート、フォームを作成し保守</seg>
       </tuv>
     </tu>
     <tu>
@@ -3243,8 +3251,8 @@ Request open source compliance be completed when receiving source code from outs
       <tuv lang="EN-US">
         <seg>Creating a Compliance Program</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T012920Z" creationid="hfukuchi" creationdate="20170614T012920Z">
-        <seg>コンプライアンスプログラムの作成</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044312Z" creationid="hfukuchi" creationdate="20170614T012920Z">
+        <seg>コンプライアンス プログラムの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -3499,8 +3507,8 @@ The documentation team is responsible for including written offers and any appro
       <tuv lang="EN-US">
         <seg>Developers who wish to use or contribute to open source software will be requested to submit online requests and get proper approvals.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075528Z" creationid="hfukuchi" creationdate="20170614T012627Z">
-        <seg>オープンソースソフトウェアを使いたい、寄付したい開発者はオンラインで申請し、適切な承認を得る必要です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044219Z" creationid="hfukuchi" creationdate="20170614T012627Z">
+        <seg>オープンソース ソフトウェアを使いたい、寄付したい開発者はオンラインで申請し、適切な承認を得る必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3524,16 +3532,16 @@ The documentation team is responsible for including written offers and any appro
       <tuv lang="EN-US">
         <seg>Diligence practices should be updated to require open source disclosure and include guidance regarding the review of any disclosed open source and licenses.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T083538Z" creationid="hfukuchi" creationdate="20170628T083538Z">
-        <seg>デューデリジェンスの実務はオープンソースについての開示、開示されたオープンソースとライセンスの評価のガイドを含むよう改める必要があります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091243Z" creationid="hfukuchi" creationdate="20170628T083538Z">
+        <seg>精査の実務はオープンソースについての開示、開示されたオープンソースとライセンスの評価のガイドを含むよう改める必要があります。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Discovery and diligence costs in response to the compliance inquiry, where the company had to investigate the alleged inquiry and perform due diligence on the source code in question</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061252Z" creationid="hfukuchi" creationdate="20170913T061252Z">
-        <seg>コンプライアンスの照会への対応として申し立てに応じた調査、問題のソースコードのデューデリジェンス、のためのディスカバリとデューデリジェンスのコスト</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T045236Z" creationid="hfukuchi" creationdate="20170913T061252Z">
+        <seg>コンプライアンスの照会への対応と発見と精査のコスト。企業は申し立てに応じて、調査とソースコードの精査を実施しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3943,8 +3951,8 @@ The term due diligence refers to a number of concepts involving source code insp
       <tuv lang="EN-US">
         <seg>ENTER OPEN SOURCE COMPLIANCE</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T081326Z" creationid="hfukuchi" creationdate="20170613T081326Z">
-        <seg>オープンソースコンプライアンス手始め</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042635Z" creationid="hfukuchi" creationdate="20170613T081326Z">
+        <seg>オープンソースコン プライアンス手始め</seg>
       </tuv>
     </tu>
     <tu>
@@ -4025,8 +4033,8 @@ Open source initiatives and projects provide companies and other organizations w
       <tuv lang="EN-US">
         <seg>Email communication providing executive support and of open source compliance activities</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061613Z" creationid="hfukuchi" creationdate="20170913T061613Z">
-        <seg>オープンソースコンプライアンス活動を幹部がサポートする電子メールでの対話</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044749Z" creationid="hfukuchi" creationdate="20170913T061613Z">
+        <seg>オープンソース コンプライアンス活動を幹部がサポートする電子メールでの対話</seg>
       </tuv>
     </tu>
     <tu>
@@ -4050,8 +4058,8 @@ Open source initiatives and projects provide companies and other organizations w
       <tuv lang="EN-US">
         <seg>Embarrassment with customers, distributors, third party proprietary software suppliers and an open source community</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073035Z" creationid="hfukuchi" creationdate="20170613T085858Z">
-        <seg>顧客、ディストリビュータ、サードパーティのソフトウェア供給者、そしてオープンソースコミュニティを困惑させます</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043104Z" creationid="hfukuchi" creationdate="20170613T085858Z">
+        <seg>顧客、ディストリビュータ、サードパーティのソフトウェア供給者、そしてオープンソース コミュニティを困惑させます</seg>
       </tuv>
     </tu>
     <tu>
@@ -4092,8 +4100,8 @@ The remainder of this chapter will address each of these ten steps in detail.</s
       <tuv lang="EN-US">
         <seg>Enforced design and architectural review, in addition to code inspections, to analyze the interactions between open source, proprietary code, and third party software components.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081116Z" creationid="hfukuchi" creationdate="20170614T015545Z">
-        <seg>設計とアーキテクチャの評価をソースコードの検査に加えて強制します。これはオープンソース、プロプラエタリ、そしてサードパーティのソフトウェアコンポーネントのコードの関係を解析するためです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045031Z" creationid="hfukuchi" creationdate="20170614T015545Z">
+        <seg>設計とアーキテクチャの評価をソースコードの検査に加えて強制します。これはオープンソース、プロプラエタリ、そしてサードパーティのソフトウェア コンポーネントのコードの関係を解析するためです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4108,8 +4116,8 @@ The remainder of this chapter will address each of these ten steps in detail.</s
       <tuv lang="EN-US">
         <seg>Engineering and product teams may have one or more representatives who participates in the OSRB, tracks down all compliance-related tasks assigned to engineering, and ensures proper resolution.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T074738Z" creationid="hfukuchi" creationdate="20170627T074738Z">
-        <seg>エンジニアリングと製品のチームはOSRBに一人または複数の代表を出し、エンジニアリングチームに割り当てられたコンプライアンス関連のタスク全てを追跡し、適切、確実に解決します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082536Z" creationid="hfukuchi" creationdate="20170627T074738Z">
+        <seg>エンジニアリングと製品のチームはOSRBに一人または複数の代表を出し、エンジニアリング チームに割り当てられたコンプライアンス関連のタスク全てを追跡し、適切、確実に解決します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4156,8 +4164,8 @@ The remainder of this chapter will address each of these ten steps in detail.</s
       <tuv lang="EN-US">
         <seg>Ensure availability of a dedicated compliance team.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081231Z" creationid="hfukuchi" creationdate="20170614T015815Z">
-        <seg>専任のコンプライアンスチームを確保します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045112Z" creationid="hfukuchi" creationdate="20170614T015815Z">
+        <seg>専任のコンプライアンス チームを確保します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4294,8 +4302,8 @@ License changes can occur between version upgrades.</seg>
       <tuv lang="EN-US">
         <seg>Ensuring mutual compliance with third-party software and open source software licenses.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082039Z" creationid="hfukuchi" creationdate="20170614T034825Z">
-        <seg>サードパーティのソフトウェアとオープンソースのソフトウェアライセンスとが相互にコンプライアンスを確かに満たすようにします</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091510Z" creationid="hfukuchi" creationdate="20170614T034825Z">
+        <seg>サードパーティのソフトウェアとオープンソースのソフトウェア ライセンスとが相互にコンプライアンスを確かに満たすようにします</seg>
       </tuv>
     </tu>
     <tu>
@@ -4342,8 +4350,8 @@ License changes can occur between version upgrades.</seg>
       <tuv lang="EN-US">
         <seg>Establish the Compliance End-to-End Process: The OSRB is responsible for creating the compliance end-to-end process including usage, audit, development, engagement, assurance, and compliance management.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082108Z" creationid="hfukuchi" creationdate="20170614T035113Z">
-        <seg>エンドツーエンド（端から端まで）のコンプライアンスプロセスの確立します。OSRBはエンドツーエンドのコンプライアンスプロセス、すなわち利用、監査、開発、関与、保障、コンプライアンス管理に責任を持ちます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091556Z" creationid="hfukuchi" creationdate="20170614T035113Z">
+        <seg>エンド ツー エンド（端から端まで）のコンプライアンス プロセスの確立します。OSRBはエンドツーエンドのコンプライアンスプロセス、すなわち利用、監査、開発、関与、保障、コンプライアンス管理に責任を持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4448,8 +4456,8 @@ Problem Type</seg>
       <tuv lang="EN-US">
         <seg>Examples of license compliance problems and how to avoid them</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T051931Z" creationid="hfukuchi" creationdate="20170629T051931Z">
-        <seg>ライセンスコンプライアンス問題の例と回避方法</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043451Z" creationid="hfukuchi" creationdate="20170629T051931Z">
+        <seg>ライセンス コンプライアンス問題の例と回避方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -4578,8 +4586,8 @@ Problem Type</seg>
       <tuv lang="EN-US">
         <seg>Facilitating effective usage of and contributions to open source software.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T034840Z" creationid="hfukuchi" creationdate="20170614T034840Z">
-        <seg>オープンソースソフトウェアの効果的な利用、およびオープンソースソフトウェアへの寄与を促進</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091518Z" creationid="hfukuchi" creationdate="20170614T034840Z">
+        <seg>オープンソース ソフトウェアの効果的な利用、およびオープンソース ソフトウェアへの寄与を促進</seg>
       </tuv>
     </tu>
     <tu>
@@ -4594,8 +4602,8 @@ Problem Type</seg>
       <tuv lang="EN-US">
         <seg>Failure of developers to request approval from the internal open source committee (sometimes called Open Source Review Board) to use open source software, or failure to submit a request in time</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T002111Z" creationid="hfukuchi" creationdate="20170614T002111Z">
-        <seg>開発者が企業内のオープンソース委員会 (時にオープンソース評価委員会と呼ばれる) オープンソースソフトウェアの利用申請をしない、期限までに行わない</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043708Z" creationid="hfukuchi" creationdate="20170614T002111Z">
+        <seg>開発者が企業内のオープンソース委員会 (時にオープンソース評価委員会と呼ばれる) オープンソース ソフトウェアの利用申請をしない、期限までに行わない</seg>
       </tuv>
     </tu>
     <tu>
@@ -4626,8 +4634,8 @@ Problem Type</seg>
       <tuv lang="EN-US">
         <seg>Failure to provide a proper attribution notice.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T083949Z" creationid="hfukuchi" creationdate="20170613T083949Z">
-        <seg>不適切な帰属表示 (attribution notice)</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042826Z" creationid="hfukuchi" creationdate="20170613T083949Z">
+        <seg>不適切な帰属表示 </seg>
       </tuv>
     </tu>
     <tu>
@@ -4666,16 +4674,16 @@ Problem Type</seg>
       <tuv lang="EN-US">
         <seg>Failure to publish or make available source code packages as part of meeting license obligations</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T000950Z" creationid="hfukuchi" creationdate="20170614T000950Z">
-        <seg>ライセンス上の義務の一環としてソースコードのパッケージを出版[05] (publish)したり利用可能としたりし損ねる</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043512Z" creationid="hfukuchi" creationdate="20170614T000950Z">
+        <seg>ライセンス上の義務の一環としてソースコードのパッケージを公開したり利用可能としたりし損ねる</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Failure to release modifications that were introduced to the open source software being incorporated into the shipping product</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T001423Z" creationid="hfukuchi" creationdate="20170614T001423Z">
-        <seg>出荷製品に組み込まれたオープンソースソフトウェアへの変更をリリース忘れ</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043535Z" creationid="hfukuchi" creationdate="20170614T001423Z">
+        <seg>出荷製品に組み込まれたオープンソース ソフトウェアへの変更をリリース忘れ</seg>
       </tuv>
     </tu>
     <tu>
@@ -5043,8 +5051,8 @@ audit findings</seg>
       <tuv lang="EN-US">
         <seg>Figure 4 described the essential elements needed for a successful compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080258Z" creationid="hfukuchi" creationdate="20170614T013853Z">
-        <seg>図4はコンプライアンスプログラムの成功に必須の構成要素を示しています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044633Z" creationid="hfukuchi" creationdate="20170614T013853Z">
+        <seg>図4はコンプライアンス プログラムの成功に必須の構成要素を示しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5059,8 +5067,8 @@ audit findings</seg>
       <tuv lang="EN-US">
         <seg>Figure 5 (next page) illustrates a sample compliance process, with the various steps each software component will go through as part of the due diligence.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074855Z" creationid="hfukuchi" creationdate="20170614T010904Z">
-        <seg>図５（次ページ）はコンプライアンスプロセスの例を図示したもので、個々のソフトウェアコンポーネントがデューデリジェンスの一環として通るべき様々なステップを示しています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051457Z" creationid="hfukuchi" creationdate="20170614T010904Z">
+        <seg>図５（次ページ）はコンプライアンス プロセスの例を図示したもので、個々のソフトウェア コンポーネントが精査の一環として通るべき様々なステップを示しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5107,8 +5115,8 @@ audit findings</seg>
       <tuv lang="EN-US">
         <seg>Figure 8 presents a breakdown of the different departments responsible for achieving open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081700Z" creationid="hfukuchi" creationdate="20170614T022140Z">
-        <seg>図8はオープンソースコンプライアンスの達成に責任がある様々な部門を書き下したものです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053215Z" creationid="hfukuchi" creationdate="20170614T022140Z">
+        <seg>図8はオープンソース コンプライアンスの達成に責任がある様々な部門を書き下したものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5288,16 +5296,16 @@ You receive verification that the source code is uploaded correctly and accessib
       <tuv lang="EN-US">
         <seg>Follow a detailed compliance checklist to ensure that all compliance action items have been completed when a given product, application, or software stack is released into the market</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T001342Z" creationid="hfukuchi" creationdate="20170614T001342Z">
-        <seg>詳細なコンプライアンスチェックリストに従い、製品やアプリケーション、ソフトウェアスタックの出荷時には全てのコンプライアンス上のアクションアイテムが完了したことを確認</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043525Z" creationid="hfukuchi" creationdate="20170614T001342Z">
+        <seg>詳細なコンプライアンス チェック リストに従い、製品やアプリケーション、ソフトウェアスタックの出荷時には全てのコンプライアンス上のアクション アイテムが完了したことを確認</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Follow compliance policies and processes</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T023100Z" creationid="hfukuchi" creationdate="20170614T023100Z">
-        <seg>コンプライアンスポリシーとプロセスの遵守</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053327Z" creationid="hfukuchi" creationdate="20170614T023100Z">
+        <seg>コンプライアンス ポリシーとプロセスの遵守</seg>
       </tuv>
     </tu>
     <tu>
@@ -5314,8 +5322,8 @@ Integrate compliance practices in dev process</seg>
       <tuv lang="EN-US">
         <seg>Follow technical compliance guidelines</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T023142Z" creationid="hfukuchi" creationdate="20170614T023142Z">
-        <seg>技術的なコンプライアンスプログラムの遵守</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053333Z" creationid="hfukuchi" creationdate="20170614T023142Z">
+        <seg>技術的なコンプライアンス プログラムの遵守</seg>
       </tuv>
     </tu>
     <tu>
@@ -5413,8 +5421,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>For companies using open source software in their commercial products, it is recommended to develop and maintain a good relationship with the members of the open source communities that create and sustain the open source code they consume.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074147Z" creationid="hfukuchi" creationdate="20170614T004228Z">
-        <seg>オープンソースソフトウェアを自社製品で利用する企業は、利用しているコードを開発し維持七得るオープンソースコミュニティと良い関係を持ち、維持することが望ましいです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T045308Z" creationid="hfukuchi" creationdate="20170614T004228Z">
+        <seg>オープンソース ソフトウェアを自社製品で利用する企業は、利用しているコードを開発し維持七得るオープンソース コミュニティと良い関係を持ち、維持することが望ましいです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5461,8 +5469,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>For instance, if you are just starting to develop a product or deliver a service that includes open source and you do not yet have any compliance infrastructure in place, the most immediate concern should be establishing a compliance team, processes and policy, tools and automation, and training your employees.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080702Z" creationid="hfukuchi" creationdate="20170614T014204Z">
-        <seg>たとえば、もしオープンソースを含む製品開発やサービス提供を始めたばかりであり、すでに動いているコンプライアンスのインフラストラクチャーが何もないならば、最も差し迫った懸念はコンプライアンスチームを作ることであり、プロセスとポリシー、ツールと自動化を確立することであり、従業員を訓練することです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044717Z" creationid="hfukuchi" creationdate="20170614T014204Z">
+        <seg>たとえば、もしオープンソースを含む製品開発やサービス提供を始めたばかりであり、すでに動いているコンプライアンスのインフラストラクチャーが何もないならば、最も差し迫った懸念はコンプライアンス チームを作ることであり、プロセスとポリシー、ツールと自動化を確立することであり、従業員を訓練することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5565,8 +5573,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>Formal training mandated for all employees working with open source software .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T014745Z" creationid="hfukuchi" creationdate="20170614T014745Z">
-        <seg>オープンソースソフトウェア関連業務に携わる全従業員に対する正式な訓練命令</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044755Z" creationid="hfukuchi" creationdate="20170614T014745Z">
+        <seg>オープンソース ソフトウェア関連業務に携わる全従業員に対する正式な訓練命令</seg>
       </tuv>
     </tu>
     <tu>
@@ -6015,8 +6023,8 @@ time basis, based on tasks they receive from the OSRB.</seg>
       <tuv lang="EN-US">
         <seg>IT provides support and maintenance for the tools and automation infrastructure employed by a compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T083029Z" creationid="hfukuchi" creationdate="20170628T083029Z">
-        <seg>IT部門はコンプライアンスプログラムで使われるツールのサポートや、自動化の基盤を提供、維持します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091147Z" creationid="hfukuchi" creationdate="20170628T083029Z">
+        <seg>IT部門はコンプライアンス プログラムで使われるツールのサポートや、自動化の基盤を提供、維持します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6031,16 +6039,16 @@ time basis, based on tasks they receive from the OSRB.</seg>
       <tuv lang="EN-US">
         <seg>Ideally, the compliance officer must possess as many as possible of the following:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083441Z" creationid="hfukuchi" creationdate="20170627T083441Z">
-        <seg>理想としてはコンプライアンスオフィサーは下記を出来る限り備えている必要があります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082802Z" creationid="hfukuchi" creationdate="20170627T083441Z">
+        <seg>理想としてはコンプライアンス オフィサーは下記を出来る限り備えている必要があります。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Ideally, with every development milestone, you can incorporate a corresponding compliance milestone, ensuring that all software components used in the build have parallel and approved compliance tickets.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081225Z" creationid="hfukuchi" creationdate="20170614T015747Z">
-        <seg>理想的にはすべての開発上のマイルストーンにおいて対応するコンプライアンス上のマイルストーンを組み込み、ビルドに使われる全ソフトウェアコンポーネントが対応する、承認されたコンプライアンスチケットを確実に持つようにします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045107Z" creationid="hfukuchi" creationdate="20170614T015747Z">
+        <seg>理想的にはすべての開発上のマイルストーンにおいて対応するコンプライアンス上のマイルストーンを組み込み、ビルドに使われる全ソフトウェア コンポーネントが対応する、承認されたコンプライアンス チケットを確実に持つようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6239,8 +6247,8 @@ The goal of this initial step is to monitor the ingress and incorporation of ope
       <tuv lang="EN-US">
         <seg>If OS component is found in the build system without a corresponding compliance ticket, a new ticket is auto-generated.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170727T015105Z" creationid="hfukuchi" creationdate="20170614T002324Z">
-        <seg>もしビルドされたシステムに該当するコンプライアンスチケットがないオープンソースコンポーネントが検出されたら、自動で新チケットを発行</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043745Z" creationid="hfukuchi" creationdate="20170614T002324Z">
+        <seg>もしビルドされたシステムに該当するコンプライアンス チケットがないオープンソース コンポーネントが検出されたら、自動で新チケットを発行</seg>
       </tuv>
     </tu>
     <tu>
@@ -6255,8 +6263,8 @@ The goal of this initial step is to monitor the ingress and incorporation of ope
       <tuv lang="EN-US">
         <seg>If a company is considering a merger or is the target of an acquisition, it should structure its compliance program to offer a level of disclosure and provide representations.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T083408Z" creationid="hfukuchi" creationdate="20170628T083408Z">
-        <seg>他社との合併や、自社が買収されることを考えるならば、コンプライアンスプログラムはしかるべきレベルの開示を行い、説明が出来るように作られるべきです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091205Z" creationid="hfukuchi" creationdate="20170628T083408Z">
+        <seg>他社との合併や、自社が買収されることを考えるならば、コンプライアンス プログラムはしかるべきレベルの開示を行い、説明が出来るように作られるべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6567,8 +6575,8 @@ The goal of this initial step is to monitor the ingress and incorporation of ope
       <tuv lang="EN-US">
         <seg>In a later chapter, we discuss a simple process for managing open source compliance inquiries.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074725Z" creationid="hfukuchi" creationdate="20170614T010623Z">
-        <seg>後ろの章で、オープンソースコンプライアンスに対する照会を扱うシンプルなプロセスについて述べます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051423Z" creationid="hfukuchi" creationdate="20170614T010623Z">
+        <seg>後ろの章で、オープンソース コンプライアンスに対する照会を扱うシンプルなプロセスについて述べます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6600,8 +6608,8 @@ or acquire tools that will be used to improve effectiveness the compliance activ
       <tuv lang="EN-US">
         <seg>In addition, compliance activities can also help identify crucial pieces of open source that are in use across multiple products and parts of an organization, and/or are highly strategic and beneficial to that organization.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072452Z" creationid="hfukuchi" creationdate="20170613T083350Z">
-        <seg>更に、コンプライアンスの活動は、様々な製品や部門で使われていてカギとなる、組織にとって高度に戦略的で利益をもたらすオープンソースソフトウェアの洗い出しにつながります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042742Z" creationid="hfukuchi" creationdate="20170613T083350Z">
+        <seg>更に、コンプライアンスの活動は、様々な製品や部門で使われていてカギとなる、組織にとって高度に戦略的で利益をもたらすオープンソース ソフトウェアの洗い出しにつながります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6666,8 +6674,8 @@ CIOオフィス, </seg>
       <tuv lang="EN-US">
         <seg>In almost all cases, the failure to comply with open source license obligations has also resulted in public embarrassment, negative press, and damaged relations with the open source community.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074139Z" creationid="hfukuchi" creationdate="20170614T004151Z">
-        <seg>ほぼすべての事件において、オープンソースライセンス上の義務違反は面目の失墜、否定的な記事、オープンソースコミュニティとの関係悪化を招いています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T045255Z" creationid="hfukuchi" creationdate="20170614T004151Z">
+        <seg>ほぼすべての事件において、オープンソース ライセンス上の義務違反は面目の失墜、否定的な記事、オープンソース コミュニティとの関係悪化を招いています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6698,8 +6706,8 @@ CIOオフィス, </seg>
       <tuv lang="EN-US">
         <seg>In larger organizations, the compliance officer and related roles may grow to be FTEs (full time equivalents); in smaller organizations, the responsibility of open source management is more likely to be a shared and/or a part-time activity.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081644Z" creationid="hfukuchi" creationdate="20170614T021509Z">
-        <seg>大きな組織ではコンプライアンスオフィサー、および関連する職務はフルタイムの仕事となり得ます。小さい組織では分担したり、時間の一部を割くべき活動となる可能性が高いです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045327Z" creationid="hfukuchi" creationdate="20170614T021509Z">
+        <seg>大きな組織ではコンプライアンス オフィサー、および関連する職務はフルタイムの仕事となり得ます。小さい組織では分担したり、時間の一部を割くべき活動となる可能性が高いです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6819,8 +6827,8 @@ CIOオフィス, </seg>
       <tuv lang="EN-US">
         <seg>In some cases, the compliance due diligence may result in a decision not to proceed with the transaction, if that the compliance situation proves far from ideal.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T083720Z" creationid="hfukuchi" creationdate="20170628T083720Z">
-        <seg>時にはコンプライアンス上のデューデリジェンスの結果、コンプライアンスの状況が理想からかけ離れており、ためにその活動を止める決定をする場合もあります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091316Z" creationid="hfukuchi" creationdate="20170628T083720Z">
+        <seg>時にはコンプライアンス上の精査の結果、コンプライアンスの状況が理想からかけ離れており、ためにその活動を止める決定をする場合もあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6875,8 +6883,8 @@ CIOオフィス, </seg>
       <tuv lang="EN-US">
         <seg>In such a dynamic environment, a compliance program must evolve as well.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081516Z" creationid="hfukuchi" creationdate="20170614T021005Z">
-        <seg>こうしたダイナミックな環境の中で、コンプライアンスプログラムも進化する必要があります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045256Z" creationid="hfukuchi" creationdate="20170614T021005Z">
+        <seg>こうしたダイナミックな環境の中で、コンプライアンス プログラムも進化する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6923,8 +6931,8 @@ CIOオフィス, </seg>
       <tuv lang="EN-US">
         <seg>In the following sections, we discuss some of the most common challenges, and offer recommendations on how to overcome them.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075615Z" creationid="hfukuchi" creationdate="20170614T012906Z">
-        <seg>以下の説では最もありふれた困難を取り上げ、克服する方法を示唆します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044308Z" creationid="hfukuchi" creationdate="20170614T012906Z">
+        <seg>以下の節では最もありふれた困難を取り上げ、克服する方法を示唆します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7179,8 +7187,8 @@ CIOオフィス, </seg>
       <tuv lang="EN-US">
         <seg>Include compliance checkpoints as part of the software development process as it moves from concept into shipping a product or software stack.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081157Z" creationid="hfukuchi" creationdate="20170614T015724Z">
-        <seg>コンプライアンス上のチェックポイントをソフトウェアの開発プロセスに含め、コンセプトが出荷される製品やソフトウェアスタックとなる時に行います。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045056Z" creationid="hfukuchi" creationdate="20170614T015724Z">
+        <seg>コンプライアンス上のチェックポイントをソフトウェアの開発プロセスに含め、コンセプトが出荷される製品やソフトウェア スタックとなる時に行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7205,8 +7213,8 @@ Mandate that developers file approval requests early, even if they didn’t yet 
       <tuv lang="EN-US">
         <seg>Include open source license information and notices in the product documentation</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082002Z" creationid="hfukuchi" creationdate="20170614T034355Z">
-        <seg>オープンソースライセンスの情報と告知を製品の文書の中に含めます</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091410Z" creationid="hfukuchi" creationdate="20170614T034355Z">
+        <seg>オープンソース ライセンスの情報と告知を製品の文書の中に含めます</seg>
       </tuv>
     </tu>
     <tu>
@@ -7357,8 +7365,8 @@ In this example, the compliance team identifies all open source included in the 
       <tuv lang="EN-US">
         <seg>Individuals and teams involved in ensuring open source compliance</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T011332Z" creationid="hfukuchi" creationdate="20170614T011332Z">
-        <seg>オープンソースコンプライアンスを確かなものとする個人とチーム</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051726Z" creationid="hfukuchi" creationdate="20170614T011332Z">
+        <seg>オープンソース コンプライアンスを確かなものとする個人とチーム</seg>
       </tuv>
     </tu>
     <tu>
@@ -7438,8 +7446,8 @@ In this example, the compliance team identifies all open source included in the 
       <tuv lang="EN-US">
         <seg>Informal training channels may include any or all of the following:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T012405Z" creationid="hfukuchi" creationdate="20170614T012405Z">
-        <seg>非公式のトレーニングは下記のいずれか、あるいは全部を含む。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T043935Z" creationid="hfukuchi" creationdate="20170614T012405Z">
+        <seg>非公式のトレーニングは下記のいずれか、あるいは全部を含みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7560,8 +7568,8 @@ Provide support and maintenance for the tools and automation infrastructure used
       <tuv lang="EN-US">
         <seg>Integrate compliance milestones as part of the development process: This exercise takes place in collaboration with the OSRB and the Compliance Officer.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075857Z" creationid="hfukuchi" creationdate="20170627T075857Z">
-        <seg>コンプライアンス上のマイルストーンを開発プロセスの一部に統合：これはOSRBとコンプライアンスオフィサーと協力して行います。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082724Z" creationid="hfukuchi" creationdate="20170627T075857Z">
+        <seg>コンプライアンス上のマイルストーンを開発プロセスの一部に統合：これはOSRBとコンプライアンス オフィサーと協力して行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7739,8 +7747,8 @@ Provide support and maintenance for the tools and automation infrastructure used
       <tuv lang="EN-US">
         <seg>It includes a formal process for the approval, acquisition, and use of open source, and a method for releasing software that contains open source or that’s licensed under an open source license.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074642Z" creationid="hfukuchi" creationdate="20170614T010252Z">
-        <seg>オープンソースの承認、取得 (acquisition) , 利用、オープンソースライセンスを含むかオープンソースラインセンスに基づいてライセンスされたソフトウェアをリリースする方法、の正式なプロセスも本戦略に含まれます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051330Z" creationid="hfukuchi" creationdate="20170614T010252Z">
+        <seg>オープンソースの承認、取得 , 利用、オープンソースライセンスを含むかオープンソース ラインセンスに基づいてライセンスされたソフトウェアをリリースする方法、の正式なプロセスも本戦略に含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7893,8 +7901,8 @@ department exercise.</seg>
       <tuv lang="EN-US">
         <seg>It is usually provided as part of the product documentation and also accessible from the product’s user interface.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T060109Z" creationid="hfukuchi" creationdate="20170913T060109Z">
-        <seg>これは通常、製品添付の文書に含めるとともに、製品のユーザーインターフェースからアクセスできるようにします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042926Z" creationid="hfukuchi" creationdate="20170913T060109Z">
+        <seg>これは通常、製品添付の文書に含めるとともに、製品のユーザー インターフェースからアクセスできるようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7925,8 +7933,8 @@ department exercise.</seg>
       <tuv lang="EN-US">
         <seg>It was very easy to know who was the provider for every software component.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071804Z" creationid="hfukuchi" creationdate="20170613T080024Z">
-        <seg>全てのソフトウェアコンポーネントについて誰が提供者であるかを知るのは大変容易でした。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015324Z" creationid="hfukuchi" creationdate="20170613T080024Z">
+        <seg>全てのソフトウェア コンポーネントについて誰が提供者であるかを知るのは大変容易でした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8320,8 +8328,8 @@ Input</seg>
       <tuv lang="EN-US">
         <seg>License compliance failures may result in any (or a combination) of the following:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073234Z" creationid="hfukuchi" creationdate="20170613T091955Z">
-        <seg>ライセンスコンプライアンス上の失敗は下記のいずれか（か、その組み合わせ）を招き得ます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043318Z" creationid="hfukuchi" creationdate="20170613T091955Z">
+        <seg>ライセンス コンプライアンス上の失敗は下記のいずれか（か、その組み合わせ）を招き得ます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8337,8 +8345,8 @@ Input</seg>
       <tuv lang="EN-US">
         <seg>License compliance problems are typically less damaging than intellectual property problems, as they don’t have the side effect of forcing you to release your proprietary source code under an open source license.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073225Z" creationid="hfukuchi" creationdate="20170613T091950Z">
-        <seg>ライセンスコンプライアンス問題は知財上の問題に比べ一般に損害は小さいです。自社のプロプラエタリなコードをオープンソースライセンスで開示するといった副作用がないからです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043313Z" creationid="hfukuchi" creationdate="20170613T091950Z">
+        <seg>ライセンスコンプライアンス問題は知財上の問題に比べ一般に損害は小さいです。自社のプロプラエタリなコードをオープンソース ライセンスで開示するといった副作用がないからです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8474,6 +8482,14 @@ The goal of a linkage analysis review is to find potentially problematic code co
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Linking of open source into proprietary source code (or vice versa - specific to C/C++ source code)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043255Z" creationid="hfukuchi" creationdate="20170925T043255Z">
+        <seg>オープンソースをプロプラエタリなソースコードのソフトウェアにリンク (またはその逆。C/C++特有の問題) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Linking of open source into proprietary source code (or vice versa - specific to C/C++ source code) 
 Occurs as a result of linking software components that have conflicting or incompatible licenses</seg>
       </tuv>
@@ -8602,8 +8618,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>Maintain records of compliance: OSRB is responsible for ensuring that all compliance records for any given open source software component are up to date.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170626T070841Z" creationid="hfukuchi" creationdate="20170626T070841Z">
-        <seg>コンプライアンスの記録を取る：いかなるオープンソースソフトウェアコンポーネントについてもコンプライアンスに関するすべての記録が最新のものとなっていることにOSDBは責任を持ちます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091913Z" creationid="hfukuchi" creationdate="20170626T070841Z">
+        <seg>コンプライアンスの記録を取る：いかなるオープンソース ソフトウェア コンポーネントについてもコンプライアンスに関するすべての記録が最新のものとなっていることにOSDBは責任を持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8682,8 +8698,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>Mandate architecture reviews and code inspections for the Open Source Review Board (OSRB) to understand how software components are interrelated and to discover license obligations that can propagate from open source to proprietary software.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075835Z" creationid="hfukuchi" creationdate="20170614T013629Z">
-        <seg>アーキテクチャのレビューとコードの検査を指示し、オープンソース評価委員会 (OSRB) がソフトウェアコンポーネント間の関係を理解し、オープンソースからプロプラエタリなソフトウェアへとライセンス上の義務が派生していることを見つけられるようにします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044607Z" creationid="hfukuchi" creationdate="20170614T013629Z">
+        <seg>アーキテクチャのレビューとコードの検査を指示し、オープンソース評価委員会 (OSRB) がソフトウェアコンポーネント間の関係を理解し、オープンソースからプロプラエタリなソフトウェアへとライセンス上の義務が伝搬していることを見つけられるようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8698,8 +8714,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>Mandate third party software providers to disclose open source in licensed or purchased software components</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T034522Z" creationid="hfukuchi" creationdate="20170614T034522Z">
-        <seg>サードパーティプロバイダからライセンスされた、または購入したソフトウェアコンポーネントに含まれるオープンソースの情報の開示をサードパーティプロバイダに指示</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091433Z" creationid="hfukuchi" creationdate="20170614T034522Z">
+        <seg>サードパーティ プロバイダからライセンスされた、または購入したソフトウェア コンポーネントに含まれるオープンソースの情報の開示をサードパーティ プロバイダに指示</seg>
       </tuv>
     </tu>
     <tu>
@@ -8722,8 +8738,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>Measure and analyze the impact and effectiveness of compliance activities, processes, and procedures with the goal of studying performance and improving the compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081441Z" creationid="hfukuchi" creationdate="20170614T020735Z">
-        <seg>コンプライアンス活動やプロセス、手続きのインパクトや効率性を計測し分析すべきです。パフォーマンスを調べ、コンプライアンスプログラムを改善するためです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045235Z" creationid="hfukuchi" creationdate="20170614T020735Z">
+        <seg>コンプライアンス活動やプロセス、手続きのインパクトや効率性を計測し分析すべきです。パフォーマンスを調べ、コンプライアンス プログラムを改善するためです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8770,8 +8786,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>Messaging, both internal and external, is an integral part of any compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075545Z" creationid="hfukuchi" creationdate="20170614T012710Z">
-        <seg>メッセージの発信は内部向け、外部向けともコンプライアンスプログラムの必須の構成要素です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044234Z" creationid="hfukuchi" creationdate="20170614T012710Z">
+        <seg>メッセージの発信は内部向け、外部向けともコンプライアンス プログラムの必須の構成要素です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8786,8 +8802,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>Metrics will help you communicate the productivity advantages that accrue from each program element when promoting the compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081449Z" creationid="hfukuchi" creationdate="20170614T020810Z">
-        <seg>計測の尺度は、コンプライアンスプログラムを推進する場合にプログラムの個々の構成要素から得られる生産性向上について対話をする助けとなります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045243Z" creationid="hfukuchi" creationdate="20170614T020810Z">
+        <seg>計測の尺度は、コンプライアンス プログラムを推進する場合にプログラムの個々の構成要素から得られる生産性向上について対話をする助けとなります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8843,8 +8859,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>Monitor the open source projects to determine whether any bug fixes or security patches have become available, and take responsibility for updating the open source component used in the product.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075935Z" creationid="hfukuchi" creationdate="20170627T075935Z">
-        <seg>オープンソースのプロジェクトをモニタし、バグフィックスやセキュリティパッチが利用可能となったかを判断し、製品で使われているオープンソースコンポーネントのアップデートに責任を持ちます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082741Z" creationid="hfukuchi" creationdate="20170627T075935Z">
+        <seg>オープンソースのプロジェクトをモニタし、バグフィックスやセキュリティ パッチが利用可能となったかを判断し、製品で使われているオープンソース コンポーネントのアップデートに責任を持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8999,8 +9015,8 @@ Figure 4 described the essential elements needed for a successful compliance pro
       <tuv lang="EN-US">
         <seg>New employee orientation: In some instances, the Compliance Officer presents on the company’s compliance efforts, rules, policies, and processes to new employees as part of employee orientation, supplying new employees with necessary open source management information: who to talk to, what internal website to visit, how to sign-up for open source and compliance training, etc.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075520Z" creationid="hfukuchi" creationdate="20170614T012558Z">
-        <seg>新人研修：時にはコンプライアンスオフィサーが企業のコンプライアンスの努力、規則、ポリシー、プロセスを新人に対して研修の一部として講演し、必要となるオープンソースの管理上の情報（聞くべき人、訪れるべき内部のウェブサイト、オープンソースとコンプライアンスのトレーニングへの参加方法等々）を提供します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044213Z" creationid="hfukuchi" creationdate="20170614T012558Z">
+        <seg>新人研修：時にはコンプライアンス オフィサーが企業のコンプライアンスの努力、規則、ポリシー、プロセスを新人に対して研修の一部として講演し、必要となるオープンソースの管理上の情報（聞くべき人、訪れるべき内部のウェブサイト、オープンソースとコンプライアンスのトレーニングへの参加方法等々）を提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9182,8 +9198,8 @@ One of the key obligations when using open source is the documentation obligatio
       <tuv lang="EN-US">
         <seg>Notify previous recipients of the product that the product contains open source software and inform them of their rights with respect to that software.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T003831Z" creationid="hfukuchi" creationdate="20170614T003831Z">
-        <seg>製品を受け取った過去の顧客に、製品はオープンソースソフトウェアを含んでいること、そのソフトウェアについての権利、を通知</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043939Z" creationid="hfukuchi" creationdate="20170614T003831Z">
+        <seg>製品を受け取った過去の顧客に、製品はオープンソース ソフトウェアを含んでいること、そのソフトウェアについての権利、を通知</seg>
       </tuv>
     </tu>
     <tu>
@@ -9206,8 +9222,8 @@ One of the key obligations when using open source is the documentation obligatio
       <tuv lang="EN-US">
         <seg>OPEN SOURCE COMPLIANCE PROGRAM</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T005931Z" creationid="hfukuchi" creationdate="20170614T005931Z">
-        <seg>オープンソースコンプライアンスプログラム</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051204Z" creationid="hfukuchi" creationdate="20170614T005931Z">
+        <seg>オープンソース コンプライアンス プログラム</seg>
       </tuv>
     </tu>
     <tu>
@@ -9379,8 +9395,8 @@ Package name and version</seg>
       <tuv lang="EN-US">
         <seg>Offer guidance about open source license obligations.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T074104Z" creationid="hfukuchi" creationdate="20170627T074104Z">
-        <seg>オープンソースライセンス 上の義務についてガイドラインを提供</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082438Z" creationid="hfukuchi" creationdate="20170627T074104Z">
+        <seg>オープンソース ライセンス 上の義務についてガイドラインを提供</seg>
       </tuv>
     </tu>
     <tu>
@@ -9421,8 +9437,8 @@ Regularly run dependency tracking tool to verify all linkage relationships; flag
       <tuv lang="EN-US">
         <seg>Offer training on your compliance policies and processes</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T002126Z" creationid="hfukuchi" creationdate="20170614T002126Z">
-        <seg>コンプライアンスポリシーとプロセスについての教育</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043728Z" creationid="hfukuchi" creationdate="20170614T002126Z">
+        <seg>コンプライアンス ポリシーとプロセスについての教育</seg>
       </tuv>
     </tu>
     <tu>
@@ -9630,8 +9646,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>One of the initial challenges when starting a compliance program is to find exactly which open source software is in use and under which licenses it is available.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080954Z" creationid="hfukuchi" creationdate="20170614T015239Z">
-        <seg>コンプライアンスプログラムの開始当初の困難の一つは、使われているオープンソースソフトウェアとそのライセンスを正確に把握することです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044858Z" creationid="hfukuchi" creationdate="20170614T015239Z">
+        <seg>コンプライアンス プログラムの開始当初の困難の一つは、使われているオープンソース ソフトウェアとそのライセンスを正確に把握することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9670,8 +9686,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>One way to enforce the compliance program is to integrate it within the software development process and ensure that some measurable portion of employee performance evaluation depends on their commitment to and execution of compliance program activities.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081538Z" creationid="hfukuchi" creationdate="20170614T021420Z">
-        <seg>コンプライアンスプログラムを守らせる方法の一つは、ソフトウェア開発プロセスと統合し、従業員の業績査定の幾分かをコンプライアンスプログラム活動へのコミットメントと実行とすることです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045319Z" creationid="hfukuchi" creationdate="20170614T021420Z">
+        <seg>コンプライアンス プログラムを守らせる方法の一つは、ソフトウェア開発プロセスと統合し、従業員の業績査定の幾分かをコンプライアンス プログラム活動へのコミットメントと実行とすることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9702,8 +9718,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Open Source Program Office</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T085037Z" creationid="hfukuchi" creationdate="20170613T085037Z">
-        <seg>オープンソースプログラム室</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042937Z" creationid="hfukuchi" creationdate="20170613T085037Z">
+        <seg>オープンソース プログラム室</seg>
       </tuv>
     </tu>
     <tu>
@@ -9735,8 +9751,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Open source code, developed by the open source community and received by the company building the product/service under an open source license.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080630Z" creationid="hfukuchi" creationdate="20170613T080630Z">
-        <seg>オープンソースのコード、オープンソースのコミュニティにより開発され、製品やサービスを作る企業がオープンソースライセンスの下で受領したもの</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015632Z" creationid="hfukuchi" creationdate="20170613T080630Z">
+        <seg>オープンソースのコード、オープンソースのコミュニティにより開発され、製品やサービスを作る企業がオープンソース ライセンスの下で受領したもの</seg>
       </tuv>
     </tu>
     <tu>
@@ -9767,24 +9783,24 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Open source compliance is the process by which users, integrators, and developers of open source observe copyright notices and satisfy license obligations for their open source software components.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072310Z" creationid="hfukuchi" creationdate="20170613T083002Z">
-        <seg>オープンソースのコンプライアンスとは、オープンソースのユーザー、インテグレーター、開発者が著作権表示をきちんと見て、自らに関わるオープンソースのソフトウェアコンポーネントのライセンス上の義務を満たすプロセスです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042700Z" creationid="hfukuchi" creationdate="20170613T083002Z">
+        <seg>オープンソースのコンプライアンスとは、オープンソースのユーザー、インテグレーター、開発者が著作権表示をきちんと見て、自らに関わるオープンソースのソフトウェア コンポーネントのライセンス上の義務を満たすプロセスです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Open source compliance officer is not necessary a dedicated resource.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081835Z" creationid="hfukuchi" creationdate="20170614T024141Z">
-        <seg>オープンソースコンプライアンスオフィサーは必ずしも専任である必要はないです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053348Z" creationid="hfukuchi" creationdate="20170614T024141Z">
+        <seg>オープンソース コンプライアンス オフィサーは必ずしも専任である必要はないです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Open source compliance teams use several tools to automate and facilitate the auditing of source code and the discovery of open source code and its licenses.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075024Z" creationid="hfukuchi" creationdate="20170614T011356Z">
-        <seg>オープンソースコンプライアンスチームはツールを使うことでソースコードの監査、オープンソースコードとそのライセンスの発見、が自動化され楽になります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051744Z" creationid="hfukuchi" creationdate="20170614T011356Z">
+        <seg>オープンソース コンプライアンス チームはツールを使うことでソースコードの監査、オープンソース コードとそのライセンスの発見、が自動化され楽になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9851,8 +9867,8 @@ Richard Lumb, Chief Executive, Financial Services, Accenture</seg>
       <tuv lang="EN-US">
         <seg>Open source initiatives and projects provide companies and other organizations with a vehicle to accelerate innovation through collaboration with the hundreds and sometimes thousands of communities that represent the developers of the open source software.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072241Z" creationid="hfukuchi" creationdate="20170613T081400Z">
-        <seg>オープンソースのイニシアチブやプロジェクトを使う事で、企業や組織はオープンソースソフトウェアの開発者を代表する数百、時に数千のコミュニティと協力し、イノベーションを加速できるようになります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042644Z" creationid="hfukuchi" creationdate="20170613T081400Z">
+        <seg>オープンソースのイニシアチブやプロジェクトを使う事で、企業や組織はオープンソース ソフトウェアの開発者を代表する数百、時に数千のコミュニティと協力し、イノベーションを加速できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10055,8 +10071,8 @@ Corporate Development is also involved with compliance in transactions such as s
       <tuv lang="EN-US">
         <seg>Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071825Z" creationid="hfukuchi" creationdate="20170613T080216Z">
-        <seg>時と共に企業はOSSを自社のプラットフォームやソフトウェアスタックに組み込み、その恩恵に預かるようになってきました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015521Z" creationid="hfukuchi" creationdate="20170613T080216Z">
+        <seg>時と共に企業はOSSを自社のプラットフォームやソフトウェア スタックに組み込み、その恩恵に与かるようになってきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10238,8 +10254,8 @@ Primary Roles and Responsibilities</seg>
       <tuv lang="EN-US">
         <seg>Participate in engineering design reviews, code inspections, and distribution readiness assessments to assure that the engineering and product teams follow all compliance processes and policies and conform to the approved OSRB usage form</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084847Z" creationid="hfukuchi" creationdate="20170913T084847Z">
-        <seg>エンジニアリングチームによる設計のレビュー、コードの検査、配布可能化の評価に参加し、エンジニアリングおよび製品チームがコンプライアンスの全プロセスとポリシーに従っていること、OSRB承認済の利用申請書類に適合することを確認します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091011Z" creationid="hfukuchi" creationdate="20170913T084847Z">
+        <seg>エンジニアリング チームによる設計のレビュー、コードの検査、配布可能化の評価に参加し、エンジニアリングおよび製品チームがコンプライアンスの全プロセスとポリシーに従っていること、OSRB承認済の利用申請書類に適合することを確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10255,8 +10271,8 @@ Primary Roles and Responsibilities</seg>
       <tuv lang="EN-US">
         <seg>Participation in open source events and conferences: Participation can be at various levels ranging from sponsoring an event, to contributing presentations and publications, or simply sending developers to attend and meet open source developers and foster new relationships with open source community members</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080948Z" creationid="hfukuchi" creationdate="20170614T015052Z">
-        <seg>オープンソースのイベントや会議への参加。参加には様々なレベルがある。イベントのスポンサーから講演や出版物への寄与、あるいは単に開発者を参加させオープンソースの開発者たちと知り合いオープンソースコミュニティのメンバと新たな関係を育成します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044848Z" creationid="hfukuchi" creationdate="20170614T015052Z">
+        <seg>オープンソースのイベントや会議への参加。参加には様々なレベルがある。イベントのスポンサーから講演や出版物への寄与、あるいは単に開発者を参加させオープンソースの開発者たちと知り合いオープンソース コミュニティのメンバと新たな関係を育成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10287,8 +10303,8 @@ Primary Roles and Responsibilities</seg>
       <tuv lang="EN-US">
         <seg>Perform architectural reviews to verify if and how open source license obligations are extending to proprietary and third-party software components</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T061056Z" creationid="hfukuchi" creationdate="20170913T061056Z">
-        <seg>アーキテクチャを評価し、オープンソースのライセンス上の義務がプロプラエタリやサードパーティのソフトウェアコンポーネントまで拡大していないか、拡大しているならばどのように、を検証</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043909Z" creationid="hfukuchi" creationdate="20170913T061056Z">
+        <seg>アーキテクチャを評価し、オープンソースのライセンス上の義務がプロプラエタリやサードパーティのソフトウェア コンポーネントまで拡大していないか、拡大しているならばどのように、を検証</seg>
       </tuv>
     </tu>
     <tu>
@@ -10312,8 +10328,8 @@ Primary Roles and Responsibilities</seg>
       <tuv lang="EN-US">
         <seg>Perform code inspections as part of the pre-distribution verification, to ensure that open source license text and copyright notices have been kept intact and that engineers have updated the change logs to reflect the changes introduced to the source code.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T040035Z" creationid="hfukuchi" creationdate="20170614T040035Z">
-        <seg>配布前の検証作業の一環としてコードの検査を実施。オープンソースライセンスのテキストや著作権表示が完全な形となっており、ソースコードに対して施された変更を反映するようエンジニアたちが変更ログ をアップデートしていることを確認</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091742Z" creationid="hfukuchi" creationdate="20170614T040035Z">
+        <seg>配布前の検証作業の一環としてコードの検査を実施。オープンソース ライセンスのテキストや著作権表示が完全な形となっており、ソースコードに対して施された変更を反映するようエンジニアたちが変更ログ をアップデートしていることを確認</seg>
       </tuv>
     </tu>
     <tu>
@@ -10328,8 +10344,8 @@ Primary Roles and Responsibilities</seg>
       <tuv lang="EN-US">
         <seg>Perform software audits: The OSRB performs audits on all software included in a product, which involves the following tasks:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084125Z" creationid="hfukuchi" creationdate="20170913T083913Z">
-        <seg>ソフトウェアの監査の実施：OSRBは製品に含まれる全ソフトウェアについて監査を行う。これは下記が含まれます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091633Z" creationid="hfukuchi" creationdate="20170913T083913Z">
+        <seg>ソフトウェアの監査の実施：OSRBは製品に含まれる全ソフトウェアについて監査を行います。これは下記が含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10551,16 +10567,16 @@ The next step in the compliance due diligence is to decide on the method and mod
       <tuv lang="EN-US">
         <seg>Prepare software packages for distribution</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T024057Z" creationid="hfukuchi" creationdate="20170614T024057Z">
-        <seg>配布のためのソフトウェアパッケージ準備</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053338Z" creationid="hfukuchi" creationdate="20170614T024057Z">
+        <seg>配布のためのソフトウェア パッケージ準備</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Prepare source code packages for distribution: Engineering teams prepare the source code packages that will be made available on a public website as part of meeting open source license obligations (other source code distribution methods are discussed in a later chapter).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075839Z" creationid="hfukuchi" creationdate="20170627T075839Z">
-        <seg>配布のためのソースコードパッケージを準備：エンジニアリングチームはライセンスの義務に従って公開のウェブサイトで利用可能とするソースコードパッケージを準備します（これ以外のソースコードの配布方法については後ろの章で論じます）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082717Z" creationid="hfukuchi" creationdate="20170627T075839Z">
+        <seg>配布のためのソースコード パッケージを準備：エンジニアリング チームはライセンスの義務に従って公開のウェブサイトで利用可能とするソースコード パッケージを準備します（これ以外のソースコードの配布方法については後ろの章で論じます）</seg>
       </tuv>
     </tu>
     <tu>
@@ -10616,8 +10632,8 @@ The next step in the compliance due diligence is to decide on the method and mod
       <tuv lang="EN-US">
         <seg>Primary roles and responsibilities of the compliance core team (OSRB)</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T022433Z" creationid="hfukuchi" creationdate="20170614T022433Z">
-        <seg>コンプライアンスコアチーム (OSRB) の主な役割と責任</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053254Z" creationid="hfukuchi" creationdate="20170614T022433Z">
+        <seg>コンプライアンス コアチーム (OSRB) の主な役割と責任</seg>
       </tuv>
     </tu>
     <tu>
@@ -10656,8 +10672,8 @@ The next step in the compliance due diligence is to decide on the method and mod
       <tuv lang="EN-US">
         <seg>Process Failures</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T001801Z" creationid="hfukuchi" creationdate="20170614T001801Z">
-        <seg>コンプライアンスプロセス上の失敗</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043646Z" creationid="hfukuchi" creationdate="20170614T001801Z">
+        <seg>コンプライアンス プロセス上の失敗</seg>
       </tuv>
     </tu>
     <tu>
@@ -10672,8 +10688,8 @@ The next step in the compliance due diligence is to decide on the method and mod
       <tuv lang="EN-US">
         <seg>Process failures can lead to infringement of the open source licensing terms such as the inability to meet the license obligations.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T001856Z" creationid="hfukuchi" creationdate="20170614T001856Z">
-        <seg>コンプライアンスプロセス上の失敗は、オープンソースのライセンス条件の侵害、例えばライセンス上の義務を満たさない、に繋がる。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043652Z" creationid="hfukuchi" creationdate="20170614T001856Z">
+        <seg>コンプライアンス プロセス上の失敗は、オープンソースのライセンス条件の侵害、例えばライセンス上の義務を満たさない、に繋がる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10688,8 +10704,8 @@ The next step in the compliance due diligence is to decide on the method and mod
       <tuv lang="EN-US">
         <seg>Processes and policies are important; however, they have to be light and efficient so that development teams do not regard them as overly burdensome to the development process.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075652Z" creationid="hfukuchi" creationdate="20170614T013334Z">
-        <seg>プロセスとポリシー は重要である。だが開発プロセスにとって重荷に過ぎると開発チームが見做さないよう軽く効果的でなければなりません。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044425Z" creationid="hfukuchi" creationdate="20170614T013334Z">
+        <seg>プロセスとポリシー は重要です。しかし開発プロセスにとって重荷に過ぎると開発チームが見做さないよう軽く効果的でなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10944,16 +10960,16 @@ The approval of the Legal Counsel is required when using open source in a commer
       <tuv lang="EN-US">
         <seg>Provide recommendations and guidance to engineering teams on open source questions and concerns.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T074408Z" creationid="hfukuchi" creationdate="20170627T074408Z">
-        <seg>エンジニアリングチームからのオープンソースについての質問や懸念に対し勧告したり、ガイダンスを提供したりします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082503Z" creationid="hfukuchi" creationdate="20170627T074408Z">
+        <seg>エンジニアリング チームからのオープンソースについての質問や懸念に対し勧告したり、ガイダンスを提供したりします。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Provide support and maintenance for the tools and automation infrastructure used by the compliance program</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T034553Z" creationid="hfukuchi" creationdate="20170614T034553Z">
-        <seg>コンプライアンスプログラムで利用されるツールと自動化のインフラをサポートし整備</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091444Z" creationid="hfukuchi" creationdate="20170614T034553Z">
+        <seg>コンプライアンス プログラムで利用されるツールと自動化のインフラをサポートし整備</seg>
       </tuv>
     </tu>
     <tu>
@@ -11000,8 +11016,8 @@ The approval of the Legal Counsel is required when using open source in a commer
       <tuv lang="EN-US">
         <seg>REFINING COMPLIANCE PROCESSES</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T020828Z" creationid="hfukuchi" creationdate="20170614T020828Z">
-        <seg>コンプライアンスプロセスの改善</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045247Z" creationid="hfukuchi" creationdate="20170614T020828Z">
+        <seg>コンプライアンス プロセスの改善</seg>
       </tuv>
     </tu>
     <tu>
@@ -11032,8 +11048,8 @@ The approval of the Legal Counsel is required when using open source in a commer
       <tuv lang="EN-US">
         <seg>Re-introduce the newer version of the software component in the compliance process</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T001526Z" creationid="hfukuchi" creationdate="20170614T001526Z">
-        <seg>コンプライアンスプロセスにおいて、より新しいバージョンのソフトウェアコンポーネントを再導入</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043608Z" creationid="hfukuchi" creationdate="20170614T001526Z">
+        <seg>コンプライアンス プロセスにおいて、より新しいバージョンのソフトウェア コンポーネントを再導入</seg>
       </tuv>
     </tu>
     <tu>
@@ -11254,16 +11270,16 @@ Step 7 .</seg>
       <tuv lang="EN-US">
         <seg>Request open source compliance be completed before a merger or acquisition</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T051722Z" creationid="hfukuchi" creationdate="20170629T051722Z">
-        <seg>会社の合併や吸収買収に先立ちオープンソースコンプライアンスが完了するよう要請</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091451Z" creationid="hfukuchi" creationdate="20170629T051722Z">
+        <seg>会社の合併や吸収買収に先立ちオープンソース コンプライアンスが完了するよう要請</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Request open source compliance be completed when receiving source code from outsourced development centers or third-party software vendors</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T051906Z" creationid="hfukuchi" creationdate="20170629T051906Z">
-        <seg>外部委託した開発会ハウセンター、またはサードパーティのソフトウェアベンダーからソースコードを受領するに先立ちオープンソースコンプライアンスが完了するよう要請 </seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091501Z" creationid="hfukuchi" creationdate="20170629T051906Z">
+        <seg>外部委託した開発会ハウセンター、またはサードパーティのソフトウェア ベンダーからソースコードを受領するに先立ちオープンソース コンプライアンスが完了するよう要請 </seg>
       </tuv>
     </tu>
     <tu>
@@ -11278,24 +11294,24 @@ Step 7 .</seg>
       <tuv lang="EN-US">
         <seg>Require approval to use OS software before committing it into product repository</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073108Z" creationid="hfukuchi" creationdate="20170613T090443Z">
-        <seg>オープンソースソフトウェアを使う際には製品のレポジトリにコミットする前に承認を必要とするようにします</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043134Z" creationid="hfukuchi" creationdate="20170613T090443Z">
+        <seg>オープンソース ソフトウェアを使う際には製品のレポジトリにコミットする前に承認を必要とするようにします</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Require developers to fill out a request form for any open source software they plan to incorporate into a product of software stack.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075743Z" creationid="hfukuchi" creationdate="20170614T013505Z">
-        <seg>開発者がオープンソースソフトウェアを製品やソフトウェアスタックに組み入れを計画するときは申請します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044459Z" creationid="hfukuchi" creationdate="20170614T013505Z">
+        <seg>開発者がオープンソース ソフトウェアを製品やソフトウェア スタックに組み入れを計画するときは申請します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Require third-party software suppliers to disclose information about open source software included in their deliverables.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075753Z" creationid="hfukuchi" creationdate="20170614T013523Z">
-        <seg>サードパーティのソフトウェアサプライヤに、提供物に含まれるオープンソースソフトウェアの情報を開示させます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044512Z" creationid="hfukuchi" creationdate="20170614T013523Z">
+        <seg>サードパーティのソフトウェア サプライヤに、提供物に含まれるオープンソース ソフトウェアの情報を開示させます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11495,8 +11511,8 @@ Review and approve proposals to release proprietary source code under an open so
       <tuv lang="EN-US">
         <seg>Review and approve proposals to release proprietary source code under an open source license.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081946Z" creationid="hfukuchi" creationdate="20170614T024554Z">
-        <seg>プロプラエタリなコードをオープンソースライセンス下でリリースする提案をレビューし承認</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091401Z" creationid="hfukuchi" creationdate="20170614T024554Z">
+        <seg>プロプラエタリなコードをオープンソース ライセンス下でリリースする提案をレビューし承認</seg>
       </tuv>
     </tu>
     <tu>
@@ -11521,8 +11537,8 @@ This form of legal support is related to ensuring that appropriate open source n
       <tuv lang="EN-US">
         <seg>Review and approve usage, modification, distribution of open source (OS) software</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T022711Z" creationid="hfukuchi" creationdate="20170614T022711Z">
-        <seg>オープンソースソフトウェアの利用、改変、配布をレビューし承認</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053308Z" creationid="hfukuchi" creationdate="20170614T022711Z">
+        <seg>オープンソース ソフトウェアの利用、改変、配布をレビューし承認</seg>
       </tuv>
     </tu>
     <tu>
@@ -11563,8 +11579,8 @@ OSRBメンバーは、特定のコンポーネントに対してアーキテク�
       <tuv lang="EN-US">
         <seg>Review requests for the use, modification, and distribution of open source: The OSRB reviews and approves incoming requests from engineering and product teams for using open source.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T082125Z" creationid="hfukuchi" creationdate="20170614T035205Z">
-        <seg>オープンソースの利用、改変、配布の申請をレビューする。OSRBはエンジニアリングや製品部門からのオープンソース利用申請 をレビューし承認します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091644Z" creationid="hfukuchi" creationdate="20170614T035205Z">
+        <seg>オープンソースの利用、改変、配布の申請をレビューします。OSRBはエンジニアリングや製品部門からのオープンソース利用申請 をレビューし承認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11812,8 +11828,8 @@ Supply chain (software procurement) procedures must be updated to address the ac
       <tuv lang="EN-US">
         <seg>Sample compliance due-diligence process</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T010940Z" creationid="hfukuchi" creationdate="20170614T010940Z">
-        <seg>コンプライアンスデューデリジェンスプロセスの例</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051509Z" creationid="hfukuchi" creationdate="20170614T010940Z">
+        <seg>コンプライアンス精査プロセスの例</seg>
       </tuv>
     </tu>
     <tu>
@@ -11828,8 +11844,8 @@ Supply chain (software procurement) procedures must be updated to address the ac
       <tuv lang="EN-US">
         <seg>Sample process compliance failures</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170629T052027Z" creationid="hfukuchi" creationdate="20170629T052027Z">
-        <seg>コンプライアンスプロセス上の失敗の例</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043659Z" creationid="hfukuchi" creationdate="20170629T052027Z">
+        <seg>コンプライアンス プロセス上の失敗の例</seg>
       </tuv>
     </tu>
     <tu>
@@ -11862,8 +11878,8 @@ Failure</seg>
       <tuv lang="EN-US">
         <seg>Scan all incoming software received from third party software providers and ensure that their open source disclosures are correct and complete.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080243Z" creationid="hfukuchi" creationdate="20170614T013749Z">
-        <seg>サードパーティのソフトウェアプロバイダから受領するすべてのソフトウェアをスキャンし、オープンソースに関する開示が正しく、完全であることを確認します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044619Z" creationid="hfukuchi" creationdate="20170614T013749Z">
+        <seg>サードパーティのソフトウェア プロバイダから受領するすべてのソフトウェアをスキャンし、オープンソースに関する開示が正しく、完全であることを確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12291,8 +12307,8 @@ party shrink-wrap</seg>
       <tuv lang="EN-US">
         <seg>Solid understanding of common open source licenses and obligations to discuss with legal counsel Knowledge of industry practices</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T084647Z" creationid="hfukuchi" creationdate="20170913T084647Z">
-        <seg>法律顧問の業界慣行の知識と討議できる、一般的なオープンソースラインセンスと義務について確たる理解</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082809Z" creationid="hfukuchi" creationdate="20170913T084647Z">
+        <seg>法律顧問の業界慣行の知識と討議できる、一般的なオープンソース ラインセンスと義務について確たる理解</seg>
       </tuv>
     </tu>
     <tu>
@@ -12753,8 +12769,8 @@ or license, which may or may not have incorporated open source in it
       <tuv lang="EN-US">
         <seg>Specific engineering situations that are applicable to open source compliance</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075601Z" creationid="hfukuchi" creationdate="20170627T075601Z">
-        <seg>オープンソースコンプライアンスに関わり得るエンジニアリング上の特別な状況 </seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082624Z" creationid="hfukuchi" creationdate="20170627T075601Z">
+        <seg>オープンソース コンプライアンスに関わり得るエンジニアリング上の特別な状況 </seg>
       </tuv>
     </tu>
     <tu>
@@ -12874,8 +12890,8 @@ or license, which may or may not have incorporated open source in it
       <tuv lang="EN-US">
         <seg>Streamline open source management upon two important foundational elements: a simple and clear compliance policy and a lightweight compliance process.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075725Z" creationid="hfukuchi" creationdate="20170614T013417Z">
-        <seg>能率的なオープンソース管理は二つの基盤の上に成り立つ。：簡単で明確なコンプライアンスポリシーと、軽いコンプライアンスプロセスです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044438Z" creationid="hfukuchi" creationdate="20170614T013417Z">
+        <seg>能率的なオープンソース管理は二つの基盤の上に成り立ちます：簡単で明確なコンプライアンスポリシーと、軽いコンプライアンスプロセスです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12890,8 +12906,8 @@ or license, which may or may not have incorporated open source in it
       <tuv lang="EN-US">
         <seg>Submit requests to use open source software: Engineering and product teams decide what external software to bring into the product baseline, including third-party and open source.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T074906Z" creationid="hfukuchi" creationdate="20170627T074906Z">
-        <seg>オープンソースソフトウェアについて要望を提出：エンジニアリングと製品のチームは製品の基盤として導入すべき外部のソフトウェアを決定します。これはサードパーティやオープンソースのソフトウェアを含みます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082549Z" creationid="hfukuchi" creationdate="20170627T074906Z">
+        <seg>オープンソース ソフトウェアについて要望を提出：エンジニアリングと製品のチームは製品の基盤として導入すべき外部のソフトウェアを決定します。これはサードパーティやオープンソースのソフトウェアを含みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12957,8 +12973,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>Such admixtures may result in companies being forced to release proprietary source code under an open source license, thus losing control of their (presumably) high-value intellectual property and diminishing their capability to differentiate in the marketplace.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073007Z" creationid="hfukuchi" creationdate="20170613T085523Z">
-        <seg>そうして混ぜてしまうと企業はプロプラエタリなソースコードをオープンソースライセンスで開示することを強制され、（おそらくは）高い価値を持つ知財の制御を失い、市場における差別化が弱くなってしまいます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043040Z" creationid="hfukuchi" creationdate="20170613T085523Z">
+        <seg>そうして混ぜてしまうと企業はプロプラエタリなソースコードをオープンソース ライセンスで開示することを強制され、（おそらくは）高い価値を持つ知財の制御を失い、市場における差別化が弱くなってしまいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13047,16 +13063,16 @@ Mandate third party software providers to disclose open source in licensed or pu
       <tuv lang="EN-US">
         <seg>Supply Chain can support open source compliance activities by mandating that third-party software (and hardware) providers disclose any open source that is being delivered with their wares, and by assisting with licensing-in third-party software that is bundled with and/or integrates open source packages.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T082904Z" creationid="hfukuchi" creationdate="20170628T082904Z">
-        <seg>サプライチェーン部門 はオープンソースのコンプライアンス活動をサードパーティのソフトウェア（そしてハードウェア）のサプライヤに対し、供給した品に含まれる全オープンソースを開示するよう命令することで、またオープンソースのパッケージとバンドルされたり統合されたりしているサードパーティのソフトウェアのライセンスを助けます 。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091128Z" creationid="hfukuchi" creationdate="20170628T082904Z">
+        <seg>サプライ チェーン部門 はオープンソースのコンプライアンス活動をサードパーティのソフトウェア（そしてハードウェア）のサプライヤに対し、供給した品に含まれる全オープンソースを開示するよう命令することで、またオープンソースのパッケージとバンドルされたり統合されたりしているサードパーティのソフトウェアのライセンスを助けます 。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Supply Chain personnel are usually involved in moving software from the suppliers to your company.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T082838Z" creationid="hfukuchi" creationdate="20170628T082838Z">
-        <seg>供給元から自社へのソフトウェアの移管には通常、サプライチェーン関係者が関わります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091116Z" creationid="hfukuchi" creationdate="20170628T082838Z">
+        <seg>供給元から自社へのソフトウェアの移管には通常、サプライ チェーン関係者が関わります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13071,8 +13087,8 @@ Mandate third party software providers to disclose open source in licensed or pu
       <tuv lang="EN-US">
         <seg>Support or customer service headaches as a result of version mismatches (as a result of people calling or emailing the support hotline and inquiring about source code releases).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T092047Z" creationid="hfukuchi" creationdate="20170613T092047Z">
-        <seg>バージョンのミスマッチによりカスタマーサポート・カスタマーサービス上の問題となる（サポートホットラインに電話やemailでソースコード開示について問い合わせがくる結果）</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043434Z" creationid="hfukuchi" creationdate="20170613T092047Z">
+        <seg>バージョンのミスマッチによりサポートやカスタマー サービス上の問題となる（サポート ホットラインに電話やemailでソースコード開示について問い合わせがくる結果）</seg>
       </tuv>
     </tu>
     <tu>
@@ -13111,8 +13127,8 @@ Mandate third party software providers to disclose open source in licensed or pu
       <tuv lang="EN-US">
         <seg>Table 1 (next page) provides examples of common accidental admixture of proprietary and open source IP that can arise during the software development process leading to license compliance issues.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072943Z" creationid="hfukuchi" creationdate="20170613T085421Z">
-        <seg>表1 (次ページ) はソフトウェア開発の過程においてプロプラエタリな知財とオープンソースの知財を誤って混ぜてしまい、ライセンスコンプライアンス問題となるありがちな例を示したものです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043031Z" creationid="hfukuchi" creationdate="20170613T085421Z">
+        <seg>表1 (次ページ) はソフトウェア開発の過程においてプロプラエタリな知財とオープンソースの知財を誤って混ぜてしまい、ライセンス コンプライアンス問題となるありがちな例を示したものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13135,8 +13151,8 @@ Mandate third party software providers to disclose open source in licensed or pu
       <tuv lang="EN-US">
         <seg>Table 2 provides examples of the most common license compliance problems that occur during the software development process, and offers tips on how to avoid them.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073350Z" creationid="hfukuchi" creationdate="20170613T092121Z">
-        <seg>表２にソフトウェア開発プロセスでの最も一般的なライセンスコンプライアンス問題の例、および回避方法を示します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043447Z" creationid="hfukuchi" creationdate="20170613T092121Z">
+        <seg>表２にソフトウェア開発プロセスでの最も一般的なライセンス コンプライアンス問題の例、および回避方法を示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13320,8 +13336,8 @@ Mandate third party software providers to disclose open source in licensed or pu
       <tuv lang="EN-US">
         <seg>The Compliance Officer drives the design reviews and invites different engineering participants depending on the software component in question.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075650Z" creationid="hfukuchi" creationdate="20170627T075650Z">
-        <seg>コンプライアンスオフィサーは設計のレビューを主導し、対象となるソフトウェアコンポーネントに応じて異なる参加者をエンジニアリングチームから招きます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082638Z" creationid="hfukuchi" creationdate="20170627T075650Z">
+        <seg>コンプライアンス オフィサーは設計のレビューを主導し、対象となるソフトウェア コンポーネントに応じて異なる参加者をエンジニアリング チームから招きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13336,8 +13352,8 @@ Mandate third party software providers to disclose open source in licensed or pu
       <tuv lang="EN-US">
         <seg>The Compliance Officer, also called OSRB Chair or Manager/Director of Open Source, chairs the OSRB and manages the compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T083424Z" creationid="hfukuchi" creationdate="20170627T083424Z">
-        <seg>コンプライアンスオフィサーはOSRB議長やオープンソース部長/役員とも呼ばれます。OSRBの議長でありコンプライアンスプログラムを管理します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082757Z" creationid="hfukuchi" creationdate="20170627T083424Z">
+        <seg>コンプライアンス オフィサーはOSRB議長やオープンソース部長/役員とも呼ばれます。OSRBの議長でありコンプライアンスプログラムを管理します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13566,16 +13582,16 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The business environment was predictable and companies mitigated potential risks through license and contract negotiations with the software vendors.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071756Z" creationid="hfukuchi" creationdate="20170613T080004Z">
-        <seg>ビジネス環境は予測可能で、企業は潜在的なリスクをソフトウェアベンダーとのライセンス交渉や契約交渉を通じて軽減していました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015318Z" creationid="hfukuchi" creationdate="20170613T080004Z">
+        <seg>ビジネス環境は予測可能で、企業は潜在的なリスクをソフトウェア ベンダーとのライセンス交渉や契約交渉を通じて軽減していました。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The communities of open source projects expect companies to honor the licenses of the open source software they include in their products.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074229Z" creationid="hfukuchi" creationdate="20170614T004245Z">
-        <seg>オープンソースプロジェクトのコミュニティは企業が自社製品に含まれるオープンソースソフトウェアのライセンスを尊重すると期待しています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T045318Z" creationid="hfukuchi" creationdate="20170614T004245Z">
+        <seg>オープンソース プロジェクトのコミュニティは企業が自社製品に含まれるオープンソース ソフトウェアのライセンスを尊重すると期待しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13614,16 +13630,16 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and the Compliance Officer.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074930Z" creationid="hfukuchi" creationdate="20170614T011032Z">
-        <seg>コアとなるのはオープンソース評価委員会 (Open Source Review Board, OSRB) と呼ばれることが多い委員会で、エンジニアリング、製品のチームの代表者たち、一人以上の法務顧問、そしてコンプライアンスオフィサーから構成されます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051531Z" creationid="hfukuchi" creationdate="20170614T011032Z">
+        <seg>コアとなるのはオープンソース評価委員会 (Open Source Review Board, OSRB) と呼ばれることが多い委員会で、エンジニアリング、製品のチームの代表者たち、一人以上の法務顧問、そしてコンプライアンス オフィサーから構成されます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsels, and the Compliance Officer.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081733Z" creationid="hfukuchi" creationdate="20170614T022319Z">
-        <seg>コアチームはオープンソース評価委員会 (Open Source Review Board, OSRB) と呼ばれることも多いです。エンジニアリングと製品のチームの代表者たち、一人以上の法務顧問、そしてコンプライアンスオフィサーから構成されます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T053235Z" creationid="hfukuchi" creationdate="20170614T022319Z">
+        <seg>コアチームはオープンソース評価委員会 (Open Source Review Board, OSRB) と呼ばれることも多いです。エンジニアリングと製品のチームの代表者たち、一人以上の法務顧問、そしてコンプライアンス オフィサーから構成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13718,8 +13734,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The first challenge is to balance the compliance program and its supporting infrastructure with (existing) internal processes while meeting deadlines to ship products and launch services.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075625Z" creationid="hfukuchi" creationdate="20170614T013113Z">
-        <seg>最初の難しさは、コンプライアンスプログラムやそれを支える（既存の）内部手続きのためのインフラと、製品出荷やサービス開始の〆切とのバランスを取ることです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044324Z" creationid="hfukuchi" creationdate="20170614T013113Z">
+        <seg>最初の難しさは、コンプライアンス プログラムやそれを支える（既存の）内部手続きのためのインフラと、製品出荷やサービス開始の〆切とのバランスを取ることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13814,8 +13830,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The goal is to determine if any open source obligations extend to proprietary or third party software components.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075109Z" creationid="hfukuchi" creationdate="20170614T011630Z">
-        <seg>この目標は、プロプラエタリやサードパーティのソフトウェアコンポーネントにオープンソース上の義務が何ら及んでいないことの確定です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051827Z" creationid="hfukuchi" creationdate="20170614T011630Z">
+        <seg>この目標は、プロプラエタリやサードパーティのソフトウェア コンポーネントにオープンソース上の義務が何ら及んでいないことの確定です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13902,8 +13918,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The goal of these seminars is to present and evoke discussions of the various aspects of incorporating open source in a commercial product or an enterprise software portfolio.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075504Z" creationid="hfukuchi" creationdate="20170614T012457Z">
-        <seg>こうしたセミナーの目標は、商用の製品や企業のソフトウェアポートフォリオの中にオープンソースを組み込むことの様々な側面について講演し、議論を起こすことです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044154Z" creationid="hfukuchi" creationdate="20170614T012457Z">
+        <seg>こうしたセミナーの目標は、商用の製品や企業のソフトウェア ポートフォリオの中にオープンソースを組み込むことの様々な側面について講演し、議論を起こすことです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13990,8 +14006,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The incoming licenses are the licenses of all source code included in a given body of code; the outgoing licenses are the licenses under which the source code and/or object files are being made available to its recipients.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T073918Z" creationid="hfukuchi" creationdate="20170627T073918Z">
-        <seg>入ってくるライセンスとは、対象となるコードに含まれるソースコード全てのライセンスのこと です。出ていくライセンスとは、製品やサービスの 受領者が利用できるソースコードやオブジェクトファイルのライセンスのことです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082428Z" creationid="hfukuchi" creationdate="20170627T073918Z">
+        <seg>入ってくるライセンスとは、対象となるコードに含まれるソースコード全てのライセンスのこと です。出ていくライセンスとは、製品やサービスの 受領者が利用できるソースコードやオブジェクト ファイルのライセンスのことです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14159,8 +14175,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The localization team is responsible for translating basic language that informs users of the availability of open source software in the product and directs them to the proper notices made available in English.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T082726Z" creationid="hfukuchi" creationdate="20170628T082726Z">
-        <seg>ローカル化チームは製品に含まれるオープンソースソフトウェアの入手についてユーザーに知らせ、英語での適切な通告が利用可能となる ようにします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091105Z" creationid="hfukuchi" creationdate="20170628T082726Z">
+        <seg>ローカル化チームは製品に含まれるオープンソース ソフトウェアの入手についてユーザーに知らせ、英語での適切な通告が利用可能となる ようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14183,8 +14199,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The most successful way to establish compliance is to incorporate the compliance process and policies, checkpoints and activities as part of existing software development processes.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080252Z" creationid="hfukuchi" creationdate="20170614T013824Z">
-        <seg>コンプライアンス確立の最善の方法は、コンプライアンスプロセスやポリシー、チェックポイント、活動を既存のソフトウェア開発プロセスに組み込むことです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044626Z" creationid="hfukuchi" creationdate="20170614T013824Z">
+        <seg>コンプライアンス確立の最善の方法は、コンプライアンス プロセスやポリシー、チェックポイント、活動を既存のソフトウェア開発プロセスに組み込むことです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14231,24 +14247,24 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The open source compliance policy is a set of rules that govern the management of open source software (both use of and contribution to).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074734Z" creationid="hfukuchi" creationdate="20170614T010813Z">
-        <seg>オープンソースコンプライアンスポリシーとは、オープンソースソフトウェアの管理（利用と寄付の双方）を取り仕切るルール群です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051432Z" creationid="hfukuchi" creationdate="20170614T010813Z">
+        <seg>オープンソース コンプライアンス ポリシーとは、オープンソース ソフトウェアの管理（利用と寄付の双方）を取り仕切るルール群です。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The open source compliance strategy drives the business-based consensus on the main aspects of the policy and process implementation.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074556Z" creationid="hfukuchi" creationdate="20170614T010115Z">
-        <seg>オープンソースコンプライアンス戦略は、ポリシーやプロセスの実装 の主たる側面について、ビジネスに立脚してコンセンサスを推し進めるものです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051254Z" creationid="hfukuchi" creationdate="20170614T010115Z">
+        <seg>オープンソース コンプライアンス戦略は、ポリシーやプロセスの実装 の主たる側面について、ビジネスに立脚してコンセンサスを推し進めるものです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The open source compliance team is a cross-disciplinary group consisting of various individuals tasked with the mission of ensuring open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074913Z" creationid="hfukuchi" creationdate="20170614T011011Z">
-        <seg>オープンソースコンプライアンスチームとは、オープンソースコンプライアンスを確実に行うため様々な分野の人々を集めたチームです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051523Z" creationid="hfukuchi" creationdate="20170614T011011Z">
+        <seg>オープンソース コンプライアンス チームとは、オープンソース コンプライアンスを確実に行うため様々な分野の人々を集めたチームです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14311,8 +14327,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The priority for all organizations is to ship products and services on time while building and expanding their internal open source compliance infrastructure.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080625Z" creationid="hfukuchi" creationdate="20170614T014006Z">
-        <seg>すべての組織において優先されるのは、製品やサービスを期限通りに出荷し、と同時に内部的なオープンソースコンプライアンスのインフラストラクチャー を構築し拡大することです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044648Z" creationid="hfukuchi" creationdate="20170614T014006Z">
+        <seg>すべての組織において優先されるのは、製品やサービスを期限通りに出荷し、と同時に内部的なオープンソース コンプライアンスのインフラストラクチャー を構築し拡大することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14327,8 +14343,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The process starts with the compliance officer, who prepares the draft of the written offer and the notices that are to be made available once the product ships.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170628T082508Z" creationid="hfukuchi" creationdate="20170628T082508Z">
-        <seg>このプロセスはコンプライアンスオフィサーが開始します。コンプライアンスオフィサーは製品が出荷されたら利用可能となる告知の書面や通告の草案を準備します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T091052Z" creationid="hfukuchi" creationdate="20170628T082508Z">
+        <seg>このプロセスはコンプライアンス オフィサーが開始します。コンプライアンス オフィサーは製品が出荷されたら利用可能となる告知の書面や通告の草案を準備します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14504,8 +14520,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The single most important recommendation with respect to messaging is to be clear and consistent, whether it is internally explaining the company’s goals and concerns around open source to your employees or externally toward the developer communities of the open source projects you use in your product/software stack.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075556Z" creationid="hfukuchi" creationdate="20170614T012812Z">
-        <seg>ここで最も重要なのは明確で首尾一貫していることで、内部的に従業員に対してオープンソース関連の会社の目標や懸念事項を伝える場合も、外部に向け自社製品やソフトウェアスタックが利用しているオープンソースプロジェクトの開発者コミュニティに伝える場合も同様です。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044247Z" creationid="hfukuchi" creationdate="20170614T012812Z">
+        <seg>ここで最も重要なのは明確で首尾一貫していることで、内部的に従業員に対してオープンソース関連の会社の目標や懸念事項を伝える場合も、外部に向け自社製品やソフトウェア スタックが利用しているオープンソース プロジェクトの開発者コミュニティに伝える場合も同様です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14570,8 +14586,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>The strategy establishes what must be done to ensure compliance and offers a governing set of principles for how personnel interact with open source software.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074616Z" creationid="hfukuchi" creationdate="20170614T010233Z">
-        <seg>コンプライアンス戦略はコンプライアンスを確保するために行うべきことを定め、職員のオープンソースソフトウェアの扱いを統べる原則を与えます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051311Z" creationid="hfukuchi" creationdate="20170614T010233Z">
+        <seg>コンプライアンス戦略はコンプライアンスを確保するために行うべきことを定め、職員のオープンソース ソフトウェアの扱いを統べる原則を与えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15011,16 +15027,16 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>They then evaluate risk factors based on feedback provided by both engineering and the open source compliance officer.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T073748Z" creationid="hfukuchi" creationdate="20170627T073748Z">
-        <seg>次にリスク要因を、エンジニアとオープンソースコンプライアンスオフィサーからの情報に基づいて評価します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082410Z" creationid="hfukuchi" creationdate="20170627T073748Z">
+        <seg>次にリスク要因を、エンジニアとオープンソース コンプライアンス オフィサーからの情報に基づいて評価します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Third-party commercial code, developed by third-party software providers and received by the company building the product/service under a commercial license</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T054905Z" creationid="hfukuchi" creationdate="20170913T054905Z">
-        <seg>サードパーティの商用コード、サードパーティのソフトウェアプロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したもの</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015622Z" creationid="hfukuchi" creationdate="20170913T054905Z">
+        <seg>サードパーティの商用コード、サードパーティのソフトウェア プロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したもの</seg>
       </tuv>
     </tu>
     <tu>
@@ -15125,8 +15141,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>This chapter provides a high-level overview of the various elements in an open source management program, surveys the challenges in establishing a new compliance program, and provides advice on how to overcome those challenges.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074522Z" creationid="hfukuchi" creationdate="20170614T005905Z">
-        <seg>本賞はオープンソース管理プログラムの様々な構成要素を概観し、新しいコンプライアンスプログラム策定における難しさを概説し、そうした難しさを克服する方法を述べます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051046Z" creationid="hfukuchi" creationdate="20170614T005905Z">
+        <seg>本章はオープンソース管理プログラムの様々な構成要素を概観し、新しいコンプライアンス プログラム策定における難しさを概説し、そうした難しさを克服する方法を述べます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15189,16 +15205,16 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>This initial auditing process is often described as establishing a clean compliance baseline for your product or software portfolio.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T080959Z" creationid="hfukuchi" creationdate="20170614T015259Z">
-        <seg>この初期の監査プロセスは、製品やソフトウェアポートフォリオのクリーンなソフトウェア起点の確立、と呼ばれることが多いです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044904Z" creationid="hfukuchi" creationdate="20170614T015259Z">
+        <seg>この初期の監査プロセスは、製品やソフトウェア ポートフォリオのクリーンなソフトウェア起点の確立、と呼ばれることが多いです。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>This involvement includes establishing and maintaining consistent compliance policies and procedures as well as ensuring that the licenses of all the software components in use (proprietary, third-party, and open source) can co-exist before shipment or deployment.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T073910Z" creationid="hfukuchi" creationdate="20170614T003245Z">
-        <seg>この関わりには首尾一貫したコンプライアンスポリシーや手続きの確立と維持管理、利用中（プロプラエタリ、サードパーティ、オープンソース）の全ソフトウェアコンポーネントのライセンスが共存し得ることを製品出荷やサービス立ち上げ前に確認すること、が含まれます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043854Z" creationid="hfukuchi" creationdate="20170614T003245Z">
+        <seg>この関わりには首尾一貫したコンプライアンス ポリシーや手続きの確立と維持管理、利用中（プロプラエタリ、サードパーティ、オープンソース）の全ソフトウェアコンポーネントのライセンスが共存し得ることを製品出荷やサービス立ち上げ前に確認すること、が含まれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15245,8 +15261,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>This is especially the case when the company is about to release previously proprietary source code under open source license(s).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T074241Z" creationid="hfukuchi" creationdate="20170627T074241Z">
-        <seg>これは特に、企業が元々はプロプラエタリだったソースコードをオープンソースライセンス下で提供するときに問題となります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082456Z" creationid="hfukuchi" creationdate="20170627T074241Z">
+        <seg>これは特に、企業が元々はプロプラエタリだったソースコードをオープンソース ライセンス下で提供するときに問題となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15325,8 +15341,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>This process is best managed via an automated online system, commonly a bug tracker that has a specifically designed workflow to accommodate the management of open source compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075536Z" creationid="hfukuchi" creationdate="20170614T012644Z">
-        <seg>これは自動化されたオンラインシステム、通常はオープンソースコンプライアンスの管理を特に組み込んだワークフローに従うバグ追跡システムで行うのがベストです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044228Z" creationid="hfukuchi" creationdate="20170614T012644Z">
+        <seg>これは自動化されたオンラインシステム、通常はオープンソース コンプライアンスの管理を特に組み込んだワークフローに従うバグ追跡システムで行うのがベストです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15381,8 +15397,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>This section, including Figure 4, will provide an overview of these essential elements.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074537Z" creationid="hfukuchi" creationdate="20170614T010018Z">
-        <seg>本章と図4にこれら構成要素の概観を示すします。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051244Z" creationid="hfukuchi" creationdate="20170614T010018Z">
+        <seg>本節と図4にこれら構成要素の概観を示すします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15405,8 +15421,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>This tool will allow you to discover linkages between source code packages that do not conform to company policy.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075101Z" creationid="hfukuchi" creationdate="20170614T011613Z">
-        <seg>本ツールを使うことで、企業のポリシーを満たさないソースコードパッケージとのリンクを発見できます。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051821Z" creationid="hfukuchi" creationdate="20170614T011613Z">
+        <seg>本ツールを使うことで、企業のポリシーを満たさないソースコード パッケージとのリンクを発見できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15453,8 +15469,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>Throughout the software development, errors and limitations in processes can lead to open source compliance failures.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072616Z" creationid="hfukuchi" creationdate="20170613T083902Z">
-        <seg>ソフトウェア開発の全工程において、コンプライアンスプログラム上のエラーや不十分さはコンプライアンス上の失敗に繋がることがあります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T042806Z" creationid="hfukuchi" creationdate="20170613T083902Z">
+        <seg>ソフトウェア開発の全工程において、コンプライアンス プログラム上のエラーや不十分さはコンプライアンス上の失敗に繋がることがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15583,16 +15599,16 @@ Train the staff</seg>
       <tuv lang="EN-US">
         <seg>Track changes: Maintain a change log for each modified open source component: As part of meeting the open source license obligations and depending on the open source license in questions, some licenses (such as the GPL/LGPL family of licenses) mandate that modified files carry prominent notices stating that you changed the files and the date of the change(s).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T075811Z" creationid="hfukuchi" creationdate="20170627T075811Z">
-        <seg>変更の追跡：変更ログを変更したオープンソースコンポーネント毎に維持管理： オープンソースのライセンス上の義務を満たすため変更ログが必要となります。問題となるライセンスに依りますが、ある種のライセンス（GPL/LGPLファミリーなど）では変更されたファイルには、変更したこととその日付を目立つように付けることを求めています。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082700Z" creationid="hfukuchi" creationdate="20170627T075811Z">
+        <seg>変更の追跡：変更ログを変更したオープンソース コンポーネント毎に維持管理： オープンソースのライセンス上の義務を満たすため変更ログが必要となります。問題となるライセンスに依りますが、ある種のライセンス（GPL/LGPLファミリーなど）では変更されたファイルには、変更したこととその日付を目立つように付けることを求めています。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071746Z" creationid="hfukuchi" creationdate="20170613T075941Z">
-        <seg>従来、プラットフォームやソフトウェアスタックはプロプラエタリなソフトウェアを使って実装され、内部開発されたソフトや交渉の結果であるライセンス条件によるサードパーティのソフトから成る様々なソフトウェアのブロックから構成されていました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015308Z" creationid="hfukuchi" creationdate="20170613T075941Z">
+        <seg>従来、プラットフォームやソフトウェア スタックはプロプラエタリなソフトウェアを使って実装され、内部開発されたソフトや交渉の結果であるライセンス条件によるサードパーティのソフトから成る様々なソフトウェアのブロックから構成されていました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15607,8 +15623,8 @@ Train the staff</seg>
       <tuv lang="EN-US">
         <seg>Training also serves as a venue to publicize and promote the compliance policy and processes within the organization and to foster a culture of compliance.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075415Z" creationid="hfukuchi" creationdate="20170614T012222Z">
-        <seg>またトレーニング は、企業内でコンプライアンスポリシーを広め推進し実施し、コンプライアンスの文化を育てる場となります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T043912Z" creationid="hfukuchi" creationdate="20170614T012222Z">
+        <seg>またトレーニング は、企業内でコンプライアンス ポリシーを広め推進し実施し、コンプライアンスの文化を育てる場となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15641,8 +15657,8 @@ Training is an essential building block in a compliance program, to ensure that 
       <tuv lang="EN-US">
         <seg>Training is an essential building block in a compliance program, to ensure that employees have a good understanding of the policies governing the use of open source software.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074244Z" creationid="hfukuchi" creationdate="20170614T004329Z">
-        <seg>訓練はコンプライアンスプログラムにおいて必須の構成要素であり、オープンソースソフトウェアの利用を律するポリシーを従業員がよく理解する礎となります。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T045330Z" creationid="hfukuchi" creationdate="20170614T004329Z">
+        <seg>訓練はコンプライアンス プログラムにおいて必須の構成要素であり、オープンソース ソフトウェアの利用を律するポリシーを従業員がよく理解する礎となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15665,8 +15681,8 @@ Training is an essential building block in a compliance program, to ensure that 
       <tuv lang="EN-US">
         <seg>Translate basic information in target languages about open source information related to the product or software stack</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T034421Z" creationid="hfukuchi" creationdate="20170614T034421Z">
-        <seg>製品やソフトウェアスタックに関わるオープンソースについて、基本的情報をターゲットとなる言語に翻訳</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T091418Z" creationid="hfukuchi" creationdate="20170614T034421Z">
+        <seg>製品やソフトウェア スタックに関わるオープンソースについて、基本的情報をターゲットとなる言語に翻訳</seg>
       </tuv>
     </tu>
     <tu>
@@ -15697,8 +15713,8 @@ Training is an essential building block in a compliance program, to ensure that 
       <tuv lang="EN-US">
         <seg>Typically, the Legal Counsel reviews the compliance ticket in the online tracking system (for instance, JIRA or Bugzilla), the resulting report from the source code scanning tool, and the license</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170627T073723Z" creationid="hfukuchi" creationdate="20170627T073611Z">
-        <seg>典型的には、法律顧問はコンプライアンスチケットを評価します。これはオンライントラッキングシステム (例えばJIRAやBugzilla) 、ソースコードをスキャンするツールの結果報告、</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171002T082357Z" creationid="hfukuchi" creationdate="20170627T073611Z">
+        <seg>典型的には、法律顧問はコンプライアンス チケットを評価します。これはオンライン トラッキング システム (例えばJIRAやBugzilla) 、ソースコードをスキャンするツールの結果報告、</seg>
       </tuv>
     </tu>
     <tu>
@@ -15870,8 +15886,8 @@ Training is an essential building block in a compliance program, to ensure that 
       <tuv lang="EN-US">
         <seg>Use a bill of material (BOM) difference tool that allows the identification of software components that change across releases</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T001522Z" creationid="hfukuchi" creationdate="20170614T001522Z">
-        <seg>部品表 (bill of material, BOM) 差分検出ツールを使いリリース毎のソフトウェアコンポーネント変更を特定</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T043601Z" creationid="hfukuchi" creationdate="20170614T001522Z">
+        <seg>一覧表 (BOM) 差分検出ツールを使いリリース毎のソフトウェアコンポーネント変更を特定</seg>
       </tuv>
     </tu>
     <tu>
@@ -15955,8 +15971,8 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
       <tuv lang="EN-US">
         <seg>Utilize tools and automation to support efficient processing of compliance tickets.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T081240Z" creationid="hfukuchi" creationdate="20170614T015842Z">
-        <seg>コンプライアンスチケットを効率的に処理するためツールや自動化を利用します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T045117Z" creationid="hfukuchi" creationdate="20170614T015842Z">
+        <seg>コンプライアンス チケットを効率的に処理するためツールや自動化を利用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16151,8 +16167,8 @@ Add the “compute diffs” of any modified source code (eligible for open sourc
       <tuv lang="EN-US">
         <seg>We’ll begin this chapter with an overview of the core elements needed in a successful open source compliance program.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074530Z" creationid="hfukuchi" creationdate="20170614T005959Z">
-        <seg>最初に、成功するオープンソースコンプライアンスプログラムでコアとなる構成要素を概観します。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051216Z" creationid="hfukuchi" creationdate="20170614T005959Z">
+        <seg>最初に、成功するオープンソース コンプライアンス プログラムでコアとなる構成要素を概観します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16386,8 +16402,8 @@ Below is an example of a written offer to provide the source code:</seg>
       <tuv lang="EN-US">
         <seg>Your software suppliers may not have great open source compliance practices, and it is recommended that you update your contractual agreement to include language related to open source disclosures.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075805Z" creationid="hfukuchi" creationdate="20170614T013539Z">
-        <seg>あなたのサプライヤがオープンソースコンプライアンスを見事に実践しているとは限りません。オープンソースの開示に関わる文言を入れるよう、契約を見直すべきです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T044522Z" creationid="hfukuchi" creationdate="20170614T013539Z">
+        <seg>あなたのサプライヤがオープンソース コンプライアンスを見事に実践しているとは限りません。オープンソースの開示に関わる文言を入れるよう、契約を見直すべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16458,8 +16474,8 @@ Below is an example of a written offer to provide the source code:</seg>
       <tuv lang="EN-US">
         <seg>because they ignored requests to provide additional compliance information, did not know how to handle compliance inquires, lacked or had a poor open source compliance program, or simply refused to cooperate with the inquirer.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T074703Z" creationid="hfukuchi" creationdate="20170614T010532Z">
-        <seg>コンプライアンスについての追加情報提供の要請を無視したり、コンプライアンスの照会を扱う方法を知らなかったり、オープンソースコンプライアンスプログラムが欠落していたり不十分だったり、単に照会者と協力しなかったために、受けてきました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T051412Z" creationid="hfukuchi" creationdate="20170614T010532Z">
+        <seg>コンプライアンスについての追加情報提供の要請を無視したり、コンプライアンスの照会を扱う方法を知らなかったり、オープンソース コンプライアンス プログラムが欠落していたり不十分だったり、単に照会者と協力しなかったために、受けてきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16490,8 +16506,8 @@ Below is an example of a written offer to provide the source code:</seg>
       <tuv lang="EN-US">
         <seg>formally or informally .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T012143Z" creationid="hfukuchi" creationdate="20170614T012143Z">
-        <seg>公式非公式を問わず、</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T043839Z" creationid="hfukuchi" creationdate="20170614T012143Z">
+        <seg>公式、非公式を問わず、</seg>
       </tuv>
     </tu>
     <tu>
@@ -16514,8 +16530,8 @@ Below is an example of a written offer to provide the source code:</seg>
       <tuv lang="EN-US">
         <seg>is to raise awareness of open source policies and strategies and to build a common understanding around the issues and facts of open source licensing as well as the business and legal risks of incorporating open source software in products and/or software portfolios.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T075407Z" creationid="hfukuchi" creationdate="20170614T012155Z">
-        <seg>オープンソースのポリシーや戦略、オープンソースのライセンスや、製品やソフトウェアポートフォリオにオープンソースソフトウェアに組み入れることのビジネス的、法的リスクについて共通理解を作り上げ、注意喚起することです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20170927T043905Z" creationid="hfukuchi" creationdate="20170614T012155Z">
+        <seg>オープンソースのポリシーや戦略、オープンソースのライセンスや、製品やソフトウェア ポートフォリオにオープンソース ソフトウェアに組み入れることのビジネス的、法的リスクについて共通理解を作り上げ、注意喚起することです。</seg>
       </tuv>
     </tu>
     <tu>
