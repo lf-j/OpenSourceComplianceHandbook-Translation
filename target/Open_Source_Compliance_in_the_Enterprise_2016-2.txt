@@ -543,7 +543,7 @@ Attention: Open Source Compliance Inquiries
 
 
 住所、郵便番号
-City, State, Postal Code
+市、州、郵便番号
 国名
 FooBar makes every possible effort to make the source code publicly available at http://
 opensource.foobar.com (“Website”) within reasonable business delays. 書面による要求を出される前に、ソース コードが既に公開されているか、このウェブサイトを確認して下さい。
