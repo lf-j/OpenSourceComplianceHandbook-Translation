@@ -19,7 +19,7 @@
         * 題名、概要説明、理由を記載します
         * Pull Requestには1案件のみを入れます
         * 依存関係のある複数のPull Requestを作成する場合には、依存関係に従って、適切な順番でPull Requestを作成します
-    * Pull Requestを提出します
+    * Pull Requestを提出します
 
 ## レビュー・変更提案　方法２　（Issueで変更提案）：
 
@@ -58,4 +58,4 @@
 ## その他参考情報
 
 * [GitHub] 
-    * WatchをOnにするとメールやGitHub上で通知が来ます
+    * WatchをOnにするとメールやGitHub上で通知が来ます
