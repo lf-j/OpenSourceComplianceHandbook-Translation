@@ -60,3 +60,5 @@
 
 * [GitHub] 
     * WatchをOnにするとメールやGitHub上で通知が来ます
+    * GitHubの使い方が解説されています：　https://guides.github.com/activities/hello-world/
+
