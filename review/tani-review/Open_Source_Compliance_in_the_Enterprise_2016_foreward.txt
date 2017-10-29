@@ -6,6 +6,8 @@ Foreword 部分の当方レビューです
 ３．原文
 
 の順で記載していきます。一応当方ブランチのOmega-Tファイルにはコメントも書いておきました。
+https://github.com/lf-j/OpenSourceComplianceHandbook-Translation/tree/tani/review/tani-review
+
 
 
 
