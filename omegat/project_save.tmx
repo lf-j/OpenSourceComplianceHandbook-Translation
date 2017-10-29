@@ -32,24 +32,25 @@
       <tuv lang="EN-US">
         <seg>39% plan to launch their own open source projects.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T080207Z" creationid="hfukuchi" creationdate="20170630T080129Z">
-        <seg>39%が、自社のオープン ソース プロジェクトを立ち上げています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T014825Z" creationid="hfukuchi" creationdate="20170630T080129Z">
+        <seg>その39%は自らオープンソース プロジェクトを立ち上げることを計画している。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>64% currently participate in open source projects.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T080137Z" creationid="hfukuchi" creationdate="20170630T080114Z">
-        <seg>64%が、現在、オープン ソース プロジェクトに参加しています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T014635Z" creationid="hfukuchi" creationdate="20170630T080114Z">
+        <seg>現時点でその64%が、オープン ソース プロジェクトに参加している。</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:「on」 のニュアンスが難しいところですが、「接して」という感覚かなと思ったので「活用」としてみました。</note>
       <tuv lang="EN-US">
         <seg>78% of surveyed companies run their businesses on open source.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T080014Z" creationid="hfukuchi" creationdate="20170630T080014Z">
-        <seg>調査した企業の78%は、オープン ソース上でビジネスを運用しています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T014444Z" creationid="hfukuchi" creationdate="20170630T080014Z">
+        <seg>調査対象企業の78%が、オープン ソースを活用した事業運営をしている。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1197,8 +1198,8 @@ source development model began to emerge.</seg>
       <tuv lang="EN-US">
         <seg>At GSA, we believe that all code we developed should be shared under an open license so others may benefit from it.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T081137Z" creationid="hfukuchi" creationdate="20170630T081137Z">
-        <seg>GSAにおいて開発された全てのコードは、オープン ライセンスのもとに共有されるべきであり、他の人々はそれから便益を受けることができます。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T023436Z" creationid="hfukuchi" creationdate="20170630T081137Z">
+        <seg>GSA((General Services Administration、米国連邦調達庁）として開発したコードのすべてはオープンソース ライセンスの下で共有されるべきで、そうすることで多くの人々が恩恵を得ることができると思います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1422,8 +1423,8 @@ source development model began to emerge.</seg>
       <tuv lang="EN-US">
         <seg>By bringing efforts together to establish a common platform and utilizing open source best practices, we’re able to build the foundation for a new era of drone applications that extend from the camera to the cloud.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T051144Z" creationid="hfukuchi" creationdate="20170703T051144Z">
-        <seg>共通プラットフォームを確立するために共に努力し、オープン ソース ベスト プラクティスを利用することで、カメラからクラウドにまで広がるドローン アプリケーションの基盤を確立することができます。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T032210Z" creationid="hfukuchi" creationdate="20170703T051144Z">
+        <seg>共通的なプラットフォームを作りあげるために努力を結集させ、オープンソースのベストプラクティスを活かすことによって、カメラからクラウドに至る、ドローンアプリケーションの新しい時代に向けた素地を形作ることができるのです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3083,11 +3084,12 @@ source development model began to emerge.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:たぶん、意図的にexpandとspreadを使い分けていると思うので日本語もこれに合わせて違う用語を使ってみました。（広がった、普及した）</note>
       <tuv lang="EN-US">
         <seg>Early success in Linux and other open source technologies has spread to all areas of technology.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T074153Z" creationid="hfukuchi" creationdate="20170630T073409Z">
-        <seg>Linuxや他のオープン ソース技術における初期段階の成功は、技術の全ての分野にも広がってきています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T012054Z" creationid="hfukuchi" creationdate="20170630T073409Z">
+        <seg>草創期の成功事例であったLinux、その他オープンソース テクノロジは技術分野の関連のすべてへと普及しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4451,8 +4453,8 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       <tuv lang="EN-US">
         <seg>Foreword</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20170721T044657Z" creationid="hfukuchi" creationdate="20170629T070719Z">
-        <seg>前書き</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T003635Z" creationid="hfukuchi" creationdate="20170629T070719Z">
+        <seg>前書き（Foreward）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4557,6 +4559,14 @@ opensource.foobar.com (“Website”) within reasonable business delays.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170213T092039Z" creationid="hfukuchi" creationdate="20170213T092039Z">
         <seg>一般的な考察</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>General Services Administration (U.S.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T022441Z" creationid="maabou" creationdate="20171029T022402Z">
+        <seg>米国連邦調達庁 CIOオフィス （年間660億ドルの調達を行う米国政府機関）</seg>
       </tuv>
     </tu>
     <tu>
@@ -5404,6 +5414,15 @@ or acquire tools that will be used to improve effectiveness the compliance activ
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170630T081339Z" creationid="hfukuchi" creationdate="20170630T081330Z">
         <seg>加えて、自分たちが設計したソリューションとしてのオープン ソース ソフトウェアを優先的に利用していきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, we will give priority to using open source software as we design now solutions.”
+Office of the CIO, U.S.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T023505Z" creationid="maabou" creationdate="20171029T021310Z">
+        <seg>さらに今我々が設計するソリューションでもオープンソース ソフトウェアの使用を優先させていくつもりです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6317,8 +6336,8 @@ In this example, the compliance team identifies all open source included in the 
       <tuv lang="EN-US">
         <seg>It emerges at an important time, as the industry strives to be leaner, more efficient, and more digital.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T031436Z" creationid="hfukuchi" creationdate="20170703T031251Z">
-        <seg>業界が、もっと積極的に、もっと効率的に、もっとディジタル化を促進しようと努力している、そういう重要な時期に現れています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T025143Z" creationid="hfukuchi" creationdate="20170703T031251Z">
+        <seg>この業界が、もっと積極的に、もっと効率的に、もっとディジタルになろうと努力している、そういう重要な時期にこの技術はでてきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6512,6 +6531,17 @@ department exercise.</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052651Z" creationid="hfukuchi" creationdate="20170703T052651Z">
         <seg>偉大なソリューションを構築するために、人々を共に作業させるパワフルなアプローチです。そこからは実際にメリットが共有されます。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It’s a powerful approach that lets people work together to build great solutions while realizing shared benefits.”
+Rob Alexander, CIO, Capital One</seg>
+      </tuv>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T042347Z" creationid="maabou" creationdate="20171029T041106Z">
+        <seg>それは人々に協業を促し、皆のよさを共有しながら壮大なソリューションを作り上げる強力なアプローチなのです。」
+Capital One社 CIO ロブ アレキサンダー
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -7169,11 +7199,12 @@ department exercise.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:ここからはもう組織ではなく「企業」としてしまっていいのではないでしょうか。</note>
       <tuv lang="EN-US">
         <seg>More traditional organizations are also taking notice; they are making open source software a priority and using the software for strategic advantage in their operations.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T075304Z" creationid="hfukuchi" creationdate="20170630T075304Z">
-        <seg>伝統的な組織も注目しています。オープンソース ソフトウェアを優先度の高い項目に挙げ、ソフトウェアを組織活動で戦略的優位を得るために使っています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T013108Z" creationid="hfukuchi" creationdate="20170630T075304Z">
+        <seg>よりトラディショナルだった企業も気づき始めています；オープンソース ソフトウェアの優先するようにして、これを経営の戦略的優位を得るために使うようになってきているのです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7344,13 +7375,14 @@ department exercise.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:ここはレポート名、書籍名は残しておいた方がよいと思いました。（英語名称が難しい場合は括弧で和訳を入れる形で対応する、とか）</note>
       <tuv lang="EN-US">
         <seg>North Bridge &amp; Black Duck
 “The 2015 Future of Open Source Survey”</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T080427Z" creationid="hfukuchi" creationdate="20170630T080309Z">
-        <seg>North Bridge &amp; Black Duck
-「2015年オープン ソースの未来調査」</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T015119Z" creationid="hfukuchi" creationdate="20170630T080309Z">
+        <seg>North Bridge社 および Black Duck社によるサーベイ
+「The 2015 Future of Open Source Survey」</seg>
       </tuv>
     </tu>
     <tu>
@@ -7960,11 +7992,27 @@ to support the Hyperledger Project.”</seg>
       </tuv>
     </tu>
     <tu>
+      <note>企業名、役職名、人名の書き方は自信がありません。やはり作法があるような気がするので佐藤さんに聞いていただければと思います。</note>
+      <tuv lang="EN-US">
+        <seg>Open source development will accelerate the innovation and help drive the scalability of this technology, and we are proud
+to support the Hyperledger Project.”
+Richard Lumb, Chief Executive, Financial Services, Accenture</seg>
+      </tuv>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T030101Z" creationid="maabou" creationdate="20171029T030009Z">
+        <seg>オープン ソース開発がこういったイノベーションを加速し、この技術がスケールすることを促進してくれるでしょう。Hyperledgerプロジェクトをサポートしていることを我々は誇りに思います。」
+アクセンチュア 社　財務サービス チーフエグゼクティブ　リチャード ラム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>tani: どう読みやすくするか、難しいですね。
+一つの案として「○○レベルから○○という背景の活動から広がった」という形を定めた形にしてみまました。</note>
       <tuv lang="EN-US">
         <seg>Open source has expanded not only from an idealistic movement led by individuals around software and intellectual property but from one where organizations (e.g., governments, companies, and universities) realize that open source is a key part of their IT strategy and want to participate in its development.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T073253Z" creationid="hfukuchi" creationdate="20170630T072920Z">
-        <seg>オープン ソースは、ソフトウェアや知的財産に関わる個人によってリードされた理想主義的な運動からばかりでなく、オープン ソースがIT戦略における主要な部分であると認識して、オープン ソース開発に参加したいと考えているような（政府、企業、大学などの）組織における活動によっても、広がってきています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T010615Z" creationid="hfukuchi" creationdate="20170630T072920Z">
+        <seg>オープン ソースの動きは、ソフトウェアや知的財産に携わる人々による個人レベルの理想主義的活動からだけではなく、（政府、企業、大学といった）組織レベルの、オープン ソースがIT戦略の重要なパーツであるという気づきやその開発へ参加する必要性からくる活動としても広がりました。
+
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -8028,8 +8076,8 @@ to support the Hyperledger Project.”</seg>
       <tuv lang="EN-US">
         <seg>Organizations are looking for guidance on how best to participate appropriately in open source communities and to do so in a legal and responsible way.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T055107Z" creationid="hfukuchi" creationdate="20170703T053554Z">
-        <seg>組織は、オープン ソース コミュニティへの適切な参加や、法的で責任あるやり方での参加の最善な方法についてのガイダンスを探しています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T050721Z" creationid="hfukuchi" creationdate="20170703T053554Z">
+        <seg>企業は今、適切にかつ法に則り、そして責任あるやり方でオープンソースコミュニティに参加する最善の方法となるガイドを探し求めています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8246,16 +8294,22 @@ to support the Hyperledger Project.”</seg>
       <tuv lang="EN-US">
         <seg>Participants need expertise to train them how to collaborate with their competitors in an effective manner.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T060106Z" creationid="hfukuchi" creationdate="20170703T054712Z">
-        <seg>参加者は、効果的な方法で、自分の競争者といかに協力するかについてのトレーニングを必要としています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T045442Z" creationid="hfukuchi" creationdate="20170703T054712Z">
+        <seg>競合となる企業とのコラボレーションを効果的にどのようにやるのか、その術を得るための専門的な助言も必要としています。</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani: homeが訳しにくいですね・・・・。この文脈でのhomeとして概念的には2つを捉える必要があるように思いました。
+①皆が集まる場所
+②安心できる場所
+（上記に加えて誰かがいて「管理をしてくれている場所」というのも付随的にはありそうです）
+
+これを両方満足するのはやはり「家」かなと。</note>
       <tuv lang="EN-US">
         <seg>Participants want to share their code and IP, and they need a trusted neutral home for IP assets (trademark, copyright, patents).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T060157Z" creationid="hfukuchi" creationdate="20170703T054322Z">
-        <seg>参加者は、コードとIPを共有することを望み、IP資産（商標、著作権、特許）のための、信頼のおける中立的な管理場所を必要としています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T050747Z" creationid="hfukuchi" creationdate="20170703T054322Z">
+        <seg>参加する企業は、コードと知財（IP）の共有を求め、知財資産（商標、著作権、特許）のための信頼できる中立な「家（Home）」を必要としています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10603,8 +10657,9 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>The Dronecode ‘full-stack’ platform approach, combined with the hardware and software innovations of its members, will bring about a new generation of drones that are autonomous, aware of their environments, and continuously connected .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052156Z" creationid="hfukuchi" creationdate="20170703T051339Z">
-        <seg>Dronecodeの「フルスタック」プラットフォーム アプローチは、メンバーのハードウェアとソフトウェアのイノベーションを結合しており、自律的で、環境を認識し、継続的にネット接続されている新世代ドローンを作り出すことでしょう。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T041055Z" creationid="hfukuchi" creationdate="20170703T051339Z">
+        <seg>参加メンバーが持つハードウェアとソフトウェアのイノベーションを結合させたDroncodeの『フルスタック』プラットフォームのアプローチは、自律的で、環境を認識し、継続的につながる、いわば空飛ぶIoTとして新世代のドローンをもたらすことになるでしょう。」
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -12192,8 +12247,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>They also need a framework to pool resources (financial, technical, etc.).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T054444Z" creationid="hfukuchi" creationdate="20170703T054444Z">
-        <seg>リソース プール（財政、技術）のフレームワークを必要としています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T050456Z" creationid="hfukuchi" creationdate="20170703T054444Z">
+        <seg>また、（金銭面、技術面などで）リソースをプールする枠組みも必要としています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12703,8 +12758,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>To that end, this book is geared to creating a shared understanding on the best ways to create shared value and innovation while adhering to the spirit and legal particulars of open source licensing.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T055956Z" creationid="hfukuchi" creationdate="20170703T055011Z">
-        <seg>そのためにも、本書は、オープン ソース ライセンスの精神と法的項目を固守しながらも、共有される価値とイノベーションを創造する最善の方法について共有理解を作り出すことに焦点を合わせています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T050217Z" creationid="hfukuchi" creationdate="20170703T055011Z">
+        <seg>本書では、こういったことを目的として、オープンソース ライセンスの精神と法令上の詳細に従いつつ、共有価値（Shared value）やイノベーションを生み出すための最良の方法についての理解を共有することに焦点を当てていきます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12983,11 +13038,12 @@ distribution checklist.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani: ここはレポートなので、ですます調ではなくである調にしてみました。</note>
       <tuv lang="EN-US">
         <seg>Use of open source in enterprise IT has doubled since 2010.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T075500Z" creationid="hfukuchi" creationdate="20170630T075500Z">
-        <seg>エンタープライズITでのオープン ソースの利用は、2010年から倍増しています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T014301Z" creationid="hfukuchi" creationdate="20170630T075500Z">
+        <seg>エンタープライズITのオープン ソースの使用は2010年から2倍になった。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13430,10 +13486,30 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>agency that oversees $66 billion of procurement annually)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T022510Z" creationid="maabou" creationdate="20171029T022510Z">
+        <seg> </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>an airborne Internet of Things.”</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052208Z" creationid="hfukuchi" creationdate="20170703T051402Z">
         <seg>それは、飛行するIoTです。」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>an airborne Internet of Things.”
+Chris Anderson, CEO, 3DR
+(Former Editor in Chief of Wired magazine and author of “The Long Tail”)</seg>
+      </tuv>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T040945Z" creationid="maabou" creationdate="20171029T040830Z">
+        <seg>3DR社 CEO クリス アンダーセン　
+（ワイアード マガジン 前編集長、「ロング テール」著者）
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -13565,11 +13641,12 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
       </tuv>
     </tu>
     <tu>
+      <note>ここは単純にfrom -- to -- ですね。</note>
       <tuv lang="EN-US">
         <seg>“From increasing member investments to a growing, vibrant developer community, the Dronecode Project’s first year has been extremely exciting.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T050756Z" creationid="hfukuchi" creationdate="20170703T050756Z">
-        <seg>「成長し活気ある開発コミュニティへのメンバー投資から、Dronecodeプロジェクトの初年度はかなりエキサイティングなものです。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T031413Z" creationid="hfukuchi" creationdate="20170703T050756Z">
+        <seg>「参加メンバによる投資が増えたことに始まり、活発な開発コミュニティに成長したことに至るまで、Droncode プロジェクトの最初の年は最高にエキサイティングなものとなりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13592,16 +13669,18 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
       <tuv lang="EN-US">
         <seg>“Open Source First: Simply put, any solution developed using taxpayer dollars should be in the taxpayer’s domain (open source).</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170630T080641Z" creationid="hfukuchi" creationdate="20170630T080641Z">
-        <seg>「オープン ソース ファースト：納税者のお金で開発された全てのソリューションは、納税者のものに（オープン ソース）」</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T023325Z" creationid="hfukuchi" creationdate="20170630T080641Z">
+        <seg>
+「オープンソース ファースト：税金で開発したソリューションはどんなものであれ納税者のドメインに（オープン ソースで）あるべきでしょう。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>“Open source is essential to our development process.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T052306Z" creationid="hfukuchi" creationdate="20170703T052306Z">
-        <seg>「オープン ソースは、我々の開発に本質的なものです。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T042340Z" creationid="hfukuchi" creationdate="20170703T052306Z">
+        <seg>「オープンソースは、我々の開発プロセスに不可欠なものです。
+</seg>
       </tuv>
     </tu>
     <tu>
@@ -13613,11 +13692,14 @@ based, magazines, newspapers, flyers, etc.) must display the acknowledgement.</s
       </tuv>
     </tu>
     <tu>
+      <note>tani: operations と economicsが捉えづらいですね。operation=運用の効率性（コストダウン）、economics=業界の市場成長（収益増）を言いたいのだと感じたので経済構造と構造と限定せず経済とだけにしました。
+
+</note>
       <tuv lang="EN-US">
         <seg>“The development of Blockchain technology has the potential to redefine the operations and economics of the financial services industry.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170703T031338Z" creationid="hfukuchi" creationdate="20170703T030831Z">
-        <seg>「ブロックチェーン技術の開発は、金融サービス業界の業務や経済構造を再定義する可能性を秘めています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T024039Z" creationid="hfukuchi" creationdate="20170703T030831Z">
+        <seg>「ブロックチェーン技術の開発には、金融サービス業界の業務や経済を再定義できるポテンシャルがあります。</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
