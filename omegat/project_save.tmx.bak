@@ -63,6 +63,23 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A CHANGING BUSINESS ENVIRONMENT 
+Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms.</seg>
+      </tuv>
+      <tuv lang="JA" changeid="0000011038279" changedate="20171031T041940Z" creationid="0000011038279" creationdate="20171031T040701Z">
+        <seg>変わりゆくビジネス環境
+かつてプラットフォームやソフトウェア スタックは、プロプライエタリなソフトウェアで実装されたものであり、内部開発のソフトウェア、もしくはライセンス条項をサードパーティと交渉し提供されたソフトウェアで組まれた機能ブロックから構成されていました。
+
+
+変わりゆくビジネス環境
+従来、プラットフォームやソフトウェア スタックはプロプラエタリなソフトウェアを使って実装され、内部開発されたソフトや交渉の結果であるライセンス条件によるサードパーティのソフトから成る様々なソフトウェアのブロックから構成されていました。
+
+A CHANGING BUSINESS ENVIRONMENT 
+Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A CHANGING BUSINESS ENVIRONMENT 16</seg>
       </tuv>
       <tuv lang="JA" changeid="hfukuchi" changedate="20170629T052409Z" creationid="hfukuchi" creationdate="20170629T052409Z">
@@ -4880,8 +4897,8 @@ time basis, based on tasks they receive from the OSRB.</seg>
       <tuv lang="EN-US">
         <seg>INTRODUCTION TO OPEN SOURCE COMPLIANCE</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071716Z" creationid="hfukuchi" creationdate="20170614T071716Z">
-        <seg>オープン ソース コンプライアンス導入</seg>
+      <tuv lang="JA" changeid="0000011038279" changedate="20171031T040214Z" creationid="hfukuchi" creationdate="20170614T071716Z">
+        <seg>オープン ソース コンプライアンスの概要</seg>
       </tuv>
     </tu>
     <tu>
@@ -8308,8 +8325,8 @@ Richard Lumb, Chief Executive, Financial Services, Accenture</seg>
       <tuv lang="EN-US">
         <seg>Participants want to share their code and IP, and they need a trusted neutral home for IP assets (trademark, copyright, patents).</seg>
       </tuv>
-      <tuv lang="JA" changeid="maabou" changedate="20171029T044629Z" creationid="hfukuchi" creationdate="20170703T054322Z">
-        <seg>参加する企業は、コードと知財（IP）の共有を求め、知財資産（商標、著作権、特許）のための信頼できる中立的な「家（Home）」を必要としています。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171029T050747Z" creationid="hfukuchi" creationdate="20170703T054322Z">
+        <seg>参加する企業は、コードと知財（IP）の共有を求め、知財資産（商標、著作権、特許）のための信頼できる中立な「家（Home）」を必要としています。</seg>
       </tuv>
     </tu>
     <tu>
