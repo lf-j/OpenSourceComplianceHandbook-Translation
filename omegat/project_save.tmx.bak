@@ -1183,11 +1183,17 @@ source development model began to emerge.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:後半の解釈が難しいですね。こんな風に捉えました。
+
+・企業はプロプラソフトを使って得意領域でビジネスをしていた
+・得意領域＝企業が熟知し（familiar）、居心地がよく快適な（comfort)領域。
+・OSSの台頭で、得意領域が浸食されるようになった。その結果自社ビジネス方向をこれまでと違う方向に向けざるを得なかった。
+</note>
       <tuv lang="EN-US">
         <seg>As the number of open source software components grew in what were once straightforward proprietary software stacks, the business environment diverged from familiar territory and corporate comfort zones.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072049Z" creationid="hfukuchi" creationdate="20170613T080928Z">
-        <seg>かつては明らかにプロプラエタリなソフトウェアスタックだったものの中にオープンソースのソフトウェアのコンポーネントが増えていくに従い、ビジネス環境は慣れ親しんだ領域、企業が好む環境から離れていきます。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T225050Z" creationid="hfukuchi" creationdate="20170613T080928Z">
+        <seg>これまで明らかにプロプライエタリ ソフトウェアのスタックであったものの中で、オープンソース ソフトウェアのコンポーネントの数が増えるにつれ、ビジネス環境は企業が得意としていた領域と異なる方向へ向かうようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11649,8 +11655,8 @@ they offered のtheyをどう解釈するか。→meaningful economies
       <tuv lang="EN-US">
         <seg>The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code.</seg>
       </tuv>
-      <tuv lang="JA" changeid="maabou" changedate="20171104T063821Z" creationid="hfukuchi" creationdate="20170613T080305Z">
-        <seg>その理由は製品ごとに異なるものでしたが、オープンソースのコンポーネントに抗いがたい魅力的な特徴があったというのは産業横断的に共通したテーマでした。市場投入時間を短縮させる分散型開発が経済効果として意味のあるものを与え、そうした経済的意義が、ソースコードをカスタマイズするという能力の新たな発見へと導きました。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T064418Z" creationid="hfukuchi" creationdate="20170613T080305Z">
+        <seg>その理由は製品ごとに異なるものでしたが、オープンソースのコンポーネントに抗いがたい魅力的な特徴があったというのは産業横断的に共通したものでした。市場投入時間を短縮させる分散型開発が経済効果として意味のあるものを与え、そうした経済的意義が、ソースコードをカスタマイズするという能力の新たな発見へと導きました。</seg>
       </tuv>
     </tu>
     <tu>

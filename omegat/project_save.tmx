@@ -1183,11 +1183,17 @@ source development model began to emerge.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:後半の解釈が難しいですね。こんな風に捉えました。
+
+・企業はプロプラソフトを使って得意領域でビジネスをしていた
+・得意領域＝企業が熟知し（familiar）、居心地がよく快適な（comfort)領域。
+・OSSの台頭で、得意領域が浸食されるようになった。その結果自社ビジネス方向をこれまでと違う方向に向けざるを得なかった。
+</note>
       <tuv lang="EN-US">
         <seg>As the number of open source software components grew in what were once straightforward proprietary software stacks, the business environment diverged from familiar territory and corporate comfort zones.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072049Z" creationid="hfukuchi" creationdate="20170613T080928Z">
-        <seg>かつては明らかにプロプラエタリなソフトウェアスタックだったものの中にオープンソースのソフトウェアのコンポーネントが増えていくに従い、ビジネス環境は慣れ親しんだ領域、企業が好む環境から離れていきます。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T225050Z" creationid="hfukuchi" creationdate="20170613T080928Z">
+        <seg>これまで明らかにプロプライエタリ ソフトウェアのスタックであったものの中で、オープンソース ソフトウェアのコンポーネントの数が増えるにつれ、ビジネス環境は企業が得意としていた領域と異なる方向へ向かうようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4037,11 +4043,12 @@ audit findings</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:「（次ページ）」は最終的に削除してもいいかもしれませんね。</note>
       <tuv lang="EN-US">
         <seg>Figure 3 (next page) illustrates the adoption of open source software throughout the various levels of a given platform or software stack.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072103Z" creationid="hfukuchi" creationdate="20170613T080946Z">
-        <seg>図３（次ページ）はあるプラットフォームやソフトウェアスタックにおいて、様々な階層でオープンソースソフトウェアを受けいれる様子を示したものです。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T225523Z" creationid="hfukuchi" creationdate="20170613T080946Z">
+        <seg>図３（次ページ）ではプラットフォームやソフトウェアスタックの様々なレベルに亘り、オープンソースソフトウェアが採用される様子を表現しています。</seg>
       </tuv>
     </tu>
     <tu>
