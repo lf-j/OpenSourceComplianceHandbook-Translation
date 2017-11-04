@@ -1,0 +1,93 @@
+﻿福地さん
+
+第1章のP17-18部分の当方レビューです
+
+１．和訳レビュー前（江川さん or 福地さん）、
+２．当方レビュー後案、
+３．原文
+
+の順で記載していきます。一応当方ブランチのOmega-Tファイルにはコメントも書いておきました。
+https://github.com/lf-j/OpenSourceComplianceHandbook-Translation/tree/tani/review/tani-review
+
+■１．和訳レビュー前（江川さん or 福地さん）：
+
+第1章
+
+オープン ソース コンプライアンス導入
+
+変わりゆくビジネス環境
+従来、プラットフォームやソフトウェア スタックはプロプラエタリなソフトウェアを使って実装され、内部開発されたソフトや交渉の結果であるライセンス条件によるサードパーティのソフトから成る様々なソフトウェアのブロックから構成されていました。ビジネス環境は予測可能で、企業は潜在的なリスクをソフトウェア ベンダーとのライセンス交渉や契約交渉を通じて軽減していました。全てのソフトウェア コンポーネントについて誰が提供者であるかを知るのは大変容易でした。図１は従来のハードウェア、ソフトウェアのプラットフォームについて主なブロックを示したものです。
+
+図1
+プロプラエタリなソフトウェアのブロックに依る従来のソフトウェア プラットフォームの単純化したアーキテクチャ
+
+時と共に企業はOSSを自社のプラットフォームやソフトウェア スタックに組み込み、その恩恵に与かるようになってきました。その理由は製品ごとに様々ですが、様々な業界で共通するのは、オープンソースのコンポーネントには即座に使える卓越した特徴があったこと、分散的な開発による市場投入への時間短縮により経済的に有意の利益があったこと、そしてソースコードをカスタマイズするという新しく出来ることを提供したこと、です。その結果、複数のソースによる新たな開発モデルが登場しました。その結果、複数のソースによる新たな開発モデルが登場しました。
+
+この新たなモデルでは、製品は下記の任意の組み合わせとなります。
+
+. プロプラエタリなコード、その製品やサービスを作る企業が開発したもの
+. プロプラエタリなコード、元々はその企業によりオープンソースのライセンス下でオープンソースのコンポーネントを統合したり適用したりすることで開発されたが、上流のオープンソースプロジェクトに寄付されず戻されなかったもの
+. サードパーティの商用コード、サードパーティのソフトウェア プロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したもの
+. オープンソースのコード、オープンソースのコミュニティにより開発され、製品やサービスを作る企業がオープンソース ライセンスの下で受領したもの
+
+図２（次ページ）に複数のソースによる開発モデル、および入ってくるソースコードの様々な組み合わせを示します。
+
+この開発モデルでは、ソフトウェアコンポーネントは任意の数の出所から来た、様々なライセンス下でライセンスされたソースコードから構成され得ます。たとえば、ソフトウェアコンポーネントAはサードパーティのプロプラエタリのコードに加えプロプラエタリなコードも含んでおり、ソフトウェアコンポーネントBはオープンソースプロジェクトからのソースコードに加えプロプラエタリなコードを含む、などです。
+
+■２．和訳（当方レビュー後案）
+
+オープン ソース コンプライアンス序論
+
+変わりゆくビジネス環境
+従来、プラットフォームやソフトウェア スタックはプロプライエタリなソフトウェアを用いて実装されたものであり、内部開発のソフトウェアもしくは交渉されたライセンス条件でサードパーティから提供されたソフトウェア ブロックで構成されていました。ビジネス環境は予測可能なものであり、企業はソフトウェア ベンダーとのライセンス交渉や契約交渉を通じたリスク低減を行ってきました。
+
+全てのソフトウェア コンポーネントについて誰が提供者かを知るのは、とてもたやすいことだったのです。
+
+図１に従来のハードウェア、ソフトウェアのプラットフォームの主要構成ブロックが表現されています。
+
+図1
+プロプライエタリなソフトウェアの構成ブロックに依存した、従来型ソフトウェア プラットフォームのアーキテクチャを単純化したもの
+
+時と共に、オープンソース ソフトウェアに優位性を見出した企業はこれを自社プラットフォームやソフトウェアスタックに組み入れ始めるようになりました。
+
+その理由は製品ごとに異なるものでしたが、オープンソースのコンポーネントに抗いがたい魅力的な特徴があったというのは産業横断的に共通したテーマでした。市場投入時間を短縮させる分散型開発が経済効果として意味のあるものを与え、そうした経済的意義が、ソースコードをカスタマイズするという能力の新たな発見へと導きました
+
+その結果、マルチソース型の開発モデルが現れ始めました。
+
+この新たなモデルにより、製品は下記任意の組み合わせの形がとれるようになりました
+
+製品／サービスを作る企業が開発したプロプライエタリコード
+
+元々は企業がオープンソースのコンポーネントを統合、展開する過程でオープンソース ライセンスに則り開発したものだったが、上流のオープンソースプロジェクトに還元されることがなかったプロプラエタリコード
+
+サードパーティのソフトウェア プロバイダにより開発され、製品やサービスを作る企業に商用ライセンスの下で受領される、サードパーティの商用コード
+
+オープンソースのコミュニティにより開発され、製品やサービスを作る企業にオープンソース ライセンスの下で受領される、オープンソースコード
+
+図２（次ページ）でマルチソース型の開発モデルと、外部からやってくるソースコードの様々な組み合わせについて表現しています。
+
+この開発モデルでは、ソフトウェアコンポーネントが様々なライセンスや起源をもつソースコードから構成されること可能です。たとえば、ソフトウェアコンポーネントAがサードパーティのプロプラエタリ コードに加え（自身の）プロプラエタリなコードを含むケース、またソフトウェアコンポーネントBがオープンソースプロジェクトからのソースコードに加えプロプラエタリなコードを含むケースなどがあります。
+
+■３．原文
+Chapter 1
+
+INTRODUCTION TO OPEN SOURCE COMPLIANCE
+
+A CHANGING BUSINESS ENVIRONMENT 
+Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms. The business environment was predictable and companies mitigated potential risks through license and contract negotiations with the software vendors. It was very easy to know who was the provider for every software component. Figure 1 illustrates the major building blocks of a traditional hardware and software platform.
+
+Figure 1. A simplified architecture of a traditional software platform that relies on proprietary software building blocks
+
+
+Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers. The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code. As a result, a new multi-source development model began to emerge.
+
+Under the new model, a product could now have any combination of:
+
+. Proprietary code, developed by the company building the product/service
+. Proprietary code, originally developed by the company under an open source license in the process of integrating and deploying open source components, but was not contributed back to the upstream open source project
+. Third-party commercial code, developed by third-party software providers and received by the company building the product/service under a commercial license
+. Open source code, developed by the open source community and received by the company building the product/service under an open source license.
+
+Figure 2 (next page) illustrates the multi-source development model and the various combinations of sources for incoming source code.
+
+Under this development model, software components can consist of source code originating from any number of different sources and be licensed under different licenses; for instance, software component A can include proprietary source code in addition to third-party proprietary source code, while software component B can include proprietary source code in addition to source code from an open source project.

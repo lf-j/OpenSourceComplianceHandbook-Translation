@@ -66,16 +66,9 @@
         <seg>A CHANGING BUSINESS ENVIRONMENT 
 Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms.</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20171031T041940Z" creationid="0000011038279" creationdate="20171031T040701Z">
+      <tuv lang="JA" changeid="maabou" changedate="20171104T052237Z" creationid="0000011038279" creationdate="20171031T040701Z">
         <seg>変わりゆくビジネス環境
-かつてプラットフォームやソフトウェア スタックは、プロプライエタリなソフトウェアで実装されたものであり、内部開発のソフトウェア、もしくはライセンス条項をサードパーティと交渉し提供されたソフトウェアで組まれた機能ブロックから構成されていました。
-
-
-変わりゆくビジネス環境
-従来、プラットフォームやソフトウェア スタックはプロプラエタリなソフトウェアを使って実装され、内部開発されたソフトや交渉の結果であるライセンス条件によるサードパーティのソフトから成る様々なソフトウェアのブロックから構成されていました。
-
-A CHANGING BUSINESS ENVIRONMENT 
-Traditionally, platforms and software stacks were implemented using proprietary software, and consisted of various software building blocks that originated as a result of internal development or via third-party software providers with negotiated licensing terms.</seg>
+従来、プラットフォームやソフトウェア スタックはプロプライエタリなソフトウェアを用いて実装されたものであり、内部開発のソフトウェアもしくは交渉されたライセンス条件でサードパーティから提供されたソフトウェア ブロックで構成されていました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -322,11 +315,12 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       </tuv>
     </tu>
     <tu>
+      <note>tani:一応こういうキャプションもあるかなと思ったので。修正案ではないです。</note>
       <tuv lang="EN-US">
         <seg>A simplified architecture of a traditional software platform that relies on proprietary software building blocks</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080152Z" creationid="hfukuchi" creationdate="20170613T080152Z">
-        <seg>プロプラエタリなソフトウェアのブロックに依る従来のソフトウェアプラットフォームの単純化したアーキテクチャ</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171103T063952Z" creationid="hfukuchi" creationdate="20170613T080152Z">
+        <seg>プロプライエタリなソフトウェアの構成ブロックに依存した、従来型ソフトウェア プラットフォームのアーキテクチャを単純化したもの</seg>
       </tuv>
     </tu>
     <tu>
@@ -1083,12 +1077,13 @@ Traditionally, platforms and software stacks were implemented using proprietary 
       </tuv>
     </tu>
     <tu>
+      <note>tani:ここは思い切って「マルチソース」でいかがでしょう。</note>
       <tuv lang="EN-US">
         <seg>As a result, a new multi-
 source development model began to emerge.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071919Z" creationid="hfukuchi" creationdate="20170613T080328Z">
-        <seg>その結果、複数のソースによる新たな開発モデルが登場しました。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171103T232102Z" creationid="hfukuchi" creationdate="20170613T080328Z">
+        <seg>その結果、マルチソース型の開発モデルが現れ始めました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3748,8 +3743,8 @@ audit findings</seg>
       <tuv lang="EN-US">
         <seg>Figure 1 illustrates the major building blocks of a traditional hardware and software platform.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071815Z" creationid="hfukuchi" creationdate="20170613T080121Z">
-        <seg>図１は従来のハードウェア、ソフトウェアのプラットフォームについて主なブロックを示したものです。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171103T063327Z" creationid="hfukuchi" creationdate="20170613T080121Z">
+        <seg>図１に従来のハードウェア、ソフトウェアのプラットフォームの主要構成ブロックが表現されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3881,11 +3876,12 @@ audit findings</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:「（次ページ）」の表記は最終的に不要かもしれませんね。</note>
       <tuv lang="EN-US">
         <seg>Figure 2 (next page) illustrates the multi-source development model and the various combinations of sources for incoming source code.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072009Z" creationid="hfukuchi" creationdate="20170613T080648Z">
-        <seg>図２（次ページ）に複数のソースによる開発モデル、および入ってくるソースコードの様々な組み合わせを示します。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T010520Z" creationid="hfukuchi" creationdate="20170613T080648Z">
+        <seg>図２（次ページ）でマルチソース型の開発モデルと、外部からやってくるソースコードの様々な組み合わせについて表現しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,11 +4890,12 @@ time basis, based on tasks they receive from the OSRB.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani: この節は、introduction導入でもよいと</note>
       <tuv lang="EN-US">
         <seg>INTRODUCTION TO OPEN SOURCE COMPLIANCE</seg>
       </tuv>
-      <tuv lang="JA" changeid="0000011038279" changedate="20171031T040214Z" creationid="hfukuchi" creationdate="20170614T071716Z">
-        <seg>オープン ソース コンプライアンスの概要</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T012446Z" creationid="hfukuchi" creationdate="20170614T071716Z">
+        <seg>オープン ソース コンプライアンス序論</seg>
       </tuv>
     </tu>
     <tu>
@@ -6530,8 +6527,8 @@ department exercise.</seg>
       <tuv lang="EN-US">
         <seg>It was very easy to know who was the provider for every software component.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071804Z" creationid="hfukuchi" creationdate="20170613T080024Z">
-        <seg>全てのソフトウェアコンポーネントについて誰が提供者であるかを知るのは大変容易でした。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T062557Z" creationid="hfukuchi" creationdate="20170613T080024Z">
+        <seg>全てのソフトウェア コンポーネントについて誰が提供者かを知るのは、とてもたやすいことだったのです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7261,8 +7258,8 @@ Capital One社 CIO ロブ アレキサンダー
       <tuv lang="EN-US">
         <seg>Multi-Source development model</seg>
       </tuv>
-      <tuv lang="JA" changeid="MiekoSato" changedate="20170301T064007Z" creationid="MiekoSato" creationdate="20170301T064007Z">
-        <seg> マルチソース開発モデル</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T011646Z" creationid="MiekoSato" creationdate="20170301T064007Z">
+        <seg> マルチソース型の開発モデル</seg>
       </tuv>
     </tu>
     <tu>
@@ -7930,8 +7927,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Open source code, developed by the open source community and received by the company building the product/service under an open source license.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080630Z" creationid="hfukuchi" creationdate="20170613T080630Z">
-        <seg>オープンソースのコード、オープンソースのコミュニティにより開発され、製品やサービスを作る企業がオープンソースライセンスの下で受領したもの</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T062222Z" creationid="hfukuchi" creationdate="20170613T080630Z">
+        <seg>オープンソースのコミュニティにより開発され、製品やサービスを作る企業にオープンソース ライセンスの下で受領される、オープンソースコード</seg>
       </tuv>
     </tu>
     <tu>
@@ -8203,11 +8200,12 @@ Richard Lumb, Chief Executive, Financial Services, Accenture</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:ここは難しいですね。offer部分は少し視点を変えた訳にしてみました。</note>
       <tuv lang="EN-US">
         <seg>Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071825Z" creationid="hfukuchi" creationdate="20170613T080216Z">
-        <seg>時と共に企業はOSSを自社のプラットフォームやソフトウェアスタックに組み込み、その恩恵に預かるようになってきました。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T063315Z" creationid="hfukuchi" creationdate="20170613T080216Z">
+        <seg>時と共に、オープンソース ソフトウェアに優位性を見出した企業はこれを自社のプラットフォームやソフトウェアスタックに組み入れ始めるようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8740,17 +8738,19 @@ term goals, and then implement the pieces stepwise, as needed for short-term exe
         <seg>Proprietary code, developed by the company building the product/service
 .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080404Z" creationid="hfukuchi" creationdate="20170613T080404Z">
-        <seg>プロプラエタリなコード、その製品やサービスを作る企業が開発したもの</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171103T233006Z" creationid="hfukuchi" creationdate="20170613T080404Z">
+        <seg>製品／サービスを作る企業が開発したプロプライエタリコード</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:contibute back は還元という言葉を使ってみました
+</note>
       <tuv lang="EN-US">
         <seg>Proprietary code, originally developed by the company under an open source license in the process of integrating and deploying open source components, but was not contributed back to the upstream open source project
 .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080424Z" creationid="hfukuchi" creationdate="20170613T080424Z">
-        <seg>プロプラエタリなコード、元々はその企業によりオープンソースのライセンス下でオープンソースのコンポーネントを統合したり適用したりすることで開発されたが、上流のオープンソースプロジェクトに寄付されず戻されなかったもの</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T062051Z" creationid="hfukuchi" creationdate="20170613T080424Z">
+        <seg>元々は企業がオープンソースのコンポーネントを統合、展開する過程でオープンソース ライセンスに則り開発したものだったが、上流のオープンソースプロジェクトに還元されることがなかったプロプラエタリコード</seg>
       </tuv>
     </tu>
     <tu>
@@ -10868,8 +10868,8 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>The business environment was predictable and companies mitigated potential risks through license and contract negotiations with the software vendors.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071756Z" creationid="hfukuchi" creationdate="20170613T080004Z">
-        <seg>ビジネス環境は予測可能で、企業は潜在的なリスクをソフトウェアベンダーとのライセンス交渉や契約交渉を通じて軽減していました。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T062554Z" creationid="hfukuchi" creationdate="20170613T080004Z">
+        <seg>ビジネス環境は予測可能なものであり、企業はソフトウェア ベンダーとのライセンス交渉や契約交渉を通じたリスク低減を行ってきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11643,11 +11643,14 @@ distribution checklist.</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani; out of boxz「すばらしい」、compelling「強制的な→抗いがたい」としてみました
+they offered のtheyをどう解釈するか。→meaningful economies
+</note>
       <tuv lang="EN-US">
         <seg>The reasons varied from product to product, but the common theme across industries was that open source components provided compelling features out of the box, there were meaningful economies to be gained through distributed development that resulted in a faster time-to-market, and they offered a newfound ability to customize the source code.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071913Z" creationid="hfukuchi" creationdate="20170613T080305Z">
-        <seg>その理由は製品ごとに様々ですが、様々な業界で共通するのは、オープンソースのコンポーネントには即座に使える卓越した特徴があったこと、分散的な開発による市場投入への時間短縮により経済的に有意の利益があったこと、そしてソースコードをカスタマイズするという新しく出来ることを提供したこと、です。その結果、複数のソースによる新たな開発モデルが登場しました。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T061543Z" creationid="hfukuchi" creationdate="20170613T080305Z">
+        <seg>その理由は製品ごとに異なるものでしたが、オープンソースのコンポーネントに抗いがたい魅力的な特徴があったというのは産業横断的に共通したテーマでした。市場投入時間を加速する分散型開発により意味のある経済効果が得られ、そういった経済的意義が、ソースコードをカスタマイズするという能力の新たな発見につながったのです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12289,8 +12292,8 @@ distribution checklist.</seg>
         <seg>Third-party commercial code, developed by third-party software providers and received by the company building the product/service under a commercial license
 .</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170613T080614Z" creationid="hfukuchi" creationdate="20170613T080614Z">
-        <seg>サードパーティの商用コード、サードパーティのソフトウェアプロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したもの</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T062113Z" creationid="hfukuchi" creationdate="20170613T080614Z">
+        <seg>サードパーティのソフトウェア プロバイダにより開発され、製品やサービスを作る企業に商用ライセンスの下で受領される、サードパーティの商用コード</seg>
       </tuv>
     </tu>
     <tu>
@@ -12927,16 +12930,17 @@ distribution checklist.</seg>
       <tuv lang="EN-US">
         <seg>Under the new model, a product could now have any combination of:</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T071926Z" creationid="hfukuchi" creationdate="20170613T080349Z">
-        <seg>この新たなモデルでは、製品は下記の任意の組み合わせとなります。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T061951Z" creationid="hfukuchi" creationdate="20170613T080349Z">
+        <seg>この新たなモデルにより、製品は下記任意の組み合わせの形がとれるようになりました。</seg>
       </tuv>
     </tu>
     <tu>
+      <note>tani:「など」は原文にはないですが、日本語っぽい表現という意味で追加してみました。</note>
       <tuv lang="EN-US">
         <seg>Under this development model, software components can consist of source code originating from any number of different sources and be licensed under different licenses; for instance, software component A can include proprietary source code in addition to third-party proprietary source code, while software component B can include proprietary source code in addition to source code from an open source project.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072040Z" creationid="hfukuchi" creationdate="20170613T080717Z">
-        <seg>この開発モデルでは、ソフトウェアコンポーネントは任意の数の出所から来た、様々なライセンス下でライセンスされたソースコードから構成され得ます。たとえば、ソフトウェアコンポーネントAはサードパーティのプロプラエタリのコードに加えプロプラエタリなコードも含んでおり、ソフトウェアコンポーネントBはオープンソースプロジェクトからのソースコードに加えプロプラエタリなコードを含む、などです。</seg>
+      <tuv lang="JA" changeid="maabou" changedate="20171104T062346Z" creationid="hfukuchi" creationdate="20170613T080717Z">
+        <seg>この開発モデルでは、ソフトウェアコンポーネントが様々なライセンスや起源をもつソースコードから構成されることが可能です。たとえば、ソフトウェアコンポーネントAがサードパーティのプロプラエタリ コードに加え（自身の）プロプラエタリなコードを含むケース、またソフトウェアコンポーネントBがオープンソースプロジェクトからのソースコードに加えプロプラエタリなコードを含むケースなどがあります。</seg>
       </tuv>
     </tu>
     <tu>
