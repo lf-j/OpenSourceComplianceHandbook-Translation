@@ -9751,8 +9751,8 @@ or stored on equivalent media), your work is not complete.</seg>
       <tuv lang="EN-US">
         <seg>Open source code, developed by the open source community and received by the company building the product/service under an open source license.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015632Z" creationid="hfukuchi" creationdate="20170613T080630Z">
-        <seg>オープンソースのコード、オープンソースのコミュニティにより開発され、製品やサービスを作る企業がオープンソース ライセンスの下で受領したもの</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171202T022803Z" creationid="hfukuchi" creationdate="20170613T080630Z">
+        <seg>オープンソース コミュニティにより開発され、製品やサービスを作る企業がオープンソース ライセンスの下で受領したオープンソース コード</seg>
       </tuv>
     </tu>
     <tu>
@@ -10071,8 +10071,8 @@ Corporate Development is also involved with compliance in transactions such as s
       <tuv lang="EN-US">
         <seg>Over time, companies started to incorporate open source software into their platforms and software stacks due to the advantages it offers.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015521Z" creationid="hfukuchi" creationdate="20170613T080216Z">
-        <seg>時と共に企業はOSSを自社のプラットフォームやソフトウェア スタックに組み込み、その恩恵に与かるようになってきました。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171202T022642Z" creationid="hfukuchi" creationdate="20170613T080216Z">
+        <seg>時と共に企業はオープンソース ソフトウェアを自社のプラットフォームやソフトウェア スタックに組み込み、その恩恵に与かるようになってきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10793,8 +10793,8 @@ The next step in the compliance due diligence is to decide on the method and mod
       <tuv lang="EN-US">
         <seg>Proprietary code, developed by the company building the product/service</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T054820Z" creationid="hfukuchi" creationdate="20170913T054820Z">
-        <seg>プロプラエタリなコード、その製品やサービスを作る企業が開発したもの</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171202T022844Z" creationid="hfukuchi" creationdate="20170913T054820Z">
+        <seg>その製品やサービスを作る企業が開発したプロプラエタリ コード</seg>
       </tuv>
     </tu>
     <tu>
@@ -10810,8 +10810,8 @@ The next step in the compliance due diligence is to decide on the method and mod
       <tuv lang="EN-US">
         <seg>Proprietary code, originally developed by the company under an open source license in the process of integrating and deploying open source components, but was not contributed back to the upstream open source project</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170913T054830Z" creationid="hfukuchi" creationdate="20170913T054830Z">
-        <seg>プロプラエタリなコード、元々はその企業によりオープンソースのライセンス下でオープンソースのコンポーネントを統合したり適用したりすることで開発されたが、上流のオープンソースプロジェクトに寄付されず戻されなかったもの</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171202T022850Z" creationid="hfukuchi" creationdate="20170913T054830Z">
+        <seg>元々はその企業によりオープンソース ライセンス下でオープンソース コンポーネントを統合したり適用したりすることで開発されたが、上流のオープンソースプロジェクトに寄付されず戻されなかったプロプラエタリ コード</seg>
       </tuv>
     </tu>
     <tu>
@@ -15035,8 +15035,8 @@ Chris Anderson, CEO, 3DR
       <tuv lang="EN-US">
         <seg>Third-party commercial code, developed by third-party software providers and received by the company building the product/service under a commercial license</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170925T015622Z" creationid="hfukuchi" creationdate="20170913T054905Z">
-        <seg>サードパーティの商用コード、サードパーティのソフトウェア プロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したもの</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171202T022822Z" creationid="hfukuchi" creationdate="20170913T054905Z">
+        <seg>サードパーティ ソフトウェア プロバイダにより開発され、製品やサービスを作る企業が商用ライセンスの下で受領したサードパーティの商用コード</seg>
       </tuv>
     </tu>
     <tu>
@@ -15745,8 +15745,8 @@ Training is an essential building block in a compliance program, to ensure that 
       <tuv lang="EN-US">
         <seg>Under this development model, software components can consist of source code originating from any number of different sources and be licensed under different licenses; for instance, software component A can include proprietary source code in addition to third-party proprietary source code, while software component B can include proprietary source code in addition to source code from an open source project.</seg>
       </tuv>
-      <tuv lang="JA" changeid="hfukuchi" changedate="20170614T072040Z" creationid="hfukuchi" creationdate="20170613T080717Z">
-        <seg>この開発モデルでは、ソフトウェアコンポーネントは任意の数の出所から来た、様々なライセンス下でライセンスされたソースコードから構成され得ます。たとえば、ソフトウェアコンポーネントAはサードパーティのプロプラエタリのコードに加えプロプラエタリなコードも含んでおり、ソフトウェアコンポーネントBはオープンソースプロジェクトからのソースコードに加えプロプラエタリなコードを含む、などです。</seg>
+      <tuv lang="JA" changeid="hfukuchi" changedate="20171202T023401Z" creationid="hfukuchi" creationdate="20170613T080717Z">
+        <seg>この開発モデルでは、ソフトウェアコンポーネントは任意の数の出所から来た、様々なライセンス下でライセンスされたソースコードから構成されえます。たとえば、ソフトウェアコンポーネントAはサードパーティのプロプラエタリ ソースコードに加えプロプラエタリ ソースコードも含んでおり、ソフトウェアコンポーネントBはオープンソースプロジェクトからのソースコードに加えプロプラエタリ ソースコードを含む、などです。</seg>
       </tuv>
     </tu>
     <tu>
