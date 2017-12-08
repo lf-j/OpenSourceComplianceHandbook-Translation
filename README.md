@@ -46,4 +46,4 @@ https://www.jtf.jp/jp/style_guide/pdf/jtf_style_guide.pdf
 
 クリエイティブ コモンズ ライセンス
 
-Copyright © 2016 Linux Foundation. The specification is licensed under the Creative Commons Attribution License 4.0 (CC-BY-4.0). A copy of the license can be obtained here: CC-BY-4.0; https://creativecommons.org/licenses/by/4.0/legalcode
+Copyright © 2016 Linux Foundation. The document is licensed under the Creative Commons Attribution License 3.0 (CC-BY-3.0). A copy of the license can be obtained here: CC-BY-3.0; https://creativecommons.org/licenses/by/3.0/legalcode
