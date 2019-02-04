@@ -2,7 +2,7 @@
 
 Japanese Translation using OmegaT
 
-本プロジェクトでは、The Linux Foundation(LF)から出版されているハンドブック"Open Source Compliance in the Enterprise(2016)"(written by Ibrahim Haddad)の日本語訳を作成します。翻訳資料を提供することで、日本のあらゆる企業・組織におけるオープンソース コンプライアンスの浸透と普及を目指しています。
+本プロジェクトでは、The Linux Foundation(LF)から出版されているハンドブック"Open Source Compliance in the Enterprise(2016)"(written by Ibrahim Haddad)の非公式日本語訳版を作成しています。翻訳資料を提供することで、日本のあらゆる企業・組織におけるオープンソース コンプライアンスの浸透と普及を目指しています。
 
 1.　プロジェクトへの参加
 
