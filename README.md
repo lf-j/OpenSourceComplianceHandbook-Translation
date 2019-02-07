@@ -6,7 +6,8 @@ Japanese Translation using OmegaT
 
 0.　最新日本語版（非公式）
 
-* 最新の日本語版は以下にあります
+* 最新の非公式日本語版は以下にあります
+  * https://github.com/lf-j/OpenSourceComplianceHandbook-Translation/blob/master/review/J_Open_Source_Compliance_in_the_Enterprise_2019-0204.pdf
   * https://github.com/lf-j/OpenSourceComplianceHandbook-Translation/blob/master/review/J_Open_Source_Compliance_in_the_Enterprise_2019-0204.docx
 
 1.　プロジェクトへの参加
@@ -44,7 +45,9 @@ Japanese Translation using OmegaT
 4．公開方法
 
 * 現時点では、本リポジトリにて公開。(正式リリース版の公開については検討中。TBD)
+  * https://github.com/lf-j/OpenSourceComplianceHandbook-Translation/blob/master/review/J_Open_Source_Compliance_in_the_Enterprise_2019-0204.pdf
   * https://github.com/lf-j/OpenSourceComplianceHandbook-Translation/blob/master/review/J_Open_Source_Compliance_in_the_Enterprise_2019-0204.docx
+
 
 5．ライセンス
 
